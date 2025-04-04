@@ -28,7 +28,7 @@ function bluer_sbc_session() {
         local status="$?"
 
         [[ "$do_upload" == 1 ]] &&
-            abcli_upload - $abcli_object_name
+            bluer_objects_upload - $abcli_object_name
 
         abcli_log "@sbc: session ended."
 
