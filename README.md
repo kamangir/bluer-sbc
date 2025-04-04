@@ -1,50 +1,57 @@
-# 🌀 bluer-plugin
+# 🌀 bluer-sbc
 
-🌀 `@plugin` is a git template for a 🪄 [`bluer-ai`](https://github.com/kamangir/bluer-ai)  plugin, to build [things like these](https://github.com/kamangir?tab=repositories), that out-of-the-box support,
-
-- a [github repo](https://github.com/) with [actions](https://github.com/features/actions).
-- [pylint](https://pypi.org/project/pylint/).
-- [pytest](https://docs.pytest.org/).
-- a pip-installable python + bash package published to [pypi](https://pypi.org/).
-- a bash [command interface](./bluer_plugin/.abcli/bluer_plugin.sh).
-- [bash testing](./.github/workflows/bashtest.yml).
-- in-repo [compiled](https://github.com/kamangir/bluer-objects/tree/main/bluer_objects/README) READMEs. example: [template.md](https://github.com/kamangir/palisades/blob/main/palisades/docs/damage-analytics-template.md) -> [README.md](https://github.com/kamangir/palisades/blob/main/palisades/docs/damage-analytics.md).
-- [object management](https://github.com/kamangir/blue-objects) with cloud persistence with metadata tracking by [MLflow](https://mlflow.org/).
-
-## installation
+🌀 `bluer-sbc` is a [`bluer-ai`](https://github.com/kamangir/bluer-ai) plugin for edge computing on [single board computers](https://github.com/kamangir/blue-bracket). 
 
 ```bash
-pip install bluer-plugin
+pip install bluer_sbc
+
+# @env dot list
+@env dot cp <env-name> local
 ```
 
-## creating a bluer-plugin
+|   |   |   |   |
+| --- | --- | --- | --- |
+| [![image](https://github.com/kamangir/blue-bracket/raw/main/images/blue3-1.jpg)](https://github.com/kamangir/blue-bracket/blob/main/designs/blue3.md) | [![image](https://github.com/kamangir/blue-bracket/raw/main/images/chenar-grove-1.jpg)](https://github.com/kamangir/blue-bracket/blob/main/designs/chenar-grove.md) | [![image](https://github.com/kamangir/blue-bracket/raw/main/images/cube-1.jpg)](https://github.com/kamangir/blue-bracket/blob/main/designs/cube.md) | [![image](https://github.com/kamangir/blue-bracket/raw/main/images/eye_nano-1.jpg)](https://github.com/kamangir/blue-bracket/blob/main/designs/eye_nano.md) |
 
-1️⃣ create a new repository from [this template](https://github.com/kamangir/bluer-plugin),
+```mermaid
+graph LR
+    camera["@sbc<br>&lt;camera&gt;<br>capture|preview<br>image|video"]
 
-2️⃣ complete `<repo-name>` and `<plugin-name>` and run,
+    hardware_validate["@sbc<br>&lt;hardware&gt;<br>validate<br>&lt;options&gt;"]
 
-```bash
-@git clone <repo-name> cd
+    session_start["@sbc<br>session<br>start"]
 
-@plugins transform <repo-name>
+    object["📂 object"]:::folder
+    camera_hardware["👁️‍🗨️ camera"]:::folder
+    hardware["🖱️ hardware"]:::folder
+    UI["💻 UI"]:::folder
 
-@init
-@help @<plugin-name>
+    camera_hardware --> camera
+    camera --> object
+    camera --> UI
+
+    hardware --> hardware_validate
+    hardware_validate --> hardware
+    hardware_validate --> UI
+
+    hardware --> session_start
+    session_start --> hardware
+    camera_hardware --> session_start
+    session_start --> object
+    session_start --> UI
+
+    classDef folder fill:#999,stroke:#333,stroke-width:2px;
 ```
-
-## features
-
-|   |   |   |
-| --- | --- | --- |
-| [`feature 1`](#) [![image](https://github.com/kamangir/assets/raw/main/blue-plugin/marquee.png?raw=true)](#) description of feature 1 ... | [`feature 2`](#) [![image](https://github.com/kamangir/assets/raw/main/blue-plugin/marquee.png?raw=true)](#) description of feature 2 ... | [`feature 3`](#) [![image](https://github.com/kamangir/assets/raw/main/blue-plugin/marquee.png?raw=true)](#) description of feature 3 ... |
 
 ---
 
-> 🌀 [`blue-plugin`](https://github.com/kamangir/blue-plugin) for the [Global South](https://github.com/kamangir/bluer-south).
+> 🌀 [`blue-sbc`](https://github.com/kamangir/blue-sbc) for the [Global South](https://github.com/kamangir/bluer-south).
 
 ---
 
 
-[![pylint](https://github.com/kamangir/bluer-plugin/actions/workflows/pylint.yml/badge.svg)](https://github.com/kamangir/bluer-plugin/actions/workflows/pylint.yml) [![pytest](https://github.com/kamangir/bluer-plugin/actions/workflows/pytest.yml/badge.svg)](https://github.com/kamangir/bluer-plugin/actions/workflows/pytest.yml) [![bashtest](https://github.com/kamangir/bluer-plugin/actions/workflows/bashtest.yml/badge.svg)](https://github.com/kamangir/bluer-plugin/actions/workflows/bashtest.yml) [![PyPI version](https://img.shields.io/pypi/v/bluer-plugin.svg)](https://pypi.org/project/bluer-plugin/) [![PyPI - Downloads](https://img.shields.io/pypi/dd/bluer-plugin)](https://pypistats.org/packages/bluer-plugin)
+[![pylint](https://github.com/kamangir/bluer-sbc/actions/workflows/pylint.yml/badge.svg)](https://github.com/kamangir/bluer-sbc/actions/workflows/pylint.yml) [![pytest](https://github.com/kamangir/bluer-sbc/actions/workflows/pytest.yml/badge.svg)](https://github.com/kamangir/bluer-sbc/actions/workflows/pytest.yml) [![bashtest](https://github.com/kamangir/bluer-sbc/actions/workflows/bashtest.yml/badge.svg)](https://github.com/kamangir/bluer-sbc/actions/workflows/bashtest.yml) [![PyPI version](https://img.shields.io/pypi/v/bluer-sbc.svg)](https://pypi.org/project/bluer-sbc/) [![PyPI - Downloads](https://img.shields.io/pypi/dd/bluer-sbc)](https://pypistats.org/packages/bluer-sbc)
 
-built by 🌀 [`bluer_options-5.31.1`](https://github.com/kamangir/awesome-bash-cli), based on 🌀 [`bluer_plugin-4.6.1`](https://github.com/kamangir/bluer-plugin).
+built by 🌀 [`bluer_options-5.32.1`](https://github.com/kamangir/awesome-bash-cli), based on 🌀 [`bluer_sbc-8.2.1`](https://github.com/kamangir/bluer-sbc).
+
+

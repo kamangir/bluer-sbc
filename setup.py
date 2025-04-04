@@ -1,6 +1,6 @@
 from blueness.pypi import setup
 
-from bluer_plugin import NAME, VERSION, DESCRIPTION, REPO_NAME
+from bluer_sbc import NAME, VERSION, DESCRIPTION, REPO_NAME
 
 setup(
     filename=__file__,
@@ -10,9 +10,15 @@ setup(
     description=DESCRIPTION,
     packages=[
         NAME,
+        f"{NAME}.algo",
+        f"{NAME}.hardware",
+        f"{NAME}.hardware.hat",
+        f"{NAME}.hardware.sparkfun_top_phat",
         f"{NAME}.help",
-        f"{NAME}.help.node",
-        f"{NAME}.node",
+        f"{NAME}.imager",
+        f"{NAME}.imager.camera",
+        f"{NAME}.imager.lepton",
+        f"{NAME}.session",
     ],
     include_package_data=True,
     package_data={
@@ -23,4 +29,3 @@ setup(
         ],
     },
 )
-

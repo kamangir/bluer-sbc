@@ -1,45 +1,51 @@
-# 🌀 bluer-plugin
+# 🌀 bluer-sbc
 
-🌀 `@plugin` is a git template for a 🪄 [`bluer-ai`](https://github.com/kamangir/bluer-ai)  plugin, to build [things like these](https://github.com/kamangir?tab=repositories), that out-of-the-box support,
-
-- a [github repo](https://github.com/) with [actions](https://github.com/features/actions).
-- [pylint](https://pypi.org/project/pylint/).
-- [pytest](https://docs.pytest.org/).
-- a pip-installable python + bash package published to [pypi](https://pypi.org/).
-- a bash [command interface](./bluer_plugin/.abcli/bluer_plugin.sh).
-- [bash testing](./.github/workflows/bashtest.yml).
-- in-repo [compiled](https://github.com/kamangir/bluer-objects/tree/main/bluer_objects/README) READMEs. example: [template.md](https://github.com/kamangir/palisades/blob/main/palisades/docs/damage-analytics-template.md) -> [README.md](https://github.com/kamangir/palisades/blob/main/palisades/docs/damage-analytics.md).
-- [object management](https://github.com/kamangir/blue-objects) with cloud persistence with metadata tracking by [MLflow](https://mlflow.org/).
-
-## installation
+🌀 `bluer-sbc` is a [`bluer-ai`](https://github.com/kamangir/bluer-ai) plugin for edge computing on [single board computers](https://github.com/kamangir/blue-bracket). 
 
 ```bash
-pip install bluer-plugin
+pip install bluer_sbc
+
+# @env dot list
+@env dot cp <env-name> local
 ```
 
-## creating a bluer-plugin
+--table--
 
-1️⃣ create a new repository from [this template](https://github.com/kamangir/bluer-plugin),
+```mermaid
+graph LR
+    camera["@sbc <camera> capture|preview image|video"]
 
-2️⃣ complete `<repo-name>` and `<plugin-name>` and run,
+    hardware_validate["@sbc <hardware> validate <options>"]
 
-```bash
-@git clone <repo-name> cd
+    session_start["@sbc session start"]
 
-@plugins transform <repo-name>
+    object["📂 object"]:::folder
+    camera_hardware["👁️‍🗨️ camera"]:::folder
+    hardware["🖱️ hardware"]:::folder
+    UI["💻 UI"]:::folder
 
-@init
-@help @<plugin-name>
+    camera_hardware --> camera
+    camera --> object
+    camera --> UI
+
+    hardware --> hardware_validate
+    hardware_validate --> hardware
+    hardware_validate --> UI
+
+    hardware --> session_start
+    session_start --> hardware
+    camera_hardware --> session_start
+    session_start --> object
+    session_start --> UI
+
+    classDef folder fill:#999,stroke:#333,stroke-width:2px;
 ```
-
-## features
-
-items:::
 
 ---
 
-> 🌀 [`blue-plugin`](https://github.com/kamangir/blue-plugin) for the [Global South](https://github.com/kamangir/bluer-south).
+> 🌀 [`blue-sbc`](https://github.com/kamangir/blue-sbc) for the [Global South](https://github.com/kamangir/bluer-south).
 
 ---
 
-signature:::
+--signature--
+
