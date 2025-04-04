@@ -4,8 +4,8 @@ import numpy as np
 from time import sleep
 
 from blueness import module
-from blue_options import string
-from blue_options import host
+from bluer_options import string
+from bluer_options import host
 from bluer_options.timer import Timer
 from bluer_options.logger import crash_report
 from bluer_objects import file, objects
