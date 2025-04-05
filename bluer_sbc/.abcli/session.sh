@@ -11,7 +11,7 @@ function bluer_sbc_session() {
 
         abcli_log "@sbc: session @ $abcli_object_name started ..."
 
-        abcli_mlflow_tags_set \
+        bluer_objects_mlflow_tags_set \
             $abcli_object_name \
             session,host=$abcli_hostname,$BLUER_SBC_SESSION_OBJECT_TAGS
 
