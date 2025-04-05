@@ -41,9 +41,7 @@ class Diff:
         try:
             self.last_diff = float(
                 np.percentile(
-                    np.abs(
-                        image_scaled.astype(np.float) - self.previous.astype(np.float)
-                    ),
+                    np.abs(image_scaled.astype(float) - self.previous.astype(float)),
                     90,
                 )
                 / 255

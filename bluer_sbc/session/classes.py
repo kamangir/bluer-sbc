@@ -7,7 +7,7 @@ from bluer_options.logger import crash_report
 from bluer_options.timer import Timer
 from bluer_objects import file
 from bluer_objects import objects
-from bluer_objects.storage import instance as storage
+from bluer_objects.storage import upload
 from bluer_objects.graphics.signature import add_signature
 from bluer_ai import VERSION as abcli_VERSION
 from bluer_ai.modules import terraform
@@ -119,7 +119,10 @@ class Session:
         self.frame_filename = filename
 
         if self.auto_upload:
-            storage.upload_file(self.frame_filename)
+            upload(
+                object_name=abcli_object_name,
+                filename=self.frame_filename,
+            )
 
     def check_keys(self):
         for key in hardware.key_buffer:
@@ -235,7 +238,6 @@ class Session:
             " | ".join(
                 (["*"] if self.new_frame else [])
                 + (["^"] if self.auto_upload else [])
-                + ([f">{self.outbound_queue}"] if self.outbound_queue else [])
                 + hardware.signature()
                 + [
                     "diff: {:.03f} - {}".format(
@@ -294,14 +296,12 @@ class Session:
         for enabled, step_ in zip(
             [
                 "keys" in steps,
-                "messages" in steps,
                 "timers" in steps,
                 "seed" in steps,
                 "imager" in steps,
             ],
             [
                 self.check_keys,
-                self.check_messages,
                 self.check_timers,
                 self.check_seed,
                 self.check_imager,
