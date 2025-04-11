@@ -10,5 +10,5 @@ function bluer_sbc_unicorn_16x16() {
         return
     fi
 
-    abcli_log_error "@sbc: unicorn_16x16: $task: command not found."
+    bluer_ai_log_error "@sbc: unicorn_16x16: $task: command not found."
 }

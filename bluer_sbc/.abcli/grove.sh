@@ -23,7 +23,7 @@ function bluer_sbc_grove() {
             filepath="Seeed_Python_SSD1315/examples"
             filename="image"
         else
-            abcli_log_error "@sbc: grove: $task: $what: hardware not found."
+            bluer_ai_log_error "@sbc: grove: $task: $what: hardware not found."
             return
         fi
 
@@ -39,5 +39,5 @@ function bluer_sbc_grove() {
         return
     fi
 
-    abcli_log_error "@sbc: grove: $task: command not found."
+    bluer_ai_log_error "@sbc: grove: $task: command not found."
 }
