@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 
-function abcli_install_rpi() {
-    pushd $abcli_path_git > /dev/null
+function bluer_ai_install_rpi() {
+    pushd $abcli_path_git >/dev/null
 
     # https://docs.donkeycar.com/guide/robot_sbc/setup_raspberry_pi/
     sudo apt-get update
@@ -24,7 +24,7 @@ function abcli_install_rpi() {
 
     cd
     python3 -m virtualenv -p python3 env --system-site-packages
-    echo "source env/bin/activate" >> ~/.bashrc
+    echo "source env/bin/activate" >>~/.bashrc
     source env/bin/activate
 
     cd git
@@ -36,7 +36,7 @@ function abcli_install_rpi() {
     pip3 install numpy --upgrade
 
     cd
-    curl -sc /tmp/cookie "https://drive.google.com/uc?export=download&id=1DCfoSwlsdX9X4E3pLClE1z0fvw8tFESP" > /dev/null
+    curl -sc /tmp/cookie "https://drive.google.com/uc?export=download&id=1DCfoSwlsdX9X4E3pLClE1z0fvw8tFESP" >/dev/null
     CODE="$(awk '/_warning_/ {print $NF}' /tmp/cookie)"
     curl -Lb /tmp/cookie "https://drive.google.com/uc?export=download&confirm=${CODE}&id=1DCfoSwlsdX9X4E3pLClE1z0fvw8tFESP" -o tensorflow-2.2.0-cp37-cp37m-linux_armv7l.whl
     pip3 install tensorflow-2.2.0-cp37-cp37m-linux_armv7l.whl
@@ -57,9 +57,9 @@ function abcli_install_rpi() {
         export PATH=/home/pi/.local/bin:$PATH
     fi
 
-    popd > /dev/null
+    popd >/dev/null
 }
 
-if [ "$abcli_is_rpi" == true ] ; then
-    abcli_install_module rpi 109
+if [ "$abcli_is_rpi" == true ]; then
+    bluer_ai_install_module rpi 109
 fi

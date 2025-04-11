@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-function abcli_install_sparkfun_top_phat() {
+function bluer_ai_install_sparkfun_top_phat() {
     # https://learn.sparkfun.com/tutorials/sparkfun-top-phat-hookup-guide/button-controller
     sudo pip3 install sparkfun-qwiic
 
@@ -26,7 +26,7 @@ function abcli_install_sparkfun_top_phat() {
 }
 
 if [ "$BLUER_SBC_HARDWARE_KIND" == "sparkfun-top-phat" ]; then
-    abcli_install_module sparkfun_top_phat 104
+    bluer_ai_install_module sparkfun_top_phat 104
 
     # https://learn.sparkfun.com/tutorials/sparkfun-top-phat-hookup-guide/24-tft-display-archived
     con2fbmap 1 1

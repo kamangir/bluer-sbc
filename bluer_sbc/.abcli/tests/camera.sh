@@ -9,7 +9,7 @@ function test_bluer_sbc_camera_capture() {
     bluer_ai_select \
         test_bluer_sbc_camera_capture-$(abcli_string_timestamp_short)
 
-    abcli_eval ,$options \
+    bluer_ai_eval ,$options \
         bluer_sbc_camera \
         capture \
         image
@@ -25,7 +25,7 @@ function test_bluer_sbc_camera_capture_video() {
     bluer_ai_select \
         test_bluer_sbc_camera_capture_video-$(abcli_string_timestamp_short)
 
-    abcli_eval ,$options \
+    bluer_ai_eval ,$options \
         bluer_sbc_camera \
         capture \
         video \
@@ -39,7 +39,7 @@ function test_bluer_sbc_camera_preview() {
 
     local options=$1
 
-    abcli_eval ,$options \
+    bluer_ai_eval ,$options \
         bluer_sbc_camera \
         preview \
         - \

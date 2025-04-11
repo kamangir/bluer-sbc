@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-function abcli_install_unicorn_16x16() {
+function bluer_ai_install_unicorn_16x16() {
     pushd $abcli_path_git >/dev/null
     git clone https://github.com/pimoroni/unicorn-hat-hd
     popd >/dev/null
@@ -12,5 +12,5 @@ function abcli_install_unicorn_16x16() {
 }
 
 if [ "$BLUER_SBC_HARDWARE_KIND" == "unicorn_16x16" ]; then
-    abcli_install_module unicorn_16x16 101
+    bluer_ai_install_module unicorn_16x16 101
 fi
