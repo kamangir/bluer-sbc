@@ -10,5 +10,5 @@ function bluer_sbc_scroll_phat_hd() {
         return
     fi
 
-    abcli_log_error "@sbc: scroll_phat_hd: $task: command not found."
+    bluer_ai_log_error "@sbc: scroll_phat_hd: $task: command not found."
 }
