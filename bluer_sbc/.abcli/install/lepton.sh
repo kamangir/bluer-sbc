@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-function abcli_install_lepton() {
+function bluer_ai_install_lepton() {
     sudo apt-get update --allow-releaseinfo-change
 
     cd ~
@@ -29,5 +29,5 @@ function abcli_install_lepton() {
 }
 
 if [ "$BLUER_SBC_SESSION_IMAGER" == "lepton" ]; then
-    abcli_install_module lepton 102
+    bluer_ai_install_module lepton 102
 fi

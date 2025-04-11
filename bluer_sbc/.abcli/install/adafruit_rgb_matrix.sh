@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-function abcli_install_adafruit_rgb_matrix() {
+function bluer_ai_install_adafruit_rgb_matrix() {
     pushd $abcli_path_git >/dev/null
     git clone https://github.com/adafruit/Raspberry-Pi-Installer-Scripts.git
     cd Raspberry-Pi-Installer-Scripts
@@ -11,5 +11,5 @@ function abcli_install_adafruit_rgb_matrix() {
 }
 
 if [ "$BLUER_SBC_HARDWARE_KIND" == "adafruit_rgb_matrix" ]; then
-    abcli_install_module adafruit_rgb_matrix 106
+    bluer_ai_install_module adafruit_rgb_matrix 106
 fi

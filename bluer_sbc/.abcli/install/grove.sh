@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-function abcli_install_grove() {
+function bluer_ai_install_grove() {
     pushd $abcli_path_git >/dev/null
 
     # https://wiki.seeedstudio.com/Grove_Base_Kit_for_Raspberry_Pi/
@@ -25,5 +25,5 @@ function abcli_install_grove() {
 }
 
 if [ "$BLUER_SBC_HARDWARE_KIND" == "grove" ]; then
-    abcli_install_module grove 106
+    bluer_ai_install_module grove 106
 fi

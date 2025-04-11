@@ -20,7 +20,7 @@ function bluer_sbc_session() {
         [[ "$run_sudo" == 1 ]] &&
             sudo_prefix="sudo -E "
 
-        abcli_eval dryrun=$do_dryrun \
+        bluer_ai_eval dryrun=$do_dryrun \
             $sudo_prefix \
             python3 -m bluer_sbc.session \
             start \

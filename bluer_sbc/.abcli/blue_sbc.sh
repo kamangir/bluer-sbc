@@ -3,7 +3,7 @@
 function bluer_sbc() {
     local task=$1
 
-    abcli_generic_task \
+    bluer_ai_generic_task \
         plugin=bluer_sbc,task=$task \
         "${@:2}"
 }
