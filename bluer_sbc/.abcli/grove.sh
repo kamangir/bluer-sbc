@@ -10,7 +10,7 @@ function bluer_sbc_grove() {
     fi
 
     if [ "$task" == "validate" ]; then
-        local what=$(abcli_clarify_input $2 button)
+        local what=$(bluer_ai_clarify_input $2 button)
 
         local args=""
         local filepath="grove.py/grove"
@@ -27,7 +27,7 @@ function bluer_sbc_grove() {
             return
         fi
 
-        filename=$(abcli_clarify_input $3 $filename)
+        filename=$(bluer_ai_clarify_input $3 $filename)
 
         local grove_path=$abcli_path_git/$filepath
 
