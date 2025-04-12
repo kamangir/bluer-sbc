@@ -17,29 +17,11 @@ from bluer_sbc.help.unicorn_16x16 import help_functions as help_unicorn_16x16
 from bluer_sbc import ALIAS
 
 
-def help_browse(
-    tokens: List[str],
-    mono: bool,
-) -> str:
-    options = "actions|repo"
-
-    return show_usage(
-        [
-            "@plugin",
-            "browse",
-            f"[{options}]",
-        ],
-        "browse bluer_sbc.",
-        mono=mono,
-    )
-
-
 help_functions = generic_help_functions(plugin_name=ALIAS)
 
 help_functions.update(
     {
         "adafruit_rgb_matrix": help_adafruit_rgb_matrix,
-        "browse": help_browse,
         "camera": help_camera,
         "grove": help_grove,
         "hat": help_hat,
