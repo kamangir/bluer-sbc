@@ -10,8 +10,6 @@ function test_bluer_sbc_help() {
         "@sbc adafruit_rgb_matrix" \
         "@sbc adafruit_rgb_matrix validate" \
         \
-        "@sbc browse" \
-        \
         "@sbc camera" \
         "@sbc camera capture" \
         "@sbc camera capture image" \
