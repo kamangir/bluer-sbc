@@ -31,7 +31,7 @@ function bluer_sbc_grove() {
 
         local grove_path=$abcli_path_git/$filepath
 
-        abcli_log "validating grove $what: $grove_path/$filename.py $args"
+        bluer_ai_log "validating grove $what: $grove_path/$filename.py $args"
         pushd $grove_path >/dev/null
         python3 $filename.py $args
         popd >/dev/null
