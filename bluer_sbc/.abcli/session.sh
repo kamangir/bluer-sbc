@@ -9,7 +9,7 @@ function bluer_sbc_session() {
         local run_sudo=$(abcli_option_int "$options" sudo 0)
         local do_upload=$(abcli_option_int "$options" upload 1)
 
-        abcli_log "@sbc: session @ $abcli_object_name started ..."
+        bluer_ai_log "@sbc: session @ $abcli_object_name started ..."
 
         bluer_objects_mlflow_tags_set \
             $abcli_object_name \
@@ -30,7 +30,7 @@ function bluer_sbc_session() {
         [[ "$do_upload" == 1 ]] &&
             bluer_objects_upload - $abcli_object_name
 
-        abcli_log "@sbc: session ended."
+        bluer_ai_log "@sbc: session ended."
 
         return $status
     fi

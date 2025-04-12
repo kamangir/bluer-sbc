@@ -8,4 +8,4 @@ function bluer_sbc() {
         "${@:2}"
 }
 
-abcli_log $(bluer_sbc version --show_icon 1)
+bluer_ai_log $(bluer_sbc version --show_icon 1)

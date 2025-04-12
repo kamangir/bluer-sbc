@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 
 function bluer_ai_install_bluer_sbc_template() {
-    abcli_log "wip"
+    bluer_ai_log "wip"
 }
 
 if [ "$BLUER_SBC_HARDWARE_KIND" == "bluer_sbc_template" ]; then
