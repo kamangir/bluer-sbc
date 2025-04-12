@@ -5,9 +5,9 @@ function bluer_sbc_session() {
 
     if [ "$task" == "start" ]; then
         local options=$2
-        local do_dryrun=$(abcli_option_int "$options" dryrun 0)
-        local run_sudo=$(abcli_option_int "$options" sudo 0)
-        local do_upload=$(abcli_option_int "$options" upload 1)
+        local do_dryrun=$(bluer_ai_option_int "$options" dryrun 0)
+        local run_sudo=$(bluer_ai_option_int "$options" sudo 0)
+        local do_upload=$(bluer_ai_option_int "$options" upload 1)
 
         bluer_ai_log "@sbc: session @ $abcli_object_name started ..."
 
