@@ -40,7 +40,7 @@ function bluer_sbc_seed() {
     seed="${seed}source \$HOME/venv/bluer_ai/bin/activate$delim_section"
 
     seed="${seed}pip install --upgrade pip --no-input$delim"
-    seed="${seed}pip3 install -e .$delim"
+    seed="${seed}pip3 install -e .$delim_section"
 
     seed="${seed}source ./bluer_ai/.abcli/bluer_ai.sh$delim_section"
 
