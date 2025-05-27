@@ -36,8 +36,7 @@ function bluer_sbc_seed() {
     [[ "$target" == "headless_rpi" ]] &&
         seed="${seed}touch ~/storage/temp/ignore/headless$delim_section"
 
-    seed="${seed}python3 -m venv \$HOME/venv/bluer_ai$delim"
-    seed="${seed}source \$HOME/venv/bluer_ai/bin/activate$delim_section"
+    bluer_ai_seed add_bluer_ai_env
 
     seed="${seed}pip install --upgrade pip --no-input$delim"
     seed="${seed}pip3 install -e .$delim_section"
