@@ -31,7 +31,7 @@ function bluer_sbc_seed() {
 
     seed="${seed}sudo apt-get --yes --force-yes install git$delim_section"
 
-    bluer_ai_seed add_bluer_ai
+    bluer_ai_seed add_repo
 
     [[ "$target" == "headless_rpi" ]] &&
         seed="${seed}touch ~/storage/temp/ignore/headless$delim_section"
