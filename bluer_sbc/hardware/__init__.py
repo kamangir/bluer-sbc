@@ -30,8 +30,6 @@ elif BLUER_SBC_HARDWARE_KIND == "sparkfun-top-phat":
     )
 elif BLUER_SBC_HARDWARE_KIND == "unicorn_16x16":
     from bluer_sbc.hardware.unicorn_16x16 import Unicorn_16x16 as Hardware_Class
-else:
-    raise NameError(f"bluer-sbc: {BLUER_SBC_HARDWARE_KIND}: hardware not found.")
 
 hardware = Hardware_Class()
 

@@ -6,6 +6,7 @@ function test_bluer_sbc_seed() {
     local target
     for target in \
         headless_rpi \
+        headless_ubuntu_rpi \
         jetson \
         rpi; do
         bluer_ai_eval ,$options \
