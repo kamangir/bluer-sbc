@@ -12,6 +12,7 @@ function bluer_sbc_ROS_session() {
         session,ROS,host=$abcli_hostname,$BLUER_SBC_SESSION_OBJECT_TAGS
 
     bluer_ai_eval dryrun=$do_dryrun \
+        sudo -E \
         python3 -m bluer_sbc.ROS \
         ${task}_session \
         "${@:3}"
