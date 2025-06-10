@@ -20,6 +20,7 @@ function bluer_ai_seed_headless_ubuntu_rpi() {
 
     bluer_ai_seed add_repo
 
+    seed="${seed}mkdir -pv ~/storage/temp/ignore/$delim"
     seed="${seed}touch ~/storage/temp/ignore/headless$delim_section"
 
     bluer_ai_seed add_bluer_ai_env
@@ -27,4 +28,13 @@ function bluer_ai_seed_headless_ubuntu_rpi() {
     seed="${seed}pip install --upgrade pip --no-input$delim"
     seed="${seed}pip3 install -e .$delim_section"
 
+    bluer_ai_seed add_repo repo=bluer-objects
+    seed="${seed}pip3 install -e .$delim_section"
+    seed="${seed}$(bluer_ai_seed add_file $abcli_path_git/bluer-objects/.env \$HOME/git/bluer-objects/.env)$delim_section"
+
+    bluer_ai_seed add_repo repo=bluer-sbc
+    seed="${seed}pip3 install -e .$delim_section"
+    seed="${seed}$(bluer_ai_seed add_file $abcli_path_git/bluer-sbc/.env \$HOME/git/bluer-sbc/.env)$delim_section"
+
+    seed="${seed}source \$HOME/git/bluer-ai/bluer_ai/.abcli/bluer_ai.sh$delim_section"
 }
