@@ -27,7 +27,8 @@ function bluer_ai_seed_headless_ubuntu_rpi() {
     bluer_ai_seed add_bluer_ai_env
 
     seed="${seed}pip install --upgrade pip --no-input$delim"
-    seed="${seed}pip3 install -e .$delim_section"
+    seed="${seed}pip3 install -e .$delim"
+    seed="${seed}pip3 install opencv-python-headless$delim_section"
 
     bluer_ai_seed add_repo repo=bluer-objects
     seed="${seed}pip3 install -e .$delim_section"
@@ -36,6 +37,9 @@ function bluer_ai_seed_headless_ubuntu_rpi() {
     bluer_ai_seed add_repo repo=bluer-sbc
     seed="${seed}pip3 install -e .$delim_section"
     seed="${seed}$(bluer_ai_seed add_file $abcli_path_git/bluer-sbc/.env \$HOME/git/bluer-sbc/.env)$delim_section"
+
+    bluer_ai_seed add_repo repo=bluer-ugv
+    seed="${seed}pip3 install -e .$delim_section"
 
     seed="${seed}source \$HOME/git/bluer-ai/bluer_ai/.abcli/bluer_ai.sh$delim_section"
 }
