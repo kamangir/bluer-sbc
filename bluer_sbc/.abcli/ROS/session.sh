@@ -15,7 +15,7 @@ function bluer_sbc_ROS_session() {
 
     bluer_ai_eval dryrun=$do_dryrun \
         sudo -E \
-        python3 -m bluer_sbc.ROS \
+        $(which python3) -m bluer_sbc.ROS \
         ${task}_session \
         "${@:3}"
     local status="$?"
