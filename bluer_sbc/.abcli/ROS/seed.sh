@@ -9,6 +9,7 @@ function bluer_ai_seed_headless_ubuntu_rpi() {
     seed="${seed}sudo apt remove unattended-upgrades$delim"
     seed="${seed}sudo apt update$delim"
     seed="${seed}sudo apt upgrade$delim"
+    seed="${seed}sudo apt install -y wireless-tools$delim"
     seed="${seed}sudo apt install -y python3-venv$delim_section"
 
     seed="${seed}sudo mkdir -p /etc/systemd/system/getty@tty1.service.d$delim"
