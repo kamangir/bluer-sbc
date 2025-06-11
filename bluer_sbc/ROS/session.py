@@ -18,7 +18,14 @@ bash_keys = {
 
 
 def start_session() -> bool:
-    logger.info(f"{NAME}.start_session...")
+    logger.info(
+        "{}.start_session: {}".format(
+            NAME,
+            ", ".join(
+                [f"{key}:{action}" for key, action in bash_keys.items()],
+            ),
+        )
+    )
 
     while True:
         for key, action in bash_keys.items():
