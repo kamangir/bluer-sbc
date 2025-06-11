@@ -28,9 +28,12 @@ def start_session() -> bool:
     )
 
     while True:
-        for key, action in bash_keys.items():
-            if keyboard.is_pressed(key):
-                reply_to_bash(action)
-                return True
+        event = keyboard.read_event(suppress=True)
+        if event.event_type == keyboard.KEY_DOWN:
+            key = event.name
+            logger.info(f"key pressed: {key}")
 
-        time.sleep(0.1)
+            for key, action in bash_keys.items():
+                if keyboard.is_pressed(key):
+                    reply_to_bash(action)
+                    return True
