@@ -1,6 +1,8 @@
 #! /usr/bin/env bash
 
 function bluer_sbc_ROS_session() {
+    local task=${1:-start}
+
     local options=$2
     local do_dryrun=$(bluer_ai_option_int "$options" dryrun 0)
     local do_upload=$(bluer_ai_option_int "$options" upload 1)
@@ -11,8 +13,13 @@ function bluer_sbc_ROS_session() {
         $abcli_object_name \
         session,ROS,host=$abcli_hostname,$BLUER_SBC_SESSION_OBJECT_TAGS
 
+    local sudo_prefix=""
+    [[ "$BLUER_AI_SESSION_IS_SUDO" == 1 ]] &&
+        sudo_prefix="sudo -E"
+
     bluer_ai_eval dryrun=$do_dryrun \
-        python3 -m bluer_sbc.ROS \
+        $sudo_prefix \
+        $(which python3) -m bluer_sbc.ROS \
         ${task}_session \
         "${@:3}"
     local status="$?"

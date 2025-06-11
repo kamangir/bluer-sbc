@@ -5,6 +5,10 @@
 function bluer_ai_seed_headless_ubuntu_rpi() {
     local target=$1
 
+    seed="$seed$(bluer_ai_seed add_file $abcli_path_git/bluer-sbc/bluer_sbc/ROS/sudoers.d /etc/sudoers.d/ROS)$delim"
+    seed="${seed}sudo chown root:root /etc/sudoers.d/ROS$delim"
+    seed="${seed}sudo chmod 440 /etc/sudoers.d/ROS$delim_section"
+
     seed="${seed}sudo systemctl disable unattended-upgrades$delim"
     seed="${seed}sudo apt remove unattended-upgrades$delim"
     seed="${seed}sudo apt update$delim"

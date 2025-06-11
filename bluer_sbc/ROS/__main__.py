@@ -18,7 +18,7 @@ parser.add_argument(
 args = parser.parse_args()
 
 success = False
-if args.task == "task":
+if args.task == "start_session":
     success = start_session()
 else:
     success = None
