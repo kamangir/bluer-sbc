@@ -33,7 +33,6 @@ def start_session() -> bool:
             key = event.name
             logger.info(f"key pressed: {key}")
 
-            for key, action in bash_keys.items():
-                if keyboard.is_pressed(key):
-                    reply_to_bash(action)
-                    return True
+            if key in bash_keys:
+                reply_to_bash(bash_keys[key])
+                return True
