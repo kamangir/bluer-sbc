@@ -6,7 +6,6 @@ function bluer_sbc_session() {
     if [ "$task" == "start" ]; then
         local options=$2
         local do_dryrun=$(bluer_ai_option_int "$options" dryrun 0)
-        local run_sudo=$(bluer_ai_option_int "$options" sudo 0)
         local do_upload=$(bluer_ai_option_int "$options" upload 1)
 
         bluer_ai_log "@sbc: session @ $abcli_object_name started ..."
@@ -15,14 +14,9 @@ function bluer_sbc_session() {
             $abcli_object_name \
             session,host=$abcli_hostname,$BLUER_SBC_SESSION_OBJECT_TAGS
 
-        local sudo_prefix=""
-        # https://stackoverflow.com/a/8633575/17619982
-        [[ "$run_sudo" == 1 ]] &&
-            sudo_prefix="sudo -E "
-
         bluer_ai_eval dryrun=$do_dryrun \
-            $sudo_prefix \
-            python3 -m bluer_sbc.session \
+            $BLUER_AI_SESSION_SUDO_PREFIX \
+            $(which python3) -m bluer_sbc.session \
             start \
             "${@:3}"
         local status="$?"
