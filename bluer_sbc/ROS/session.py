@@ -31,6 +31,6 @@ def start_session() -> bool:
         for key, action in bash_keys.items():
             if keyboard.is_pressed(key):
                 reply_to_bash(action)
-                return False
+                return True
 
         time.sleep(0.1)
