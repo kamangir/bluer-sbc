@@ -23,3 +23,12 @@ class PreROSLeds:
             return False
 
         return True
+
+    def update(self):
+        self.leds["green"]["state"] = not self.leds["green"]["state"]
+
+        for led in self.leds.values():
+            GPIO.output(
+                led["pin"],
+                GPIO.HIGH if led["state"] else GPIO.LOW,
+            )

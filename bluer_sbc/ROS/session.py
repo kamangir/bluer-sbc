@@ -20,17 +20,8 @@ def start_session() -> bool:
         return False
 
     try:
-        while not session.key_command() and session.button_command():
-            session.leds.leds["green"]["state"] = not session.leds.leds["green"][
-                "state"
-            ]
-
-            for led in session.leds.leds.values():
-                GPIO.output(
-                    led["pin"],
-                    GPIO.HIGH if led["state"] else GPIO.LOW,
-                )
-
+        while not (session.button_command() or session.key_command()):
+            session.leds.update()
             time.sleep(0.05)
     except KeyboardInterrupt:
         logger.info("^C received.")
