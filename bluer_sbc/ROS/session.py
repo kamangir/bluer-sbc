@@ -5,7 +5,6 @@ from blueness import module
 
 from bluer_sbc import NAME
 from bluer_sbc.ROS.pre.session import PreROSSession
-from bluer_sbc.session.functions import reply_to_bash
 from bluer_sbc.logger import logger
 
 NAME = module.name(__file__, NAME)
