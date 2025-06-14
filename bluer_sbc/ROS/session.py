@@ -66,7 +66,7 @@ def start_session() -> bool:
             if button["state"]:
                 logger.info("button pressed.")
 
-            led["yellow"]["state"] = button["state"]
+            leds["yellow"]["state"] = button["state"]
 
             for led in leds.values():
                 GPIO.output(
@@ -75,7 +75,7 @@ def start_session() -> bool:
                 )
 
             time.sleep(0.1)
-            led["green"]["state"] = not led["green"]["state"]
+            leds["green"]["state"] = not leds["green"]["state"]
     except KeyboardInterrupt:
         logger.info("^C received.")
         return False
