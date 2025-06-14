@@ -35,6 +35,9 @@ def start_session() -> bool:
 
     session = PreROSSession()
 
+    if not session.initialize():
+        return False
+
     exit_flag: bool = False
     button_press_time: int = 0
     button_press_duration: int = -1
