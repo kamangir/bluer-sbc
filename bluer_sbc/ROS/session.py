@@ -26,6 +26,9 @@ leds = {
     "green": {"pin": 22, "state": True},
 }
 
+BUTTON_PRESS_DURATION_UPDATE = 5
+BUTTON_PRESS_DURATION_SHUTDOWN = 10
+
 
 def start_session() -> bool:
     logger.info(
@@ -68,10 +71,14 @@ def start_session() -> bool:
                 if not button["state"]:
                     logger.info("button pressed.")
                     button_press_time = time.time()
-                    ...
+
+                button_press_duration = time.time() - button_press_time
+                if button_press_duration > BUTTON_PRESS_DURATION_SHUTDOWN:
+                    leds["red"]["state"] = True
+                elif button_press_duration > BUTTON_PRESS_DURATION_UPDATE:
+                    leds["red"]["state"] = not leds["red"]["state"]
             else:
                 if button["state"]:
-                    button_press_duration = time.time() - button_press_time
                     logger.info(
                         "button released after {}.".format(
                             string.pretty_duration(
@@ -79,7 +86,13 @@ def start_session() -> bool:
                             )
                         )
                     )
-                    ...
+                if button_press_duration > BUTTON_PRESS_DURATION_SHUTDOWN:
+                    reply_to_bash("shutdown")
+                    exit_flag = True
+                elif button_press_duration > BUTTON_PRESS_DURATION_UPDATE:
+                    reply_to_bash("update")
+                    exit_flag = True
+
             button["state"] = button_pressed
 
             leds["yellow"]["state"] = button["state"]
