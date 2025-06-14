@@ -6,6 +6,7 @@ from blueness import module
 from bluer_options import string
 
 from bluer_sbc import NAME
+from bluer_sbc.ROS.pre.session import PreROSSession
 from bluer_sbc.session.functions import reply_to_bash
 from bluer_sbc.logger import logger
 
@@ -16,14 +17,6 @@ bash_keys = {
     "r": "reboot",
     "s": "shutdown",
     "u": "update",
-}
-
-button = {"pin": 26, "state": False}
-
-leds = {
-    "yellow": {"pin": 17, "state": True},
-    "red": {"pin": 27, "state": False},
-    "green": {"pin": 22, "state": True},
 }
 
 BUTTON_PRESS_DURATION_UPDATE = 5
@@ -40,21 +33,7 @@ def start_session() -> bool:
         )
     )
 
-    try:
-        GPIO.setmode(GPIO.BCM)
-        GPIO.setup(
-            button["pin"],
-            GPIO.IN,
-            pull_up_down=GPIO.PUD_UP,
-        )
-        for led in leds.values():
-            GPIO.setup(
-                led["pin"],
-                GPIO.OUT,
-            )
-    except Exception as e:
-        logger.error(e)
-        return False
+    session = PreROSSession()
 
     exit_flag: bool = False
     button_press_time: int = 0
@@ -67,19 +46,21 @@ def start_session() -> bool:
                     exit_flag = True
                     break
 
-            button_pressed = not GPIO.input(button["pin"])
+            button_pressed = not GPIO.input(session.button.pin)
             if button_pressed:
-                if not button["state"]:
+                if not session.button.state:
                     logger.info("button pressed.")
                     button_press_time = time.time()
 
                 button_press_duration = time.time() - button_press_time
                 if button_press_duration > BUTTON_PRESS_DURATION_SHUTDOWN:
-                    leds["red"]["state"] = True
+                    session.leds.leds["red"]["state"] = True
                 elif button_press_duration > BUTTON_PRESS_DURATION_UPDATE:
-                    leds["red"]["state"] = not leds["red"]["state"]
+                    session.leds.leds["red"]["state"] = not session.leds.leds["red"][
+                        "state"
+                    ]
             else:
-                if button["state"]:
+                if session.button.state:
                     logger.info(
                         "button released after {}.".format(
                             string.pretty_duration(
@@ -94,13 +75,15 @@ def start_session() -> bool:
                     reply_to_bash("update")
                     exit_flag = True
 
-            button["state"] = button_pressed
+            session.button.state = button_pressed
 
-            leds["yellow"]["state"] = button["state"]
+            session.leds.leds["yellow"]["state"] = session.button.state
 
-            leds["green"]["state"] = not leds["green"]["state"]
+            session.leds.leds["green"]["state"] = not session.leds.leds["green"][
+                "state"
+            ]
 
-            for led in leds.values():
+            for led in session.leds.leds.values():
                 GPIO.output(
                     led["pin"],
                     GPIO.HIGH if led["state"] else GPIO.LOW,
