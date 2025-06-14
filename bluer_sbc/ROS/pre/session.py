@@ -10,6 +10,8 @@ class PreROSSession:
         self.button = PreROSButton()
         self.leds = PreROSLeds()
 
+        logger.info(f"{PreROSSession.__class__.__name__} created.")
+
     def initialize(self) -> bool:
         try:
             GPIO.setmode(GPIO.BCM)
