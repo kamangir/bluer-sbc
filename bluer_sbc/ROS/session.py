@@ -53,7 +53,6 @@ def start_session() -> bool:
         return False
 
     exit_flag: bool = False
-
     try:
         while not exit_flag:
             for key, event in bash_keys.items():
@@ -62,11 +61,20 @@ def start_session() -> bool:
                     exit_flag = True
                     break
 
-            button["state"] = not GPIO.input(button["pin"])
-            if button["state"]:
-                logger.info("button pressed.")
+            button_pressed = not GPIO.input(button["pin"])
+            if button_pressed:
+                if not button["state"]:
+                    logger.info("button pressed.")
+                    button["state"] = True
+                    ...
+            else:
+                if button["state"]:
+                    logger.info("button released.")
+                    ...
 
             leds["yellow"]["state"] = button["state"]
+
+            leds["green"]["state"] = not leds["green"]["state"]
 
             for led in leds.values():
                 GPIO.output(
@@ -74,8 +82,7 @@ def start_session() -> bool:
                     GPIO.HIGH if led["state"] else GPIO.LOW,
                 )
 
-            time.sleep(0.1)
-            leds["green"]["state"] = not leds["green"]["state"]
+            time.sleep(0.05)
     except KeyboardInterrupt:
         logger.info("^C received.")
         return False
