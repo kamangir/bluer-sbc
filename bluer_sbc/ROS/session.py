@@ -58,6 +58,7 @@ def start_session() -> bool:
 
     exit_flag: bool = False
     button_press_time: int = 0
+    button_press_duration: int = -1
     try:
         while not exit_flag:
             for key, event in bash_keys.items():
