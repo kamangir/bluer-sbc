@@ -1,4 +1,3 @@
-import keyboard
 import time
 import RPi.GPIO as GPIO  # type: ignore
 
@@ -12,12 +11,6 @@ from bluer_sbc.logger import logger
 
 NAME = module.name(__file__, NAME)
 
-bash_keys = {
-    "e": "exit",
-    "r": "reboot",
-    "s": "shutdown",
-    "u": "update",
-}
 
 BUTTON_PRESS_DURATION_UPDATE = 5
 BUTTON_PRESS_DURATION_SHUTDOWN = 10
@@ -43,11 +36,9 @@ def start_session() -> bool:
     button_press_duration: int = -1
     try:
         while not exit_flag:
-            for key, event in bash_keys.items():
-                if keyboard.is_pressed(key):
-                    reply_to_bash(event)
-                    exit_flag = True
-                    break
+            if session.is_key_pressed():
+                exit_flag = True
+                break
 
             button_pressed = not GPIO.input(session.button.pin)
             if button_pressed:

@@ -1,8 +1,18 @@
+import keyboard
 import RPi.GPIO as GPIO  # type: ignore
+
+from bluer_sbc.session.functions import reply_to_bash
 
 from bluer_sbc.ROS.pre.button import PreROSButton
 from bluer_sbc.ROS.pre.led import PreROSLeds
 from bluer_sbc.logger import logger
+
+bash_keys = {
+    "e": "exit",
+    "r": "reboot",
+    "s": "shutdown",
+    "u": "update",
+}
 
 
 class PreROSSession:
@@ -26,3 +36,11 @@ class PreROSSession:
             return False
 
         return True
+
+    def is_key_pressed(self) -> bool:
+        for key, event in bash_keys.items():
+            if keyboard.is_pressed(key):
+                reply_to_bash(event)
+                return True
+
+        return False
