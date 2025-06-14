@@ -1,81 +1,27 @@
-import keyboard
 import time
 import RPi.GPIO as GPIO  # type: ignore
 
 from blueness import module
 
 from bluer_sbc import NAME
-from bluer_sbc.session.functions import reply_to_bash
+from bluer_sbc.ROS.pre.session import PreROSSession
 from bluer_sbc.logger import logger
 
 NAME = module.name(__file__, NAME)
 
-bash_keys = {
-    "e": "exit",
-    "r": "reboot",
-    "s": "shutdown",
-    "u": "update",
-}
-
-button = {"pin": 26, "state": False}
-
-leds = {
-    "yellow": {"pin": 17, "state": True},
-    "red": {"pin": 27, "state": False},
-    "green": {"pin": 22, "state": True},
-}
-
 
 def start_session() -> bool:
-    logger.info(
-        "{}.start_session: {}".format(
-            NAME,
-            ", ".join(
-                [f"{key}:{action}" for key, action in bash_keys.items()],
-            ),
-        )
-    )
+    logger.info(f"{NAME}.start_session.")
 
-    try:
-        GPIO.setmode(GPIO.BCM)
-        GPIO.setup(
-            button["pin"],
-            GPIO.IN,
-            pull_up_down=GPIO.PUD_UP,
-        )
-        for led in leds.values():
-            GPIO.setup(
-                led["pin"],
-                GPIO.OUT,
-            )
-    except Exception as e:
-        logger.error(e)
+    session = PreROSSession()
+
+    if not session.initialize():
         return False
 
-    exit_flag: bool = False
-
     try:
-        while not exit_flag:
-            for key, event in bash_keys.items():
-                if keyboard.is_pressed(key):
-                    reply_to_bash(event)
-                    exit_flag = True
-                    break
-
-            button["state"] = not GPIO.input(button["pin"])
-            if button["state"]:
-                logger.info("button pressed.")
-
-            leds["yellow"]["state"] = button["state"]
-
-            for led in leds.values():
-                GPIO.output(
-                    led["pin"],
-                    GPIO.HIGH if led["state"] else GPIO.LOW,
-                )
-
-            time.sleep(0.1)
-            leds["green"]["state"] = not leds["green"]["state"]
+        while not (session.button_command() or session.key_command()):
+            session.leds.update()
+            time.sleep(0.05)
     except KeyboardInterrupt:
         logger.info("^C received.")
         return False
