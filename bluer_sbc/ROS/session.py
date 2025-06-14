@@ -27,12 +27,15 @@ def start_session() -> bool:
         )
     )
 
-    while True:
-        event = keyboard.read_event(suppress=True)
-        if event.event_type == keyboard.KEY_DOWN:
-            key = event.name
-            logger.info(f"key pressed: {key}")
+    try:
+        while True:
+            for key, event in bash_keys.items():
+                if keyboard.is_pressed(key):
+                    reply_to_bash(event)
+                    return True
 
-            if key in bash_keys:
-                reply_to_bash(bash_keys[key])
-                return True
+            time.sleep(0.1)
+    except KeyboardInterrupt:
+        logger.info("^C received.")
+
+    return False
