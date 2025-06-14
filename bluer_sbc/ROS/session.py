@@ -17,7 +17,13 @@ bash_keys = {
     "u": "update",
 }
 
-BUTTON_PIN = 26  # GPIO number (not physical pin)
+button = {"pin": 26, "state": False}
+
+leds = {
+    "yellow": {"pin": 17, "state": True},
+    "red": {"pin": 27, "state": False},
+    "green": {"pin": 22, "state": True},
+}
 
 
 def start_session() -> bool:
@@ -33,10 +39,15 @@ def start_session() -> bool:
     try:
         GPIO.setmode(GPIO.BCM)
         GPIO.setup(
-            BUTTON_PIN,
+            button["pin"],
             GPIO.IN,
             pull_up_down=GPIO.PUD_UP,
         )
+        for led in leds.values():
+            GPIO.setup(
+                led["pin"],
+                GPIO.OUT,
+            )
     except Exception as e:
         logger.error(e)
         return False
@@ -51,11 +62,20 @@ def start_session() -> bool:
                     exit_flag = True
                     break
 
-            button_state = GPIO.input(BUTTON_PIN)
-            if button_state:
+            button["state"] = GPIO.input(button["pin"])
+            if button["state"]:
                 logger.info("button pressed.")
 
+            led["yellow"]["state"] = button["state"]
+
+            for led in leds.values():
+                GPIO.output(
+                    led["pin"],
+                    GPIO.HIGH if led["state"] else GPIO.LOW,
+                )
+
             time.sleep(0.1)
+            led["green"]["state"] = not led["green"]["state"]
     except KeyboardInterrupt:
         logger.info("^C received.")
         return False
