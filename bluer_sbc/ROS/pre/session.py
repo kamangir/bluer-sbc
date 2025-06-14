@@ -70,10 +70,12 @@ class PreROSSession:
                         )
                     )
                 )
+
             if self.button.press_duration > BUTTON_PRESS_DURATION_SHUTDOWN:
                 reply_to_bash("shutdown")
                 return True
-            elif self.button.press_duration > BUTTON_PRESS_DURATION_UPDATE:
+
+            if self.button.press_duration > BUTTON_PRESS_DURATION_UPDATE:
                 reply_to_bash("update")
                 return True
 
