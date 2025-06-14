@@ -17,8 +17,6 @@ graph LR
 
     hardware_validate["@sbc <hardware> validate <options>"]
 
-    session_start["@sbc session start"]
-
     object["📂 object"]:::folder
     camera_hardware["👁️‍🗨️ camera"]:::folder
     hardware["🖱️ hardware"]:::folder
@@ -31,12 +29,6 @@ graph LR
     hardware --> hardware_validate
     hardware_validate --> hardware
     hardware_validate --> UI
-
-    hardware --> session_start
-    session_start --> hardware
-    camera_hardware --> session_start
-    session_start --> object
-    session_start --> UI
 
     classDef folder fill:#999,stroke:#333,stroke-width:2px;
 ```

@@ -19,8 +19,6 @@ graph LR
 
     hardware_validate["@sbc<br>&lt;hardware&gt;<br>validate<br>&lt;options&gt;"]
 
-    session_start["@sbc<br>session<br>start"]
-
     object["📂 object"]:::folder
     camera_hardware["👁️‍🗨️ camera"]:::folder
     hardware["🖱️ hardware"]:::folder
@@ -34,12 +32,6 @@ graph LR
     hardware_validate --> hardware
     hardware_validate --> UI
 
-    hardware --> session_start
-    session_start --> hardware
-    camera_hardware --> session_start
-    session_start --> object
-    session_start --> UI
-
     classDef folder fill:#999,stroke:#333,stroke-width:2px;
 ```
 
@@ -52,5 +44,5 @@ graph LR
 
 [![pylint](https://github.com/kamangir/bluer-sbc/actions/workflows/pylint.yml/badge.svg)](https://github.com/kamangir/bluer-sbc/actions/workflows/pylint.yml) [![pytest](https://github.com/kamangir/bluer-sbc/actions/workflows/pytest.yml/badge.svg)](https://github.com/kamangir/bluer-sbc/actions/workflows/pytest.yml) [![bashtest](https://github.com/kamangir/bluer-sbc/actions/workflows/bashtest.yml/badge.svg)](https://github.com/kamangir/bluer-sbc/actions/workflows/bashtest.yml) [![PyPI version](https://img.shields.io/pypi/v/bluer-sbc.svg)](https://pypi.org/project/bluer-sbc/) [![PyPI - Downloads](https://img.shields.io/pypi/dd/bluer-sbc)](https://pypistats.org/packages/bluer-sbc)
 
-built by 🌀 [`bluer README`](https://github.com/kamangir/bluer-objects/tree/main/bluer_objects/README), based on 🌀 [`bluer_sbc-8.72.1`](https://github.com/kamangir/bluer-sbc).
+built by 🌀 [`bluer README`](https://github.com/kamangir/bluer-objects/tree/main/bluer_objects/README), based on 🌀 [`bluer_sbc-8.79.1`](https://github.com/kamangir/bluer-sbc).
 

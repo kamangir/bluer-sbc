@@ -14,6 +14,8 @@ function bluer_ai_seed_headless_ubuntu_rpi() {
     seed="${seed}sudo apt update$delim"
     seed="${seed}sudo apt upgrade$delim"
     seed="${seed}sudo apt install -y wireless-tools$delim"
+    seed="${seed}sudo apt install -y gcc python3-dev$delim"
+    seed="${seed}sudo apt install -y gcc-aarch64-linux-gnu$delim"
     seed="${seed}sudo apt install -y python3-venv$delim_section"
 
     seed="${seed}sudo mkdir -p /etc/systemd/system/getty@tty1.service.d$delim"
@@ -44,6 +46,8 @@ function bluer_ai_seed_headless_ubuntu_rpi() {
 
     bluer_ai_seed add_repo repo=bluer-ugv
     seed="${seed}pip3 install -e .$delim_section"
+
+    seed="${seed}pip3 install RPi.GPIO$delim_section"
 
     seed="${seed}source \$HOME/git/bluer-ai/bluer_ai/.abcli/bluer_ai.sh$delim_section"
 }

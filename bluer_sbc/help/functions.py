@@ -12,7 +12,6 @@ from bluer_sbc.help.hat import help_functions as help_hat
 from bluer_sbc.help.lepton import help_functions as help_lepton
 from bluer_sbc.help.scroll_phat_hd import help_functions as help_scroll_phat_hd
 from bluer_sbc.help.sparkfun_top_phat import help_functions as help_sparkfun_top_phat
-from bluer_sbc.help.session import help_functions as help_session
 from bluer_sbc.help.unicorn_16x16 import help_functions as help_unicorn_16x16
 from bluer_sbc import ALIAS
 
@@ -27,7 +26,6 @@ help_functions.update(
         "hat": help_hat,
         "lepton": help_lepton,
         "scroll_phat_hd": help_scroll_phat_hd,
-        "session": help_session,
         "sparkfun_top_phat": help_sparkfun_top_phat,
         "unicorn_16x16": help_unicorn_16x16,
     }
