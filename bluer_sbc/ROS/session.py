@@ -3,6 +3,7 @@ import time
 import RPi.GPIO as GPIO  # type: ignore
 
 from blueness import module
+from bluer_options import string
 
 from bluer_sbc import NAME
 from bluer_sbc.session.functions import reply_to_bash
@@ -53,6 +54,7 @@ def start_session() -> bool:
         return False
 
     exit_flag: bool = False
+    button_press_time: int = 0
     try:
         while not exit_flag:
             for key, event in bash_keys.items():
@@ -65,10 +67,18 @@ def start_session() -> bool:
             if button_pressed:
                 if not button["state"]:
                     logger.info("button pressed.")
+                    button_press_time = time.time()
                     ...
             else:
                 if button["state"]:
-                    logger.info("button released.")
+                    button_press_duration = time.time() - button_press_time
+                    logger.info(
+                        "button released after {}.".format(
+                            string.pretty_duration(
+                                button_press_duration,
+                            )
+                        )
+                    )
                     ...
             button["state"] = button_pressed
 
