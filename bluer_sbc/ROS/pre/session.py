@@ -1,6 +1,8 @@
 import keyboard
+import time
 import RPi.GPIO as GPIO  # type: ignore
 
+from bluer_options import string
 from bluer_sbc.session.functions import reply_to_bash
 
 from bluer_sbc.ROS.pre.button import PreROSButton
@@ -14,17 +16,22 @@ bash_keys = {
     "u": "update",
 }
 
+BUTTON_PRESS_DURATION_UPDATE = 5
+BUTTON_PRESS_DURATION_SHUTDOWN = 10
+
 
 class PreROSSession:
     def __init__(self):
         self.button = PreROSButton()
         self.leds = PreROSLeds()
 
-        logger.info("{} created: {}".format)(
-            PreROSSession.__class__.__name__,
-            ", ".join(
-                [f"{key}:{action}" for key, action in bash_keys.items()],
-            ),
+        logger.info(
+            "{} created: {}".format(
+                PreROSSession.__class__.__name__,
+                ", ".join(
+                    [f"{key}:{action}" for key, action in bash_keys.items()],
+                ),
+            )
         )
 
     def initialize(self) -> bool:
@@ -42,7 +49,41 @@ class PreROSSession:
 
         return True
 
-    def is_key_pressed(self) -> bool:
+    def button_command(self) -> bool:
+        button_pressed = not GPIO.input(self.button.pin)
+        if button_pressed:
+            if not self.button.state:
+                logger.info("button pressed.")
+                self.button.press_time = time.time()
+
+            self.button.press_duration = time.time() - self.button.press_time
+            if self.button.press_duration > BUTTON_PRESS_DURATION_SHUTDOWN:
+                self.leds.leds["red"]["state"] = True
+            elif self.button.press_duration > BUTTON_PRESS_DURATION_UPDATE:
+                self.leds.leds["red"]["state"] = not self.leds.leds["red"]["state"]
+        else:
+            if self.button.state:
+                logger.info(
+                    "button released after {}.".format(
+                        string.pretty_duration(
+                            self.button.press_duration,
+                        )
+                    )
+                )
+            if self.button.press_duration > BUTTON_PRESS_DURATION_SHUTDOWN:
+                reply_to_bash("shutdown")
+                return True
+            elif self.button.press_duration > BUTTON_PRESS_DURATION_UPDATE:
+                reply_to_bash("update")
+                return True
+
+        self.button.state = button_pressed
+
+        self.leds.leds["yellow"]["state"] = self.button.state
+
+        return False
+
+    def key_command(self) -> bool:
         for key, event in bash_keys.items():
             if keyboard.is_pressed(key):
                 reply_to_bash(event)

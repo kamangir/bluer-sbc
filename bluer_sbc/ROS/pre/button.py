@@ -8,6 +8,9 @@ class PreROSButton:
         self.pin = 26
         self.state = False
 
+        self.press_time: int = 0
+        self.press_duration: int = -1
+
     def initialize(self) -> bool:
         try:
             GPIO.setup(
