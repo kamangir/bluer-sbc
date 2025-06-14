@@ -20,7 +20,12 @@ class PreROSSession:
         self.button = PreROSButton()
         self.leds = PreROSLeds()
 
-        logger.info(f"{PreROSSession.__class__.__name__} created.")
+        logger.info("{} created: {}".format)(
+            PreROSSession.__class__.__name__,
+            ", ".join(
+                [f"{key}:{action}" for key, action in bash_keys.items()],
+            ),
+        )
 
     def initialize(self) -> bool:
         try:

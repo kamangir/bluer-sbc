@@ -17,14 +17,7 @@ BUTTON_PRESS_DURATION_SHUTDOWN = 10
 
 
 def start_session() -> bool:
-    logger.info(
-        "{}.start_session: {}".format(
-            NAME,
-            ", ".join(
-                [f"{key}:{action}" for key, action in bash_keys.items()],
-            ),
-        )
-    )
+    logger.info(f"{NAME}.start_session.")
 
     session = PreROSSession()
 
