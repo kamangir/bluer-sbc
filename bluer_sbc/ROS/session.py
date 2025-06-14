@@ -62,7 +62,7 @@ def start_session() -> bool:
                     exit_flag = True
                     break
 
-            button["state"] = GPIO.input(button["pin"])
+            button["state"] = not GPIO.input(button["pin"])
             if button["state"]:
                 logger.info("button pressed.")
 
