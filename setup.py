@@ -19,7 +19,7 @@ setup(
         f"{NAME}.imager.camera",
         f"{NAME}.imager.lepton",
         f"{NAME}.ROS",
-        f"{NAME}.pre",
+        f"{NAME}.ROS.pre",
         f"{NAME}.session",
     ],
     include_package_data=True,
