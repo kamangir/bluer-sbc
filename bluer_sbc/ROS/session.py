@@ -65,12 +65,12 @@ def start_session() -> bool:
             if button_pressed:
                 if not button["state"]:
                     logger.info("button pressed.")
-                    button["state"] = True
                     ...
             else:
                 if button["state"]:
                     logger.info("button released.")
                     ...
+            button["state"] = button_pressed
 
             leds["yellow"]["state"] = button["state"]
 
