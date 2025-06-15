@@ -34,6 +34,7 @@ function bluer_ai_seed_headless_ubuntu_rpi() {
 
     seed="${seed}pip install --upgrade pip --no-input$delim"
     seed="${seed}pip3 install -e .$delim"
+    seed="${seed}pip3 install evdev$delim"
     seed="${seed}pip3 install opencv-python-headless$delim_section"
 
     bluer_ai_seed add_repo repo=bluer-objects
