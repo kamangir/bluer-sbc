@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-function bluer_sbc_ROS_session() {
+function bluer_ugv_swallow_session() {
     local task=${1:-start}
 
     local options=$2
