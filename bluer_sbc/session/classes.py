@@ -121,7 +121,7 @@ class Session:
         if self.auto_upload:
             upload(
                 object_name=abcli_object_name,
-                filename=self.frame_filename,
+                filename=file.name_and_extension(self.frame_filename),
             )
 
     def check_keys(self):
