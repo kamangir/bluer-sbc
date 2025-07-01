@@ -16,6 +16,7 @@ items = README.Items(
     [
         {
             "marquee": image_template.format(f"{index+1}:02"),
+            "name": "",
         }
         for index in range(9)
     ]
