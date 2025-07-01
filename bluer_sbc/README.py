@@ -28,6 +28,6 @@ def build():
                 "path": "..",
             },
             {"items": bluer_swallow_items, "path": "./docs/bluer-swallow.md"},
-            {"cols": 5, "items": bryce_items, "path": "./docs/bryce.md"},
+            {"items": bryce_items, "path": "./docs/bryce.md"},
         ]
     )
