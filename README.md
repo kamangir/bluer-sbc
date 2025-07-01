@@ -9,9 +9,10 @@ pip install bluer_sbc
 @env dot cp <env-name> local
 ```
 
-|   |   |   |   |
-| --- | --- | --- | --- |
-| [![image](https://github.com/kamangir/blue-bracket/raw/main/images/blue3-1.jpg)](https://github.com/kamangir/blue-bracket/blob/main/designs/blue3.md) | [![image](https://github.com/kamangir/blue-bracket/raw/main/images/chenar-grove-1.jpg)](https://github.com/kamangir/blue-bracket/blob/main/designs/chenar-grove.md) | [![image](https://github.com/kamangir/blue-bracket/raw/main/images/cube-1.jpg)](https://github.com/kamangir/blue-bracket/blob/main/designs/cube.md) | [![image](https://github.com/kamangir/blue-bracket/raw/main/images/eye_nano-1.jpg)](https://github.com/kamangir/blue-bracket/blob/main/designs/eye_nano.md) |
+|   |   |   |
+| --- | --- | --- |
+| [`bluer-swallow`](TBA/bluer-swallow) [![image](https://github.com/kamangir/assets2/blob/main/bluer-swallow/design/06.jpg?raw=true)](TBA/bluer-swallow)  | [`bryce`](TBA/bryce) [![image](https://github.com/kamangir/assets2/blob/main/bluer-swallow/design/08.jpg?raw=true)](TBA/bryce)  | [`blue3`](https://github.com/kamangir/blue-bracket/blob/main/designs/blue3) [![image](https://github.com/kamangir/blue-bracket/raw/main/images/blue3-1.jpg)](https://github.com/kamangir/blue-bracket/blob/main/designs/blue3)  |
+| [`chenar-grove`](https://github.com/kamangir/blue-bracket/blob/main/designs/chenar-grove) [![image](https://github.com/kamangir/blue-bracket/raw/main/images/chenar-grove-1.jpg)](https://github.com/kamangir/blue-bracket/blob/main/designs/chenar-grove)  | [`cube`](https://github.com/kamangir/blue-bracket/blob/main/designs/cube) [![image](https://github.com/kamangir/blue-bracket/raw/main/images/cube-1.jpg)](https://github.com/kamangir/blue-bracket/blob/main/designs/cube)  | [`eye_nano`](https://github.com/kamangir/blue-bracket/blob/main/designs/eye_nano) [![image](https://github.com/kamangir/blue-bracket/raw/main/images/eye_nano-1.jpg)](https://github.com/kamangir/blue-bracket/blob/main/designs/eye_nano)  |
 
 ```mermaid
 graph LR
@@ -44,5 +45,5 @@ graph LR
 
 [![pylint](https://github.com/kamangir/bluer-sbc/actions/workflows/pylint.yml/badge.svg)](https://github.com/kamangir/bluer-sbc/actions/workflows/pylint.yml) [![pytest](https://github.com/kamangir/bluer-sbc/actions/workflows/pytest.yml/badge.svg)](https://github.com/kamangir/bluer-sbc/actions/workflows/pytest.yml) [![bashtest](https://github.com/kamangir/bluer-sbc/actions/workflows/bashtest.yml/badge.svg)](https://github.com/kamangir/bluer-sbc/actions/workflows/bashtest.yml) [![PyPI version](https://img.shields.io/pypi/v/bluer-sbc.svg)](https://pypi.org/project/bluer-sbc/) [![PyPI - Downloads](https://img.shields.io/pypi/dd/bluer-sbc)](https://pypistats.org/packages/bluer-sbc)
 
-built by 🌀 [`bluer README`](https://github.com/kamangir/bluer-objects/tree/main/bluer_objects/README), based on 🌀 [`bluer_sbc-8.106.1`](https://github.com/kamangir/bluer-sbc).
+built by 🌀 [`bluer README`](https://github.com/kamangir/bluer-objects/tree/main/bluer_objects/README), based on 🌀 [`bluer_sbc-8.109.1`](https://github.com/kamangir/bluer-sbc).
 
