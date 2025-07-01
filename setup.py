@@ -11,6 +11,7 @@ setup(
     packages=[
         NAME,
         f"{NAME}.algo",
+        f"{NAME}.designs",
         f"{NAME}.hardware",
         f"{NAME}.hardware.hat",
         f"{NAME}.hardware.sparkfun_top_phat",
