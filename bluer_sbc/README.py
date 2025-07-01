@@ -6,56 +6,72 @@ from bluer_objects import file, README
 from bluer_sbc import NAME, VERSION, ICON, REPO_NAME
 
 
-items = README.Items(
-    [
-        {
-            "name": item["name"],
-            "marquee": "https://github.com/kamangir/assets2/blob/main/bluer-swallow/design/{}?raw=true".format(
-                item["image"]
-            ),
-            "url": "TBA/{}".format(item["name"]),
-        }
-        for item in [
+items = (
+    README.Items(
+        [
             {
-                "image": "06.jpg",
-                "name": "bluer-swallow",
-            },
-            {
-                "image": "08.jpg",
-                "name": "bryce",
-            },
+                "name": item["name"],
+                "marquee": "https://github.com/kamangir/assets2/blob/main/bluer-swallow/design/{}?raw=true".format(
+                    item["image"]
+                ),
+                "url": "TBA/{}".format(item["name"]),
+            }
+            for item in [
+                {
+                    "image": "06.jpg",
+                    "name": "bluer-swallow",
+                },
+            ]
         ]
-    ]
-) + README.Items(
-    [
-        {
-            "name": item["name"],
-            "marquee": "https://github.com/kamangir/blue-bracket/raw/main/images/{}".format(
-                item["image"]
-            ),
-            "url": "https://github.com/kamangir/blue-bracket/blob/main/designs/{}".format(
-                item["name"]
-            ),
-        }
-        for item in [
+    )
+    + README.Items(
+        [
             {
-                "image": "blue3-1.jpg",
-                "name": "blue3",
-            },
-            {
-                "image": "chenar-grove-1.jpg",
-                "name": "chenar-grove",
-            },
-            {
-                "image": "cube-1.jpg",
-                "name": "cube",
-            },
-            {
-                "image": "eye_nano-1.jpg",
-                "name": "eye_nano",
-            },
+                "name": item["name"],
+                "marquee": "https://github.com/kamangir/assets2/blob/main/bluer-swallow/design/{}?raw=true".format(
+                    item["image"]
+                ),
+                "url": "TBA/{}".format(item["name"]),
+            }
+            for item in [
+                {
+                    "image": "08.jpg",
+                    "name": "bryce",
+                },
+            ]
         ]
-    ]
+    )
+    + README.Items(
+        [
+            {
+                "name": item["name"],
+                "marquee": "https://github.com/kamangir/blue-bracket/raw/main/images/{}".format(
+                    item["image"]
+                ),
+                "url": "https://github.com/kamangir/blue-bracket/blob/main/designs/{}.md".format(
+                    item["name"]
+                ),
+            }
+            for item in [
+                {
+                    "image": "blue3-1.jpg",
+                    "name": "blue3",
+                },
+                {
+                    "image": "chenar-grove-1.jpg",
+                    "name": "chenar-grove",
+                },
+                {
+                    "image": "cube-1.jpg",
+                    "name": "cube",
+                },
+                {
+                    "image": "eye_nano-1.jpg",
+                    "name": "eye_nano",
+                },
+            ]
+        ]
+    )
 )
 
 x = [
