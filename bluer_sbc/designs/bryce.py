@@ -1,22 +1,14 @@
 from bluer_objects import README
 
-design_template = "TBA/{}.md"
-
 image_template = "https://github.com/kamangir/assets2/blob/main/bryce/{}?raw=true"
 
 marquee = README.Items(
     [
         {
-            "name": item["name"],
-            "marquee": image_template.format(item["image"]),
-            "url": design_template.format(item["name"]),
+            "name": "bryce",
+            "marquee": image_template.format("08.jpg"),
+            "url": "./bluer_sbc/docs/bryce.md",
         }
-        for item in [
-            {
-                "image": "08.jpg",
-                "name": "bryce",
-            },
-        ]
     ]
 )
 
