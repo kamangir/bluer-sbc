@@ -48,6 +48,9 @@ function bluer_ai_seed_headless_ubuntu_rpi() {
     bluer_ai_seed add_repo repo=bluer-ugv
     seed="${seed}pip3 install -e .$delim_section"
 
+    bluer_ai_seed add_repo repo=bluer-algo
+    seed="${seed}pip3 install -e .$delim_section"
+
     seed="${seed}pip3 install RPi.GPIO$delim_section"
 
     seed="${seed}source \$HOME/git/bluer-ai/bluer_ai/.abcli/bluer_ai.sh$delim_section"
