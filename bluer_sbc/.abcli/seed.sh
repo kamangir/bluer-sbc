@@ -21,7 +21,7 @@ function bluer_sbc_seed() {
 
     # https://serverfault.com/a/1093530
     # https://packages.ubuntu.com/bionic/all/ca-certificates/download
-    local certificate_name="ca-certificates_20211016ubuntu0.18.04.1_all"
+    local certificate_name="ca-certificates_20230311ubuntu0.18.04.1_all"
     seed="${seed}wget --no-check-certificate http://security.ubuntu.com/ubuntu/pool/main/c/ca-certificates/$certificate_name.deb$delim"
     seed="${seed}sudo dpkg -i $certificate_name.deb$delim_section"
     seed="${seed}sudo apt-get update --allow-releaseinfo-change$delim"
