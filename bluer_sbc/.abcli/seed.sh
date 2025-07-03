@@ -17,9 +17,7 @@ function bluer_sbc_seed() {
 
     bluer_ai_seed add_kaggle
 
-    bluer_ai_seed add_ssh_key
-
-    seed="${seed}ssh-keyscan github.com | sudo tee -a ~/.ssh/known_hosts$delim_section"
+    bluer_ai_seed add_ssh_key sudo
 
     # https://serverfault.com/a/1093530
     # https://packages.ubuntu.com/bionic/all/ca-certificates/download
