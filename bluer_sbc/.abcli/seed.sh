@@ -31,8 +31,10 @@ function bluer_sbc_seed() {
 
     bluer_ai_seed add_repo
 
-    [[ "$target" == "headless_rpi" ]] &&
+    if [[ "$target" == "headless_rpi" ]]; then
+        seed="${seed}mkdir -pv ~/storage/temp/ignore$delim"
         seed="${seed}touch ~/storage/temp/ignore/headless$delim_section"
+    fi
 
     bluer_ai_seed add_bluer_ai_env
 
