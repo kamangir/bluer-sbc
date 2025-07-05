@@ -55,9 +55,10 @@ function bluer_sbc_seed() {
 
     if [[ "$target" == "headless_rpi" ]]; then
         seed="${seed}pip3 install opencv-python-headless$delim"
-        seed="${seed}sudo apt install -y libopenjp2-7 libavcodec58$delim_section"
+        seed="${seed}sudo apt install -y libopenjp2-7 libavcodec58 libavformat58 libswscale5 libblas3 libatlas3-base$delim_section"
     fi
 
+    seed="${seed}cd; cd git; cd bluer-ai$delim"
     seed="${seed}source ./bluer_ai/.abcli/bluer_ai.sh$delim_section"
 
     seed="${seed}source ~/.bashrc$delim_section"
