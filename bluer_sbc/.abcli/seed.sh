@@ -26,7 +26,10 @@ function bluer_sbc_seed() {
     seed="${seed}sudo dpkg -i $certificate_name.deb$delim_section"
     seed="${seed}sudo apt-get update --allow-releaseinfo-change$delim"
     seed="${seed}sudo apt-get install -y ca-certificates libgnutls30$delim"
-
+    seed="${seed}sudo apt install -y python3-venv$delim"
+    seed="${seed}sudo apt install -y cmake build-essential$delim"
+    seed="${seed}sudo apt install -y libjpeg-dev zlib1g-dev libfreetype6-dev liblcms2-dev libopenjpeg-dev libtiff-dev libwebp-dev$delim"
+    seed="${seed}sudo apt-get install libopenblas-base$delim"
     seed="${seed}sudo apt-get --yes --force-yes install git$delim_section"
 
     bluer_ai_seed add_repo
@@ -38,8 +41,10 @@ function bluer_sbc_seed() {
 
     bluer_ai_seed add_bluer_ai_env
 
-    seed="${seed}pip install --upgrade pip --no-input$delim"
-    seed="${seed}pip3 install -e .$delim_section"
+    seed="${seed}pip3 install --upgrade pip --no-input$delim"
+    seed="${seed}pip3 install \"pandas<2.1\"$delim"
+    seed="${seed}pip3 install pillow$delim"
+    seed="${seed}pip3 install -e . --constraint ./bluer_ai/assets/no-pyarrow.txt$delim_section"
 
     bluer_ai_seed add_repo repo=bluer-objects
     seed="${seed}pip3 install -e .$delim_section"
