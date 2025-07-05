@@ -53,8 +53,10 @@ function bluer_sbc_seed() {
     bluer_ai_seed add_repo repo=bluer-sbc
     seed="${seed}pip3 install -e .$delim_section"
 
-    [[ "$target" == "headless_rpi" ]] &&
-        seed="${seed}pip3 install opencv-python-headless$delim_section"
+    if [[ "$target" == "headless_rpi" ]]; then
+        seed="${seed}pip3 install opencv-python-headless$delim"
+        seed="${seed}sudo apt install -y libopenjp2-7 libavcodec58$delim_section"
+    fi
 
     seed="${seed}source ./bluer_ai/.abcli/bluer_ai.sh$delim_section"
 
