@@ -42,7 +42,7 @@ class Camera(Imager):
         if self.device is None:
             return success, image
 
-        if host.is_rpi():
+        if host.is_rpi() and not host.is_64bit():
             temp = file.auxiliary("camera", "png")
             try:
                 self.device.capture(temp)
@@ -90,7 +90,7 @@ class Camera(Imager):
         pulse: bool = True,
         resolution=None,
     ) -> bool:
-        if not host.is_rpi():
+        if not host.is_rpi() and not host.is_64bit():
             logger.error(f"{NAME}.capture_video() only works on rpi.")
             return False
 
@@ -144,7 +144,7 @@ class Camera(Imager):
 
         success = False
         try:
-            if host.is_rpi():
+            if host.is_rpi() and not host.is_64bit():
                 self.device.close()
             else:
                 self.device.release()
@@ -162,7 +162,7 @@ class Camera(Imager):
 
     def get_resolution(self):
         try:
-            if host.is_rpi():
+            if host.is_rpi() and not host.is_64bit():
                 from picamera import PiCamera
 
                 return [value for value in self.device.resolution]
@@ -181,7 +181,7 @@ class Camera(Imager):
         resolution=None,
     ) -> bool:
         try:
-            if host.is_rpi():
+            if host.is_rpi() and not host.is_64bit():
                 from picamera import PiCamera
 
                 self.device = PiCamera()
