@@ -16,6 +16,8 @@ function bluer_ai_seed_headless_ubuntu_rpi() {
     seed="${seed}sudo apt install -y wireless-tools$delim"
     seed="${seed}sudo apt install -y gcc python3-dev$delim"
     seed="${seed}sudo apt install -y gcc-aarch64-linux-gnu$delim"
+    seed="${seed}sudo apt install -y v4l-utils$delim"
+    seed="${seed}sudo apt install -y ffmpeg$delim"
     seed="${seed}sudo apt install -y python3-venv$delim_section"
 
     seed="${seed}sudo mkdir -p /etc/systemd/system/getty@tty1.service.d$delim"
