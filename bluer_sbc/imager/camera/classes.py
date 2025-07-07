@@ -204,8 +204,8 @@ class Camera(Imager):
                 self.device = cv2.VideoCapture(0)
 
                 # https://stackoverflow.com/a/31464688
-                self.device.set(cv2.CAP_PROP_FRAME_WIDTH, 10000)
-                self.device.set(cv2.CAP_PROP_FRAME_HEIGHT, 10000)
+                self.device.set(cv2.CAP_PROP_FRAME_WIDTH, env.BLUER_SBC_CAMERA_WIDTH)
+                self.device.set(cv2.CAP_PROP_FRAME_HEIGHT, env.BLUER_SBC_CAMERA_HEIGHT)
 
             self.resolution = self.get_resolution()
 
