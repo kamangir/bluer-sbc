@@ -58,6 +58,8 @@ class Camera(Imager):
 
                 if success:
                     image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+                else:
+                    logger.warning("capture failed.")
 
             except Exception as e:
                 crash_report(e)
