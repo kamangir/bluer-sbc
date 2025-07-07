@@ -41,8 +41,9 @@ class Camera(Imager):
 
         if self.device is None:
             return success, image
-
-        if host.is_rpi() and not host.is_64bit():
+        if env.BLUER_SBC_CAMERA_USE_PICAM2:
+            image = self.device.capture_array()
+        elif host.is_rpi() and not host.is_64bit():
             temp = file.auxiliary("camera", "png")
             try:
                 self.device.capture(temp)
@@ -92,7 +93,7 @@ class Camera(Imager):
         pulse: bool = True,
         resolution=None,
     ) -> bool:
-        if not host.is_rpi() and not host.is_64bit():
+        if not host.is_rpi() or host.is_64bit() or env.BLUER_SBC_CAMERA_USE_PICAM2:
             logger.error(f"{NAME}.capture_video() only works on rpi.")
             return False
 
@@ -146,7 +147,9 @@ class Camera(Imager):
 
         success = False
         try:
-            if host.is_rpi() and not host.is_64bit():
+            if env.BLUER_SBC_CAMERA_USE_PICAM2:
+                self.device.stop()
+            elif host.is_rpi() and not host.is_64bit():
                 self.device.close()
             else:
                 self.device.release()
@@ -164,9 +167,10 @@ class Camera(Imager):
 
     def get_resolution(self):
         try:
-            if host.is_rpi() and not host.is_64bit():
-                from picamera import PiCamera
-
+            if env.BLUER_SBC_CAMERA_USE_PICAM2:
+                width, height = self.device.stream_configuration("main")["size"]
+                return [height, width]
+            elif host.is_rpi() and not host.is_64bit():
                 return [value for value in self.device.resolution]
             else:
                 return [
@@ -183,7 +187,23 @@ class Camera(Imager):
         resolution=None,
     ) -> bool:
         try:
-            if host.is_rpi() and not host.is_64bit():
+            if env.BLUER_SBC_CAMERA_USE_PICAM2:
+                from picamera2 import Picamera2
+
+                self.device = Picamera2()
+
+                config = self.device.create_still_configuration(
+                    main={
+                        "size": (
+                            env.BLUER_SBC_CAMERA_WIDTH,
+                            env.BLUER_SBC_CAMERA_HEIGHT,
+                        )
+                    }
+                )
+                self.device.configure(config)
+
+                self.device.start()
+            elif host.is_rpi() and not host.is_64bit():
                 from picamera import PiCamera
 
                 self.device = PiCamera()
