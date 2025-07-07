@@ -41,8 +41,10 @@ class Camera(Imager):
 
         if self.device is None:
             return success, image
+
         if env.BLUER_SBC_CAMERA_USE_PICAM2:
             image = self.device.capture_array()
+            success = True
         elif host.is_rpi() and not host.is_64bit():
             temp = file.auxiliary("camera", "png")
             try:
