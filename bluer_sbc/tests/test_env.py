@@ -14,6 +14,7 @@ def test_blue_plugin_env():
     assert isinstance(env.BLUER_SBC_CAMERA_WIDTH, int)
     assert isinstance(env.BLUER_SBC_CAMERA_HEIGHT, int)
     assert isinstance(env.BLUER_SBC_CAMERA_ROTATION, int)
+    assert isinstance(env.BLUER_SBC_CAMERA_KEEP_OPEN, int)
 
     assert isinstance(env.BLUER_SBC_DISPLAY_FULLSCREEN, bool)
 
