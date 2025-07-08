@@ -95,7 +95,7 @@ class Session:
                 if not imager.open(log=True):
                     return
 
-        success, image = imager.capture(
+        success, image = imager.capture(  # pylint: disable=unexpected-keyword-arg
             open_before=not bool(env.BLUER_SBC_CAMERA_KEEP_OPEN),
             close_after=not bool(env.BLUER_SBC_CAMERA_KEEP_OPEN),
         )
