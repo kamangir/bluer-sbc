@@ -22,6 +22,7 @@ class RPI_64_bit_Camera(Camera):
 
     def close_function(self):
         self.device.stop()
+        del self.device
 
     def get_resolution_function(self) -> Tuple[int, int]:
         width, height = self.device.stream_configuration("main")["size"]
