@@ -29,7 +29,8 @@ function bluer_ai_seed_headless_rpi_64_bit() {
     bluer_ai_seed add_repo repo=bluer-sbc
     seed="${seed}pip3 install $ssp -e .$delim_section"
 
-    seed="${seed}pip3 install $ssp opencv-python-headless$delim_section"
+    seed="${seed}pip3 install $ssp opencv-python-headless$delim"
+    seed="${seed}sudo apt install -y python3-picamera2$delim_section"
 
     seed="${seed}cd; cd git; cd bluer-ai$delim"
     seed="${seed}source ./bluer_ai/.abcli/bluer_ai.sh$delim_section"
