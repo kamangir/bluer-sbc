@@ -96,8 +96,8 @@ class Session:
                     return
 
         success, image = imager.capture(
-            open_before=not (bool(env.BLUER_SBC_CAMERA_KEEP_OPEN)),
-            close_after=not (bool(env.BLUER_SBC_CAMERA_KEEP_OPEN)),
+            open_before=not bool(env.BLUER_SBC_CAMERA_KEEP_OPEN),
+            close_after=not bool(env.BLUER_SBC_CAMERA_KEEP_OPEN),
         )
         if not success:
             return
