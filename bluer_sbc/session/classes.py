@@ -90,7 +90,15 @@ class Session:
             return
         self.capture_requested = False
 
-        success, image = imager.capture()
+        if env.BLUER_SBC_CAMERA_KEEP_OPEN:
+            if imager.device is None:
+                if not imager.open(log=True):
+                    return
+
+        success, image = imager.capture(  # pylint: disable=unexpected-keyword-arg
+            open_before=not bool(env.BLUER_SBC_CAMERA_KEEP_OPEN),
+            close_after=not bool(env.BLUER_SBC_CAMERA_KEEP_OPEN),
+        )
         if not success:
             return
 
@@ -177,6 +185,9 @@ class Session:
 
     def close(self):
         hardware.release()
+
+        if env.BLUER_SBC_CAMERA_KEEP_OPEN:
+            imager.close(log=True)
 
     def process_message(self, message):
         if (
