@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-# internal functions to bluer_ai_seed.
+# internal function to bluer_ai_seed.
 # seed is NOT local
 function bluer_ai_seed_headless_rpi_64_bit() {
     bluer_ai_seed add_kaggle
