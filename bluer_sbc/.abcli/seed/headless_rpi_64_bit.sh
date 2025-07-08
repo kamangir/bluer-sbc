@@ -18,6 +18,7 @@ function bluer_ai_seed_headless_rpi_64_bit() {
 
     local ssp="--break-system-packages"
 
+    seed="${seed}sudo apt update$delim"
     seed="${seed}sudo apt install -y python3-pip$delim"
     seed="${seed}pip3 install $ssp -e .$delim_section"
 
