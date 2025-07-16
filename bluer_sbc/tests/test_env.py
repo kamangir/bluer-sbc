@@ -39,3 +39,5 @@ def test_blue_plugin_env():
     assert isinstance(env.BLUER_SBC_SESSION_REBOOT_PERIOD, int)
     assert isinstance(env.BLUER_SBC_SESSION_SCREEN_PERIOD, int)
     assert isinstance(env.BLUER_SBC_SESSION_TEMPERATURE_PERIOD, int)
+
+    assert env.BLUER_SBC_ENV
