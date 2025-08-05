@@ -1,20 +1,17 @@
 # aliases: camera
 
 ```bash
-@sbc \
-	camera \
+@camera \
 	capture \
 	image
  . capture an image.
-@sbc \
-	camera \
+@camera \
 	capture \
 	video \
 	[--length 10] \
 	[--preview 1]
  . capture a video
-@sbc \
-	camera \
+@camera \
 	preview \
 	[-] \
 	[--length 10]

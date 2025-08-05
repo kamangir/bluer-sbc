@@ -14,13 +14,7 @@ pip install bluer_sbc
 # aliases
 
 [@camera](./bluer_sbc/docs/aliases/camera.md), 
-[@sbc adafruit_rgb_matrix](./bluer_sbc/docs/aliases/adafruit_rgb_matrix.md), 
-[@sbc grove](./bluer_sbc/docs/aliases/grove.md), 
-[@sbc hat](./bluer_sbc/docs/aliases/hat.md), 
-[@sbc lepton](./bluer_sbc/docs/aliases/lepton.md), 
-[@sbc scroll_phat_hd](./bluer_sbc/docs/aliases/scroll_phat_hd.md), 
-[@sbc sparkfun_top_phat](./bluer_sbc/docs/aliases/sparkfun_top_phat.md), 
-[@sbc unicorn_16x16](./bluer_sbc/docs/aliases/unicorn_16x16.md).
+[@sbc <hardware>](./bluer_sbc/docs/aliases/hardware.md).
 
 ---
 

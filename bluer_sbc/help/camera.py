@@ -9,8 +9,7 @@ def help_capture_image(
 ) -> str:
     return show_usage(
         [
-            "@sbc",
-            "camera",
+            "@camera",
             "capture",
             "image",
         ],
@@ -30,8 +29,7 @@ def help_capture_video(
 
     return show_usage(
         [
-            "@sbc",
-            "camera",
+            "@camera",
             "capture",
             "video",
         ]
@@ -51,8 +49,7 @@ def help_preview(
 
     return show_usage(
         [
-            "@sbc",
-            "camera",
+            "@camera",
             "preview",
             "[-]",
         ]

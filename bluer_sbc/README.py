@@ -56,13 +56,7 @@ def build():
             {"path": f"./docs/aliases/{item}.md"}
             for item in [
                 "camera",
-                "adafruit_rgb_matrix",
-                "grove",
-                "hat",
-                "lepton",
-                "scroll_phat_hd",
-                "sparkfun_top_phat",
-                "unicorn_16x16",
+                "hardware",
             ]
         ]
     )

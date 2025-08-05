@@ -18,13 +18,7 @@ pip install bluer_sbc
 # aliases
 
 [@camera](./bluer_sbc/docs/aliases/camera.md), 
-[@sbc adafruit_rgb_matrix](./bluer_sbc/docs/aliases/adafruit_rgb_matrix.md), 
-[@sbc grove](./bluer_sbc/docs/aliases/grove.md), 
-[@sbc hat](./bluer_sbc/docs/aliases/hat.md), 
-[@sbc lepton](./bluer_sbc/docs/aliases/lepton.md), 
-[@sbc scroll_phat_hd](./bluer_sbc/docs/aliases/scroll_phat_hd.md), 
-[@sbc sparkfun_top_phat](./bluer_sbc/docs/aliases/sparkfun_top_phat.md), 
-[@sbc unicorn_16x16](./bluer_sbc/docs/aliases/unicorn_16x16.md).
+[@sbc <hardware>](./bluer_sbc/docs/aliases/hardware.md).
 
 ---
 
@@ -35,5 +29,5 @@ pip install bluer_sbc
 
 [![pylint](https://github.com/kamangir/bluer-sbc/actions/workflows/pylint.yml/badge.svg)](https://github.com/kamangir/bluer-sbc/actions/workflows/pylint.yml) [![pytest](https://github.com/kamangir/bluer-sbc/actions/workflows/pytest.yml/badge.svg)](https://github.com/kamangir/bluer-sbc/actions/workflows/pytest.yml) [![bashtest](https://github.com/kamangir/bluer-sbc/actions/workflows/bashtest.yml/badge.svg)](https://github.com/kamangir/bluer-sbc/actions/workflows/bashtest.yml) [![PyPI version](https://img.shields.io/pypi/v/bluer-sbc.svg)](https://pypi.org/project/bluer-sbc/) [![PyPI - Downloads](https://img.shields.io/pypi/dd/bluer-sbc)](https://pypistats.org/packages/bluer-sbc)
 
-built by 🌀 [`bluer README`](https://github.com/kamangir/bluer-objects/tree/main/bluer_objects/README), based on 🌀 [`bluer_sbc-8.159.1`](https://github.com/kamangir/bluer-sbc).
+built by 🌀 [`bluer README`](https://github.com/kamangir/bluer-objects/tree/main/bluer_objects/README), based on 🌀 [`bluer_sbc-8.160.1`](https://github.com/kamangir/bluer-sbc).
 
