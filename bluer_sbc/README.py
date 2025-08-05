@@ -1,6 +1,7 @@
 import os
 from typing import List
 
+from bluer_options.help.functions import get_help
 from bluer_objects import file, README
 
 from bluer_sbc import NAME, VERSION, ICON, REPO_NAME
@@ -11,6 +12,7 @@ from bluer_sbc.designs.bluer_swallow import items as bluer_swallow_items
 from bluer_sbc.designs.bluer_swallow import marquee as bluer_swallow_marquee
 from bluer_sbc.designs.bryce import items as bryce_items
 from bluer_sbc.designs.bryce import marquee as bryce_marquee
+from bluer_sbc.help.functions import help_functions
 
 
 def build():
@@ -23,6 +25,11 @@ def build():
             NAME=NAME,
             VERSION=VERSION,
             REPO_NAME=REPO_NAME,
+            help_function=lambda tokens: get_help(
+                tokens,
+                help_functions,
+                mono=True,
+            ),
         )
         for readme in [
             {
@@ -44,5 +51,18 @@ def build():
                 "items": bryce_items,
                 "path": "./docs/bryce.md",
             },
+        ]
+        + [
+            {"path": f"./docs/aliases/{item}.md"}
+            for item in [
+                "camera",
+                "adafruit_rgb_matrix",
+                "grove",
+                "hat",
+                "lepton",
+                "scroll_phat_hd",
+                "sparkfun_top_phat",
+                "unicorn_16x16",
+            ]
         ]
     )

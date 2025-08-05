@@ -11,27 +11,16 @@ pip install bluer_sbc
 
 --table--
 
-```mermaid
-graph LR
-    camera["@sbc <camera> capture|preview image|video"]
+# aliases
 
-    hardware_validate["@sbc <hardware> validate <options>"]
-
-    object["📂 object"]:::folder
-    camera_hardware["👁️‍🗨️ camera"]:::folder
-    hardware["🖱️ hardware"]:::folder
-    UI["💻 UI"]:::folder
-
-    camera_hardware --> camera
-    camera --> object
-    camera --> UI
-
-    hardware --> hardware_validate
-    hardware_validate --> hardware
-    hardware_validate --> UI
-
-    classDef folder fill:#999,stroke:#333,stroke-width:2px;
-```
+[@camera](./camera.md), 
+[@sbc adafruit_rgb_matrix](./adafruit_rgb_matrix.md), 
+[@sbc grove](./grove.md), 
+[@sbc hat](./hat.md), 
+[@sbc lepton](./lepton.md), 
+[@sbc scroll_phat_hd](./scroll_phat_hd.md), 
+[@sbc sparkfun_top_phat](./sparkfun_top_phat.md), 
+[@sbc unicorn_16x16](./unicorn_16x16.md).
 
 ---
 
