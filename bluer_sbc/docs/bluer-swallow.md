@@ -1,4 +1,4 @@
-Minimum hardware for [UGV control](https://github.com/kamangir/bluer-ugv/blob/main/bluer_ugv/docs/bluer-swallow.md).
+Minimum hardware for [UGV control](https://github.com/kamangir/bluer-ugv/tree/main/bluer_ugv/docs/bluer_swallow).
 
 |   |   |   |
 | --- | --- | --- |
