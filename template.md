@@ -11,27 +11,10 @@ pip install bluer_sbc
 
 --table--
 
-```mermaid
-graph LR
-    camera["@sbc <camera> capture|preview image|video"]
+# aliases
 
-    hardware_validate["@sbc <hardware> validate <options>"]
-
-    object["📂 object"]:::folder
-    camera_hardware["👁️‍🗨️ camera"]:::folder
-    hardware["🖱️ hardware"]:::folder
-    UI["💻 UI"]:::folder
-
-    camera_hardware --> camera
-    camera --> object
-    camera --> UI
-
-    hardware --> hardware_validate
-    hardware_validate --> hardware
-    hardware_validate --> UI
-
-    classDef folder fill:#999,stroke:#333,stroke-width:2px;
-```
+[@camera](./bluer_sbc/docs/aliases/camera.md), 
+[@sbc <hardware>](./bluer_sbc/docs/aliases/hardware.md).
 
 ---
 
