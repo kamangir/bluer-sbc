@@ -9,5 +9,11 @@ function bluer_sbc_rpi_fake_display() {
         return 0
     fi
 
-    :
+    sudo apt-get install -y xvfb
+    [[ $? -ne 0 ]] && return 1
+
+    Xvfb :99 -screen 0 640x480x24 &
+    [[ $? -ne 0 ]] && return 1
+
+    export DISPLAY=:99
 }
