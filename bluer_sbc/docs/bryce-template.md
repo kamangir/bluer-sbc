@@ -1,7 +1,5 @@
 Minimum hardware for machine vision and AI on Linux with a [Python + Bash bootstrap](https://github.com/kamangir/bluer-sbc).
 
-items:::
-
 ## operation
 
 subset of [swallow](https://github.com/kamangir/bluer-ugv/blob/main/bluer_ugv/docs/bluer_swallow/digital/design/operation.md).
@@ -20,3 +18,5 @@ subset of [swallow](https://github.com/kamangir/bluer-ugv/blob/main/bluer_ugv/do
 
 - push button:
     - flash leds.
+
+items:::
