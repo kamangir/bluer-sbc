@@ -57,6 +57,7 @@ def build():
             for item in [
                 "camera",
                 "hardware",
+                "rpi",
             ]
         ]
     )

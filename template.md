@@ -2,6 +2,8 @@
 
 🌀 `bluer-sbc` is a [`bluer-ai`](https://github.com/kamangir/bluer-ai) plugin for edge computing on [single board computers](https://github.com/kamangir/blue-bracket). 
 
+## installation
+
 ```bash
 pip install bluer_sbc
 
@@ -9,12 +11,13 @@ pip install bluer_sbc
 @env dot cp <env-name> local
 ```
 
---table--
-
 # aliases
 
 [@camera](./bluer_sbc/docs/aliases/camera.md), 
+[@rpi](./bluer_sbc/docs/aliases/rpi.md), 
 [@sbc <hardware>](./bluer_sbc/docs/aliases/hardware.md).
+
+items:::
 
 ---
 
@@ -22,5 +25,5 @@ pip install bluer_sbc
 
 ---
 
---signature--
+signature:::
 
