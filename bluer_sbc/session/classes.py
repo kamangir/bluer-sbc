@@ -29,9 +29,9 @@ NAME = module.name(__file__, NAME)
 class Session:
     def __init__(self):
         self.bash_keys = {
-            "e": "exit",
-            "r": "reboot",
-            "s": "shutdown",
+            "i": "exit",
+            "o": "shutdown",
+            "p": "reboot",
             "u": "update",
         }
 
