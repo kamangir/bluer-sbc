@@ -11,7 +11,7 @@ pip install bluer_sbc
 @env dot cp <env-name> local
 ```
 
-# aliases
+## aliases
 
 [@camera](./bluer_sbc/docs/aliases/camera.md), 
 [@rpi](./bluer_sbc/docs/aliases/rpi.md), 
