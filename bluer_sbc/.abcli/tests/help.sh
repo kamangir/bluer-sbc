@@ -5,6 +5,9 @@ function test_bluer_sbc_help() {
 
     local module
     for module in \
+        "@rpi" \
+        "@rpi fake_display" \
+        \
         "@sbc" \
         \
         "@sbc adafruit_rgb_matrix" \
