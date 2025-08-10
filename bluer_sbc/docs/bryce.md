@@ -5,3 +5,22 @@ Minimum hardware for machine vision and AI on Linux with a [Python + Bash bootst
 | [![image](https://github.com/kamangir/assets2/blob/main/bryce/01.jpg?raw=true)](#)  | [![image](https://github.com/kamangir/assets2/blob/main/bryce/02.jpg?raw=true)](#)  | [![image](https://github.com/kamangir/assets2/blob/main/bryce/03.jpg?raw=true)](#)  |
 | [![image](https://github.com/kamangir/assets2/blob/main/bryce/04.jpg?raw=true)](#)  | [![image](https://github.com/kamangir/assets2/blob/main/bryce/05.jpg?raw=true)](#)  | [![image](https://github.com/kamangir/assets2/blob/main/bryce/06.jpg?raw=true)](#)  |
 | [![image](https://github.com/kamangir/assets2/blob/main/bryce/07.jpg?raw=true)](#)  | [![image](https://github.com/kamangir/assets2/blob/main/bryce/08.jpg?raw=true)](#)  | [![image](https://github.com/kamangir/assets2/blob/main/bryce/09.jpg?raw=true)](#)  |
+
+## operation
+
+subset of [swallow](https://github.com/kamangir/bluer-ugv/blob/main/bluer_ugv/docs/bluer_swallow/digital/design/operation.md).
+
+- keyboard:
+    - i: exit.
+    - o: shutdown.
+    - p: reboot.
+    - u: update.
+
+- leds:
+    - blue: data uploaded.
+    - green: data collected.
+    - red: control loop.
+    - yellow: data downloaded.
+
+- push button:
+    - flash leds.
