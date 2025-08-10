@@ -4,5 +4,5 @@
 @rpi \
 	fake_display \
 	[dryrun]
- . fake the display on aan rpi.
+ . fake the display on an rpi.
 ```

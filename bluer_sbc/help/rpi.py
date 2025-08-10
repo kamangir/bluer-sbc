@@ -15,7 +15,7 @@ def help_fake_display(
             "fake_display",
             f"[{options}]",
         ],
-        "fake the display on aan rpi.",
+        "fake the display on an rpi.",
         mono=mono,
     )
 
