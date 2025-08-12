@@ -3,5 +3,5 @@
 
 |   |   |   |
 | --- | --- | --- |
-| [![image](https://github.com/kamangir/assets2/blob/main/bluer-swallow/design/01.jpg?raw=true)](#)  | [![image](https://github.com/kamangir/assets2/blob/main/bluer-swallow/design/02.jpg?raw=true)](#)  | [![image](https://github.com/kamangir/assets2/blob/main/bluer-swallow/design/03.jpg?raw=true)](#)  |
-| [![image](https://github.com/kamangir/assets2/blob/main/bluer-swallow/design/04.jpg?raw=true)](#)  | [![image](https://github.com/kamangir/assets2/blob/main/bluer-swallow/design/05.jpg?raw=true)](#)  | [![image](https://github.com/kamangir/assets2/blob/main/bluer-swallow/design/06.jpg?raw=true)](#)  |
+| [![image](https://github.com/kamangir/assets2/blob/main/bluer-swallow/design/v2/01.jpg?raw=true)](#)  | [![image](https://github.com/kamangir/assets2/blob/main/bluer-swallow/design/v2/02.jpg?raw=true)](#)  | [![image](https://github.com/kamangir/assets2/blob/main/bluer-swallow/design/v2/03.jpg?raw=true)](#)  |
+| [![image](https://github.com/kamangir/assets2/blob/main/bluer-swallow/design/v2/04.jpg?raw=true)](#)  | [![image](https://github.com/kamangir/assets2/blob/main/bluer-swallow/design/v2/05.jpg?raw=true)](#)  | [![image](https://github.com/kamangir/assets2/blob/main/bluer-swallow/design/v2/06.jpg?raw=true)](#)  |
