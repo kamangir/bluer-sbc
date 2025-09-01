@@ -2,7 +2,7 @@ from bluer_objects import README
 
 
 image_template = (
-    "https://github.com/kamangir/assets2/blob/main/bluer-swallow/design/v2/{}?raw=true"
+    "https://github.com/kamangir/assets2/blob/main/bluer-swallow/design/v3/{}?raw=true"
 )
 
 marquee = README.Items(
