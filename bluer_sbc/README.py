@@ -51,6 +51,10 @@ def build():
                 "items": bryce_items,
                 "path": "./docs/bryce.md",
             },
+            {
+                "items": cheshmak_items,
+                "path": "./docs/ultrasonic-sensor-tester.md",
+            },
         ]
         + [
             {"path": f"./docs/aliases/{item}.md"}
