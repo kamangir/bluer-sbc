@@ -1,6 +1,8 @@
 from bluer_objects import README
 
-image_template = "https://github.com/kamangir/assets2/blob/main/cheshmak/{}?raw=true"
+from bluer_sbc.designs.consts import assets2
+
+image_template = assets2 + "cheshmak/{}?raw=true"
 
 marquee = README.Items(
     [

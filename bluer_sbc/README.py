@@ -14,6 +14,13 @@ from bluer_sbc.designs.bryce import items as bryce_items
 from bluer_sbc.designs.bryce import marquee as bryce_marquee
 from bluer_sbc.help.functions import help_functions
 
+from bluer_sbc.designs.ultrasonic_sensor_tester import (
+    marquee as ultrasonic_sensor_tester_marquee,
+)
+from bluer_sbc.designs.ultrasonic_sensor_tester import (
+    items as ultrasonic_sensor_tester_items,
+)
+
 
 def build():
     return all(
@@ -33,7 +40,8 @@ def build():
         )
         for readme in [
             {
-                "items": cheshmak_marquee
+                "items": ultrasonic_sensor_tester_marquee
+                + cheshmak_marquee
                 + bluer_swallow_marquee
                 + bryce_marquee
                 + blue_bracket_items,
@@ -50,6 +58,10 @@ def build():
             {
                 "items": bryce_items,
                 "path": "./docs/bryce.md",
+            },
+            {
+                "items": ultrasonic_sensor_tester_items,
+                "path": "./docs/ultrasonic-sensor-tester.md",
             },
         ]
         + [

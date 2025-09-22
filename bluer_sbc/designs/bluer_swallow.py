@@ -1,9 +1,9 @@
 from bluer_objects import README
 
+from bluer_sbc.designs.consts import assets2
 
-image_template = (
-    "https://github.com/kamangir/assets2/blob/main/bluer-swallow/design/v3/{}?raw=true"
-)
+
+image_template = assets2 + "bluer-swallow/design/v3/{}?raw=true"
 
 marquee = README.Items(
     [
