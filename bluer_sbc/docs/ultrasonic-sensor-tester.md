@@ -2,6 +2,7 @@ tester for [HC-SR04 ultrasonic sensors](https://github.com/kamangir/bluer-ugv/bl
 
 - [dev notes](https://github.com/kamangir/bluer-ugv/blob/main/bluer_ugv/docs/bluer_swallow/digital/design/ultrasonic-sensor-tester.md)
 
-|   |
-| --- |
-| [![image](https://github.com/kamangir/assets2/blob/main/cheshmak/01.png?raw=true)](#)  |
+|   |   |   |
+| --- | --- | --- |
+| [![image](https://github.com/kamangir/assets2/blob/main/ultrasonic-sensor-tester/01.jpg?raw=true)](#)  | [![image](https://github.com/kamangir/assets2/blob/main/ultrasonic-sensor-tester/02.jpg?raw=true)](#)  | [![image](https://github.com/kamangir/assets2/blob/main/ultrasonic-sensor-tester/03.jpg?raw=true)](#)  |
+| [![image](https://github.com/kamangir/assets2/blob/main/ultrasonic-sensor-tester/04.jpg?raw=true)](#)  | [![image](https://github.com/kamangir/assets2/blob/main/ultrasonic-sensor-tester/05.jpg?raw=true)](#)  | [![image](https://github.com/kamangir/assets2/blob/main/ultrasonic-sensor-tester/06.jpg?raw=true)](#)  |
