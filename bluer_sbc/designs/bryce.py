@@ -1,6 +1,8 @@
 from bluer_objects import README
 
-image_template = "https://github.com/kamangir/assets2/blob/main/bryce/{}?raw=true"
+from bluer_sbc.designs.consts import assets2
+
+image_template = assets2 + "bryce/{}?raw=true"
 
 marquee = README.Items(
     [
