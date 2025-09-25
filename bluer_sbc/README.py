@@ -10,6 +10,8 @@ from bluer_sbc.designs.cheshmak import marquee as cheshmak_marquee
 from bluer_sbc.designs.blue_bracket import items as blue_bracket_items
 from bluer_sbc.designs.bluer_swallow import items as bluer_swallow_items
 from bluer_sbc.designs.bluer_swallow import marquee as bluer_swallow_marquee
+from bluer_sbc.designs.bluer_swallow_head import items as bluer_swallow_head_items
+from bluer_sbc.designs.bluer_swallow_head import marquee as bluer_swallow_head_marquee
 from bluer_sbc.designs.bryce import items as bryce_items
 from bluer_sbc.designs.bryce import marquee as bryce_marquee
 from bluer_sbc.help.functions import help_functions
@@ -40,7 +42,8 @@ def build():
         )
         for readme in [
             {
-                "items": ultrasonic_sensor_tester_marquee
+                "items": bluer_swallow_head_marquee
+                + ultrasonic_sensor_tester_marquee
                 + cheshmak_marquee
                 + bluer_swallow_marquee
                 + bryce_marquee
@@ -54,6 +57,10 @@ def build():
             {
                 "items": bluer_swallow_items,
                 "path": "./docs/bluer-swallow.md",
+            },
+            {
+                "items": bluer_swallow_head_items,
+                "path": "./docs/bluer-swallow-head.md",
             },
             {
                 "items": bryce_items,
