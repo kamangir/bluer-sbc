@@ -9,7 +9,7 @@ function bluer_sbc_rpi() {
         return
     fi
 
-    bluer_ai_log_error "@rpi: $task: command not found."
+    bluer_ai_log_error "@sbc rpi: $task: command not found."
     return 1
 }
 

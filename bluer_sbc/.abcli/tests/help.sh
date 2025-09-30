@@ -5,9 +5,6 @@ function test_bluer_sbc_help() {
 
     local module
     for module in \
-        "@rpi" \
-        "@rpi fake_display" \
-        \
         "@sbc" \
         \
         "@sbc adafruit_rgb_matrix" \
@@ -34,6 +31,9 @@ function test_bluer_sbc_help() {
         "@sbc pypi install" \
         \
         "@sbc pytest" \
+        \
+        "@sbc rpi" \
+        "@sbc rpi fake_display" \
         \
         "@sbc scroll_phat_hd" \
         "@sbc scroll_phat_hd validate" \
