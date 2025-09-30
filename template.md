@@ -14,7 +14,7 @@ pip install bluer_sbc
 ## aliases
 
 [@camera](./bluer_sbc/docs/aliases/camera.md), 
-[@rpi](./bluer_sbc/docs/aliases/rpi.md), 
+[@sbc rpi](./bluer_sbc/docs/aliases/sbc.md), 
 [@sbc <hardware>](./bluer_sbc/docs/aliases/hardware.md).
 
 items:::

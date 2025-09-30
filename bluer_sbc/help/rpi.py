@@ -11,7 +11,8 @@ def help_fake_display(
 
     return show_usage(
         [
-            "@rpi",
+            "@sbc",
+            "rpi",
             "fake_display",
             f"[{options}]",
         ],
