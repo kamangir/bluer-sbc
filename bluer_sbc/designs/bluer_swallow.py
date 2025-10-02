@@ -3,7 +3,7 @@ from bluer_objects import README
 from bluer_sbc.designs.consts import assets2
 
 
-image_template = assets2 + "bluer-swallow/design/v4/{}?raw=true"
+image_template = assets2 + "bluer-swallow/design/v5/{}?raw=true"
 
 marquee = README.Items(
     [
