@@ -4,7 +4,7 @@ ICON = "🌀"
 
 DESCRIPTION = f"{ICON} AI for single board computers and other designs."
 
-VERSION = "8.198.1"
+VERSION = "8.199.1"
 
 REPO_NAME = "bluer-sbc"
 
