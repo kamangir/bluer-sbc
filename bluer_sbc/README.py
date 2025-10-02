@@ -43,18 +43,14 @@ def build():
         )
         for readme in [
             {
-                "items": bluer_swallow_head_marquee
+                "items": bluer_swallow_marquee
+                + bluer_swallow_head_marquee
                 + ultrasonic_sensor_tester_marquee
-                + cheshmak_marquee
-                + bluer_swallow_marquee
                 + bryce_marquee
+                + cheshmak_marquee
                 + nafha_marquee
                 + blue_bracket_items,
                 "path": "..",
-            },
-            {
-                "items": cheshmak_items,
-                "path": "./docs/cheshmak.md",
             },
             {
                 "items": bluer_swallow_items,
@@ -71,6 +67,10 @@ def build():
             {
                 "items": ultrasonic_sensor_tester_items,
                 "path": "./docs/ultrasonic-sensor-tester.md",
+            },
+            {
+                "items": cheshmak_items,
+                "path": "./docs/cheshmak.md",
             },
             {
                 "cols": 4,
