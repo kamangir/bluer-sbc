@@ -14,14 +14,15 @@ from bluer_sbc.designs.bluer_swallow_head import items as bluer_swallow_head_ite
 from bluer_sbc.designs.bluer_swallow_head import marquee as bluer_swallow_head_marquee
 from bluer_sbc.designs.bryce import items as bryce_items
 from bluer_sbc.designs.bryce import marquee as bryce_marquee
-from bluer_sbc.help.functions import help_functions
-
+from bluer_sbc.designs.nafha import items as nafha_items
+from bluer_sbc.designs.nafha import marquee as nafha_marquee
 from bluer_sbc.designs.ultrasonic_sensor_tester import (
     marquee as ultrasonic_sensor_tester_marquee,
 )
 from bluer_sbc.designs.ultrasonic_sensor_tester import (
     items as ultrasonic_sensor_tester_items,
 )
+from bluer_sbc.help.functions import help_functions
 
 
 def build():
@@ -47,6 +48,7 @@ def build():
                 + cheshmak_marquee
                 + bluer_swallow_marquee
                 + bryce_marquee
+                + nafha_marquee
                 + blue_bracket_items,
                 "path": "..",
             },
@@ -69,6 +71,11 @@ def build():
             {
                 "items": ultrasonic_sensor_tester_items,
                 "path": "./docs/ultrasonic-sensor-tester.md",
+            },
+            {
+                "cols": 4,
+                "items": nafha_items,
+                "path": "./docs/nafha.md",
             },
         ]
         + [
