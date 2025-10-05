@@ -3,14 +3,14 @@ from bluer_objects import README
 from bluer_sbc.designs.consts import assets2
 
 
-image_template = assets2 + "bluer-swallow/design/v5/{}?raw=true"
+image_template = assets2 + "swallow/design/v5/{}?raw=true"
 
 marquee = README.Items(
     [
         {
-            "name": "bluer-swallow",
+            "name": "swallow",
             "marquee": image_template.format("01.jpg"),
-            "url": "./bluer_sbc/docs/bluer-swallow.md",
+            "url": "./bluer_sbc/docs/swallow.md",
         }
     ]
 )
