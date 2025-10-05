@@ -16,8 +16,8 @@ from bluer_sbc.designs.bryce import items as bryce_items
 from bluer_sbc.designs.bryce import marquee as bryce_marquee
 from bluer_sbc.designs.nafha import items as nafha_items
 from bluer_sbc.designs.nafha import marquee as nafha_marquee
-from bluer_sbc.designs.bluer_shelter import items as bluer_shelter_items
-from bluer_sbc.designs.bluer_shelter import marquee as bluer_shelter_marquee
+from bluer_sbc.designs.shelter import items as shelter_items
+from bluer_sbc.designs.shelter import marquee as shelter_marquee
 from bluer_sbc.designs.ultrasonic_sensor_tester import (
     marquee as ultrasonic_sensor_tester_marquee,
 )
@@ -51,7 +51,7 @@ def build():
                 + bryce_marquee
                 + cheshmak_marquee
                 + nafha_marquee
-                + bluer_shelter_marquee
+                + shelter_marquee
                 + blue_bracket_items,
                 "path": "..",
             },
@@ -82,8 +82,8 @@ def build():
             },
             {
                 "cols": 4,
-                "items": bluer_shelter_items,
-                "path": "./docs/bluer-shelter.md",
+                "items": shelter_items,
+                "path": "./docs/shelter.md",
             },
         ]
         + [

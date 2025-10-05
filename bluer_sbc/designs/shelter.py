@@ -2,14 +2,14 @@ from bluer_objects import README
 
 from bluer_sbc.designs.consts import assets2
 
-image_template = assets2 + "bluer-shelter/{}?raw=true"
+image_template = assets2 + "shelter/{}?raw=true"
 
 marquee = README.Items(
     [
         {
-            "name": "bluer-shelter",
+            "name": "shelter",
             "marquee": image_template.format("01.png"),
-            "url": "./bluer_sbc/docs/bluer-shelter.md",
+            "url": "./bluer_sbc/docs/shelter.md",
         }
     ]
 )
