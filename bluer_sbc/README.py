@@ -8,10 +8,10 @@ from bluer_sbc import NAME, VERSION, ICON, REPO_NAME
 from bluer_sbc.designs.cheshmak import items as cheshmak_items
 from bluer_sbc.designs.cheshmak import marquee as cheshmak_marquee
 from bluer_sbc.designs.blue_bracket import items as blue_bracket_items
-from bluer_sbc.designs.bluer_swallow import items as bluer_swallow_items
-from bluer_sbc.designs.bluer_swallow import marquee as bluer_swallow_marquee
-from bluer_sbc.designs.bluer_swallow_head import items as bluer_swallow_head_items
-from bluer_sbc.designs.bluer_swallow_head import marquee as bluer_swallow_head_marquee
+from bluer_sbc.designs.swallow import items as swallow_items
+from bluer_sbc.designs.swallow import marquee as swallow_marquee
+from bluer_sbc.designs.swallow_head import items as swallow_head_items
+from bluer_sbc.designs.swallow_head import marquee as swallow_head_marquee
 from bluer_sbc.designs.bryce import items as bryce_items
 from bluer_sbc.designs.bryce import marquee as bryce_marquee
 from bluer_sbc.designs.nafha import items as nafha_items
@@ -45,8 +45,8 @@ def build():
         )
         for readme in [
             {
-                "items": bluer_swallow_marquee
-                + bluer_swallow_head_marquee
+                "items": swallow_marquee
+                + swallow_head_marquee
                 + ultrasonic_sensor_tester_marquee
                 + bryce_marquee
                 + cheshmak_marquee
@@ -56,12 +56,12 @@ def build():
                 "path": "..",
             },
             {
-                "items": bluer_swallow_items,
-                "path": "./docs/bluer-swallow.md",
+                "items": swallow_items,
+                "path": "./docs/swallow.md",
             },
             {
-                "items": bluer_swallow_head_items,
-                "path": "./docs/bluer-swallow-head.md",
+                "items": swallow_head_items,
+                "path": "./docs/swallow-head.md",
             },
             {
                 "items": bryce_items,

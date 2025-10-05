@@ -3,7 +3,7 @@
 
 ## operation
 
-subset of [swallow](https://github.com/kamangir/bluer-ugv/blob/main/bluer_ugv/docs/bluer_swallow/digital/design/operation.md).
+subset of [swallow](https://github.com/kamangir/bluer-ugv/blob/main/bluer_ugv/docs/swallow/digital/design/operation.md).
 
 - keyboard:
     - i: exit.
