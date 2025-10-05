@@ -1,3 +1,5 @@
+# bryce
+
 - minimum hardware for machine vision and AI on Linux with a [Python + Bash bootstrap](https://github.com/kamangir/bluer-sbc).
 - Raspbian 32-bit with GUI [terraform](https://github.com/kamangir/bluer-ai/blob/main/bluer_ai/docs/install/RPi.md).
 
