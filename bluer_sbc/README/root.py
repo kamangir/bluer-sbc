@@ -19,6 +19,6 @@ docs = [
         + nafha_marquee
         + shelter_marquee
         + blue_bracket_items,
-        "path": "..",
+        "path": "../..",
     },
 ]

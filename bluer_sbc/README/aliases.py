@@ -1,6 +1,6 @@
 docs = [
     {
-        "path": f"./docs/aliases/{item}.md",
+        "path": f"../docs/aliases/{item}.md",
     }
     for item in [
         "camera",

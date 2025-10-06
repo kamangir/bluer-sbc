@@ -11,32 +11,32 @@ from bluer_sbc.designs.ultrasonic_sensor_tester import (
 docs = [
     {
         "items": swallow_items,
-        "path": "./docs/swallow.md",
+        "path": "../docs/swallow.md",
     },
     {
         "items": swallow_head_items,
-        "path": "./docs/swallow-head.md",
+        "path": "../docs/swallow-head.md",
     },
     {
         "items": bryce_items,
-        "path": "./docs/bryce.md",
+        "path": "../docs/bryce.md",
     },
     {
         "items": ultrasonic_sensor_tester_items,
-        "path": "./docs/ultrasonic-sensor-tester.md",
+        "path": "../docs/ultrasonic-sensor-tester.md",
     },
     {
         "items": cheshmak_items,
-        "path": "./docs/cheshmak.md",
+        "path": "../docs/cheshmak.md",
     },
     {
         "cols": 4,
         "items": nafha_items,
-        "path": "./docs/nafha.md",
+        "path": "../docs/nafha.md",
     },
     {
         "cols": 4,
         "items": shelter_items,
-        "path": "./docs/shelter.md",
+        "path": "../docs/shelter.md",
     },
 ]
