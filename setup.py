@@ -11,7 +11,6 @@ setup(
     packages=[
         NAME,
         f"{NAME}.algo",
-        f"{NAME}.designs",
         f"{NAME}.hardware",
         f"{NAME}.hardware.hat",
         f"{NAME}.hardware.sparkfun_top_phat",
@@ -19,6 +18,8 @@ setup(
         f"{NAME}.imager",
         f"{NAME}.imager.camera",
         f"{NAME}.imager.lepton",
+        f"{NAME}.README",
+        f"{NAME}.README.designs",
         f"{NAME}.ROS",
         f"{NAME}.session",
     ],
