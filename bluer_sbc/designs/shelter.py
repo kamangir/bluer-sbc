@@ -29,9 +29,8 @@ items = README.Items(
         }
         for index in range(4)
     ]
-    + ImageItems(
-        {
-            f"{assets2_shelter}/20251005_180841.jpg": "",
-        }
-    )
+) + ImageItems(
+    {
+        f"{assets2_shelter}/20251005_180841.jpg": "",
+    }
 )

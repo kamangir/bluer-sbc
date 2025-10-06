@@ -3,7 +3,7 @@
 |   |   |   |   |
 | --- | --- | --- | --- |
 | [![image](https://github.com/kamangir/assets2/blob/main/shelter/01.png?raw=true)](#)  | [![image](https://github.com/kamangir/assets2/blob/main/shelter/02.png?raw=true)](#)  | [![image](https://github.com/kamangir/assets2/blob/main/shelter/03.png?raw=true)](#)  | [![image](https://github.com/kamangir/assets2/blob/main/shelter/04.png?raw=true)](#)  |
-|  |  |  |  |
+| [![image](https://github.com/kamangir/assets2/raw/main/shelter/20251005_180841.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/shelter/20251005_180841.jpg?raw=true) |  |  |  |
 
 ## parts
 
