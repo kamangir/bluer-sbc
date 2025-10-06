@@ -1,4 +1,5 @@
 from bluer_objects import README
+from bluer_objects.README.items import ImageItems
 
 from bluer_sbc.designs.consts import assets2
 
@@ -14,12 +15,6 @@ marquee = README.Items(
     ]
 )
 
-items = README.Items(
-    [
-        {
-            "marquee": image_template.format(f"{index+1:02}.jpg"),
-            "name": "",
-        }
-        for index in range(9)
-    ]
+items = ImageItems(
+    {image_template.format(f"{index+1:02}.jpg"): "" for index in range(9)}
 )
