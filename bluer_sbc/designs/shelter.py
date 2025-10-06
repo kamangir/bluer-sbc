@@ -15,7 +15,7 @@ marquee = README.Items(
     [
         {
             "name": "shelter",
-            "marquee": image_template.format("01.png"),
+            "marquee": f"{assets2_shelter}/20251005_180841.jpg",
             "url": "./bluer_sbc/docs/shelter.md",
         }
     ]
