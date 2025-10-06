@@ -4,4 +4,4 @@
 
 |   |
 | --- |
-| [![image](https://github.com/kamangir/assets2/raw/main/battery_bus/concept.png?raw=true)](https://github.com/kamangir/assets2/raw/main/battery_bus/concept.png?raw=true) |
+| [![image](https://github.com/kamangir/assets2/raw/main/battery-bus/concept.png?raw=true)](https://github.com/kamangir/assets2/raw/main/battery-bus/concept.png?raw=true) |
