@@ -4,6 +4,7 @@ from bluer_sbc.designs.swallow_head import items as swallow_head_items
 from bluer_sbc.designs.bryce import items as bryce_items
 from bluer_sbc.designs.nafha import items as nafha_items
 from bluer_sbc.designs.shelter import items as shelter_items
+from bluer_sbc.designs.x import items as x_items
 from bluer_sbc.designs.ultrasonic_sensor_tester import (
     items as ultrasonic_sensor_tester_items,
 )
@@ -38,5 +39,10 @@ docs = [
         "cols": 4,
         "items": shelter_items,
         "path": "../docs/shelter.md",
+    },
+    {
+        "cols": 4,
+        "items": x_items,
+        "path": "../docs/x.md",
     },
 ]
