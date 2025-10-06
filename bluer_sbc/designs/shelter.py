@@ -21,14 +21,8 @@ marquee = README.Items(
     ]
 )
 
-items = README.Items(
-    [
-        {
-            "marquee": image_template.format(f"{index+1:02}.png"),
-            "name": "",
-        }
-        for index in range(4)
-    ]
+items = ImageItems(
+    {image_template.format(f"{index+1:02}.png"): "" for index in range(4)}
 ) + ImageItems(
     {
         f"{assets2_shelter}/20251005_180841.jpg": "",
