@@ -373,7 +373,7 @@ db_of_parts["charging-port"] = Part(
 
 db_of_parts["dsn-vc288"] = Part(
     info=[
-        "DSN-VC288, panel mount DC 100V 10A voltmeter ammeter",
+        "DSN-VC288, panel mount, 4-30 VDC, 10A, voltmeter ammeter",
         "https://hamguyparts.com/files/Download/Chinese%20DVA.pdf",
         "https://www.skytech.ir/DownLoad/File/11515_DSN-VC288.pdf",
     ],
