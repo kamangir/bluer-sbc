@@ -1,6 +1,6 @@
 # parts: on-off-switch
 
-- on/off switch
+- on/off switch, 12V DC 10 A, with indicator led
 
 |   |
 | --- |

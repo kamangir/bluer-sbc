@@ -355,7 +355,7 @@ db_of_parts["TV-bracket"] = Part(
 
 db_of_parts["on-off-switch"] = Part(
     info=[
-        "on/off switch",
+        "on/off switch, 12V DC 10 A, with indicator led",
     ],
     images=[
         "on-off-switch.png",
@@ -370,6 +370,20 @@ db_of_parts["charging-port"] = Part(
         "charging-port.jpg",
     ],
 )
+
+db_of_parts["dsn-vc288"] = Part(
+    info=[
+        "DSN-VC288, panel mount, 4-30 VDC, 10A, voltmeter ammeter",
+        "https://hamguyparts.com/files/Download/Chinese%20DVA.pdf",
+        "https://www.skytech.ir/DownLoad/File/11515_DSN-VC288.pdf",
+    ],
+    images=[
+        "dsn-vc288.jpg",
+        "dsn-vc288-connection.jpg",
+        "dsn-vc288-measurements.jpeg",
+    ],
+)
+
 
 db_of_parts["template"] = Part(
     info=[

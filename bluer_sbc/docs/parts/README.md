@@ -10,6 +10,7 @@
 - [43 A, H-Bridge Motor Driver](./BTS7960.md).
 - [6V DC (4 cell) NICD battery](./LJ-6V-battery.md).
 - [6V DC charger for NICD batteries](./USB-charger-NICD-6V.md).
+- [DSN-VC288, panel mount, 4-30 VDC, 10A, voltmeter ammeter](./dsn-vc288.md).
 - [Gearboxed DC Motor, 12 V (3-24 V), 3A, 120 RPM, 1:91, 15 Kg cm](./DC-gearboxed-motor-12V-120RPM.md).
 - [HC-SR04: ultrasonic-sensor](./ultrasonic-sensor.md).
 - [L 1x2](./L-1x2.md).
@@ -31,7 +32,7 @@
 - [front connector](./front-connector.md).
 - [front wheels](./front-wheels.md).
 - [gearboxed DC motor, 6V DC](./yellow-gearbox-dc-motor.md).
-- [on/off switch](./on-off-switch.md).
+- [on/off switch, 12V DC 10 A, with indicator led](./on-off-switch.md).
 - [power station.](./power-station.md).
 - [power wheel wheels](./wheel.md).
 - [push button](./pushbutton.md).
