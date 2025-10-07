@@ -10,6 +10,8 @@ from bluer_sbc.README.designs.x import items as x_items
 from bluer_sbc.README.designs.ultrasonic_sensor_tester import (
     items as ultrasonic_sensor_tester_items,
 )
+
+from bluer_sbc.designs.battery_bus.parts import dict_of_parts as battery_bus_parts
 from bluer_sbc.designs.swallow.parts import dict_of_parts as swallow_parts
 from bluer_sbc.designs.swallow_head.parts import dict_of_parts as swallow_head_parts
 
@@ -23,6 +25,7 @@ docs = [
     for design_name, design_info in {
         "battery-bus": design(
             battery_bus_items,
+            battery_bus_parts,
         ),
         "bryce": design(
             bryce_items,
