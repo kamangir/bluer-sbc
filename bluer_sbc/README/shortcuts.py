@@ -10,7 +10,7 @@ items = markdown.generate_table(
             {
                 "name": "parts",
                 "url": "./bluer_sbc/docs/parts",
-                "marquee": f"{db_of_parts.url_prefix}/parts.png",
+                "marquee": f"{db_of_parts.url_prefix}/grid.png",
             },
         ]
     ),
