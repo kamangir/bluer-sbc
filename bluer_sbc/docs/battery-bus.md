@@ -6,7 +6,7 @@
 | --- |
 | [![image](https://github.com/kamangir/assets2/raw/main/battery-bus/concept.png?raw=true)](https://github.com/kamangir/assets2/raw/main/battery-bus/concept.png?raw=true) |
 
-## design
+## designs
 
 |   |
 | --- |
