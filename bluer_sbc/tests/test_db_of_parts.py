@@ -25,7 +25,7 @@ def test_db_of_parts():
     part = db_of_parts["template2"]
     assert isinstance(part, Part)
 
-    del db_of_parts._db["template2"]
+    del db_of_parts._db["template2"]  # pylint: disable=protected-access
 
     # ---
 
