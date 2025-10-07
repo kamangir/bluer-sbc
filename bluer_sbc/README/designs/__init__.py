@@ -1,6 +1,4 @@
-from bluer_objects import markdown
-
-from bluer_sbc.parts.db import db_of_parts
+from bluer_sbc.README.design import design
 from bluer_sbc.README.designs.cheshmak import items as cheshmak_items
 from bluer_sbc.README.designs.battery_bus import items as battery_bus_items
 from bluer_sbc.README.designs.swallow import items as swallow_items
@@ -23,58 +21,34 @@ docs = [
         "macros": design_info.get("macros", {}),
     }
     for design_name, design_info in {
-        "battery-bus": {
-            "items": battery_bus_items,
-        },
-        "bryce": {
-            "items": bryce_items,
-        },
-        "cheshmak": {
-            "items": cheshmak_items,
-        },
-        "nafha": {
-            "items": nafha_items,
-        },
-        "shelter": {
-            "items": shelter_items,
-        },
-        "swallow-head": {
-            "items": swallow_head_items,
-            "macros": {
-                "parts_images:::": markdown.generate_table(
-                    db_of_parts.as_images(
-                        swallow_head_parts,
-                        reference="../../../parts",
-                    )
-                ),
-                "parts_list:::": db_of_parts.as_list(
-                    swallow_head_parts,
-                    reference="../../../parts",
-                    log=False,
-                ),
-            },
-        },
-        "swallow": {
-            "items": swallow_items,
-            "macros": {
-                "parts_images:::": markdown.generate_table(
-                    db_of_parts.as_images(
-                        swallow_parts,
-                        reference="../../../parts",
-                    )
-                ),
-                "parts_list:::": db_of_parts.as_list(
-                    swallow_parts,
-                    reference="../../../parts",
-                    log=False,
-                ),
-            },
-        },
-        "ultrasonic-sensor-tester": {
-            "items": ultrasonic_sensor_tester_items,
-        },
-        "x": {
-            "items": x_items,
-        },
+        "battery-bus": design(
+            battery_bus_items,
+        ),
+        "bryce": design(
+            bryce_items,
+        ),
+        "cheshmak": design(
+            cheshmak_items,
+        ),
+        "nafha": design(
+            nafha_items,
+        ),
+        "shelter": design(
+            shelter_items,
+        ),
+        "swallow-head": design(
+            swallow_head_items,
+            swallow_head_parts,
+        ),
+        "swallow": design(
+            swallow_items,
+            swallow_parts,
+        ),
+        "ultrasonic-sensor-tester": design(
+            ultrasonic_sensor_tester_items,
+        ),
+        "x": design(
+            x_items,
+        ),
     }.items()
 ]
