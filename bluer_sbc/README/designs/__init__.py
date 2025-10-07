@@ -1,7 +1,3 @@
-from bluer_objects import markdown
-from bluer_objects.README.items import Items
-from bluer_objects.README.consts import designs_url
-
 from bluer_sbc.README.design import design
 from bluer_sbc.README.designs.cheshmak import items as cheshmak_items
 from bluer_sbc.README.designs.battery_bus import items as battery_bus_items
