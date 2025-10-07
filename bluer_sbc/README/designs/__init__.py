@@ -1,3 +1,7 @@
+from bluer_objects import markdown
+from bluer_objects.README.items import Items
+from bluer_objects.README.consts import designs_url
+
 from bluer_sbc.README.design import design
 from bluer_sbc.README.designs.cheshmak import items as cheshmak_items
 from bluer_sbc.README.designs.battery_bus import items as battery_bus_items
@@ -26,6 +30,24 @@ docs = [
         "battery-bus": design(
             battery_bus_items,
             battery_bus_parts,
+            {
+                "design_images": markdown.generate_table(
+                    Items(
+                        [
+                            {
+                                "name": "wiring diagram",
+                                "url": designs_url(
+                                    "battery-bus/electrical/wiring.svg",
+                                ),
+                                "marquee": designs_url(
+                                    "battery-bus/electrical/wiring.svg"
+                                ),
+                            },
+                        ]
+                    ),
+                    log=False,
+                ),
+            },
         ),
         "bryce": design(
             bryce_items,

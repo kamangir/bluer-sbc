@@ -8,6 +8,7 @@ from bluer_sbc.parts.db import db_of_parts
 def design(
     items: List[str],
     dict_of_parts: Dict = {},
+    macros: Dict = {},
 ) -> Dict:
     output = {
         "items": items,
@@ -21,6 +22,7 @@ def design(
                     reference="./parts",
                 ),
                 cols=10,
+                log=False,
             ),
             "parts_list:::": db_of_parts.as_list(
                 dict_of_parts,
@@ -28,5 +30,7 @@ def design(
                 log=False,
             ),
         }
+
+        output["macros"].update(macros)
 
     return output

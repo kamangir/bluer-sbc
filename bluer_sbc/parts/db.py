@@ -355,7 +355,7 @@ db_of_parts["TV-bracket"] = Part(
 
 db_of_parts["on-off-switch"] = Part(
     info=[
-        "on/off switch",
+        "on/off switch, 12V DC 10 A, with indicator led",
     ],
     images=[
         "on-off-switch.png",
@@ -380,6 +380,7 @@ db_of_parts["dsn-vc288"] = Part(
     images=[
         "dsn-vc288.jpg",
         "dsn-vc288-connection.jpg",
+        "dsn-vc288-measurements.jpeg",
     ],
 )
 

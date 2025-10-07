@@ -32,7 +32,7 @@
 - [front connector](./front-connector.md).
 - [front wheels](./front-wheels.md).
 - [gearboxed DC motor, 6V DC](./yellow-gearbox-dc-motor.md).
-- [on/off switch](./on-off-switch.md).
+- [on/off switch, 12V DC 10 A, with indicator led](./on-off-switch.md).
 - [power station.](./power-station.md).
 - [power wheel wheels](./wheel.md).
 - [push button](./pushbutton.md).

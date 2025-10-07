@@ -14,4 +14,5 @@ items = markdown.generate_table(
             },
         ]
     ),
+    log=False,
 )

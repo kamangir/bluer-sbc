@@ -4,6 +4,10 @@ title:::
 
 items:::
 
+## design
+
+design_images:::
+
 ## parts
 
 parts_images:::
