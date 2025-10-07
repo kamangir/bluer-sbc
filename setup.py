@@ -18,6 +18,8 @@ setup(
         f"{NAME}.imager",
         f"{NAME}.imager.camera",
         f"{NAME}.imager.lepton",
+        f"{NAME}.parts",
+        f"{NAME}.parts.classes",
         f"{NAME}.README",
         f"{NAME}.README.designs",
         f"{NAME}.ROS",

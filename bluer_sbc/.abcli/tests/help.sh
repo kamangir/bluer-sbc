@@ -25,6 +25,9 @@ function test_bluer_sbc_help() {
         "@sbc lepton capture" \
         "@sbc lepton preview" \
         \
+        "@sbc parts" \
+        "@sbc parts adjust" \
+        \
         "@sbc pypi" \
         "@sbc pypi browse" \
         "@sbc pypi build" \
