@@ -5,7 +5,7 @@ from bluer_objects import file, README
 
 from bluer_sbc import NAME, VERSION, ICON, REPO_NAME
 from bluer_sbc.help.functions import help_functions
-from bluer_sbc.README import aliases, designs, root
+from bluer_sbc.README import aliases, designs, parts, root
 
 
 def build():
@@ -24,5 +24,5 @@ def build():
                 mono=True,
             ),
         )
-        for readme in root.docs + designs.docs + aliases.docs
+        for readme in root.docs + parts.docs + designs.docs + aliases.docs
     )

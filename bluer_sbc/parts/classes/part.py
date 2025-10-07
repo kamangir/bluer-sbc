@@ -36,28 +36,24 @@ class Part:
         self,
         create: bool = False,
     ) -> str:
-        filename = f"../docs/parts/{self.name}.md"
-
-        if not create:
-            return filename
-
         reference = file.path(__file__)
-        full_filename = file.absolute(
-            file.add_suffix(filename, "template"),
+        filename = file.absolute(
+            f"../../docs/parts/{self.name}.md",
             reference,
         )
 
-        if file.exists(full_filename):
+        if not create or file.exists(filename):
             return filename
 
-        assert file.copy(
-            file.absolute(
-                "../docs/parts/template-template.md",
-                reference,
-            ),
-            full_filename,
-            log=True,
+        template_filename = file.absolute(
+            "../../docs/parts/template-template.md",
+            reference,
         )
+        assert file.copy(
+            template_filename,
+            file.add_suffix(filename, "template"),
+            log=True,
+        ), template_filename
 
         return filename
 

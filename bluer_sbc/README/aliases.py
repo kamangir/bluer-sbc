@@ -6,5 +6,6 @@ docs = [
         "camera",
         "hardware",
         "rpi",
+        "sbc",
     ]
 ]
