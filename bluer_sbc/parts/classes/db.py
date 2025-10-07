@@ -11,7 +11,9 @@ from bluer_options.logger import log_list
 from bluer_objects import file
 from bluer_objects import README
 from bluer_objects.README.consts import assets_path, assets_url
+from bluer_objects.logger.image import log_image_grid
 
+from bluer_sbc.host import signature
 from bluer_sbc import NAME
 from bluer_sbc.parts.classes.part import Part
 from bluer_sbc.logger import logger
@@ -86,6 +88,27 @@ class PartDB:
             [],
         )
         log_list(logger, "adjusting", list_of_filenames, "images")
+
+        if not log_image_grid(
+            items=[
+                {
+                    "filename": os.path.join(self.path, part.images[0]),
+                    "title": part_name,
+                }
+                for part_name, part in self._db.items()
+                if part_name != "template" and part.images
+            ],
+            filename=assets_path(
+                suffix="bluer-sbc/parts/grid.png",
+                volume=2,
+            ),
+            scale=3,
+            header=[
+                "{} part(s)".format(len(self._db) - 1),
+            ],
+            footer=signature(),
+        ):
+            return False
 
         max_width = 0
         max_height = 0
