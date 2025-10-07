@@ -19,7 +19,8 @@ def design(
                 db_of_parts.as_images(
                     dict_of_parts,
                     reference="../../../parts",
-                )
+                ),
+                cols=10,
             ),
             "parts_list:::": db_of_parts.as_list(
                 dict_of_parts,
