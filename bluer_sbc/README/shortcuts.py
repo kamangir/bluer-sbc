@@ -9,7 +9,7 @@ items = markdown.generate_table(
         [
             {
                 "name": "parts",
-                "url": "./docs/parts.md",
+                "url": "./bluer_sbc/docs/parts.md",
                 "marquee": f"{db_of_parts.url_prefix}/XL4015.png",
             },
         ]
