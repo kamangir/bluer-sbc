@@ -39,7 +39,7 @@ docs = [
         "swallow-head": {
             "items": swallow_head_items,
             "macros": {
-                "parts_image:::": db_of_parts.as_images(
+                "parts_images:::": db_of_parts.as_images(
                     swallow_head_parts,
                     reference="../../../parts",
                 ),
@@ -53,7 +53,7 @@ docs = [
         "swallow": {
             "items": swallow_items,
             "macros": {
-                "parts_image:::": db_of_parts.as_images(
+                "parts_images:::": db_of_parts.as_images(
                     swallow_parts,
                     reference="../../../parts",
                 ),

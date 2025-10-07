@@ -8,7 +8,7 @@ items:::
 
 ## parts
 
-[swallow](./swallow.md) + ⬇️
+[swallow-head](./swallow-head.md) + ⬇️
 
 parts_images:::
 
