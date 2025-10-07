@@ -11,4 +11,8 @@ options, Iranian brand: G+:
 | 60 inch | 75 x 130 cm | 10-15 cm | 16 kg | 100-200 w | 0.4-0.9 A | 35 mT |
 
 
-info:::
+- 40 inch TV
+
+|   |
+| --- |
+| ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/40-inch-TV.jpg?raw=true) |

@@ -1,3 +1,7 @@
 # parts: SLA-Battery
 
-info:::
+- Rechargeable sealed lead acid battery, 12 V, 7 Ah
+
+|   |
+| --- |
+| ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/battery.png?raw=true) |

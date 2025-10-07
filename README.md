@@ -28,7 +28,9 @@ pip install bluer_sbc
 
 ## shortcuts
 
-shortcuts:::
+|   |
+| --- |
+| [`parts`](./bluer_ugv/docs/swallow/digital/design/parts.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/XL4015.png)](./bluer_ugv/docs/swallow/digital/design/parts.md)  |
 
 ---
 
@@ -39,5 +41,5 @@ shortcuts:::
 
 [![pylint](https://github.com/kamangir/bluer-sbc/actions/workflows/pylint.yml/badge.svg)](https://github.com/kamangir/bluer-sbc/actions/workflows/pylint.yml) [![pytest](https://github.com/kamangir/bluer-sbc/actions/workflows/pytest.yml/badge.svg)](https://github.com/kamangir/bluer-sbc/actions/workflows/pytest.yml) [![bashtest](https://github.com/kamangir/bluer-sbc/actions/workflows/bashtest.yml/badge.svg)](https://github.com/kamangir/bluer-sbc/actions/workflows/bashtest.yml) [![PyPI version](https://img.shields.io/pypi/v/bluer-sbc.svg)](https://pypi.org/project/bluer-sbc/) [![PyPI - Downloads](https://img.shields.io/pypi/dd/bluer-sbc)](https://pypistats.org/packages/bluer-sbc)
 
-built by 🌀 [`bluer README`](https://github.com/kamangir/bluer-objects/tree/main/bluer_objects/README), based on 🌀 [`bluer_sbc-9.15.1`](https://github.com/kamangir/bluer-sbc).
+built by 🌀 [`bluer README`](https://github.com/kamangir/bluer-objects/tree/main/bluer_objects/README), based on 🌀 [`bluer_sbc-9.16.1`](https://github.com/kamangir/bluer-sbc).
 
