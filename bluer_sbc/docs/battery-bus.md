@@ -2,9 +2,9 @@
 
 > a non-regulated ~12 VDC, ~3 A, DC bus.
 
-|   |
-| --- |
-| [![image](https://github.com/kamangir/assets2/raw/main/battery-bus/concept.png?raw=true)](https://github.com/kamangir/assets2/raw/main/battery-bus/concept.png?raw=true) |
+|   |   |
+| --- | --- |
+| [![image](https://github.com/kamangir/assets2/raw/main/battery-bus/concept.png?raw=true)](https://github.com/kamangir/assets2/raw/main/battery-bus/concept.png?raw=true) | [![image](https://github.com/kamangir/bluer-designs//blob/main/battery-bus/electrical/wiring.png?raw=true)](https://github.com/kamangir/bluer-designs//blob/main/battery-bus/electrical/wiring.svg) |
 
 ## design
 

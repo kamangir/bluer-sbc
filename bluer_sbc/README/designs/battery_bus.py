@@ -1,6 +1,7 @@
 from bluer_objects import README
 from bluer_objects.README.items import ImageItems
 from bluer_objects.README.consts import assets_url
+from bluer_objects.README.consts import designs_url
 
 from bluer_sbc.README.designs.consts import assets2
 
@@ -22,5 +23,10 @@ marquee = README.Items(
 items = ImageItems(
     {
         f"{assets2_battery_bus}/concept.png": "",
+        designs_url(
+            "battery-bus/electrical/wiring.png?raw=true",
+        ): designs_url(
+            "battery-bus/electrical/wiring.svg",
+        ),
     }
 )
