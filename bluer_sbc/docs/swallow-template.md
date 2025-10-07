@@ -5,3 +5,11 @@ title:::
 - [dev notes](https://github.com/kamangir/bluer-ugv/blob/main/bluer_ugv/docs/swallow/digital/design/shield.md)
 
 items:::
+
+## parts
+
+[swallow](./swallow.md) + ⬇️
+
+parts_images:::
+
+parts_list:::
