@@ -27,6 +27,7 @@ function test_bluer_sbc_help() {
         \
         "@sbc parts" \
         "@sbc parts adjust" \
+        "@sbc parts cd" \
         \
         "@sbc pypi" \
         "@sbc pypi browse" \

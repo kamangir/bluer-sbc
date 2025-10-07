@@ -353,6 +353,24 @@ db_of_parts["TV-bracket"] = Part(
     ],
 )
 
+db_of_parts["on-off-switch"] = Part(
+    info=[
+        "on/off switch",
+    ],
+    images=[
+        "on-off-switch.png",
+    ],
+)
+
+db_of_parts["charging-port"] = Part(
+    info=[
+        "charging port",
+    ],
+    images=[
+        "charging-port.jpg",
+    ],
+)
+
 db_of_parts["template"] = Part(
     info=[
         "template",

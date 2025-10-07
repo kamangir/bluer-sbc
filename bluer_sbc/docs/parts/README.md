@@ -26,10 +26,12 @@
 - [auto power connectors](./connector.md).
 - [brushless drive, 36 - 48 V DC, 350 W, sine wave, silent](./brushless-350w-drive.md).
 - [capacitor, 470 μF to 1000 μF, 16 V or 25 V, Electrolytic, 105 °C rated if possible.](./470-mF.md).
+- [charging port](./charging-port.md).
 - [double-sided PCB, 9 cm x 7 cm](./PCB-double-9x7.md).
 - [front connector](./front-connector.md).
 - [front wheels](./front-wheels.md).
 - [gearboxed DC motor, 6V DC](./yellow-gearbox-dc-motor.md).
+- [on/off switch](./on-off-switch.md).
 - [power station.](./power-station.md).
 - [power wheel wheels](./wheel.md).
 - [push button](./pushbutton.md).
