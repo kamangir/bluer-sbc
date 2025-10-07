@@ -28,9 +28,9 @@ items = ImageItems(
         ): designs_url(
             "battery-bus/electrical/wiring.svg",
         ),
+        f"{assets2_battery_bus}/20251007_221902.jpg": "",
         f"{assets2_battery_bus}/20251007_220642.jpg": "",
         f"{assets2_battery_bus}/20251007_220520.jpg": "",
         f"{assets2_battery_bus}/20251007_220601.jpg": "",
-        f"{assets2_battery_bus}/20251007_221902.jpg": "",
     }
 )
