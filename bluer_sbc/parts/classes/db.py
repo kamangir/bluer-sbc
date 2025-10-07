@@ -10,8 +10,7 @@ from blueness import module
 from bluer_options.logger import log_list
 from bluer_objects import file
 from bluer_objects import README
-from bluer_objects.env import abcli_path_git
-from bluer_objects.README.consts import assets2
+from bluer_objects.README.consts import assets_path, assets_url
 
 from bluer_sbc import NAME
 from bluer_sbc.parts.classes.part import Part
@@ -24,11 +23,14 @@ class PartDB:
     def __init__(self):
         self._db: Dict[str, Part] = {}
 
-        self.url_prefix = f"{assets2}/bluer-ugv"
-
-        self.path = os.path.join(
-            abcli_path_git,
-            "assets2/bluer-ugv",
+        suffix = "bluer-sbc/parts"
+        self.url_prefix = assets_url(
+            suffix=suffix,
+            volume=2,
+        )
+        self.path = assets_path(
+            suffix=suffix,
+            volume=2,
         )
 
     def __iter__(self):

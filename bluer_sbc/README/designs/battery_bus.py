@@ -1,10 +1,10 @@
 from bluer_objects import README
 from bluer_objects.README.items import ImageItems
-from bluer_objects.README.consts import assets_path
+from bluer_objects.README.consts import assets_url
 
 from bluer_sbc.README.designs.consts import assets2
 
-assets2_battery_bus = assets_path(
+assets2_battery_bus = assets_url(
     suffix="battery-bus",
     volume=2,
 )
