@@ -10,6 +10,7 @@ from bluer_sbc.help.camera import help_functions as help_camera
 from bluer_sbc.help.grove import help_functions as help_grove
 from bluer_sbc.help.hat import help_functions as help_hat
 from bluer_sbc.help.lepton import help_functions as help_lepton
+from bluer_sbc.help.parts import help_functions as help_parts
 from bluer_sbc.help.rpi import help_functions as help_rpi
 from bluer_sbc.help.scroll_phat_hd import help_functions as help_scroll_phat_hd
 from bluer_sbc.help.sparkfun_top_phat import help_functions as help_sparkfun_top_phat
@@ -26,6 +27,7 @@ help_functions.update(
         "grove": help_grove,
         "hat": help_hat,
         "lepton": help_lepton,
+        "parts": help_parts,
         "rpi": help_rpi,
         "scroll_phat_hd": help_scroll_phat_hd,
         "sparkfun_top_phat": help_sparkfun_top_phat,

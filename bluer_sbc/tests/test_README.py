@@ -1,5 +1,5 @@
-from bluer_sbc import README
+from bluer_sbc.README.build import build
 
 
 def test_build_README():
-    assert README.build()
+    assert build()

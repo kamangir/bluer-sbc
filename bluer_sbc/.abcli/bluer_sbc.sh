@@ -9,3 +9,5 @@ function bluer_sbc() {
 }
 
 bluer_ai_log $(bluer_sbc version --show_icon 1)
+
+bluer_ai_source_caller_suffix_path /sbc

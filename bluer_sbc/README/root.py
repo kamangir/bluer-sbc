@@ -9,6 +9,7 @@ from bluer_sbc.README.designs.battery_bus import marquee as battery_bus_marquee
 from bluer_sbc.README.designs.ultrasonic_sensor_tester import (
     marquee as ultrasonic_sensor_tester_marquee,
 )
+from bluer_sbc.README.shortcuts import items as shortcuts_items
 
 docs = [
     {
@@ -22,5 +23,8 @@ docs = [
         + shelter_marquee
         + blue_bracket_items,
         "path": "../..",
+        "macros": {
+            "shortcuts:::": shortcuts_items,
+        },
     },
 ]

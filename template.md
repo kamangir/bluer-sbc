@@ -17,7 +17,13 @@ pip install bluer_sbc
 [@sbc rpi](./bluer_sbc/docs/aliases/sbc.md), 
 [@sbc <hardware>](./bluer_sbc/docs/aliases/hardware.md).
 
+## designs
+
 items:::
+
+## shortcuts
+
+shortcuts:::
 
 ---
 

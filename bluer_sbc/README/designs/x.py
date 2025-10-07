@@ -1,12 +1,9 @@
 from bluer_objects import README
 from bluer_objects.README.items import ImageItems
-from bluer_objects.README.consts import assets_path
+from bluer_objects.README.consts import assets_url
 
-from bluer_sbc.README.designs.consts import assets2
 
-image_template = assets2 + "x/{}?raw=true"
-
-assets2_x = assets_path(
+assets2_x = assets_url(
     suffix="x",
     volume=2,
 )
