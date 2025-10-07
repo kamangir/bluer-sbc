@@ -21,7 +21,6 @@ from bluer_sbc.designs.swallow_head.parts import dict_of_parts as swallow_head_p
 
 docs = [
     {
-        "cols": 4,
         "items": design_info["items"],
         "path": f"../docs/{design_name}.md",
         "macros": design_info.get("macros", {}),
