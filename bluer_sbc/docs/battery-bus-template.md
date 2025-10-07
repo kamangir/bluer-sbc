@@ -4,7 +4,7 @@ title:::
 
 items:::
 
-## designs
+## design
 
 design_images:::
 

@@ -40,7 +40,7 @@ docs = [
                                     "battery-bus/electrical/wiring.svg",
                                 ),
                                 "marquee": designs_url(
-                                    "battery-bus/electrical/wiring.png"
+                                    "battery-bus/electrical/wiring.png?raw=true"
                                 ),
                             },
                         ]
