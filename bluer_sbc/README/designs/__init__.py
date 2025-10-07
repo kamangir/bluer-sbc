@@ -1,3 +1,5 @@
+from bluer_objects import markdown
+
 from bluer_sbc.parts.db import db_of_parts
 from bluer_sbc.README.designs.cheshmak import items as cheshmak_items
 from bluer_sbc.README.designs.battery_bus import items as battery_bus_items
@@ -39,9 +41,11 @@ docs = [
         "swallow-head": {
             "items": swallow_head_items,
             "macros": {
-                "parts_images:::": db_of_parts.as_images(
-                    swallow_head_parts,
-                    reference="../../../parts",
+                "parts_images:::": markdown.generate_table(
+                    db_of_parts.as_images(
+                        swallow_head_parts,
+                        reference="../../../parts",
+                    )
                 ),
                 "parts_list:::": db_of_parts.as_list(
                     swallow_head_parts,
@@ -53,9 +57,11 @@ docs = [
         "swallow": {
             "items": swallow_items,
             "macros": {
-                "parts_images:::": db_of_parts.as_images(
-                    swallow_parts,
-                    reference="../../../parts",
+                "parts_images:::": markdown.generate_table(
+                    db_of_parts.as_images(
+                        swallow_parts,
+                        reference="../../../parts",
+                    )
                 ),
                 "parts_list:::": db_of_parts.as_list(
                     swallow_parts,
