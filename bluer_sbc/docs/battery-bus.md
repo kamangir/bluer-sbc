@@ -6,12 +6,6 @@
 | --- | --- |
 | [![image](https://github.com/kamangir/assets2/raw/main/battery-bus/concept.png?raw=true)](https://github.com/kamangir/assets2/raw/main/battery-bus/concept.png?raw=true) | [![image](https://github.com/kamangir/bluer-designs//blob/main/battery-bus/electrical/wiring.png?raw=true)](https://github.com/kamangir/bluer-designs//blob/main/battery-bus/electrical/wiring.svg) |
 
-## design
-
-|   |
-| --- |
-| [`wiring diagram`](https://github.com/kamangir/bluer-designs//blob/main/battery-bus/electrical/wiring.svg) [![image](https://github.com/kamangir/bluer-designs//blob/main/battery-bus/electrical/wiring.png?raw=true)](https://github.com/kamangir/bluer-designs//blob/main/battery-bus/electrical/wiring.svg)  |
-
 ## parts
 
 |   |   |   |   |

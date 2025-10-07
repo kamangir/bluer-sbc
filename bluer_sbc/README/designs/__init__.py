@@ -30,24 +30,6 @@ docs = [
         "battery-bus": design(
             battery_bus_items,
             battery_bus_parts,
-            {
-                "design_images": markdown.generate_table(
-                    Items(
-                        [
-                            {
-                                "name": "wiring diagram",
-                                "url": designs_url(
-                                    "battery-bus/electrical/wiring.svg",
-                                ),
-                                "marquee": designs_url(
-                                    "battery-bus/electrical/wiring.png?raw=true"
-                                ),
-                            },
-                        ]
-                    ),
-                    log=False,
-                ),
-            },
         ),
         "bryce": design(
             bryce_items,
