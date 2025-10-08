@@ -384,6 +384,14 @@ db_of_parts["dsn-vc288"] = Part(
     ],
 )
 
+db_of_parts["nuts-bolts-spacers"] = Part(
+    info=[
+        "nuts, bolts, and spacers",
+    ],
+    images=[
+        "nuts-bolts-spacers.jpg",
+    ],
+)
 
 db_of_parts["template"] = Part(
     info=[
