@@ -4,7 +4,7 @@ function bluer_sbc_action_git_before_push() {
     bluer_sbc build_README
     [[ $? -ne 0 ]] && return 1
 
-    bluer_sbc parts adjust
+    bluer_sbc parts adjust ~grid
     [[ $? -ne 0 ]] && return 1
 
     [[ "$(bluer_ai_git get_branch)" != "main" ]] &&

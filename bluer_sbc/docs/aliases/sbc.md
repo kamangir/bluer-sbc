@@ -4,7 +4,7 @@
 @sbc \
 	parts \
 	adjust \
-	[dryrun] \
+	[dryrun,~grid] \
 	[--verbose 1]
  . adjust part images.
 @sbc \

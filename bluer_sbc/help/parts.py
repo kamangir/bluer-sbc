@@ -1,6 +1,6 @@
 from typing import List
 
-from bluer_options.terminal import show_usage
+from bluer_options.terminal import show_usage, xtra
 
 from bluer_sbc import ALIAS
 
@@ -24,7 +24,7 @@ def help_adjust(
     tokens: List[str],
     mono: bool,
 ) -> str:
-    options = "dryrun"
+    options = xtra("dryrun,~grid", mono=mono)
 
     args = [
         "[--verbose 1]",
