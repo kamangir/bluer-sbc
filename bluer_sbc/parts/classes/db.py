@@ -68,6 +68,7 @@ class PartDB:
 
     def adjust(
         self,
+        generate_grid: bool = True,
         dryrun: bool = True,
         verbose: bool = False,
     ) -> bool:
@@ -89,26 +90,27 @@ class PartDB:
         )
         log_list(logger, "adjusting", list_of_filenames, "images")
 
-        if not log_image_grid(
-            items=[
-                {
-                    "filename": os.path.join(self.path, part.images[0]),
-                    "title": part_name,
-                }
-                for part_name, part in self._db.items()
-                if part_name != "template" and part.images
-            ],
-            filename=assets_path(
-                suffix="bluer-sbc/parts/grid.png",
-                volume=2,
-            ),
-            scale=3,
-            header=[
-                "{} part(s)".format(len(self._db) - 1),
-            ],
-            footer=signature(),
-        ):
-            return False
+        if generate_grid:
+            if not log_image_grid(
+                items=[
+                    {
+                        "filename": os.path.join(self.path, part.images[0]),
+                        "title": part_name,
+                    }
+                    for part_name, part in self._db.items()
+                    if part_name != "template" and part.images
+                ],
+                filename=assets_path(
+                    suffix="bluer-sbc/parts/grid.png",
+                    volume=2,
+                ),
+                scale=3,
+                header=[
+                    "{} part(s)".format(len(self._db) - 1),
+                ],
+                footer=signature(),
+            ):
+                return False
 
         max_width = 0
         max_height = 0
@@ -220,10 +222,10 @@ class PartDB:
         return sorted(
             [
                 (
-                    "1. [{}{}]({}).".format(
+                    "1. [{}]({}){}.".format(
                         self._db[part_name].info[0],
-                        ": {}".format(description) if description else "",
                         f"{reference}/{part_name}.md",
+                        ": {}".format(description) if description else "",
                     )
                 )
                 for part_name, description in dict_of_parts.items()
