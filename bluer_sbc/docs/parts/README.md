@@ -1,6 +1,7 @@
 # parts
 
 - [12 VDC motor, 20-45 W](./dc-motor-12-VDC-45W.md).
+- [16 AWG wire](./16-awg-wire.md).
 - [1N4148 diode](./1N4148.md).
 - [2 x AA battery holder](./2xAA-battery-holder.md).
 - [36V DC hub motor, 350 W, front, no gearbox](./36v-hub-motor.md).
@@ -29,15 +30,19 @@
 - [capacitor, 470 μF to 1000 μF, 16 V or 25 V, Electrolytic, 105 °C rated if possible.](./470-mF.md).
 - [charging port](./charging-port.md).
 - [double-sided PCB, 9 cm x 7 cm](./PCB-double-9x7.md).
+- [dupont cables, female to female](./dupont-cables.md).
 - [front connector](./front-connector.md).
 - [front wheels](./front-wheels.md).
 - [gearboxed DC motor, 6V DC](./yellow-gearbox-dc-motor.md).
 - [nuts, bolts, and spacers](./nuts-bolts-spacers.md).
 - [on/off switch, 12V DC 10 A, with indicator led](./on-off-switch.md).
+- [plexiglass, 2 mm or 2.5 mm thickness](./plexiglass.md).
 - [power station.](./power-station.md).
 - [power wheel wheels](./wheel.md).
 - [push button](./pushbutton.md).
 - [shaft, 10 cm](./shaft-10cm.md).
 - [single-sided PCB, 14 cm x 9.5 cm](./PCB-single-14x9_5.md).
+- [solid cable 1-1.5 mm^2](./solid-cable-1-15.md).
 - [template](./template.md).
 - [wheels for gearboxed DC motor](./yellow-wheels.md).
+- [white terminal](./white-terminal.md).

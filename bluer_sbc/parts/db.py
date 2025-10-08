@@ -393,6 +393,51 @@ db_of_parts["nuts-bolts-spacers"] = Part(
     ],
 )
 
+db_of_parts["plexiglass"] = Part(
+    info=[
+        "plexiglass, 2 mm or 2.5 mm thickness",
+    ],
+    images=[
+        "plexiglass.jpg",
+    ],
+)
+
+db_of_parts["white-terminal"] = Part(
+    info=[
+        "white terminal",
+    ],
+    images=[
+        "white-terminal.jpg",
+    ],
+)
+
+db_of_parts["dupont-cables"] = Part(
+    info=[
+        "dupont cables, female to female",
+    ],
+    images=[
+        "dupont-cables.jpg",
+    ],
+)
+
+db_of_parts["16-awg-wire"] = Part(
+    info=[
+        "16 AWG wire",
+    ],
+    images=[
+        "16-awg-wire.jpeg",
+    ],
+)
+
+db_of_parts["solid-cable-1-15"] = Part(
+    info=[
+        "solid cable 1-1.5 mm^2",
+    ],
+    images=[
+        "solid-cable-1-15.jpg",
+    ],
+)
+
 db_of_parts["template"] = Part(
     info=[
         "template",
