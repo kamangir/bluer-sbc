@@ -36,6 +36,7 @@
 1. [gearboxed DC motor, 6V DC](./yellow-gearbox-dc-motor.md).
 1. [nuts, bolts, and spacers](./nuts-bolts-spacers.md).
 1. [on/off switch, 12V DC 10 A, with indicator led](./on-off-switch.md).
+1. [pin headers](./pin-headers.md).
 1. [plexiglass, 2 mm or 2.5 mm thickness](./plexiglass.md).
 1. [power station.](./power-station.md).
 1. [power wheel wheels](./wheel.md).
