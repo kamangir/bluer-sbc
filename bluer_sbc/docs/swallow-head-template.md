@@ -1,6 +1,6 @@
 title:::
 
-- head of [swallow](./swallow.md)
+- head of [swallow](./swallow.md), without the DC motor drivers.
 
 items:::
 
