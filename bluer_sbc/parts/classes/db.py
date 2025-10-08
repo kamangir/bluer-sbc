@@ -222,10 +222,10 @@ class PartDB:
         return sorted(
             [
                 (
-                    "1. [{}{}]({}).".format(
+                    "1. [{}]({}){}.".format(
                         self._db[part_name].info[0],
-                        ": {}".format(description) if description else "",
                         f"{reference}/{part_name}.md",
+                        ": {}".format(description) if description else "",
                     )
                 )
                 for part_name, description in dict_of_parts.items()
