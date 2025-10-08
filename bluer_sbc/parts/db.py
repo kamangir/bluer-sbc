@@ -438,6 +438,15 @@ db_of_parts["solid-cable-1-15"] = Part(
     ],
 )
 
+db_of_parts["strong-thread"] = Part(
+    info=[
+        "strong thread",
+    ],
+    images=[
+        "strong-thread.jpg",
+    ],
+)
+
 db_of_parts["template"] = Part(
     info=[
         "template",

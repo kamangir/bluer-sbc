@@ -24,4 +24,5 @@ dict_of_parts = {
     "dupont-cables": "1 x 30 cm + 1 x 10 cm",
     "16-awg-wire": "40 cm x (red + black/blue)",
     "solid-cable-1-15": "10 cm x (red + black/blue)",
+    "strong-thread": "1 m",
 }
