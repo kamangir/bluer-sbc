@@ -14,10 +14,11 @@
 
 [swallow-head](./swallow-head.md) + ⬇️
 
-|   |   |   |
-| --- | --- | --- |
-| [`43 A, H-Bridge Motor Driver`](./parts/BTS7960.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/bts7960.jpg?raw=true)](./parts/BTS7960.md) 2 x | [`auto power connectors`](./parts/connector.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/connector.jpg?raw=true)](./parts/connector.md) 2 females | [`white terminal`](./parts/white-terminal.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/white-terminal.jpg?raw=true)](./parts/white-terminal.md) 8 x |
+|   |   |   |   |
+| --- | --- | --- | --- |
+| [`43 A, H-Bridge Motor Driver`](./parts/BTS7960.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/bts7960.jpg?raw=true)](./parts/BTS7960.md) 2 x | [`auto power connectors`](./parts/connector.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/connector.jpg?raw=true)](./parts/connector.md) 2 females | [`nuts, bolts, and spacers`](./parts/nuts-bolts-spacers.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/nuts-bolts-spacers.jpg?raw=true)](./parts/nuts-bolts-spacers.md) 🚧 | [`white terminal`](./parts/white-terminal.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/white-terminal.jpg?raw=true)](./parts/white-terminal.md) 8 x |
 
 1. [43 A, H-Bridge Motor Driver](./parts/BTS7960.md): 2 x.
 1. [auto power connectors](./parts/connector.md): 2 females.
+1. [nuts, bolts, and spacers](./parts/nuts-bolts-spacers.md): 🚧.
 1. [white terminal](./parts/white-terminal.md): 8 x.
