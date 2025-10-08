@@ -58,7 +58,7 @@ class PartDB:
     def README(self) -> List[str]:
         return sorted(
             [
-                "- [{}](./{}.md).".format(
+                "1. [{}](./{}.md).".format(
                     part.info[0],
                     part.name,
                 )
