@@ -13,9 +13,10 @@ from bluer_sbc.README.shortcuts import items as shortcuts_items
 
 docs = [
     {
-        "items": battery_bus_marquee
-        + swallow_marquee
+        "items": []
         + swallow_head_marquee
+        + swallow_marquee
+        + battery_bus_marquee
         + ultrasonic_sensor_tester_marquee
         + bryce_marquee
         + cheshmak_marquee

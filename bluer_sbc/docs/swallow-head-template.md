@@ -1,6 +1,7 @@
 title:::
 
-- head of [swallow](./swallow.md)
+- head of [swallow computer](./swallow.md), without the DC motor drivers.
+- used for [swallow design](https://github.com/kamangir/bluer-ugv/tree/main/bluer_ugv/docs/swallow) backs and [rangin](https://github.com/kamangir/bluer-ugv/tree/main/bluer_ugv/docs/rangin) tops.
 
 items:::
 
