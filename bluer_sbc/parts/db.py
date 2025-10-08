@@ -429,6 +429,15 @@ db_of_parts["16-awg-wire"] = Part(
     ],
 )
 
+db_of_parts["solid-cable-1-15"] = Part(
+    info=[
+        "solid cable 1-1.5 mm^2",
+    ],
+    images=[
+        "solid-cable-1-15.jpg",
+    ],
+)
+
 db_of_parts["template"] = Part(
     info=[
         "template",

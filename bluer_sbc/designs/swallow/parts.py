@@ -3,4 +3,5 @@ dict_of_parts = {
     "connector": "2 females",
     "white-terminal": "8 x",
     "nuts-bolts-spacers": "🚧",
+    "solid-cable-1-15": "20 cm x (red + black/blue)",
 }

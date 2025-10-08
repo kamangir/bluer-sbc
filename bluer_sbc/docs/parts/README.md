@@ -42,6 +42,7 @@
 - [push button](./pushbutton.md).
 - [shaft, 10 cm](./shaft-10cm.md).
 - [single-sided PCB, 14 cm x 9.5 cm](./PCB-single-14x9_5.md).
+- [solid cable 1-1.5 mm^2](./solid-cable-1-15.md).
 - [template](./template.md).
 - [wheels for gearboxed DC motor](./yellow-wheels.md).
 - [white terminal](./white-terminal.md).
