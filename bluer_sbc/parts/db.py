@@ -447,6 +447,15 @@ db_of_parts["strong-thread"] = Part(
     ],
 )
 
+db_of_parts["pin-headers"] = Part(
+    info=[
+        "pin headers",
+    ],
+    images=[
+        "pin-headers.jpg",
+    ],
+)
+
 db_of_parts["template"] = Part(
     info=[
         "template",
