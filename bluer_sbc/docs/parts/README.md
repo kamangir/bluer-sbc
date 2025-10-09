@@ -18,8 +18,8 @@
 1. [LED, ~2 V forward voltage, 10-20 mA](./LED.md).
 1. [M3 nuts and bolts](./M3.md).
 1. [Polyfuse, 1.1 A hold, 2.2 A trip, 16 V, resettable, through-hole, e.g., MF-R110](./Polyfuse.md).
-1. [Raspberry Pi 3B+](./rpi3bp.md).
 1. [Raspberry Pi Camera, V1.3https://www.raspberrypi.com/documentation/accessories/camera.html](./rpi-camera.md).
+1. [Raspberry Pi.](./rpi.md).
 1. [Rechargeable sealed lead acid battery, 12 V, 7 Ah](./SLA-Battery.md).
 1. [Resistor, 1/4 watt, 5% tolerance](./resistor.md).
 1. [TV bracket](./TV-bracket.md).
