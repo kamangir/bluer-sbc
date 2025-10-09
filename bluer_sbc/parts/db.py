@@ -67,9 +67,10 @@ db_of_parts["Polyfuse"] = Part(
     images=["polyfuse.png"],
 )
 
-db_of_parts["rpi3bp"] = Part(
+db_of_parts["rpi"] = Part(
     info=[
-        "Raspberry Pi 3B+",
+        "Raspberry Pi.",
+        "3B+ is preferred and 4B is in progress 🔥",
     ],
     images=[
         "rpi3bplus.png",

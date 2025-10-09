@@ -1,5 +1,5 @@
 dict_of_parts = {
-    "rpi3bp": "",
+    "rpi": "",
     "XL4015": "",
     "470-mF": "",
     "Polyfuse": "optional",
