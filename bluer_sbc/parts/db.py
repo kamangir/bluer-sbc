@@ -487,6 +487,19 @@ db_of_parts["arduino-nano"] = Part(
     ],
 )
 
+db_of_parts["tb6612"] = Part(
+    info=[
+        "TB6612, 2-channel DC motor driver.",
+        "current: average 1.2 A, peak 3.2 A",
+        "voltage: maximum supply 15 V DC",
+        "https://toshiba.semicon-storage.com/ap-en/semiconductor/product/motor-driver-ics/brushed-dc-motor-driver-ics/detail.TB6612FNG.html",
+        "https://daneshjookit.com/module/motor-drive/2783-%D9%85%D8%A7%DA%98%D9%88%D9%84-%D8%AF%D8%B1%D8%A7%DB%8C%D9%88%D8%B1-%D9%85%D9%88%D8%AA%D9%88%D8%B1-%D8%AF%D9%88-%DA%A9%D8%A7%D9%86%D8%A7%D9%84%D9%87-%D8%A8%D8%A7-%D8%AA%D8%B1%D8%A7%D8%B4%D9%87-tb6612fng.html",
+    ],
+    images=[
+        "tb6612.jpg",
+    ],
+)
+
 db_of_parts["template"] = Part(
     info=[
         "template",

@@ -25,6 +25,7 @@
 1. [Raspberry Pi.](./rpi.md).
 1. [Rechargeable sealed lead acid battery, 12 V, 7 Ah](./SLA-Battery.md).
 1. [Resistor, 1/4 watt, 5% tolerance](./resistor.md).
+1. [TB6612, 2-channel DC motor driver.](./tb6612.md).
 1. [TV bracket](./TV-bracket.md).
 1. [TVS diode, unidirectional, 600 W, 6.8 V clamp, e.g. P6KE6.8A, DO-15 package](./TVS-diode.md).
 1. [XL4015: 12 VDC -> 5 VDC, 4A](./XL4015.md).
