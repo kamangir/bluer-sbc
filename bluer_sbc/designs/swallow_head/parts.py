@@ -14,9 +14,36 @@ dict_of_parts = {
     "connector": "1 female",
     "nuts-bolts-spacers": " + ".join(
         [
-            "M2: (2 x bolt + 2 x 5 mm + 4 x nut)",
-            "M2.5: (4 x bolt + 8 x 10 mm + 4 x nut)",
-            "M3: (1 x bolt + 3 x 35 mm + 3 x 25 mm + 7 x 15 mm + 4 x 5 mm + 5 x nut)",
+            "M2: ({})".format(
+                " + ".join(
+                    [
+                        "2 x bolt",
+                        "2 x 5 mm spacer",
+                        "4 x nut",
+                    ]
+                )
+            ),
+            "M2.5: ({})".format(
+                " + ".join(
+                    [
+                        "4 x bolt",
+                        "8 x 10 mm spacer",
+                        "4 x nut",
+                    ]
+                )
+            ),
+            "M3: ({})".format(
+                " + ".join(
+                    [
+                        "1 x bolt",
+                        "3 x 35 mm spacer",
+                        "3 x 25 mm spacer",
+                        "7 x 15 mm spacer",
+                        "4 x 5 mm spacer",
+                        "5 x nut",
+                    ]
+                )
+            ),
         ]
     ),
     "plexiglass": "14 cm x 9.5 cm",
