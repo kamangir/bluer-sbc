@@ -478,6 +478,15 @@ db_of_parts["mt-3608"] = Part(
 )
 
 
+db_of_parts["arduino-nano"] = Part(
+    info=[
+        "Arduino Nano",
+    ],
+    images=[
+        "arduino-nano.png",
+    ],
+)
+
 db_of_parts["template"] = Part(
     info=[
         "template",

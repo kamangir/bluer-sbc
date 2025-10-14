@@ -11,6 +11,7 @@
 1. [43 A, H-Bridge Motor Driver](./BTS7960.md).
 1. [6V DC (4 cell) NICD battery](./LJ-6V-battery.md).
 1. [6V DC charger for NICD batteries](./USB-charger-NICD-6V.md).
+1. [Arduino Nano](./arduino-nano.md).
 1. [DSN-VC288, panel mount, 4-30 VDC, 10A, voltmeter ammeter](./dsn-vc288.md).
 1. [Gearboxed DC Motor, 12 V (3-24 V), 3A, 120 RPM, 1:91, 15 Kg cm](./DC-gearboxed-motor-12V-120RPM.md).
 1. [HC-SR04: ultrasonic-sensor](./ultrasonic-sensor.md).
