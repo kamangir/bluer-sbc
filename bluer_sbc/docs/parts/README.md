@@ -11,12 +11,15 @@
 1. [43 A, H-Bridge Motor Driver](./BTS7960.md).
 1. [6V DC (4 cell) NICD battery](./LJ-6V-battery.md).
 1. [6V DC charger for NICD batteries](./USB-charger-NICD-6V.md).
+1. [Arduino Nano](./arduino-nano.md).
 1. [DSN-VC288, panel mount, 4-30 VDC, 10A, voltmeter ammeter](./dsn-vc288.md).
 1. [Gearboxed DC Motor, 12 V (3-24 V), 3A, 120 RPM, 1:91, 15 Kg cm](./DC-gearboxed-motor-12V-120RPM.md).
 1. [HC-SR04: ultrasonic-sensor](./ultrasonic-sensor.md).
 1. [L 1x2](./L-1x2.md).
 1. [LED, ~2 V forward voltage, 10-20 mA](./LED.md).
 1. [M3 nuts and bolts](./M3.md).
+1. [MT-3608, step up module.](./mt-3608.md).
+1. [Ni-MH AA, 2400 mAh, 1.2 VDC](./ni-mh-battery.md).
 1. [Polyfuse, 1.1 A hold, 2.2 A trip, 16 V, resettable, through-hole, e.g., MF-R110](./Polyfuse.md).
 1. [Raspberry Pi Camera, V1.3https://www.raspberrypi.com/documentation/accessories/camera.html](./rpi-camera.md).
 1. [Raspberry Pi.](./rpi.md).
