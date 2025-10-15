@@ -75,6 +75,7 @@ db_of_parts["rpi"] = Part(
     images=[
         "rpi3bplus.png",
         "gpio-pinout.png",
+        "rpi-measurements.png",
     ],
 )
 
