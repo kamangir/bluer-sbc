@@ -2,6 +2,9 @@ from bluer_objects import README
 from bluer_objects.README.items import ImageItems
 from bluer_objects.README.consts import assets_url
 
+from bluer_sbc.designs.adapter_bus.parts import dict_of_parts as parts
+
+
 assets2 = assets_url(
     suffix="adapter-bus",
     volume=2,
