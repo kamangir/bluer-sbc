@@ -501,6 +501,42 @@ db_of_parts["tb6612"] = Part(
     ],
 )
 
+db_of_parts["small-on-off-switch"] = Part(
+    info=[
+        "small on/off switch",
+    ],
+    images=[
+        "small-on-off-switch.jpg",
+    ],
+)
+
+db_of_parts["double-sided-tape"] = Part(
+    info=[
+        "double-sided tape.",
+    ],
+    images=[
+        "double-sided-tape.jpg",
+    ],
+)
+
+db_of_parts["electrical-tape"] = Part(
+    info=[
+        "electrical tape",
+    ],
+    images=[
+        "electrical-tape.jpg",
+    ],
+)
+
+db_of_parts["micro-usb-cable"] = Part(
+    info=[
+        "Micro USB cable",
+    ],
+    images=[
+        "micro-usb-cable.jpg",
+    ],
+)
+
 db_of_parts["template"] = Part(
     info=[
         "template",

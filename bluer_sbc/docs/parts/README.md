@@ -19,6 +19,7 @@
 1. [LED, ~2 V forward voltage, 10-20 mA](./LED.md).
 1. [M3 nuts and bolts](./M3.md).
 1. [MT-3608, step up module.](./mt-3608.md).
+1. [Micro USB cable](./micro-usb-cable.md).
 1. [Ni-MH AA, 2400 mAh, 1.2 VDC](./ni-mh-battery.md).
 1. [Polyfuse, 1.1 A hold, 2.2 A trip, 16 V, resettable, through-hole, e.g., MF-R110](./Polyfuse.md).
 1. [Raspberry Pi Camera, V1.3https://www.raspberrypi.com/documentation/accessories/camera.html](./rpi-camera.md).
@@ -34,7 +35,9 @@
 1. [capacitor, 470 μF to 1000 μF, 16 V or 25 V, Electrolytic, 105 °C rated if possible.](./470-mF.md).
 1. [charging port](./charging-port.md).
 1. [double-sided PCB, 9 cm x 7 cm](./PCB-double-9x7.md).
+1. [double-sided tape.](./double-sided-tape.md).
 1. [dupont cables, female to female](./dupont-cables.md).
+1. [electrical tape](./electrical-tape.md).
 1. [front connector](./front-connector.md).
 1. [front wheels](./front-wheels.md).
 1. [gearboxed DC motor, 6V DC](./yellow-gearbox-dc-motor.md).
@@ -47,6 +50,7 @@
 1. [push button](./pushbutton.md).
 1. [shaft, 10 cm](./shaft-10cm.md).
 1. [single-sided PCB, 14 cm x 9.5 cm](./PCB-single-14x9_5.md).
+1. [small on/off switch](./small-on-off-switch.md).
 1. [solid cable 1-1.5 mm^2](./solid-cable-1-15.md).
 1. [strong thread](./strong-thread.md).
 1. [template](./template.md).
