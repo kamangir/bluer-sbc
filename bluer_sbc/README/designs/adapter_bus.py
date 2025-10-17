@@ -14,7 +14,7 @@ marquee = README.Items(
     [
         {
             "name": "adapter bus",
-            "marquee": f"{assets2}/TBA.jpg",
+            "marquee": f"{assets2}/20251017_222911.jpg",
             "url": "./bluer_sbc/docs/adapter-bus.md",
         }
     ]
@@ -27,6 +27,12 @@ items = ImageItems(
         ): designs_url(
             "adapter-bus/wiring.svg",
         ),
-        # f"{assets2}/TBA.jpg": "",
+        f"{assets2}/20251017_222911.jpg": "",
+        f"{assets2}/20251017_222929.jpg": "",
+        f"{assets2}/20251017_222938.jpg": "",
+        f"{assets2}/20251017_222943.jpg": "",
+        f"{assets2}/20251017_222949.jpg": "",
+        f"{assets2}/20251017_223017.jpg": "",
+        f"{assets2}/20251017_223034.jpg": "",
     }
 )
