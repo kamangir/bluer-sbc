@@ -366,7 +366,7 @@ db_of_parts["on-off-switch"] = Part(
 
 db_of_parts["charging-port"] = Part(
     info=[
-        "charging port",
+        "charging port 5.5 mm",
     ],
     images=[
         "charging-port.jpg",
@@ -536,6 +536,16 @@ db_of_parts["micro-usb-cable"] = Part(
         "micro-usb-cable.jpg",
     ],
 )
+
+db_of_parts["charger-socket"] = Part(
+    info=[
+        "charger socket 5.5 mm",
+    ],
+    images=[
+        "charger-socket.jpg",
+    ],
+)
+
 
 db_of_parts["template"] = Part(
     info=[

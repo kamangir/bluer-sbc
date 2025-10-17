@@ -1,6 +1,6 @@
 # parts: charging-port
 
-- charging port
+- charging port 5.5 mm
 
 |   |
 | --- |

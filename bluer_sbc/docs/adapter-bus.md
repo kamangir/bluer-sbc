@@ -1,0 +1,19 @@
+# adapter-bus
+
+> a non-regulated, ~1 A, DC bus.
+
+|   |   |   |
+| --- | --- | --- |
+| [![image](https://github.com/kamangir/bluer-designs//blob/main/adapter-bus/wiring.png?raw=true)](https://github.com/kamangir/bluer-designs//blob/main/adapter-bus/wiring.svg) | [![image](https://github.com/kamangir/assets2/raw/main/adapter-bus/20251017_222911.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/adapter-bus/20251017_222911.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/raw/main/adapter-bus/20251017_222929.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/adapter-bus/20251017_222929.jpg?raw=true) |
+| [![image](https://github.com/kamangir/assets2/raw/main/adapter-bus/20251017_222938.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/adapter-bus/20251017_222938.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/raw/main/adapter-bus/20251017_222943.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/adapter-bus/20251017_222943.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/raw/main/adapter-bus/20251017_222949.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/adapter-bus/20251017_222949.jpg?raw=true) |
+| [![image](https://github.com/kamangir/assets2/raw/main/adapter-bus/20251017_223017.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/adapter-bus/20251017_223017.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/raw/main/adapter-bus/20251017_223034.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/adapter-bus/20251017_223034.jpg?raw=true) |  |
+
+## parts
+
+|   |   |   |
+| --- | --- | --- |
+| [`DSN-VC288, panel mount, 4-30 VDC, 10A, voltmeter ammeter`](./parts/dsn-vc288.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/dsn-vc288.jpg?raw=true)](./parts/dsn-vc288.md)  | [`charger socket 5.5 mm`](./parts/charger-socket.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/charger-socket.jpg?raw=true)](./parts/charger-socket.md)  | [`charging port 5.5 mm`](./parts/charging-port.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/charging-port.jpg?raw=true)](./parts/charging-port.md)  |
+
+1. [DSN-VC288, panel mount, 4-30 VDC, 10A, voltmeter ammeter](./parts/dsn-vc288.md).
+1. [charger socket 5.5 mm](./parts/charger-socket.md).
+1. [charging port 5.5 mm](./parts/charging-port.md).

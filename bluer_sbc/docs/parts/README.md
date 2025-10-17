@@ -33,7 +33,8 @@
 1. [auto power connectors](./connector.md).
 1. [brushless drive, 36 - 48 V DC, 350 W, sine wave, silent](./brushless-350w-drive.md).
 1. [capacitor, 470 μF to 1000 μF, 16 V or 25 V, Electrolytic, 105 °C rated if possible.](./470-mF.md).
-1. [charging port](./charging-port.md).
+1. [charger socket 5.5 mm](./charger-socket.md).
+1. [charging port 5.5 mm](./charging-port.md).
 1. [double-sided PCB, 9 cm x 7 cm](./PCB-double-9x7.md).
 1. [double-sided tape.](./double-sided-tape.md).
 1. [dupont cables, female to female](./dupont-cables.md).
