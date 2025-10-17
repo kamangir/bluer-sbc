@@ -2,6 +2,9 @@
 
 > a non-regulated, ~1 A, DC bus.
 
+|   |
+| --- |
+| [![image](https://github.com/kamangir/bluer-designs//blob/main/adapter-bus/wiring.png?raw=true)](https://github.com/kamangir/bluer-designs//blob/main/adapter-bus/wiring.svg) |
 
 ## parts
 
