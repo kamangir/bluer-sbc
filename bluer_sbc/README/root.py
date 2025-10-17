@@ -5,6 +5,7 @@ from bluer_sbc.README.designs.swallow_head import marquee as swallow_head_marque
 from bluer_sbc.README.designs.bryce import marquee as bryce_marquee
 from bluer_sbc.README.designs.nafha import marquee as nafha_marquee
 from bluer_sbc.README.designs.shelter import marquee as shelter_marquee
+from bluer_sbc.README.designs.adapter_bus import marquee as adapter_bus_marquee
 from bluer_sbc.README.designs.battery_bus import marquee as battery_bus_marquee
 from bluer_sbc.README.designs.ultrasonic_sensor_tester import (
     marquee as ultrasonic_sensor_tester_marquee,
@@ -17,6 +18,7 @@ docs = [
         + swallow_head_marquee
         + swallow_marquee
         + battery_bus_marquee
+        + adapter_bus_marquee
         + ultrasonic_sensor_tester_marquee
         + bryce_marquee
         + cheshmak_marquee
