@@ -5,6 +5,7 @@ title:::
 - 12 VDC, 🚧 A.
 - width x height x length: 137 mm x 93 mm x 150 mm
 - [terraform](https://github.com/kamangir/bluer-ugv/blob/main/bluer_ugv/docs/swallow/digital/design/terraform.md).
+- [dev notes](https://github.com/kamangir/bluer-ugv/blob/main/bluer_ugv/docs/swallow/digital/design/shield.md).
 
 items:::
 
