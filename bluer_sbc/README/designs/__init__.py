@@ -55,9 +55,9 @@ docs = [
 ] + [
     {
         "items": nafha.items,
-        "path": f"../docs/nafha",
+        "path": "../docs/nafha",
     },
     {
-        "path": f"../docs/nafha/parts-v1.md",
+        "path": "../docs/nafha/parts-v1.md",
     },
 ]
