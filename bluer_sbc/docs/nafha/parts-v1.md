@@ -1,10 +1,4 @@
-title:::
-
-> نفحه الجنه
-
-items:::
-
-## parts
+# nafha: parts-v1
 
 - Power
     - 18650 Li-ion battery (protected or with BMS)
@@ -26,5 +20,3 @@ items:::
     - Mouthpiece (borosilicate glass / PEEK / Teflon)
     - Housing (3D-printed or CNC aluminum, with separate battery compartment)
     - High-temp silicone wires, JST connectors
-
-[AI convo](https://chatgpt.com/c/68de9027-4d3c-8326-997a-c1f6669e0282)
