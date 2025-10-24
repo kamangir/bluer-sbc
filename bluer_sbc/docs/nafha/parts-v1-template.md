@@ -1,13 +1,4 @@
-# nafha
-
-> نفحه الجنه
-
-|   |   |   |
-| --- | --- | --- |
-| [![image](https://github.com/kamangir/assets2/blob/main/nafha/01.png?raw=true)](https://github.com/kamangir/assets2/blob/main/nafha/01.png?raw=true) | [![image](https://github.com/kamangir/assets2/blob/main/nafha/02.png?raw=true)](https://github.com/kamangir/assets2/blob/main/nafha/02.png?raw=true) | [![image](https://github.com/kamangir/assets2/blob/main/nafha/03.png?raw=true)](https://github.com/kamangir/assets2/blob/main/nafha/03.png?raw=true) |
-| [![image](https://github.com/kamangir/assets2/blob/main/nafha/04.png?raw=true)](https://github.com/kamangir/assets2/blob/main/nafha/04.png?raw=true) |  |  |
-
-## parts
+title:::
 
 - Power
     - 18650 Li-ion battery (protected or with BMS)
@@ -29,5 +20,3 @@
     - Mouthpiece (borosilicate glass / PEEK / Teflon)
     - Housing (3D-printed or CNC aluminum, with separate battery compartment)
     - High-temp silicone wires, JST connectors
-
-[AI convo](https://chatgpt.com/c/68de9027-4d3c-8326-997a-c1f6669e0282)

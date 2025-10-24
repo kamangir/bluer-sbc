@@ -34,9 +34,6 @@ docs = [
         "cheshmak": design(
             cheshmak.items,
         ),
-        "nafha": design(
-            nafha.items,
-        ),
         "shelter": design(
             shelter.items,
         ),
@@ -55,4 +52,12 @@ docs = [
             x.items,
         ),
     }.items()
+] + [
+    {
+        "items": nafha.items,
+        "path": f"../docs/nafha",
+    },
+    {
+        "path": f"../docs/nafha/parts-v1.md",
+    },
 ]
