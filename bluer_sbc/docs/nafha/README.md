@@ -5,7 +5,7 @@
 |   |   |   |
 | --- | --- | --- |
 | [![image](https://github.com/kamangir/assets2/blob/main/nafha/01.png?raw=true)](https://github.com/kamangir/assets2/blob/main/nafha/01.png?raw=true) | [![image](https://github.com/kamangir/assets2/blob/main/nafha/02.png?raw=true)](https://github.com/kamangir/assets2/blob/main/nafha/02.png?raw=true) | [![image](https://github.com/kamangir/assets2/blob/main/nafha/03.png?raw=true)](https://github.com/kamangir/assets2/blob/main/nafha/03.png?raw=true) |
-| [![image](https://github.com/kamangir/assets2/blob/main/nafha/04.png?raw=true)](https://github.com/kamangir/assets2/blob/main/nafha/04.png?raw=true) |  |  |
+| [![image](https://github.com/kamangir/assets2/blob/main/nafha/04.png?raw=true)](https://github.com/kamangir/assets2/blob/main/nafha/04.png?raw=true) | [![image](https://github.com/kamangir/assets2/blob/main/?raw=true)](https://github.com/kamangir/assets2/blob/main/?raw=true) |  |
 
 - [AI convo](https://chatgpt.com/c/68de9027-4d3c-8326-997a-c1f6669e0282)
 
