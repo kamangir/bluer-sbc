@@ -19,7 +19,7 @@ items = ImageItems(
     {
         **{image_template.format(f"{index+1:02}.png"): "" for index in range(4)},
         **{
-            assets2.format(f"{filename}.jpg"): ""
+            image_template.format(f"{filename}.jpg"): ""
             for filename in [
                 "20251028_123428",
                 "20251028_123438",
