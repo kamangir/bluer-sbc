@@ -17,13 +17,16 @@ marquee = README.Items(
 
 items = ImageItems(
     {
-        **{image_template.format(f"{index+1:02}.png"): "" for index in range(4)},
-        **{
-            image_template.format(f"{filename}.jpg"): ""
-            for filename in [
-                "20251028_123428",
-                "20251028_123438",
-            ]
-        },
-    }
+        image_template.format(f"{filename}"): ""
+        for filename in [
+            f"{index+1:02}.png"
+            for index in range(
+                4,
+            )
+        ]
+        + [
+            "20251028_123428.jpg",
+            "20251028_123438.jpg",
+        ]
+    },
 )
