@@ -10,18 +10,6 @@ function bluer_sbc_session() {
 
         bluer_ai_log "@sbc: session @ $abcli_object_name started ..."
 
-        if [[ "$BLUER_SBC_SWALLOW_HAS_BPS" == 1 ]]; then
-            bluer_ai_log "starting bps in the background 🏓"
-
-            bluer_ai_eval \
-                background,dryrun=$do_dryrun \
-                bluer_algo_bps \
-                loop \
-                start \
-                upload=$do_upload \
-                $abcli_object_name
-        fi
-
         bluer_objects_mlflow_tags_set \
             $abcli_object_name \
             session,host=$abcli_hostname,$BLUER_SBC_SESSION_OBJECT_TAGS
@@ -36,16 +24,6 @@ function bluer_sbc_session() {
             start \
             "${@:3}"
         local status="$?"
-
-        if [[ "$BLUER_SBC_SWALLOW_HAS_BPS" == 1 ]]; then
-            bluer_ai_log "stopping bps 🏓"
-
-            bluer_ai_eval dryrun=$do_dryrun \
-                bluer_algo_bps \
-                loop \
-                stop \
-                wait
-        fi
 
         [[ "$do_upload" == 1 ]] &&
             bluer_objects_upload - $abcli_object_name
