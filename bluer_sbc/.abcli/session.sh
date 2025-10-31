@@ -10,7 +10,7 @@ function bluer_sbc_session() {
 
         bluer_ai_log "@sbc: session @ $abcli_object_name started ..."
 
-        if [[ "$BLUER_SBC_SWALLOW_BPS_IS_ON" == 1 ]]; then
+        if [[ "$BLUER_SBC_SWALLOW_HAS_BPS" == 1 ]]; then
             bluer_ai_log "starting bps in the background 🏓"
 
             bluer_ai_eval \
@@ -37,7 +37,7 @@ function bluer_sbc_session() {
             "${@:3}"
         local status="$?"
 
-        if [[ "$BLUER_SBC_SWALLOW_BPS_IS_ON" == 1 ]]; then
+        if [[ "$BLUER_SBC_SWALLOW_HAS_BPS" == 1 ]]; then
             bluer_ai_log "stopping bps 🏓"
 
             bluer_ai_eval dryrun=$do_dryrun \
