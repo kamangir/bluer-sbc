@@ -44,3 +44,4 @@ def test_blue_plugin_env():
 
     assert isinstance(env.BLUER_SBC_SWALLOW_HAS_STEERING, int)
     assert isinstance(env.BLUER_SBC_SWALLOW_HAS_FULL_KEYBOARD, int)
+    assert isinstance(env.BLUER_SBC_SWALLOW_HAS_BPS, int)
