@@ -46,6 +46,7 @@ docs = [
         items,
         parts,
         own_folder=True,
+        parts_reference="../parts",
     ),
     {
         "path": "../docs/nafha/parts-v1.md",
