@@ -37,7 +37,7 @@ items = ImageItems(
 
 parts = {
     "220VAC-dimmer": "",
-    "resistance-heating-wire": "TBA ohm, TBA m",
+    "resistance-heating-wire": "1.59 kΩ",
     "ceramic-terminal": "",
     "mountable-digital-thermometer": "",
 }
