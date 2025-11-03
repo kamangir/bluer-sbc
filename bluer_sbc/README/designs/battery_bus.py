@@ -40,5 +40,6 @@ docs = [
     design_doc(
         "battery-bus",
         items,
+        parts,
     )
 ]

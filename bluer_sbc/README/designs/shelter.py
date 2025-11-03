@@ -35,11 +35,14 @@ items = ImageItems(
     }
 )
 
+parts = {}
+
 
 docs = [
     design_doc(
         "shelter",
         items,
+        parts,
         own_folder=True,
     ),
     {

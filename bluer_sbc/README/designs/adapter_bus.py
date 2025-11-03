@@ -48,5 +48,6 @@ docs = [
     design_doc(
         "adapter-bus",
         items,
+        parts,
     )
 ]
