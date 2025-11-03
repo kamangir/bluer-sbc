@@ -582,11 +582,20 @@ db_of_parts["mountable-digital-thermometer"] = Part(
     ],
 )
 
-db_of_parts["template"] = Part(
+db_of_parts["pwm-manual-dc-motor-controller"] = Part(
     info=[
-        "template",
+        "pwm manual DC motor controller, 12 V, ≥ 5 A",
     ],
     images=[
-        "template.jpg",
+        "pwm-manual-dc-motor-controller.jpg",
+    ],
+)
+
+db_of_parts["heater-element"] = Part(
+    info=[
+        "heater element",
+    ],
+    images=[
+        "heater-element.jpg",
     ],
 )

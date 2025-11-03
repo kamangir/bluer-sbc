@@ -11,11 +11,6 @@ setup(
     packages=[
         NAME,
         f"{NAME}.algo",
-        f"{NAME}.designs",
-        f"{NAME}.designs.adapter_bus",
-        f"{NAME}.designs.battery_bus",
-        f"{NAME}.designs.swallow",
-        f"{NAME}.designs.swallow_head",
         f"{NAME}.hardware",
         f"{NAME}.hardware.hat",
         f"{NAME}.hardware.sparkfun_top_phat",
