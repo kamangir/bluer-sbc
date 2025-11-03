@@ -17,7 +17,7 @@ marquee = README.Items(
     [
         {
             "name": "shelter",
-            "marquee": f"{assets2}/20251006_181554.jpg",
+            "marquee": f"{assets2}/20251103_182323.jpg",
             "url": "./bluer_sbc/docs/shelter",
         }
     ]
@@ -32,6 +32,7 @@ items = ImageItems(
         f"{assets2}/20251006_181509.jpg": "",
         f"{assets2}/20251006_181554.jpg": "",
         f"{assets2}/20251028_113245.jpg": "",
+        f"{assets2}/20251103_182323.jpg": "",
     }
 )
 
