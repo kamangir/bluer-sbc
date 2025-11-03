@@ -3,7 +3,6 @@ from bluer_objects.README.items import ImageItems
 from bluer_objects.README.consts import assets_url
 from bluer_objects.README.consts import designs_url
 
-from bluer_sbc.designs.battery_bus.parts import dict_of_parts as parts
 from bluer_sbc.README.design import design_doc
 
 assets2 = assets_url(
@@ -35,6 +34,14 @@ items = ImageItems(
         f"{assets2}/20251007_220601.jpg": "",
     }
 )
+
+parts = {
+    "SLA-Battery": "",
+    "on-off-switch": "",
+    "charging-port": "",
+    "dsn-vc288": "",
+}
+
 
 docs = [
     design_doc(

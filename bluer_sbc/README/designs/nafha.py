@@ -32,13 +32,21 @@ items = ImageItems(
     },
 )
 
+parts = {
+    "dsn-vc288": "",
+}
+
 docs = [
     design_doc(
         "nafha",
         items,
+        parts,
         own_folder=True,
     ),
     {
         "path": "../docs/nafha/parts-v1.md",
+    },
+    {
+        "path": "../docs/nafha/parts-v2.md",
     },
 ]

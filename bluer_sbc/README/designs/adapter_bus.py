@@ -2,7 +2,6 @@ from bluer_objects import README
 from bluer_objects.README.items import ImageItems
 from bluer_objects.README.consts import assets_url, designs_url
 
-from bluer_sbc.designs.adapter_bus.parts import dict_of_parts as parts
 from bluer_sbc.README.design import design_doc
 
 
@@ -43,6 +42,13 @@ items = ImageItems(
         },
     }
 )
+
+parts = {
+    "charging-port": "",
+    "dsn-vc288": "",
+    "charger-socket": "",
+}
+
 
 docs = [
     design_doc(
