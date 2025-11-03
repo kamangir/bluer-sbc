@@ -15,8 +15,11 @@
 
 continues [v1](./parts-v1.md), [v2](./parts-v2.md).
 
-|   |
-| --- |
-| [`DSN-VC288, panel mount, 4-30 VDC, 10A, voltmeter ammeter`](./parts/dsn-vc288.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/dsn-vc288.jpg?raw=true)](./parts/dsn-vc288.md)  |
+|   |   |   |   |
+| --- | --- | --- | --- |
+| [`DSN-VC288, panel mount, 4-30 VDC, 10A, voltmeter ammeter`](./parts/dsn-vc288.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/dsn-vc288.jpg?raw=true)](./parts/dsn-vc288.md)  | [`charging port 5.5 mm`](./parts/charging-port.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/charging-port.jpg?raw=true)](./parts/charging-port.md)  | [`heater element`](./parts/heater-element.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/heater-element.jpg?raw=true)](./parts/heater-element.md) 12 V, 4.5 Ω, 32 w | [`pwm manual DC motor controller, 12 V, ≥ 5 A`](./parts/pwm-manual-dc-motor-controller.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/pwm-manual-dc-motor-controller.jpg?raw=true)](./parts/pwm-manual-dc-motor-controller.md)  |
 
 1. [DSN-VC288, panel mount, 4-30 VDC, 10A, voltmeter ammeter](./parts/dsn-vc288.md).
+1. [charging port 5.5 mm](./parts/charging-port.md).
+1. [heater element](./parts/heater-element.md): 12 V, 4.5 Ω, 32 w.
+1. [pwm manual DC motor controller, 12 V, ≥ 5 A](./parts/pwm-manual-dc-motor-controller.md).

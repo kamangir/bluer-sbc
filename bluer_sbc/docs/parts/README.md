@@ -44,6 +44,7 @@
 1. [front connector](./front-connector.md).
 1. [front wheels](./front-wheels.md).
 1. [gearboxed DC motor, 6V DC](./yellow-gearbox-dc-motor.md).
+1. [heater element](./heater-element.md).
 1. [mountable digital thermometer](./mountable-digital-thermometer.md).
 1. [nuts, bolts, and spacers](./nuts-bolts-spacers.md).
 1. [on/off switch, 12V DC 10 A, with indicator led](./on-off-switch.md).
@@ -52,12 +53,12 @@
 1. [power station.](./power-station.md).
 1. [power wheel wheels](./wheel.md).
 1. [push button](./pushbutton.md).
+1. [pwm manual DC motor controller, 12 V, ≥ 5 A](./pwm-manual-dc-motor-controller.md).
 1. [resistance heating wire](./resistance-heating-wire.md).
 1. [shaft, 10 cm](./shaft-10cm.md).
 1. [single-sided PCB, 14 cm x 9.5 cm](./PCB-single-14x9_5.md).
 1. [small on/off switch](./small-on-off-switch.md).
 1. [solid cable 1-1.5 mm^2](./solid-cable-1-15.md).
 1. [strong thread](./strong-thread.md).
-1. [template](./template.md).
 1. [wheels for gearboxed DC motor](./yellow-wheels.md).
 1. [white terminal](./white-terminal.md).
