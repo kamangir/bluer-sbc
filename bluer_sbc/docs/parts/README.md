@@ -4,6 +4,7 @@
 1. [16 AWG wire](./16-awg-wire.md).
 1. [1N4148 diode](./1N4148.md).
 1. [2 x AA battery holder](./2xAA-battery-holder.md).
+1. [220VAC dimmer](./220VAC-dimmer.md).
 1. [36V DC hub motor, 350 W, front, no gearbox](./36v-hub-motor.md).
 1. [4 x AA battery holder](./4xAA-battery-holder.md).
 1. [4-channel transmitter and receiver](./4-ch-transceiver.md).
@@ -33,6 +34,7 @@
 1. [auto power connectors](./connector.md).
 1. [brushless drive, 36 - 48 V DC, 350 W, sine wave, silent](./brushless-350w-drive.md).
 1. [capacitor, 470 μF to 1000 μF, 16 V or 25 V, Electrolytic, 105 °C rated if possible.](./470-mF.md).
+1. [ceramic terminal](./ceramic-terminal.md).
 1. [charger socket 5.5 mm](./charger-socket.md).
 1. [charging port 5.5 mm](./charging-port.md).
 1. [double-sided PCB, 9 cm x 7 cm](./PCB-double-9x7.md).
@@ -42,6 +44,7 @@
 1. [front connector](./front-connector.md).
 1. [front wheels](./front-wheels.md).
 1. [gearboxed DC motor, 6V DC](./yellow-gearbox-dc-motor.md).
+1. [mountable digital thermometer](./mountable-digital-thermometer.md).
 1. [nuts, bolts, and spacers](./nuts-bolts-spacers.md).
 1. [on/off switch, 12V DC 10 A, with indicator led](./on-off-switch.md).
 1. [pin headers](./pin-headers.md).
@@ -49,6 +52,7 @@
 1. [power station.](./power-station.md).
 1. [power wheel wheels](./wheel.md).
 1. [push button](./pushbutton.md).
+1. [resistance heating wire](./resistance-heating-wire.md).
 1. [shaft, 10 cm](./shaft-10cm.md).
 1. [single-sided PCB, 14 cm x 9.5 cm](./PCB-single-14x9_5.md).
 1. [small on/off switch](./small-on-off-switch.md).

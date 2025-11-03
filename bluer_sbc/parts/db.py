@@ -546,6 +546,41 @@ db_of_parts["charger-socket"] = Part(
     ],
 )
 
+db_of_parts["220VAC-dimmer"] = Part(
+    info=[
+        "220VAC dimmer",
+    ],
+    images=[
+        "220VAC-dimmer.jpeg",
+    ],
+)
+
+db_of_parts["resistance-heating-wire"] = Part(
+    info=[
+        "resistance heating wire",
+    ],
+    images=[
+        "resistance-heating-wire.jpg",
+    ],
+)
+
+db_of_parts["ceramic-terminal"] = Part(
+    info=[
+        "ceramic terminal",
+    ],
+    images=[
+        "ceramic-terminal.jpg",
+    ],
+)
+
+db_of_parts["mountable-digital-thermometer"] = Part(
+    info=[
+        "mountable digital thermometer",
+    ],
+    images=[
+        "mountable-digital-thermometer.jpeg",
+    ],
+)
 
 db_of_parts["template"] = Part(
     info=[

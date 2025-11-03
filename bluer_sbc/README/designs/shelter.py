@@ -35,7 +35,12 @@ items = ImageItems(
     }
 )
 
-parts = {}
+parts = {
+    "220VAC-dimmer": "",
+    "resistance-heating-wire": "TBA ohm, TBA m",
+    "ceramic-terminal": "",
+    "mountable-digital-thermometer": "",
+}
 
 
 docs = [

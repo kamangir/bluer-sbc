@@ -13,6 +13,11 @@
 
 continues [v1](./parts-v1.md).
 
-parts_images:::
+|   |   |   |   |
+| --- | --- | --- | --- |
+| [`220VAC dimmer`](./parts/220VAC-dimmer.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/220VAC-dimmer.jpeg?raw=true)](./parts/220VAC-dimmer.md)  | [`ceramic terminal`](./parts/ceramic-terminal.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/ceramic-terminal.jpg?raw=true)](./parts/ceramic-terminal.md)  | [`mountable digital thermometer`](./parts/mountable-digital-thermometer.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/mountable-digital-thermometer.jpeg?raw=true)](./parts/mountable-digital-thermometer.md)  | [`resistance heating wire`](./parts/resistance-heating-wire.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/resistance-heating-wire.jpg?raw=true)](./parts/resistance-heating-wire.md) TBA ohm, TBA m |
 
-parts_list:::
+1. [220VAC dimmer](./parts/220VAC-dimmer.md).
+1. [ceramic terminal](./parts/ceramic-terminal.md).
+1. [mountable digital thermometer](./parts/mountable-digital-thermometer.md).
+1. [resistance heating wire](./parts/resistance-heating-wire.md): TBA ohm, TBA m.
