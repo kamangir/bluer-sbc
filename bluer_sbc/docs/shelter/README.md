@@ -1,32 +1,25 @@
 # shelter
 
+100 VAC, 1.59 kΩ ~= 6.3 w
+
+- [AI convo](https://chatgpt.com/c/68df585e-9a68-832f-b22e-481af04c377e)
+
 |   |   |   |
 | --- | --- | --- |
 | [![image](https://github.com/kamangir/assets2/raw/main/shelter/01.png?raw=true)](https://github.com/kamangir/assets2/raw/main/shelter/01.png?raw=true) | [![image](https://github.com/kamangir/assets2/raw/main/shelter/02.png?raw=true)](https://github.com/kamangir/assets2/raw/main/shelter/02.png?raw=true) | [![image](https://github.com/kamangir/assets2/raw/main/shelter/03.png?raw=true)](https://github.com/kamangir/assets2/raw/main/shelter/03.png?raw=true) |
 | [![image](https://github.com/kamangir/assets2/raw/main/shelter/04.png?raw=true)](https://github.com/kamangir/assets2/raw/main/shelter/04.png?raw=true) | [![image](https://github.com/kamangir/assets2/raw/main/shelter/20251005_180841.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/shelter/20251005_180841.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/raw/main/shelter/20251006_181432.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/shelter/20251006_181432.jpg?raw=true) |
 | [![image](https://github.com/kamangir/assets2/raw/main/shelter/20251006_181509.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/shelter/20251006_181509.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/raw/main/shelter/20251006_181554.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/shelter/20251006_181554.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/raw/main/shelter/20251028_113245.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/shelter/20251028_113245.jpg?raw=true) |
+| [![image](https://github.com/kamangir/assets2/raw/main/shelter/20251103_182323.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/shelter/20251103_182323.jpg?raw=true) |  |  |
 
 ## parts
 
-- Power
-    - 12 V DC SMPS power supply (5–10 A) or 12 V battery
-    - Inline fuse holder + 10 A blade fuse
-    - DC barrel jack / terminal block connectors
-    - Wires 1.0–1.5 mm² copper (red/black)
-- Control & Logic
-    - Arduino Uno / Nano (Nano is cheaper, smaller, widely available in Iran)
-    - Relay module (1-channel, 10 A, opto-isolated) for heater switching
-    - W1209 digital thermostat module (optional as backup safety control)
-- Heating
-    - PTC ceramic heater 12 V 60–100 W
-    - Thermal fuse 128–133 °C (mounted directly on heater surface)
-    - Small 12 V fan (80 mm) with grill (for circulation, optional)
-- Sensors
-    - DS18B20 waterproof temperature sensor (or DHT22 if humidity also needed)
-    - NTC thermistor (10 kΩ) as backup probe
-- Safety
-    - Portable RCD/ELCB plug (if running from AC)
-    - Heat-shrink tubing + crimp connectors
-    - Cable glands (PG7/PG9) for enclosure wiring
+continues [v1](./parts-v1.md).
 
-[AI convo](https://chatgpt.com/c/68df585e-9a68-832f-b22e-481af04c377e)
+|   |   |   |   |
+| --- | --- | --- | --- |
+| [`220VAC dimmer`](../parts/220VAC-dimmer.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/220VAC-dimmer.jpeg?raw=true)](../parts/220VAC-dimmer.md)  | [`ceramic terminal`](../parts/ceramic-terminal.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/ceramic-terminal.jpg?raw=true)](../parts/ceramic-terminal.md)  | [`mountable digital thermometer`](../parts/mountable-digital-thermometer.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/mountable-digital-thermometer.jpeg?raw=true)](../parts/mountable-digital-thermometer.md)  | [`resistance heating wire`](../parts/resistance-heating-wire.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/resistance-heating-wire.jpg?raw=true)](../parts/resistance-heating-wire.md) 1.59 kΩ |
+
+1. [220VAC dimmer](../parts/220VAC-dimmer.md).
+1. [ceramic terminal](../parts/ceramic-terminal.md).
+1. [mountable digital thermometer](../parts/mountable-digital-thermometer.md).
+1. [resistance heating wire](../parts/resistance-heating-wire.md): 1.59 kΩ.

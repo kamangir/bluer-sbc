@@ -1,8 +1,4 @@
-title:::
-
-items:::
-
-## parts
+# shelter: parts-v1
 
 - Power
     - 12 V DC SMPS power supply (5–10 A) or 12 V battery
@@ -24,5 +20,3 @@ items:::
     - Portable RCD/ELCB plug (if running from AC)
     - Heat-shrink tubing + crimp connectors
     - Cable glands (PG7/PG9) for enclosure wiring
-
-[AI convo](https://chatgpt.com/c/68df585e-9a68-832f-b22e-481af04c377e)
