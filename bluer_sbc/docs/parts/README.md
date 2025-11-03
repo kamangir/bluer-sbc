@@ -1,5 +1,68 @@
 # parts
 
+1. [12 VDC motor, 20-45 W](../parts/dc-motor-12-VDC-45W.md).
+1. [16 AWG wire](../parts/16-awg-wire.md).
+1. [1N4148 diode](../parts/1N4148.md).
+1. [2 x AA battery holder](../parts/2xAA-battery-holder.md).
+1. [220VAC dimmer](../parts/220VAC-dimmer.md).
+1. [36V DC hub motor, 350 W, front, no gearbox](../parts/36v-hub-motor.md).
+1. [4 x AA battery holder](../parts/4xAA-battery-holder.md).
+1. [4-channel transmitter and receiver](../parts/4-ch-transceiver.md).
+1. [40 inch TV](../parts/40-inch-TV.md).
+1. [43 A, H-Bridge Motor Driver](../parts/BTS7960.md).
+1. [6V DC (4 cell) NICD battery](../parts/LJ-6V-battery.md).
+1. [6V DC charger for NICD batteries](../parts/USB-charger-NICD-6V.md).
+1. [Arduino Nano](../parts/arduino-nano.md).
+1. [DSN-VC288, panel mount, 4-30 VDC, 10A, voltmeter ammeter](../parts/dsn-vc288.md).
+1. [Gearboxed DC Motor, 12 V (3-24 V), 3A, 120 RPM, 1:91, 15 Kg cm](../parts/DC-gearboxed-motor-12V-120RPM.md).
+1. [HC-SR04: ultrasonic-sensor](../parts/ultrasonic-sensor.md).
+1. [L 1x2](../parts/L-1x2.md).
+1. [LED, ~2 V forward voltage, 10-20 mA](../parts/LED.md).
+1. [M3 nuts and bolts](../parts/M3.md).
+1. [MT-3608, step up module.](../parts/mt-3608.md).
+1. [Micro USB cable](../parts/micro-usb-cable.md).
+1. [Ni-MH AA, 2400 mAh, 1.2 VDC](../parts/ni-mh-battery.md).
+1. [Polyfuse, 1.1 A hold, 2.2 A trip, 16 V, resettable, through-hole, e.g., MF-R110](../parts/Polyfuse.md).
+1. [Raspberry Pi Camera, V1.3https://www.raspberrypi.com/documentation/accessories/camera.html](../parts/rpi-camera.md).
+1. [Raspberry Pi.](../parts/rpi.md).
+1. [Rechargeable sealed lead acid battery, 12 V, 7 Ah](../parts/SLA-Battery.md).
+1. [Resistor, 1/4 watt, 5% tolerance](../parts/resistor.md).
+1. [TB6612, 2-channel DC motor driver.](../parts/tb6612.md).
+1. [TV bracket](../parts/TV-bracket.md).
+1. [TVS diode, unidirectional, 600 W, 6.8 V clamp, e.g. P6KE6.8A, DO-15 package](../parts/TVS-diode.md).
+1. [XL4015: 12 VDC -> 5 VDC, 4A](../parts/XL4015.md).
+1. [auto power connectors](../parts/connector.md).
+1. [brushless drive, 36 - 48 V DC, 350 W, sine wave, silent](../parts/brushless-350w-drive.md).
+1. [capacitor, 470 μF to 1000 μF, 16 V or 25 V, Electrolytic, 105 °C rated if possible.](../parts/470-mF.md).
+1. [ceramic terminal](../parts/ceramic-terminal.md).
+1. [charger socket 5.5 mm](../parts/charger-socket.md).
+1. [charging port 5.5 mm](../parts/charging-port.md).
+1. [double-sided PCB, 9 cm x 7 cm](../parts/PCB-double-9x7.md).
+1. [double-sided tape.](../parts/double-sided-tape.md).
+1. [dupont cables, female to female](../parts/dupont-cables.md).
+1. [electrical tape](../parts/electrical-tape.md).
+1. [front connector](../parts/front-connector.md).
+1. [front wheels](../parts/front-wheels.md).
+1. [gearboxed DC motor, 6V DC](../parts/yellow-gearbox-dc-motor.md).
+1. [heater element](../parts/heater-element.md).
+1. [mountable digital thermometer](../parts/mountable-digital-thermometer.md).
+1. [nuts, bolts, and spacers](../parts/nuts-bolts-spacers.md).
+1. [on/off switch, 12V DC 10 A, with indicator led](../parts/on-off-switch.md).
+1. [pin headers](../parts/pin-headers.md).
+1. [plexiglass, 2 mm or 2.5 mm thickness](../parts/plexiglass.md).
+1. [power station.](../parts/power-station.md).
+1. [power wheel wheels](../parts/wheel.md).
+1. [push button](../parts/pushbutton.md).
+1. [pwm manual DC motor controller, 12 V, ≥ 5 A](../parts/pwm-manual-dc-motor-controller.md).
+1. [resistance heating wire](../parts/resistance-heating-wire.md).
+1. [shaft, 10 cm](../parts/shaft-10cm.md).
+1. [single-sided PCB, 14 cm x 9.5 cm](../parts/PCB-single-14x9_5.md).
+1. [small on/off switch](../parts/small-on-off-switch.md).
+1. [solid cable 1-1.5 mm^2](../parts/solid-cable-1-15.md).
+1. [strong thread](../parts/strong-thread.md).
+1. [wheels for gearboxed DC motor](../parts/yellow-wheels.md).
+1. [white terminal](../parts/white-terminal.md).
+
 1. [12 VDC motor, 20-45 W](./dc-motor-12-VDC-45W.md).
 1. [16 AWG wire](./16-awg-wire.md).
 1. [1N4148 diode](./1N4148.md).

@@ -3,7 +3,14 @@ from bluer_sbc.parts.db import db_of_parts
 docs = [
     {
         "path": "../docs/parts",
-        "macros": {"list:::": db_of_parts.README},
+        "macros": {
+            "parts_list:::": db_of_parts.README,
+            "parts_images:::": db_of_parts.as_list(
+                {part.name: "" for part in db_of_parts},
+                reference="../parts",
+                log=False,
+            ),
+        },
     }
 ] + [
     {

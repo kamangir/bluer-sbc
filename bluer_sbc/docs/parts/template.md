@@ -1,3 +1,5 @@
 title:::
 
-list:::
+parts_images:::
+
+parts_list:::
