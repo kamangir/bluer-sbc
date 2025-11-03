@@ -2,6 +2,7 @@ from bluer_objects import README
 from bluer_objects.README.items import ImageItems
 
 from bluer_sbc.README.designs.consts import assets2
+from bluer_sbc.README.design import design_doc
 
 image_template = assets2 + "nafha/{}?raw=true"
 
@@ -30,3 +31,14 @@ items = ImageItems(
         ]
     },
 )
+
+docs = [
+    design_doc(
+        "nafha",
+        items,
+        own_folder=True,
+    ),
+    {
+        "path": "../docs/nafha/parts-v1.md",
+    },
+]

@@ -2,6 +2,9 @@ from bluer_objects import README
 from bluer_objects.README.items import ImageItems
 from bluer_objects.README.consts import assets_url
 
+from bluer_sbc.README.design import design_doc
+
+
 assets2 = assets_url(
     suffix="shelter",
     volume=2,
@@ -15,7 +18,7 @@ marquee = README.Items(
         {
             "name": "shelter",
             "marquee": f"{assets2}/20251006_181554.jpg",
-            "url": "./bluer_sbc/docs/shelter.md",
+            "url": "./bluer_sbc/docs/shelter",
         }
     ]
 )
@@ -31,3 +34,15 @@ items = ImageItems(
         f"{assets2}/20251028_113245.jpg": "",
     }
 )
+
+
+docs = [
+    design_doc(
+        "shelter",
+        items,
+        own_folder=True,
+    ),
+    {
+        "path": "../docs/shelter/parts-v1.md",
+    },
+]

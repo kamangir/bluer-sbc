@@ -3,6 +3,7 @@ from bluer_objects.README.items import ImageItems
 from bluer_objects.README.consts import assets_url, designs_url
 
 from bluer_sbc.designs.adapter_bus.parts import dict_of_parts as parts
+from bluer_sbc.README.design import design_doc
 
 
 assets2 = assets_url(
@@ -42,3 +43,10 @@ items = ImageItems(
         },
     }
 )
+
+docs = [
+    design_doc(
+        "adapter-bus",
+        items,
+    )
+]

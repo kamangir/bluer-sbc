@@ -1,4 +1,3 @@
-from bluer_sbc.README.design import design
 from bluer_sbc.README.designs import (
     cheshmak,
     battery_bus,
@@ -8,56 +7,20 @@ from bluer_sbc.README.designs import (
     bryce,
     nafha,
     shelter,
+    template,
     ultrasonic_sensor_tester,
-    x,
 )
 
 
-docs = [
-    {
-        "items": design_info["items"],
-        "path": f"../docs/{design_name}.md",
-        "macros": design_info.get("macros", {}),
-    }
-    for design_name, design_info in {
-        "battery-bus": design(
-            battery_bus.items,
-            battery_bus.parts,
-        ),
-        "adapter-bus": design(
-            adapter_bus.items,
-            adapter_bus.parts,
-        ),
-        "bryce": design(
-            bryce.items,
-        ),
-        "cheshmak": design(
-            cheshmak.items,
-        ),
-        "shelter": design(
-            shelter.items,
-        ),
-        "swallow-head": design(
-            swallow_head.items,
-            swallow_head.parts,
-        ),
-        "swallow": design(
-            swallow.items,
-            swallow.parts,
-        ),
-        "ultrasonic-sensor-tester": design(
-            ultrasonic_sensor_tester.items,
-        ),
-        "x": design(
-            x.items,
-        ),
-    }.items()
-] + [
-    {
-        "items": nafha.items,
-        "path": "../docs/nafha",
-    },
-    {
-        "path": "../docs/nafha/parts-v1.md",
-    },
-]
+docs = (
+    battery_bus.docs
+    + adapter_bus.docs
+    + bryce.docs
+    + cheshmak.docs
+    + nafha.docs
+    + shelter.docs
+    + swallow_head.docs
+    + swallow.docs
+    + ultrasonic_sensor_tester.docs
+    + template.docs
+)

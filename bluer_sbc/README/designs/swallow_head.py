@@ -3,6 +3,7 @@ from bluer_objects.README.items import ImageItems
 
 from bluer_sbc.README.designs.consts import assets2
 from bluer_sbc.designs.swallow_head.parts import dict_of_parts as parts
+from bluer_sbc.README.design import design_doc
 
 
 image_template = assets2 + "swallow/design/head-v1/{}?raw=true"
@@ -20,3 +21,11 @@ marquee = README.Items(
 items = ImageItems(
     {image_template.format(f"{index+1:02}.jpg"): "" for index in range(6)}
 )
+
+docs = [
+    design_doc(
+        "swallow-head",
+        items,
+        parts,
+    )
+]
