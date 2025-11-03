@@ -50,6 +50,7 @@ docs = [
         items,
         parts,
         own_folder=True,
+        parts_reference="../../parts",
     ),
     {
         "path": "../docs/shelter/parts-v1.md",
