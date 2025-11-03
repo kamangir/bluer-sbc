@@ -1,3 +1,5 @@
+from bluer_objects import markdown
+
 from bluer_sbc.parts.db import db_of_parts
 
 docs = [
@@ -5,9 +7,12 @@ docs = [
         "path": "../docs/parts",
         "macros": {
             "parts_list:::": db_of_parts.README,
-            "parts_images:::": db_of_parts.as_list(
-                {part.name: "" for part in db_of_parts},
-                reference="../parts",
+            "parts_images:::": markdown.generate_table(
+                db_of_parts.as_images(
+                    {part.name: "" for part in db_of_parts},
+                    reference="../parts",
+                ),
+                cols=10,
                 log=False,
             ),
         },
