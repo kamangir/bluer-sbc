@@ -599,3 +599,21 @@ db_of_parts["heater-element"] = Part(
         "heater-element.jpg",
     ],
 )
+
+db_of_parts["sd-card-32-gb"] = Part(
+    info=[
+        "SD card, 32 GB",
+    ],
+    images=[
+        "sd-card-32-gb.jpg",
+    ],
+)
+
+db_of_parts["template"] = Part(
+    info=[
+        "template",
+    ],
+    images=[
+        "template.jpg",
+    ],
+)

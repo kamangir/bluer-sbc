@@ -22,6 +22,7 @@ items = ImageItems(
 )
 
 parts = {
+    "sd-card-32-gb": "",
     "rpi": "",
     "XL4015": "",
     "470-mF": "",
