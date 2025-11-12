@@ -99,7 +99,7 @@ db_of_parts["TVS-diode"] = Part(
 
 db_of_parts["XL4015"] = Part(
     info=[
-        "XL4015: 12 VDC -> 5 VDC, 4A",
+        "XL4015: 8 - 36 VDC -> 1.25 - 32 VDC, 5A",
         "specs: [XL4015](https://www.handsontec.com/dataspecs/module/XL4015-5A-PS.pdf)",
     ],
     images=[
