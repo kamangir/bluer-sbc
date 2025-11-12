@@ -4,7 +4,7 @@
 
 |   |   |
 | --- | --- |
-| [![image](https://github.com/kamangir/bluer-designs//blob/main/regulated-bus/wiring.png?raw=true)](https://github.com/kamangir/bluer-designs//blob/main/regulated-bus/wiring.svg) | [![image](https://github.com/kamangir/assets2/raw/main/regulated-bus/TBA.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/regulated-bus/TBA.jpg?raw=true) |
+| [![image](https://github.com/kamangir/bluer-designs//blob/main/regulated-bus/wiring.png?raw=true)](https://github.com/kamangir/bluer-designs//blob/main/regulated-bus/wiring.svg) | [![image](https://github.com/kamangir/assets2/raw/main/regulated-bus/20251112_214845.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/regulated-bus/20251112_214845.jpg?raw=true) |
 
 ## parts
 

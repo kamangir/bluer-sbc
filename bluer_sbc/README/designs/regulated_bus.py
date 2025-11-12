@@ -14,7 +14,7 @@ marquee = README.Items(
     [
         {
             "name": "regulated bus",
-            "marquee": f"{assets2}/TBA.jpg",
+            "marquee": f"{assets2}/20251112_214845.jpg",
             "url": "./bluer_sbc/docs/regulated-bus.md",
         }
     ]
@@ -30,7 +30,7 @@ items = ImageItems(
         **{
             f"{assets2}/{timestamp}.jpg": ""
             for timestamp in [
-                "TBA",
+                "20251112_214845",
             ]
         },
     }
