@@ -1,23 +1,25 @@
 from bluer_sbc.README.designs import (
-    cheshmak,
-    battery_bus,
     adapter_bus,
+    battery_bus,
+    bryce,
+    cheshmak,
+    nafha,
+    regulated_bus,
+    shelter,
     swallow,
     swallow_head,
-    bryce,
-    nafha,
-    shelter,
     template,
     ultrasonic_sensor_tester,
 )
 
 
 docs = (
-    battery_bus.docs
-    + adapter_bus.docs
+    adapter_bus.docs
+    + battery_bus.docs
     + bryce.docs
     + cheshmak.docs
     + nafha.docs
+    + regulated_bus.docs
     + shelter.docs
     + swallow_head.docs
     + swallow.docs
