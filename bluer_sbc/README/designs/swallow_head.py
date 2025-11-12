@@ -28,7 +28,7 @@ parts = {
     "470-mF": "",
     "Polyfuse": "optional",
     "TVS-diode": "",
-    "resistor": "7 x 330-470 Ω + N x 2.2 kΩ + N x 3.3 kΩ",
+    "resistor": "7 x 330-470 Ω + 4 x 2.2 kΩ + 4 x 3.3 kΩ",
     "LED": "green + red + yellow + 4 x blue",
     "rpi-camera": "",
     "PCB-single-14x9_5": "2 x",
