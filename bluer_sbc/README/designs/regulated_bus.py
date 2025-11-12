@@ -48,7 +48,7 @@ parts = {
 
 docs = [
     design_doc(
-        "adapter-bus",
+        "regulated-bus",
         items,
         parts,
     )

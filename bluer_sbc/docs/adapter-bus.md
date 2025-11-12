@@ -2,19 +2,18 @@
 
 > a non-regulated, ~1 A, DC bus.
 
-|   |   |
-| --- | --- |
-| [![image](https://github.com/kamangir/bluer-designs//blob/main/regulated-bus/wiring.png?raw=true)](https://github.com/kamangir/bluer-designs//blob/main/regulated-bus/wiring.svg) | [![image](https://github.com/kamangir/assets2/raw/main/regulated-bus/20251112_214845.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/regulated-bus/20251112_214845.jpg?raw=true) |
+|   |   |   |
+| --- | --- | --- |
+| [![image](https://github.com/kamangir/bluer-designs//blob/main/adapter-bus/wiring.png?raw=true)](https://github.com/kamangir/bluer-designs//blob/main/adapter-bus/wiring.svg) | [![image](https://github.com/kamangir/assets2/raw/main/adapter-bus/20251017_222911.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/adapter-bus/20251017_222911.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/raw/main/adapter-bus/20251017_222929.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/adapter-bus/20251017_222929.jpg?raw=true) |
+| [![image](https://github.com/kamangir/assets2/raw/main/adapter-bus/20251017_222938.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/adapter-bus/20251017_222938.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/raw/main/adapter-bus/20251017_222943.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/adapter-bus/20251017_222943.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/raw/main/adapter-bus/20251017_222949.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/adapter-bus/20251017_222949.jpg?raw=true) |
+| [![image](https://github.com/kamangir/assets2/raw/main/adapter-bus/20251017_223017.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/adapter-bus/20251017_223017.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/raw/main/adapter-bus/20251017_223034.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/adapter-bus/20251017_223034.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/raw/main/adapter-bus/20251018_213244.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/adapter-bus/20251018_213244.jpg?raw=true) |
 
 ## parts
 
-|   |   |   |   |   |   |
-| --- | --- | --- | --- | --- | --- |
-| [`DSN-VC288, panel mount, 4-30 VDC, 10A, voltmeter ammeter`](./parts/dsn-vc288.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/dsn-vc288.jpg?raw=true)](./parts/dsn-vc288.md)  | [`XL4015: 8 - 36 VDC -> 1.25 - 32 VDC, 5A`](./parts/XL4015.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/XL4015.png?raw=true)](./parts/XL4015.md)  | [`charging port 5.5 mm`](./parts/charging-port.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/charging-port.jpg?raw=true)](./parts/charging-port.md)  | [`double-sided PCB, 9 cm x 7 cm`](./parts/PCB-double-9x7.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/PCB-double-9x7.jpeg?raw=true)](./parts/PCB-double-9x7.md) 10 x 15 holes | [`pin headers`](./parts/pin-headers.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/pin-headers.jpg?raw=true)](./parts/pin-headers.md) 2 x (2 x 3, 90 degree) | [`white terminal`](./parts/white-terminal.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/white-terminal.jpg?raw=true)](./parts/white-terminal.md) 2 x |
+|   |   |   |
+| --- | --- | --- |
+| [`DSN-VC288, panel mount, 4-30 VDC, 10A, voltmeter ammeter`](./parts/dsn-vc288.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/dsn-vc288.jpg?raw=true)](./parts/dsn-vc288.md)  | [`charger socket 5.5 mm`](./parts/charger-socket.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/charger-socket.jpg?raw=true)](./parts/charger-socket.md)  | [`charging port 5.5 mm`](./parts/charging-port.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/charging-port.jpg?raw=true)](./parts/charging-port.md)  |
 
 1. [DSN-VC288, panel mount, 4-30 VDC, 10A, voltmeter ammeter](./parts/dsn-vc288.md).
-1. [XL4015: 8 - 36 VDC -> 1.25 - 32 VDC, 5A](./parts/XL4015.md).
+1. [charger socket 5.5 mm](./parts/charger-socket.md).
 1. [charging port 5.5 mm](./parts/charging-port.md).
-1. [double-sided PCB, 9 cm x 7 cm](./parts/PCB-double-9x7.md): 10 x 15 holes.
-1. [pin headers](./parts/pin-headers.md): 2 x (2 x 3, 90 degree).
-1. [white terminal](./parts/white-terminal.md): 2 x.
