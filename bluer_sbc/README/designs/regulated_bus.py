@@ -14,7 +14,7 @@ marquee = README.Items(
     [
         {
             "name": "regulated bus",
-            "marquee": f"{assets2}/20251112_214845.jpg",
+            "marquee": f"{assets2}/20251113_113332.jpg",
             "url": "./bluer_sbc/docs/regulated-bus.md",
         }
     ]
@@ -31,6 +31,16 @@ items = ImageItems(
             f"{assets2}/{timestamp}.jpg": ""
             for timestamp in [
                 "20251112_214845",
+                "20251113_103345",
+                "20251113_103404",
+                "20251113_103646",
+                "20251113_103653",
+                "20251113_103659",
+                "20251113_103703",
+                "20251113_103713",
+                "20251113_103722",
+                "20251113_104805",
+                "20251113_113332",
             ]
         },
     }

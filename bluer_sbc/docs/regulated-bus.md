@@ -2,9 +2,12 @@
 
 > a regulated, 1.25 - 32 VDC, 5A, bus based on [XL4015](./parts/XL4015.md)
 
-|   |   |
-| --- | --- |
-| [![image](https://github.com/kamangir/bluer-designs//blob/main/regulated-bus/wiring.png?raw=true)](https://github.com/kamangir/bluer-designs//blob/main/regulated-bus/wiring.svg) | [![image](https://github.com/kamangir/assets2/raw/main/regulated-bus/20251112_214845.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/regulated-bus/20251112_214845.jpg?raw=true) |
+|   |   |   |
+| --- | --- | --- |
+| [![image](https://github.com/kamangir/bluer-designs//blob/main/regulated-bus/wiring.png?raw=true)](https://github.com/kamangir/bluer-designs//blob/main/regulated-bus/wiring.svg) | [![image](https://github.com/kamangir/assets2/raw/main/regulated-bus/20251112_214845.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/regulated-bus/20251112_214845.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/raw/main/regulated-bus/20251113_103345.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/regulated-bus/20251113_103345.jpg?raw=true) |
+| [![image](https://github.com/kamangir/assets2/raw/main/regulated-bus/20251113_103404.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/regulated-bus/20251113_103404.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/raw/main/regulated-bus/20251113_103646.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/regulated-bus/20251113_103646.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/raw/main/regulated-bus/20251113_103653.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/regulated-bus/20251113_103653.jpg?raw=true) |
+| [![image](https://github.com/kamangir/assets2/raw/main/regulated-bus/20251113_103659.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/regulated-bus/20251113_103659.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/raw/main/regulated-bus/20251113_103703.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/regulated-bus/20251113_103703.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/raw/main/regulated-bus/20251113_103713.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/regulated-bus/20251113_103713.jpg?raw=true) |
+| [![image](https://github.com/kamangir/assets2/raw/main/regulated-bus/20251113_103722.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/regulated-bus/20251113_103722.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/raw/main/regulated-bus/20251113_104805.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/regulated-bus/20251113_104805.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/raw/main/regulated-bus/20251113_113332.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/regulated-bus/20251113_113332.jpg?raw=true) |
 
 ## parts
 
