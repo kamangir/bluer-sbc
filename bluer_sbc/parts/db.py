@@ -342,7 +342,7 @@ db_of_parts["power-station"] = Part(
         "power station.",
     ],
     images=[
-        "power-station.jpeg",
+        "power-station-2.jpg",
     ],
 )
 
