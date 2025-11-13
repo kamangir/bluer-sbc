@@ -42,8 +42,8 @@ parts = {
                 " + ".join(
                     [
                         "2 x bolt",
-                        "2 x 5 mm spacer",
                         "4 x nut",
+                        "2 x 5 mm spacer",
                     ]
                 )
             ),
@@ -51,8 +51,8 @@ parts = {
                 " + ".join(
                     [
                         "4 x bolt",
-                        "8 x 10 mm spacer",
                         "4 x nut",
+                        "8 x 10 mm spacer",
                     ]
                 )
             ),
@@ -60,11 +60,11 @@ parts = {
                 " + ".join(
                     [
                         "1 x bolt",
+                        "5 x nut",
                         "3 x 35 mm spacer",
                         "3 x 25 mm spacer",
                         "7 x 15 mm spacer",
                         "4 x 5 mm spacer",
-                        "5 x nut",
                     ]
                 )
             ),

@@ -28,9 +28,9 @@ parts = {
     "nuts-bolts-spacers": "M3: ({})".format(
         " + ".join(
             [
+                "4 x nut",
                 "8 x 25 mm spacer",
                 "4 x 30 mm spacer",
-                "4 x nut",
             ]
         )
     ),
