@@ -81,7 +81,7 @@ db_of_parts["rpi"] = Part(
 
 db_of_parts["SLA-Battery"] = Part(
     info=[
-        "Rechargeable sealed lead acid battery, 12 V, 7 Ah",
+        "Rechargeable sealed lead acid battery",
     ],
     images=[
         "battery.png",
@@ -328,21 +328,22 @@ db_of_parts["1N4148"] = Part(
     ],
 )
 
-db_of_parts["40-inch-TV"] = Part(
+db_of_parts["TV"] = Part(
     info=[
-        "40 inch TV",
+        "TV",
     ],
     images=[
-        "40-inch-TV.jpg",
+        "tv.jpg",
     ],
 )
 
-db_of_parts["power-station"] = Part(
+db_of_parts["power-inverter"] = Part(
     info=[
-        "power station.",
+        "power inverter, 12 VDC -> 220 VAC.",
+        "pure sine wave.",
     ],
     images=[
-        "power-station.jpeg",
+        "power-inverter.jpg",
     ],
 )
 
@@ -355,9 +356,9 @@ db_of_parts["TV-bracket"] = Part(
     ],
 )
 
-db_of_parts["on-off-switch"] = Part(
+db_of_parts["dc-switch"] = Part(
     info=[
-        "on/off switch, 12V DC 10 A, with indicator led",
+        "on/off DC switch with indicator led",
     ],
     images=[
         "on-off-switch.png",
@@ -383,6 +384,15 @@ db_of_parts["dsn-vc288"] = Part(
         "dsn-vc288.jpg",
         "dsn-vc288-connection.jpg",
         "dsn-vc288-measurements.jpeg",
+    ],
+)
+
+db_of_parts["dc-volt-meter"] = Part(
+    info=[
+        "DC volt meter",
+    ],
+    images=[
+        "dsn-vc288.jpg",
     ],
 )
 
@@ -501,7 +511,7 @@ db_of_parts["tb6612"] = Part(
     ],
 )
 
-db_of_parts["small-on-off-switch"] = Part(
+db_of_parts["small-dc-switch"] = Part(
     info=[
         "small on/off switch",
     ],
@@ -606,6 +616,70 @@ db_of_parts["sd-card-32-gb"] = Part(
     ],
     images=[
         "sd-card-32-gb.jpg",
+    ],
+)
+
+db_of_parts["dc-fuse"] = Part(
+    info=[
+        "DC fuse, ANL or MIDI type",
+    ],
+    images=[
+        "dc-fuse.jpg",
+    ],
+)
+
+db_of_parts["mcb"] = Part(
+    info=[
+        "miniature circuit breaker (MCB)",
+    ],
+    images=[
+        "mcb-3.jpg",
+    ],
+)
+
+db_of_parts["ac-switch"] = Part(
+    info=[
+        "AC switch",
+    ],
+    images=[
+        "ac-switch.jpg",
+    ],
+)
+
+db_of_parts["safety-fuse"] = Part(
+    info=[
+        "safety fuse",
+        "residual current device (RCD / GFCI)",
+    ],
+    images=[
+        "safety-fuse.jpg",
+    ],
+)
+
+db_of_parts["ac-volt-meter"] = Part(
+    info=[
+        "AC volt meter",
+    ],
+    images=[
+        "ac-volt-meter.jpg",
+    ],
+)
+
+db_of_parts["emergency-stop"] = Part(
+    info=[
+        "emergency stop switch",
+    ],
+    images=[
+        "emergency-stop.jpg",
+    ],
+)
+
+db_of_parts["power-adapter"] = Part(
+    info=[
+        "AC to DC power adapter",
+    ],
+    images=[
+        "power-adapter.jpg",
     ],
 )
 
