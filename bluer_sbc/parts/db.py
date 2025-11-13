@@ -333,7 +333,7 @@ db_of_parts["40-inch-TV"] = Part(
         "40 inch TV",
     ],
     images=[
-        "40-inch-TV.jpg",
+        "tv.jpg",
     ],
 )
 

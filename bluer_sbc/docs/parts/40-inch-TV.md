@@ -15,4 +15,4 @@ options, Iranian brand: G+:
 
 |   |
 | --- |
-| ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/40-inch-TV.jpg?raw=true) |
+| ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/tv.jpg?raw=true) |
