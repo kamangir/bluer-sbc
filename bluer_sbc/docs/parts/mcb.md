@@ -4,4 +4,4 @@
 
 |   |
 | --- |
-| ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/mcb-2.jpeg?raw=true) |
+| ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/mcb-3.jpg?raw=true) |
