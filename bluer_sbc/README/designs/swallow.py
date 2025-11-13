@@ -35,6 +35,7 @@ parts = {
         )
     ),
     "solid-cable-1-15": "20 cm x (red + black/blue)",
+    "power-adapter": "12V DC, 1 A",
 }
 
 docs = [

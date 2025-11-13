@@ -664,6 +664,15 @@ db_of_parts["emergency-stop"] = Part(
     ],
 )
 
+db_of_parts["power-adapter"] = Part(
+    info=[
+        "AC to DC power adapter",
+    ],
+    images=[
+        "power-adapter.jpg",
+    ],
+)
+
 db_of_parts["template"] = Part(
     info=[
         "template",
