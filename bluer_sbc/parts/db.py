@@ -633,7 +633,7 @@ db_of_parts["mcb"] = Part(
         "miniature circuit breaker (MCB)",
     ],
     images=[
-        "mcb.jpeg",
+        "mcb-2.jpeg",
     ],
 )
 
