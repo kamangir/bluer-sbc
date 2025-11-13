@@ -4,6 +4,7 @@
  - pure sine wave.
 
 - power inverter, 12 VDC -> 220 VAC.
+- pure sine wave.
 
 |   |
 | --- |

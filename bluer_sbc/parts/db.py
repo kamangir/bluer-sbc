@@ -340,6 +340,7 @@ db_of_parts["TV"] = Part(
 db_of_parts["power-inverter"] = Part(
     info=[
         "power inverter, 12 VDC -> 220 VAC.",
+        "pure sine wave.",
     ],
     images=[
         "power-inverter.jpg",
