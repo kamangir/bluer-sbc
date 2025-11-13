@@ -328,21 +328,21 @@ db_of_parts["1N4148"] = Part(
     ],
 )
 
-db_of_parts["40-inch-TV"] = Part(
+db_of_parts["TV"] = Part(
     info=[
-        "40 inch TV",
+        "TV",
     ],
     images=[
         "tv.jpg",
     ],
 )
 
-db_of_parts["power-station"] = Part(
+db_of_parts["power-inverter"] = Part(
     info=[
-        "power station.",
+        "power inverter, 12 VDC -> 220 VAC.",
     ],
     images=[
-        "power-station-2.jpg",
+        "power-inverter.jpg",
     ],
 )
 

@@ -1,4 +1,4 @@
-# parts: 40-inch-TV
+# parts: TV
 
 
 options, Iranian brand: G+:
@@ -11,7 +11,7 @@ options, Iranian brand: G+:
 | 60 inch | 75 x 130 cm | 10-15 cm | 16 kg | 100-200 w | 0.4-0.9 A | 35 mT |
 
 
-- 40 inch TV
+- TV
 
 |   |
 | --- |
