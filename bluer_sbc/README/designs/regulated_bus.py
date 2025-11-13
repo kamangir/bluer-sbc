@@ -53,6 +53,19 @@ parts = {
     "white-terminal": "2 x",
     "pin-headers": "2 x (2 x 3, 90 degree)",
     "PCB-double-9x7": "10 x 15 holes",
+    "nuts-bolts-spacers": "M3: ({})".format(
+        " + ".join(
+            [
+                "7 x bolt",
+                "7 x nut",
+                "1 x 5 mm spacer",
+                "7 x 15 mm spacer",
+                "2 x 25 mm spacer",
+                "3 x 35 mm spacer",
+            ]
+        )
+    ),
+    "plexiglass": "2 x 88 cm x 88 cm",
 }
 
 
