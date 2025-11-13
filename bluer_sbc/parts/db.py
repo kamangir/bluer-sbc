@@ -423,6 +423,15 @@ db_of_parts["white-terminal"] = Part(
     ],
 )
 
+db_of_parts["green-terminal"] = Part(
+    info=[
+        "green terminal",
+    ],
+    images=[
+        "green-terminal.jpg",
+    ],
+)
+
 db_of_parts["dupont-cables"] = Part(
     info=[
         "dupont cables, female to female",

@@ -71,12 +71,12 @@ parts = {
         ]
     ),
     "plexiglass": "14 cm x 9.5 cm",
-    "white-terminal": "2 x",
+    "green-terminal": "2 x",
     "dupont-cables": "1 x 30 cm + 1 x 10 cm",
     "16-awg-wire": "40 cm x (red + black/blue)",
     "solid-cable-1-15": "10 cm x (red + black/blue)",
     "strong-thread": "1 m",
-    "pin-headers": "1 x (female, 2 x 40) -> 2 x 20 + 2 x (male, 1 x 40) -> 4 x 6 + 4 x 2 + 2 x 20",
+    "pin-headers": "1 x (female, 2 x 40) -> 2 x 20 + 2 x (male, 1 x 40) -> 4 x 1 + 2 x 20 + 1 x (male, 2 x 40) -> 2 x 2 x 6",
 }
 
 
