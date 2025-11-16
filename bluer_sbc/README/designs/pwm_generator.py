@@ -14,7 +14,7 @@ marquee = README.Items(
     [
         {
             "name": "pwm generator",
-            "marquee": f"{assets2}/TBA.jpg",
+            "marquee": f"{assets2}/20251116_125132.jpg",
             "url": "./bluer_sbc/docs/pwm-generator.md",
         }
     ]
@@ -30,7 +30,15 @@ items = ImageItems(
         **{
             f"{assets2}/{timestamp}.jpg": ""
             for timestamp in [
-                "TBA",
+                "20251116_124854",
+                "20251116_125104",
+                "20251116_125112",
+                "20251116_125132",
+                "20251116_125140",
+                "20251116_125146",
+                "20251116_125200",
+                "20251116_125206",
+                "20251116_125212",
             ]
         },
     }
