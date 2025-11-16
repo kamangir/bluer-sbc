@@ -4,6 +4,7 @@ from bluer_sbc.README.designs import (
     bryce,
     cheshmak,
     nafha,
+    pwm_generator,
     regulated_bus,
     shelter,
     swallow,
@@ -19,6 +20,7 @@ docs = (
     + bryce.docs
     + cheshmak.docs
     + nafha.docs
+    + pwm_generator.docs
     + regulated_bus.docs
     + shelter.docs
     + swallow_head.docs

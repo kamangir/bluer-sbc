@@ -44,9 +44,9 @@ items = ImageItems(
 )
 
 parts = {
-    "charging-port": "",
+    "dc-power-plug": "",
     "dsn-vc288": "",
-    "charger-socket": "",
+    "dc-power-jack": "",
 }
 
 

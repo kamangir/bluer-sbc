@@ -35,7 +35,7 @@ items = ImageItems(
 
 parts = {
     "dsn-vc288": "",
-    "charging-port": "",
+    "dc-power-plug": "",
     "pwm-manual-dc-motor-controller": "",
     "heater-element": "12 V, 4.5 Ω, 32 w",
 }

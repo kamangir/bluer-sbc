@@ -4,6 +4,7 @@ from bluer_sbc.README.designs.blue_bracket import items as blue_bracket_items
 from bluer_sbc.README.designs.bryce import marquee as bryce_marquee
 from bluer_sbc.README.designs.nafha import marquee as nafha_marquee
 from bluer_sbc.README.designs.cheshmak import marquee as cheshmak_marquee
+from bluer_sbc.README.designs.pwm_generator import marquee as pwm_generator_marquee
 from bluer_sbc.README.designs.regulated_bus import marquee as regulated_bus_marquee
 from bluer_sbc.README.designs.shelter import marquee as shelter_marquee
 from bluer_sbc.README.designs.swallow import marquee as swallow_marquee
@@ -18,6 +19,7 @@ docs = [
         "items": []
         + swallow_head_marquee
         + swallow_marquee
+        + pwm_generator_marquee
         + regulated_bus_marquee
         + battery_bus_marquee
         + adapter_bus_marquee

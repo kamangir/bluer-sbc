@@ -1,6 +1,6 @@
-# parts: charger-socket
+# parts: dc-power-jack
 
-- charger socket 5.5 mm
+- DC power jack, 5.5 mm
 
 |   |
 | --- |

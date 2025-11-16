@@ -38,7 +38,7 @@ items = ImageItems(
 parts = {
     "SLA-Battery": "12 V, 7.2 Ah, or more.",
     "dc-switch": "12V DC 10 A",
-    "charging-port": "",
+    "dc-power-plug": "",
     "dsn-vc288": "",
 }
 
