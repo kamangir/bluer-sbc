@@ -6,16 +6,16 @@ from bluer_sbc.README.design import design_doc
 
 
 assets2 = assets_url(
-    suffix="adapter-bus",
+    suffix="pwm-generator",
     volume=2,
 )
 
 marquee = README.Items(
     [
         {
-            "name": "adapter bus",
-            "marquee": f"{assets2}/20251017_222911.jpg",
-            "url": "./bluer_sbc/docs/adapter-bus.md",
+            "name": "regulated bus",
+            "marquee": f"{assets2}/TBA.jpg",
+            "url": "./bluer_sbc/docs/pwm-generator.md",
         }
     ]
 )
@@ -23,21 +23,14 @@ marquee = README.Items(
 items = ImageItems(
     {
         designs_url(
-            "adapter-bus/wiring.png?raw=true",
+            "pwm-generator/wiring.png?raw=true",
         ): designs_url(
-            "adapter-bus/wiring.svg",
+            "pwm-generator/wiring.svg",
         ),
         **{
             f"{assets2}/{timestamp}.jpg": ""
             for timestamp in [
-                "20251017_222911",
-                "20251017_222929",
-                "20251017_222938",
-                "20251017_222943",
-                "20251017_222949",
-                "20251017_223017",
-                "20251017_223034",
-                "20251018_213244",
+                "TBA",
             ]
         },
     }
@@ -45,14 +38,25 @@ items = ImageItems(
 
 parts = {
     "dc-power-plug": "",
-    "dsn-vc288": "",
     "dc-power-jack": "",
+    "dsn-vc288": "",
+    "plexiglass": "2 x 80 cm x 100 cm",
+    "pwm-manual-dc-motor-controller": "",
+    "nuts-bolts-spacers": "M3: ({})".format(
+        " + ".join(
+            [
+                "4 x bolt",
+                "4 x nut",
+                "4 x 40 mm spacer",
+            ]
+        )
+    ),
 }
 
 
 docs = [
     design_doc(
-        "adapter-bus",
+        "pwm-generator",
         items,
         parts,
     )

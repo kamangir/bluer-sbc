@@ -365,9 +365,9 @@ db_of_parts["dc-switch"] = Part(
     ],
 )
 
-db_of_parts["charging-port"] = Part(
+db_of_parts["dc-power-plug"] = Part(
     info=[
-        "charging port 5.5 mm",
+        "DC power plug, 5.5 mm",
     ],
     images=[
         "charging-port.jpg",
@@ -556,9 +556,9 @@ db_of_parts["micro-usb-cable"] = Part(
     ],
 )
 
-db_of_parts["charger-socket"] = Part(
+db_of_parts["dc-power-jack"] = Part(
     info=[
-        "charger socket 5.5 mm",
+        "DC power jack, 5.5 mm",
     ],
     images=[
         "charger-socket.jpg",
