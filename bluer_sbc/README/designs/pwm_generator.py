@@ -13,7 +13,7 @@ assets2 = assets_url(
 marquee = README.Items(
     [
         {
-            "name": "regulated bus",
+            "name": "pwm generator",
             "marquee": f"{assets2}/TBA.jpg",
             "url": "./bluer_sbc/docs/pwm-generator.md",
         }
