@@ -7,7 +7,7 @@ from bluer_sbc.README.designs.swallow.parts import parts
 
 docs = [
     design_doc(
-        "swallow",
+        f"swallow/v{version}.md",
         ImageItems(
             {
                 (assets2 + "swallow/design/v{}/{}?raw=true").format(
