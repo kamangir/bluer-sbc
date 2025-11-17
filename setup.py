@@ -22,6 +22,7 @@ setup(
         f"{NAME}.parts.classes",
         f"{NAME}.README",
         f"{NAME}.README.designs",
+        f"{NAME}.README.designs.swallow",
         f"{NAME}.ROS",
         f"{NAME}.session",
     ],
