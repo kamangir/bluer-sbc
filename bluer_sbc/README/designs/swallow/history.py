@@ -20,5 +20,5 @@ docs = [
         parts,
         own_folder=True,
     )
-    for version in range(1, latest_version)
+    for version in range(2, latest_version)
 ]
