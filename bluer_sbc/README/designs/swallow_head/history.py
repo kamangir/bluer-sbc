@@ -1,12 +1,12 @@
 from bluer_objects.README.items import ImageItems
 
 from bluer_sbc.README.design import design_doc
-from bluer_sbc.README.designs.swallow import image_template, latest_version
-from bluer_sbc.README.designs.swallow.parts import parts
+from bluer_sbc.README.designs.swallow_head import image_template, latest_version
+from bluer_sbc.README.designs.swallow_head.parts import parts
 
 docs = [
     design_doc(
-        f"swallow/v{version}.md",
+        f"swallow-head/v{version}.md",
         ImageItems(
             {
                 image_template(version).format(
@@ -18,5 +18,5 @@ docs = [
         parts,
         own_folder=True,
     )
-    for version in range(2, latest_version)
+    for version in range(1, latest_version)
 ]

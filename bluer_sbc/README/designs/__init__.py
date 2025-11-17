@@ -7,11 +7,11 @@ from bluer_sbc.README.designs import (
     pwm_generator,
     regulated_bus,
     shelter,
-    swallow_head,
     template,
     ultrasonic_sensor_tester,
 )
 from bluer_sbc.README.designs.swallow import docs as swallow
+from bluer_sbc.README.designs.swallow_head import docs as swallow_head
 
 
 docs = (

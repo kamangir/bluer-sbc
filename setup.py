@@ -23,6 +23,7 @@ setup(
         f"{NAME}.README",
         f"{NAME}.README.designs",
         f"{NAME}.README.designs.swallow",
+        f"{NAME}.README.designs.swallow_head",
         f"{NAME}.ROS",
         f"{NAME}.session",
     ],
