@@ -8,7 +8,7 @@ latest_version: int = 2
 
 
 def image_template(version: int) -> str:
-    return assets2 + f"swallow/design/v{version}/{{}}?raw=true"
+    return assets2 + f"swallow/design/head-v{version}/{{}}?raw=true"
 
 
 marquee = README.Items(
