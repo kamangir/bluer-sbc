@@ -1,26 +1,3 @@
-from bluer_objects import README
-from bluer_objects.README.items import ImageItems
-
-from bluer_sbc.README.designs.consts import assets2
-from bluer_sbc.README.design import design_doc
-
-
-image_template = assets2 + "swallow/design/head-v1/{}?raw=true"
-
-marquee = README.Items(
-    [
-        {
-            "name": "swallow head",
-            "marquee": image_template.format("01.jpg"),
-            "url": "./bluer_sbc/docs/swallow-head.md",
-        }
-    ]
-)
-
-items = ImageItems(
-    {image_template.format(f"{index+1:02}.jpg"): "" for index in range(6)}
-)
-
 parts = {
     "sd-card-32-gb": "",
     "rpi": "",
@@ -78,12 +55,3 @@ parts = {
     "strong-thread": "1 m",
     "pin-headers": "1 x (female, 2 x 40) -> 2 x 20 + 2 x (male, 1 x 40) -> 4 x 1 + 2 x 20 + 1 x (male, 2 x 40) -> 2 x 2 x 6",
 }
-
-
-docs = [
-    design_doc(
-        "swallow-head",
-        items,
-        parts,
-    )
-]
