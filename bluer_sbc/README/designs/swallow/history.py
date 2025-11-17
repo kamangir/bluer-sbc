@@ -1,7 +1,7 @@
 from bluer_objects.README.items import ImageItems
 
 from bluer_sbc.README.design import design_doc
-from bluer_ugv.README.swallow.consts import swallow_assets2
+from bluer_sbc.README.designs.swallow.consts import swallow_assets2
 from bluer_sbc.README.designs.swallow import image_template, latest_version
 from bluer_sbc.README.designs.swallow.parts import parts
 
