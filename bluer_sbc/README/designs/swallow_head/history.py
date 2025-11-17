@@ -6,7 +6,7 @@ from bluer_sbc.README.designs.swallow_head.parts import parts
 
 docs = [
     design_doc(
-        f"swallow-head/v{version}.md",
+        f"swallow-head/v{version}",
         ImageItems(
             {
                 image_template(version).format(
@@ -16,7 +16,6 @@ docs = [
             }
         ),
         parts,
-        own_folder=True,
     )
     for version in range(1, latest_version)
 ]
