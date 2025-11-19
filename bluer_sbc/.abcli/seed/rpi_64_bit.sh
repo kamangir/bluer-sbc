@@ -16,7 +16,7 @@ function bluer_ai_seed_rpi_64_bit() {
     local ssp="--break-system-packages"
 
     seed="${seed}sudo apt update$delim"
-    seed="${seed}sudo apt install -y python3-pip mpv$delim"
+    seed="${seed}sudo apt install -y python3-pip mpv vlc-bin$delim"
     seed="${seed}pip3 install $ssp -e .$delim_section"
 
     bluer_ai_seed add_repo repo=bluer-objects
