@@ -19,5 +19,6 @@ docs = [
         items,
         parts,
         own_folder=True,
+        parts_reference="../parts",
     )
 ] + history.docs
