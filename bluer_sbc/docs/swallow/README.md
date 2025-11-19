@@ -13,7 +13,7 @@
 
 ## parts
 
-[swallow-head](./swallow-head) + ⬇️
+[swallow-head](../swallow-head) + ⬇️
 
 |   |   |   |   |   |
 | --- | --- | --- | --- | --- |

@@ -10,7 +10,7 @@ items:::
 
 ## parts
 
-[swallow-head](./swallow-head) + ⬇️
+[swallow-head](../swallow-head) + ⬇️
 
 parts_images:::
 
