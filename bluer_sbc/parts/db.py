@@ -701,6 +701,16 @@ db_of_parts["power-adapter"] = Part(
     ],
 )
 
+db_of_parts["relay"] = Part(
+    info=[
+        "relay",
+    ],
+    images=[
+        "relay.jpg",
+    ],
+)
+
+
 db_of_parts["template"] = Part(
     info=[
         "template",
