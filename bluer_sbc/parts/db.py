@@ -646,6 +646,15 @@ db_of_parts["mcb"] = Part(
     ],
 )
 
+db_of_parts["dc-circuit-breaker"] = Part(
+    info=[
+        "DC circuit breaker",
+    ],
+    images=[
+        "mcb-3.jpg",
+    ],
+)
+
 db_of_parts["ac-switch"] = Part(
     info=[
         "AC switch",
