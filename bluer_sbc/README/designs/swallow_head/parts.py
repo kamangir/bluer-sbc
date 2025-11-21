@@ -9,7 +9,6 @@ parts = {
     "LED": "green + red + yellow + 4 x blue",
     "rpi-camera": "",
     "PCB-single-14x9_5": "2 x",
-    "PCB-double-9x7": "2 x",
     "pushbutton": "",
     "ultrasonic-sensor": "4 x",
     "connector": "1 female",
@@ -38,9 +37,8 @@ parts = {
                     [
                         "1 x bolt",
                         "5 x nut",
-                        "3 x 35 mm spacer",
-                        "3 x 25 mm spacer",
-                        "7 x 15 mm spacer",
+                        "5 x 25 mm spacer",
+                        "8 x 15 mm spacer",
                         "4 x 5 mm spacer",
                     ]
                 )

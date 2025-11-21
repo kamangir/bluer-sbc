@@ -2,14 +2,14 @@
 
 - minimum hardware for [UGV control](https://github.com/kamangir/bluer-ugv/blob/main/bluer_ugv/docs/swallow/digital/design/computer).
 - Raspberry Pi, 5 MP camera, 2+2 ultrasonic sensors, 2 x 12 VDC 43A DC motor drivers.
-- width x height x length: 137 mm x 93 mm x 150 mm
+- width x height x length: 140 mm x 95 mm x 125 mm
 - [terraform](https://github.com/kamangir/bluer-ugv/blob/main/bluer_ugv/docs/swallow/digital/design/terraform.md).
-- previous versions: [v1](./v1.md), [v2](./v2.md), [v3](./v3.md), [v4](./v4.md).
+- previous versions: [v1](./v1.md), [v2](./v2.md), [v3](./v3.md), [v4](./v4.md), [v5](./v5.md).
 
 |   |   |   |
 | --- | --- | --- |
-| [![image](https://github.com/kamangir/assets2/blob/main/swallow/design/v5/01.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/swallow/design/v5/01.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/blob/main/swallow/design/v5/02.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/swallow/design/v5/02.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/blob/main/swallow/design/v5/03.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/swallow/design/v5/03.jpg?raw=true) |
-| [![image](https://github.com/kamangir/assets2/blob/main/swallow/design/v5/04.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/swallow/design/v5/04.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/blob/main/swallow/design/v5/05.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/swallow/design/v5/05.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/blob/main/swallow/design/v5/06.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/swallow/design/v5/06.jpg?raw=true) |
+| [![image](https://github.com/kamangir/assets2/blob/main/swallow/design/v6/01.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/swallow/design/v6/01.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/blob/main/swallow/design/v6/02.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/swallow/design/v6/02.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/blob/main/swallow/design/v6/03.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/swallow/design/v6/03.jpg?raw=true) |
+| [![image](https://github.com/kamangir/assets2/blob/main/swallow/design/v6/04.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/swallow/design/v6/04.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/blob/main/swallow/design/v6/05.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/swallow/design/v6/05.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/blob/main/swallow/design/v6/06.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/swallow/design/v6/06.jpg?raw=true) |
 
 ## parts
 

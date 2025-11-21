@@ -2,7 +2,7 @@ from bluer_objects import README
 
 from bluer_sbc.README.designs.consts import assets2
 
-latest_version: int = 5
+latest_version: int = 6
 
 
 def image_template(version: int) -> str:
