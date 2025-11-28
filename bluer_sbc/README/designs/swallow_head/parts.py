@@ -8,7 +8,7 @@ parts = {
     "resistor": "7 x 330-470 Ω + 4 x 2.2 kΩ + 4 x 3.3 kΩ",
     "LED": "green + red + yellow + 4 x blue",
     "rpi-camera": "",
-    "PCB-single-14x9_5": "2 x",
+    "PCB-single-14x9_5": "",
     "pushbutton": "",
     "ultrasonic-sensor": "4 x",
     "connector": "1 female",

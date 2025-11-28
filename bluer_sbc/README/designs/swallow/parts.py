@@ -12,4 +12,5 @@ parts = {
         )
     ),
     "solid-cable-1-15": "20 cm x (red + black/blue)",
+    "PCB-single-14x9_5": "",
 }
