@@ -710,6 +710,15 @@ db_of_parts["relay"] = Part(
     ],
 )
 
+db_of_parts["heavy-duty-pipe-clamp"] = Part(
+    info=[
+        "heavy duty pipe clamp",
+    ],
+    images=[
+        "heavy-duty-pipe-clamp.jpg",
+    ],
+)
+
 
 db_of_parts["template"] = Part(
     info=[

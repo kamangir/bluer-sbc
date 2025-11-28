@@ -10,5 +10,9 @@
 @sbc \
 	parts \
 	cd
- . cd to part images.
+ . cd to part images folder.
+@sbc \
+	parts \
+	open
+ . open part images folder.
 ```

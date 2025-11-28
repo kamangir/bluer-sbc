@@ -15,7 +15,7 @@ def help_cd(
             "parts",
             "cd",
         ],
-        "cd to part images.",
+        "cd to part images folder.",
         mono=mono,
     )
 
@@ -43,7 +43,23 @@ def help_adjust(
     )
 
 
+def help_open(
+    tokens: List[str],
+    mono: bool,
+) -> str:
+    return show_usage(
+        [
+            "@sbc",
+            "parts",
+            "open",
+        ],
+        "open part images folder.",
+        mono=mono,
+    )
+
+
 help_functions = {
     "adjust": help_adjust,
     "cd": help_cd,
+    "open": help_open,
 }
