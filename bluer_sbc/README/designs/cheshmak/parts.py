@@ -25,7 +25,7 @@ docs = [
             for keyword, value in design_doc(
                 "cheshmak",
                 dict_of_parts=parts,
-            ).items()
+            )["macros"].items()
             if keyword.startswith("parts_")
         },
     }
