@@ -1,7 +1,7 @@
 # parts: rpi
 
 - Raspberry Pi.
-- 3B+ is preferred and 4B is in progress 🔥
+- 3B+/4B.
 
 |   |   |   |
 | --- | --- | --- |
