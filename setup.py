@@ -22,6 +22,8 @@ setup(
         f"{NAME}.parts.classes",
         f"{NAME}.README",
         f"{NAME}.README.designs",
+        f"{NAME}.README.designs.cheshmak",
+        f"{NAME}.README.designs.cheshmak.body",
         f"{NAME}.README.designs.swallow",
         f"{NAME}.README.designs.swallow_head",
         f"{NAME}.ROS",

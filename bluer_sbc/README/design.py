@@ -8,11 +8,11 @@ from bluer_sbc.parts.db import db_of_parts
 def design_doc(
     design_name: str,
     items: List[str] = [],
-    dict_of_parts: dict = {},
-    macros: dict = {},
+    dict_of_parts: Dict = {},
+    macros: Dict[str, Dict] = {},
     own_folder: bool = False,
     parts_reference: str = "./parts",
-) -> Dict:
+) -> Dict[str, Dict]:
     macros_ = {}
     if dict_of_parts:
         macros_ = {
