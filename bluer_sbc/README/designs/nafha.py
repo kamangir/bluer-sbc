@@ -2,7 +2,7 @@ from bluer_objects import README
 from bluer_objects.README.items import ImageItems
 
 from bluer_sbc.README.designs.consts import assets2
-from bluer_sbc.README.designs.pwm_generator import parts
+from bluer_sbc.README.designs import pwm_generator, battery_bus
 from bluer_sbc.README.design import design_doc
 
 image_template = assets2 + "nafha/{}?raw=true"
@@ -37,6 +37,13 @@ items = ImageItems(
     },
 )
 
+parts = {
+    **battery_bus.parts,
+    **pwm_generator.parts,
+    **{
+        "heater-element": "12 V, 4.5 Ω, 32 w",
+    },
+}
 
 docs = [
     design_doc(
