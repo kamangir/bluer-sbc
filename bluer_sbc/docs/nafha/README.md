@@ -17,11 +17,13 @@
 
 continues [v1](./parts-v1.md), [v2](./parts-v2.md).
 
-|   |   |   |   |
-| --- | --- | --- | --- |
-| [`DC power plug, 5.5 mm`](../parts/dc-power-plug.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/charging-port.jpg?raw=true)](../parts/dc-power-plug.md)  | [`DSN-VC288, panel mount, 4-30 VDC, 10A, voltmeter ammeter`](../parts/dsn-vc288.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/dsn-vc288.jpg?raw=true)](../parts/dsn-vc288.md)  | [`heater element`](../parts/heater-element.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/heater-element.jpg?raw=true)](../parts/heater-element.md) 12 V, 4.5 Ω, 32 w | [`pwm manual DC motor controller, 12 V, ≥ 5 A`](../parts/pwm-manual-dc-motor-controller.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/pwm-manual-dc-motor-controller.jpg?raw=true)](../parts/pwm-manual-dc-motor-controller.md)  |
+|   |   |   |   |   |   |
+| --- | --- | --- | --- | --- | --- |
+| [`DC power jack, 5.5 mm`](../parts/dc-power-jack.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/charger-socket.jpg?raw=true)](../parts/dc-power-jack.md)  | [`DC power plug, 5.5 mm`](../parts/dc-power-plug.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/charging-port.jpg?raw=true)](../parts/dc-power-plug.md)  | [`DSN-VC288, panel mount, 4-30 VDC, 10A, voltmeter ammeter`](../parts/dsn-vc288.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/dsn-vc288.jpg?raw=true)](../parts/dsn-vc288.md)  | [`nuts, bolts, and spacers`](../parts/nuts-bolts-spacers.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/nuts-bolts-spacers.jpg?raw=true)](../parts/nuts-bolts-spacers.md) M3: (4 x bolt + 4 x nut + 4 x 40 mm spacer) | [`plexiglass, 2 mm or 2.5 mm thickness`](../parts/plexiglass.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/plexiglass.jpg?raw=true)](../parts/plexiglass.md) 2 x 80 cm x 100 cm | [`pwm manual DC motor controller, 12 V, ≥ 5 A`](../parts/pwm-manual-dc-motor-controller.md) [![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/pwm-manual-dc-motor-controller.jpg?raw=true)](../parts/pwm-manual-dc-motor-controller.md)  |
 
+1. [DC power jack, 5.5 mm](../parts/dc-power-jack.md).
 1. [DC power plug, 5.5 mm](../parts/dc-power-plug.md).
 1. [DSN-VC288, panel mount, 4-30 VDC, 10A, voltmeter ammeter](../parts/dsn-vc288.md).
-1. [heater element](../parts/heater-element.md): 12 V, 4.5 Ω, 32 w.
+1. [nuts, bolts, and spacers](../parts/nuts-bolts-spacers.md): M3: (4 x bolt + 4 x nut + 4 x 40 mm spacer).
+1. [plexiglass, 2 mm or 2.5 mm thickness](../parts/plexiglass.md): 2 x 80 cm x 100 cm.
 1. [pwm manual DC motor controller, 12 V, ≥ 5 A](../parts/pwm-manual-dc-motor-controller.md).
