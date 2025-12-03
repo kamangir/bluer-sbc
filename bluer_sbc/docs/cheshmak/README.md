@@ -4,7 +4,6 @@
 - [body](./body)
 - [operation](./operation.md).
 
-|   |   |   |
-| --- | --- | --- |
-| [![image](https://github.com/kamangir/assets2/blob/main/bryce/09.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/bryce/09.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/blob/main/cheshmak/01.png?raw=true)](https://github.com/kamangir/assets2/blob/main/cheshmak/01.png?raw=true) | [![image](https://github.com/kamangir/assets2/blob/main/cheshmak/20251203_190131.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/cheshmak/20251203_190131.jpg?raw=true) |
-| [![image](https://github.com/kamangir/assets2/blob/main/cheshmak/20251203_190344.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/cheshmak/20251203_190344.jpg?raw=true) |  |  |
+|   |   |
+| --- | --- |
+| [![image](https://github.com/kamangir/assets2/blob/main/cheshmak/01.png?raw=true)](https://github.com/kamangir/assets2/blob/main/cheshmak/01.png?raw=true) | [![image](https://github.com/kamangir/assets2/blob/main/bryce/09.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/bryce/09.jpg?raw=true) |
