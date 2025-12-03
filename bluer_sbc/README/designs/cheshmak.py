@@ -18,10 +18,6 @@ marquee = README.Items(
 
 items = ImageItems(
     {
-        **{
-            (assets2 + "bryce/{}?raw=true").format(f"{index+1:02}.jpg"): ""
-            for index in range(9)
-        },
         **{image_template.format(f"{index+1:02}.png"): "" for index in range(1)},
         **{
             image_template.format(filename): ""
@@ -40,6 +36,17 @@ docs = [
         items,
         own_folder=True,
     ),
+    {
+        "path": "../docs/cheshmak/v1.md",
+        "items": ImageItems(
+            {
+                **{
+                    (assets2 + "bryce/{}?raw=true").format(f"{index+1:02}.jpg"): ""
+                    for index in range(9)
+                }
+            }
+        ),
+    },
     {
         "path": "../docs/cheshmak/operation.md",
     },
