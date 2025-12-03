@@ -5,7 +5,7 @@ from bluer_sbc.README.designs.consts import assets2
 
 docs = [
     {
-        "path": "../docs/cheshmak/v1.md",
+        "path": "../docs/cheshmak/body/v1.md",
         "items": ImageItems(
             {
                 **{
