@@ -18,6 +18,7 @@ marquee = README.Items(
 
 items = ImageItems(
     {
+        (assets2 + "bryce/{}?raw=true").format(f"{9:02}.jpg"): "",
         **{image_template.format(f"{index+1:02}.png"): "" for index in range(1)},
         **{
             image_template.format(filename): ""
@@ -42,7 +43,7 @@ docs = [
             {
                 **{
                     (assets2 + "bryce/{}?raw=true").format(f"{index+1:02}.jpg"): ""
-                    for index in range(9)
+                    for index in range(8)
                 }
             }
         ),
