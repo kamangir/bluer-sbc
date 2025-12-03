@@ -6,9 +6,3 @@ title:::
 - [validations](./validations.md).
 
 items:::
-
-## parts
-
-parts_images:::
-
-parts_list:::
