@@ -1,7 +1,6 @@
 from bluer_sbc.README.designs import (
     adapter_bus,
     battery_bus,
-    cheshmak,
     nafha,
     pwm_generator,
     regulated_bus,
@@ -9,6 +8,7 @@ from bluer_sbc.README.designs import (
     template,
     ultrasonic_sensor_tester,
 )
+from bluer_sbc.README.designs.cheshmak import docs as cheshmak
 from bluer_sbc.README.designs.swallow import docs as swallow
 from bluer_sbc.README.designs.swallow_head import docs as swallow_head
 
