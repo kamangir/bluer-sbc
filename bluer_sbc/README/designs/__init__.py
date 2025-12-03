@@ -1,7 +1,6 @@
 from bluer_sbc.README.designs import (
     adapter_bus,
     battery_bus,
-    bryce,
     cheshmak,
     nafha,
     pwm_generator,
@@ -17,7 +16,6 @@ from bluer_sbc.README.designs.swallow_head import docs as swallow_head
 docs = (
     adapter_bus.docs
     + battery_bus.docs
-    + bryce.docs
     + cheshmak.docs
     + nafha.docs
     + pwm_generator.docs

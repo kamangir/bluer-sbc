@@ -10,14 +10,27 @@ marquee = README.Items(
     [
         {
             "name": "cheshmak",
-            "marquee": image_template.format("01.png"),
-            "url": "./bluer_sbc/docs/cheshmak.md",
+            "marquee": image_template.format("20251203_190131.jpg"),
+            "url": "./bluer_sbc/docs/cheshmak",
         }
     ]
 )
 
 items = ImageItems(
-    {image_template.format(f"{index+1:02}.png"): "" for index in range(1)}
+    {
+        **{
+            (assets2 + "bryce/{}?raw=true").format(f"{index+1:02}.jpg"): ""
+            for index in range(9)
+        },
+        **{image_template.format(f"{index+1:02}.png"): "" for index in range(1)},
+        **{
+            image_template.format(filename): ""
+            for filename in [
+                "20251203_190131.jpg",
+                "20251203_190344.jpg",
+            ]
+        },
+    }
 )
 
 
@@ -25,5 +38,9 @@ docs = [
     design_doc(
         "cheshmak",
         items,
-    )
+        own_folder=True,
+    ),
+    {
+        "path": "../docs/cheshmak/operation.md",
+    },
 ]

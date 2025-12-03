@@ -1,7 +1,6 @@
 from bluer_sbc.README.designs.adapter_bus import marquee as adapter_bus_marquee
 from bluer_sbc.README.designs.battery_bus import marquee as battery_bus_marquee
 from bluer_sbc.README.designs.blue_bracket import items as blue_bracket_items
-from bluer_sbc.README.designs.bryce import marquee as bryce_marquee
 from bluer_sbc.README.designs.nafha import marquee as nafha_marquee
 from bluer_sbc.README.designs.cheshmak import marquee as cheshmak_marquee
 from bluer_sbc.README.designs.pwm_generator import marquee as pwm_generator_marquee
@@ -24,7 +23,6 @@ docs = [
         + battery_bus_marquee
         + adapter_bus_marquee
         + ultrasonic_sensor_tester_marquee
-        + bryce_marquee
         + cheshmak_marquee
         + nafha_marquee
         + shelter_marquee
