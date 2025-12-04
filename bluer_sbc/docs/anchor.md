@@ -4,7 +4,7 @@
 
 |   |
 | --- |
-| [![image](https://github.com/kamangir/assets2/raw/main/anchor/03.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/anchor/03.jpg?raw=true) |
+| [![image](https://github.com/kamangir/assets2/raw/main/anchor/03.png?raw=true)](https://github.com/kamangir/assets2/raw/main/anchor/03.png?raw=true) |
 
 ## parts
 

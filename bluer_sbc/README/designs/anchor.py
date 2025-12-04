@@ -21,7 +21,7 @@ marquee = README.Items(
 
 items = ImageItems(
     {
-        f"{assets2}/03.jpg": "",
+        f"{assets2}/03.png": "",
     }
 )
 
