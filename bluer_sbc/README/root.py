@@ -1,4 +1,5 @@
 from bluer_sbc.README.designs.adapter_bus import marquee as adapter_bus_marquee
+from bluer_sbc.README.designs.anchor import marquee as anchor_marquee
 from bluer_sbc.README.designs.battery_bus import marquee as battery_bus_marquee
 from bluer_sbc.README.designs.blue_bracket import items as blue_bracket_items
 from bluer_sbc.README.designs.nafha import marquee as nafha_marquee
@@ -18,6 +19,7 @@ docs = [
         "items": []
         + swallow_head_marquee
         + swallow_marquee
+        + anchor_marquee
         + pwm_generator_marquee
         + regulated_bus_marquee
         + battery_bus_marquee
