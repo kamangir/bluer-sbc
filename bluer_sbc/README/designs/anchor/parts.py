@@ -1,29 +1,4 @@
-from bluer_objects import README
-from bluer_objects.README.items import ImageItems
-from bluer_objects.README.consts import assets_url
-
-from bluer_sbc.README.design import design_doc
-
-assets2 = assets_url(
-    suffix="anchor",
-    volume=2,
-)
-
-marquee = README.Items(
-    [
-        {
-            "name": "anchor",
-            "marquee": f"{assets2}/03.png",
-            "url": "./bluer_sbc/docs/anchor.md",
-        }
-    ]
-)
-
-items = ImageItems(
-    {
-        f"{assets2}/03.png": "",
-    }
-)
+from bluer_sbc.README.design import design_doc_parts
 
 parts = {
     "sd-card-32-gb": "",
@@ -68,11 +43,9 @@ parts = {
     "pin-headers": "1 x (female, 2 x 40) -> 2 x 20 + 2 x (male, 1 x 40) -> 4 x 1 + 2 x 20 + 1 x (male, 2 x 40) -> 2 x 2 x 6",
 }
 
-
 docs = [
-    design_doc(
-        "anchor",
-        items,
-        parts,
-    )
+    {
+        "path": "../docs/cheshmak/parts.md",
+        "macros": design_doc_parts(dict_of_parts=parts),
+    }
 ]

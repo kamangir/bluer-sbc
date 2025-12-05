@@ -1,0 +1,12 @@
+# anchor
+
+> anchor ⚓️ is a stationary rpi equipped with [LoRa](https://github.com/kamangir/bluer-algo/tree/main/bluer_algo/docs/lora) transmission and either a GNSS receiver or a manually assigned position. It participates in [bps](https://github.com/kamangir/bluer-algo/tree/main/bluer_algo/docs/bps) as an anchor and simultaneously serves as [a remote keyboard interface](https://github.com/kamangir/bluer-algo/tree/main/bluer_algo/docs/lora-keyboard.md) for all [swallow](https://github.com/kamangir/bluer-ugv/tree/main/bluer_ugv/docs/swallow)s. Each swallow carries a LoRa receiver, listens to the anchor’s broadcast stream, and applies only the commands addressed to its own ID. BLE on each rpi operates independently and without interference, making this architecture a reliable, low-bandwidth, long-range control and reference system that scales from one robot to many.
+
+- [parts](./parts.md)
+- [body](./body.md)
+
+|   |   |   |
+| --- | --- | --- |
+| [![image](https://github.com/kamangir/assets2/blob/main/anchor/03.png?raw=true)](https://github.com/kamangir/assets2/blob/main/anchor/03.png?raw=true) | [![image](https://github.com/kamangir/assets2/blob/main/anchor/20251204_144010.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/anchor/20251204_144010.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/blob/main/anchor/20251204_144014.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/anchor/20251204_144014.jpg?raw=true) |
+| [![image](https://github.com/kamangir/assets2/blob/main/anchor/20251204_144017.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/anchor/20251204_144017.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/blob/main/anchor/20251204_144021.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/anchor/20251204_144021.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/blob/main/anchor/20251204_144024.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/anchor/20251204_144024.jpg?raw=true) |
+| [![image](https://github.com/kamangir/assets2/blob/main/anchor/20251204_144031.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/anchor/20251204_144031.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/blob/main/anchor/20251204_144037.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/anchor/20251204_144037.jpg?raw=true) |  |

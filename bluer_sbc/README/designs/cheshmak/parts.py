@@ -1,4 +1,4 @@
-from bluer_sbc.README.design import design_doc
+from bluer_sbc.README.design import design_doc_parts
 
 parts = {
     "plexiglass": "2 x 90 mm x 90 mm",
@@ -20,13 +20,6 @@ parts = {
 docs = [
     {
         "path": "../docs/cheshmak/parts.md",
-        "macros": {
-            keyword: value
-            for keyword, value in design_doc(
-                "cheshmak",
-                dict_of_parts=parts,
-            )["macros"].items()
-            if keyword.startswith("parts_")
-        },
+        "macros": design_doc_parts(dict_of_parts=parts),
     }
 ]
