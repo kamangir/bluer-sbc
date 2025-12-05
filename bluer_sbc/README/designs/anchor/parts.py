@@ -45,7 +45,7 @@ parts = {
 
 docs = [
     {
-        "path": "../docs/cheshmak/parts.md",
+        "path": "../docs/anchor/parts.md",
         "macros": design_doc_parts(dict_of_parts=parts),
     }
 ]
