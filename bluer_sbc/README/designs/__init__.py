@@ -1,6 +1,5 @@
 from bluer_sbc.README.designs import (
     adapter_bus,
-    battery_bus,
     nafha,
     pwm_generator,
     regulated_bus,
