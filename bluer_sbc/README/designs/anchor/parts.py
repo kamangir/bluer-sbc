@@ -29,8 +29,8 @@ parts = {
                         "1 x bolt",
                         "5 x nut",
                         "4 x 5 mm spacer",
-                        "5 x 15 mm spacer",
-                        "4 x 25 mm spacer",
+                        "4 x 15 mm spacer",
+                        "5 x 25 mm spacer",
                     ]
                 )
             ),

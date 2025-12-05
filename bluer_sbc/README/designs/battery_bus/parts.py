@@ -6,6 +6,7 @@ parts = {
     "dc-switch": "12V DC 10 A",
     "dc-power-plug": "",
     "dsn-vc288": "",
+    "connector": "1 male",
 }
 
 docs = [
