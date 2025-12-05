@@ -88,7 +88,7 @@ db_of_parts["SLA-Battery"] = Part(
     ],
 )
 
-db_of_parts["Li-Ion-Battery"] = Part(
+db_of_parts["li-ion-battery"] = Part(
     info=[
         "Li-Ion battery",
     ],
@@ -704,6 +704,15 @@ db_of_parts["emergency-stop"] = Part(
 db_of_parts["power-adapter"] = Part(
     info=[
         "AC to DC power adapter",
+    ],
+    images=[
+        "power-adapter.jpg",
+    ],
+)
+
+db_of_parts["li-ion-charger"] = Part(
+    info=[
+        "Li-Ion battery charger, 12.6 VDC, 1 A",
     ],
     images=[
         "power-adapter.jpg",
