@@ -9,6 +9,7 @@ docs = (
             "battery_bus",
             items,
             own_folder=True,
+            parts_reference="../parts",
             cols=2,
         )
     ]

@@ -10,6 +10,7 @@ docs = (
             "cheshmak",
             items,
             own_folder=True,
+            parts_reference="../parts",
         ),
     ]
     + body.docs
