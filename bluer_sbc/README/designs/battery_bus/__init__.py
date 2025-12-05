@@ -8,7 +8,7 @@ marquee = README.Items(
     [
         {
             "name": "battery bus",
-            "marquee": f"{assets2}/20251007_221902.jpg",
+            "marquee": image_template.format("20251007_221902.jpg"),
             "url": "./bluer_sbc/docs/battery-bus.md",
         }
     ]
