@@ -23,7 +23,7 @@ setup(
         f"{NAME}.README",
         f"{NAME}.README.designs",
         f"{NAME}.README.designs.anchor",
-        f"{NAME}.README.designs.body",
+        f"{NAME}.README.designs.anchor.body",
         f"{NAME}.README.designs.cheshmak",
         f"{NAME}.README.designs.cheshmak.body",
         f"{NAME}.README.designs.swallow",
