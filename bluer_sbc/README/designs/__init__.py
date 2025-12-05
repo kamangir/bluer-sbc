@@ -9,6 +9,7 @@ from bluer_sbc.README.designs import (
     ultrasonic_sensor_tester,
 )
 from bluer_sbc.README.designs.anchor import docs as anchor
+from bluer_sbc.README.designs.battery_bus import docs as battery_bus
 from bluer_sbc.README.designs.cheshmak import docs as cheshmak
 from bluer_sbc.README.designs.swallow import docs as swallow
 from bluer_sbc.README.designs.swallow_head import docs as swallow_head

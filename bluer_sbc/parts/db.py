@@ -88,6 +88,15 @@ db_of_parts["SLA-Battery"] = Part(
     ],
 )
 
+db_of_parts["Li-Ion-Battery"] = Part(
+    info=[
+        "Li-Ion battery",
+    ],
+    images=[
+        "Li-Ion-battery.png",
+    ],
+)
+
 db_of_parts["TVS-diode"] = Part(
     info=[
         "TVS diode, unidirectional, 600 W, 6.8 V clamp, e.g. P6KE6.8A, DO-15 package",
