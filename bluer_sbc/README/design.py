@@ -1,4 +1,4 @@
-from typing import Dict, List
+from typing import Dict, List, Any
 
 from bluer_objects import markdown
 
@@ -12,24 +12,13 @@ def design_doc(
     macros: Dict[str, Dict] = {},
     own_folder: bool = False,
     parts_reference: str = "./parts",
-) -> Dict[str, Dict]:
+) -> Dict[str, Any]:
     macros_ = {}
     if dict_of_parts:
-        macros_ = {
-            "parts_images:::": markdown.generate_table(
-                db_of_parts.as_images(
-                    dict_of_parts,
-                    reference=parts_reference,
-                ),
-                cols=10,
-                log=False,
-            ),
-            "parts_list:::": db_of_parts.as_list(
-                dict_of_parts,
-                reference=parts_reference,
-                log=False,
-            ),
-        }
+        macros_ = design_doc_parts(
+            dict_of_parts,
+            parts_reference,
+        )
 
     macros_.update(macros)
 
@@ -37,4 +26,25 @@ def design_doc(
         "path": "../docs/{}{}".format(design_name, "" if own_folder else ".md"),
         "items": items,
         "macros": macros_,
+    }
+
+
+def design_doc_parts(
+    dict_of_parts: Dict,
+    parts_reference: str = "./parts",
+) -> Dict[str, Dict]:
+    return {
+        "parts_images:::": markdown.generate_table(
+            db_of_parts.as_images(
+                dict_of_parts,
+                reference=parts_reference,
+            ),
+            cols=10,
+            log=False,
+        ),
+        "parts_list:::": db_of_parts.as_list(
+            dict_of_parts,
+            reference=parts_reference,
+            log=False,
+        ),
     }

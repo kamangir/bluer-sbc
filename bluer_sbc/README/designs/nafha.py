@@ -11,7 +11,7 @@ marquee = README.Items(
     [
         {
             "name": "nafha",
-            "marquee": image_template.format("01.png"),
+            "marquee": image_template.format("20251116_224456.jpg"),
             "url": "./bluer_sbc/docs/nafha",
         }
     ]
