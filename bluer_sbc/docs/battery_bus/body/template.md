@@ -1,6 +1,6 @@
 title:::
 
-- [Li-Ion](./li-ion.md)
 - [SLA](./sla.md)
+- [Li-Ion](./li-ion.md)
 
 items:::

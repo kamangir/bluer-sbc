@@ -12,6 +12,7 @@ def design_doc(
     macros: Dict[str, Dict] = {},
     own_folder: bool = False,
     parts_reference: str = "./parts",
+    cols: int = 3,
 ) -> Dict[str, Any]:
     macros_ = {}
     if dict_of_parts:
@@ -24,6 +25,7 @@ def design_doc(
 
     return {
         "path": "../docs/{}{}".format(design_name, "" if own_folder else ".md"),
+        "cols": cols,
         "items": items,
         "macros": macros_,
     }

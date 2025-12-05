@@ -9,6 +9,7 @@ docs = (
             "battery_bus",
             items,
             own_folder=True,
+            cols=2,
         )
     ]
     + body.docs

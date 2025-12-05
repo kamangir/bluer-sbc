@@ -1,7 +1,7 @@
 # battery-bus: body
 
-- [Li-Ion](./li-ion.md)
 - [SLA](./sla.md)
+- [Li-Ion](./li-ion.md)
 
 |   |   |
 | --- | --- |

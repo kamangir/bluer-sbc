@@ -5,7 +5,7 @@
 - [parts](./parts.md)
 - [body](./body)
 
-|   |   |   |
-| --- | --- | --- |
-| [![image](https://github.com/kamangir/assets2/blob/main/battery-bus/concept.png?raw=true)](https://github.com/kamangir/assets2/blob/main/battery-bus/concept.png?raw=true) | [![image](https://github.com/kamangir/bluer-designs//blob/main/battery-bus/electrical/wiring.png?raw=true)](https://github.com/kamangir/bluer-designs//blob/main/battery-bus/electrical/wiring.svg) | [![image](https://github.com/kamangir/assets2/blob/main/battery-bus/20251007_221902.jpg?raw=true)](./body/sla.md) |
-| [![image](https://github.com/kamangir/assets2/blob/main/battery-bus/li-ion/20251204_144045.jpg?raw=true)](./body/li-ion.md) |  |  |
+|   |   |
+| --- | --- |
+| [![image](https://github.com/kamangir/assets2/blob/main/battery-bus/concept.png?raw=true)](https://github.com/kamangir/assets2/blob/main/battery-bus/concept.png?raw=true) | [![image](https://github.com/kamangir/bluer-designs//blob/main/battery-bus/electrical/wiring.png?raw=true)](https://github.com/kamangir/bluer-designs//blob/main/battery-bus/electrical/wiring.svg) |
+| [![image](https://github.com/kamangir/assets2/blob/main/battery-bus/20251007_221902.jpg?raw=true)](./body/sla.md) | [![image](https://github.com/kamangir/assets2/blob/main/battery-bus/li-ion/20251204_144045.jpg?raw=true)](./body/li-ion.md) |

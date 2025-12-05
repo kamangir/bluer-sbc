@@ -7,7 +7,6 @@ docs = (
     [
         {
             "path": "../docs/battery_bus/body",
-            "cols": 2,
             "items": ImageItems(
                 {
                     image_template.format("20251007_221902.jpg"): "./sla.md",
