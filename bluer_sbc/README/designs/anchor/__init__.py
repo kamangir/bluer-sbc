@@ -8,7 +8,7 @@ marquee = README.Items(
     [
         {
             "name": "anchor",
-            "marquee": image_template.format("03.png"),
+            "marquee": image_template.format("20251204_144037.jpg"),
             "url": "./bluer_sbc/docs/anchor",
         }
     ]
