@@ -43,6 +43,21 @@ def help_adjust(
     )
 
 
+def help_edit(
+    tokens: List[str],
+    mono: bool,
+) -> str:
+    return show_usage(
+        [
+            "@sbc",
+            "parts",
+            "edit",
+        ],
+        "edit parts db.",
+        mono=mono,
+    )
+
+
 def help_open(
     tokens: List[str],
     mono: bool,
@@ -61,5 +76,6 @@ def help_open(
 help_functions = {
     "adjust": help_adjust,
     "cd": help_cd,
+    "edit": help_edit,
     "open": help_open,
 }

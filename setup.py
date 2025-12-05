@@ -22,6 +22,8 @@ setup(
         f"{NAME}.parts.classes",
         f"{NAME}.README",
         f"{NAME}.README.designs",
+        f"{NAME}.README.designs.battery_bus",
+        f"{NAME}.README.designs.battery_bus.body",
         f"{NAME}.README.designs.anchor",
         f"{NAME}.README.designs.anchor.body",
         f"{NAME}.README.designs.cheshmak",

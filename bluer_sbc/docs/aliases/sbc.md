@@ -13,6 +13,10 @@
  . cd to part images folder.
 @sbc \
 	parts \
+	edit
+ . edit parts db.
+@sbc \
+	parts \
 	open
  . open part images folder.
 ```

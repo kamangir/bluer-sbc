@@ -46,6 +46,9 @@ parts = {
 docs = [
     {
         "path": "../docs/anchor/parts.md",
-        "macros": design_doc_parts(dict_of_parts=parts),
+        "macros": design_doc_parts(
+            dict_of_parts=parts,
+            parts_reference="../parts",
+        ),
     }
 ]
