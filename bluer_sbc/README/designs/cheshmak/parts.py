@@ -20,6 +20,9 @@ parts = {
 docs = [
     {
         "path": "../docs/cheshmak/parts.md",
-        "macros": design_doc_parts(dict_of_parts=parts),
+        "macros": design_doc_parts(
+            dict_of_parts=parts,
+            parts_reference="../parts",
+        ),
     }
 ]

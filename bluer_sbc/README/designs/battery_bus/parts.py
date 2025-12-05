@@ -11,6 +11,9 @@ parts = {
 docs = [
     {
         "path": "../docs/battery_bus/parts.md",
-        "macros": design_doc_parts(dict_of_parts=parts),
+        "macros": design_doc_parts(
+            dict_of_parts=parts,
+            parts_reference="../parts",
+        ),
     }
 ]
