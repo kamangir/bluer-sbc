@@ -1,6 +1,6 @@
 parts = {
     "BTS7960": "2 x",
-    "connector": "2 females",
+    "connector": "3 females",
     "white-terminal": "8 x",
     "nuts-bolts-spacers": "M3: ({})".format(
         " + ".join(
