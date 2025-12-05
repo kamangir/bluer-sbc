@@ -1,4 +1,4 @@
-from typing import Dict, List
+from typing import Dict, List, Any
 
 from bluer_objects import markdown
 
@@ -12,7 +12,7 @@ def design_doc(
     macros: Dict[str, Dict] = {},
     own_folder: bool = False,
     parts_reference: str = "./parts",
-) -> Dict[str, Dict]:
+) -> Dict[str, Any]:
     macros_ = {}
     if dict_of_parts:
         macros_ = design_doc_parts(
