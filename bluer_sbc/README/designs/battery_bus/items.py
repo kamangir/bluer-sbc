@@ -11,7 +11,7 @@ items = ImageItems(
         ): designs_url(
             "battery-bus/electrical/wiring.svg",
         ),
-        image_template.format("20251007_221902.jpg"): "TBA",
-        image_template.format("li-ion.jpg"): "TBA",
+        image_template.format("20251007_221902.jpg"): "./body/sla.md",
+        image_template.format("li-ion/20251204_144045.jpg"): "./body/li-ion.md",
     }
 )
