@@ -1,4 +1,4 @@
-# parts: Li-Ion-Battery
+# parts: li-ion-battery
 
 - Li-Ion battery
 
