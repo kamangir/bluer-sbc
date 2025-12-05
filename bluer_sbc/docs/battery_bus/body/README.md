@@ -1,7 +1,8 @@
 # battery-bus: body
 
-|   |   |   |
-| --- | --- | --- |
-| [![image](https://github.com/kamangir/assets2/blob/main/battery-bus/li-ion/20251204_143912.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/battery-bus/li-ion/20251204_143912.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/blob/main/battery-bus/li-ion/20251204_143924.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/battery-bus/li-ion/20251204_143924.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/blob/main/battery-bus/li-ion/20251204_143931.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/battery-bus/li-ion/20251204_143931.jpg?raw=true) |
-| [![image](https://github.com/kamangir/assets2/blob/main/battery-bus/li-ion/20251204_143944.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/battery-bus/li-ion/20251204_143944.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/blob/main/battery-bus/li-ion/20251204_143949.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/battery-bus/li-ion/20251204_143949.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/blob/main/battery-bus/li-ion/20251204_143958.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/battery-bus/li-ion/20251204_143958.jpg?raw=true) |
-| [![image](https://github.com/kamangir/assets2/blob/main/battery-bus/li-ion/20251204_144045.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/battery-bus/li-ion/20251204_144045.jpg?raw=true) |  |  |
+- [Li-Ion](./li-ion.md)
+- [SLA](./sla.md)
+
+|   |
+| --- |
+| [![image](https://github.com/kamangir/assets2/blob/main/battery-bus/li-ion/20251204_144045.jpg?raw=true)](./li-ion.md) |
