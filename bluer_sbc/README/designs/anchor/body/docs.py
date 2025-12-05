@@ -7,7 +7,13 @@ docs = [
         "path": "../docs/anchor/body",
         "items": ImageItems(
             {
-                image_template.format("TBA.jpg"): "",
+                image_template.format("20251204_144010.jpg"): "",
+                image_template.format("20251204_144014.jpg"): "",
+                image_template.format("20251204_144017.jpg"): "",
+                image_template.format("20251204_144021.jpg"): "",
+                image_template.format("20251204_144024.jpg"): "",
+                image_template.format("20251204_144031.jpg"): "",
+                image_template.format("20251204_144037.jpg"): "",
             }
         ),
     }
