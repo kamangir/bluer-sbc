@@ -9,6 +9,7 @@ docs = (
             "path": "../docs/battery_bus/body",
             "items": ImageItems(
                 {
+                    image_template.format("20251007_221902.jpg"): "./sla.md",
                     image_template.format("li-ion/20251204_144045.jpg"): "./li-ion.md",
                 }
             ),
