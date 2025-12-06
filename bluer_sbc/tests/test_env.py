@@ -40,10 +40,12 @@ def test_blue_plugin_env():
     assert isinstance(env.BLUER_SBC_SESSION_SCREEN_PERIOD, int)
     assert isinstance(env.BLUER_SBC_SESSION_TEMPERATURE_PERIOD, int)
 
-    assert env.BLUER_SBC_ENV
+    assert isinstance(env.BLUER_SBC_CAMERA_KIND, str)
 
     assert isinstance(env.BLUER_SBC_SWALLOW_HAS_STEERING, int)
     assert isinstance(env.BLUER_SBC_SWALLOW_HAS_FULL_KEYBOARD, int)
     assert isinstance(env.BLUER_SBC_SWALLOW_HAS_BPS, int)
 
     assert isinstance(env.BLUER_SBC_BPS_ANCHORED_AT, str)
+
+    assert isinstance(env.BLUER_SBC_SWALLOW_HAS_CAMERA, int)
