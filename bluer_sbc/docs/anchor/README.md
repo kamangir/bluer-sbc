@@ -9,4 +9,4 @@ anchor is a [swallow-head](../swallow-head) without the ultrasonic sensors and t
 
 |   |   |
 | --- | --- |
-| [![image](https://github.com/kamangir/assets2/blob/main/anchor/03.png?raw=true)](https://github.com/kamangir/assets2/blob/main/anchor/03.png?raw=true) | [![image](https://github.com/kamangir/assets2/blob/main/anchor/20251204_144037.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/anchor/20251204_144037.jpg?raw=true) |
+| [![image](https://github.com/kamangir/assets2/blob/main/anchor/03.png?raw=true)](https://github.com/kamangir/assets2/blob/main/anchor/03.png?raw=true) | [![image](https://github.com/kamangir/assets2/blob/main/anchor/20251205_175953.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/anchor/20251205_175953.jpg?raw=true) |

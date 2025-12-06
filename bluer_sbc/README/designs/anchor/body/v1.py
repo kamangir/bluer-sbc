@@ -13,7 +13,7 @@ docs = [
                 image_template.format("20251204_144021.jpg"): "",
                 image_template.format("20251204_144024.jpg"): "",
                 image_template.format("20251204_144031.jpg"): "",
-                image_template.format("20251204_144037.jpg"): "",
+                image_template.format("20251205_175953.jpg"): "",
             }
         ),
     },
