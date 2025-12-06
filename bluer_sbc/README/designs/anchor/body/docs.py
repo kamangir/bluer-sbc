@@ -8,7 +8,6 @@ docs = [
         "path": "../docs/anchor/body",
         "items": ImageItems(
             {
-                image_template.format("20251205_171731.jpg"): "",
                 image_template.format("20251205_175910.jpg"): "",
                 image_template.format("20251205_175916.jpg"): "",
                 image_template.format("20251205_175920.jpg"): "",
