@@ -763,6 +763,24 @@ db_of_parts["whip-antenna"] = Part(
     ],
 )
 
+db_of_parts["ethernet-cable"] = Part(
+    info=[
+        "RJ-45, Cat5e or Cat6",
+        "straight-through (normal) — NOT crossover",
+    ],
+    images=[
+        "ethernet-cable.jpeg",
+    ],
+)
+
+db_of_parts["5v-unmanaged-10-100-switch"] = Part(
+    info=[
+        "5V unmanaged 10/100 switch",
+    ],
+    images=[
+        "5v-unmanaged-10-100-switch.jpg",
+    ],
+)
 
 db_of_parts["template"] = Part(
     info=[
