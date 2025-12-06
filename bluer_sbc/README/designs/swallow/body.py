@@ -7,7 +7,7 @@ from bluer_sbc.README.designs.swallow.parts import parts
 
 docs = [
     design_doc(
-        "swallow/v1",
+        "swallow/body/v1",
         ImageItems(
             {
                 f"{swallow_assets2}/20250609_164433.jpg": "",
@@ -19,7 +19,7 @@ docs = [
     )
 ] + [
     design_doc(
-        f"swallow/v{version}",
+        f"swallow/body/v{version}",
         ImageItems(
             {
                 image_template(version).format(

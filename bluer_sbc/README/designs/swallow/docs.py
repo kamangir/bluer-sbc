@@ -3,7 +3,7 @@ from bluer_objects.README.items import ImageItems
 from bluer_sbc.README.design import design_doc
 from bluer_sbc.README.designs.swallow import image_template
 from bluer_sbc.README.designs.swallow.parts import parts
-from bluer_sbc.README.designs.swallow import history
+from bluer_sbc.README.designs.swallow import body
 from bluer_sbc.README.designs.swallow import latest_version
 
 items = ImageItems(
@@ -21,4 +21,4 @@ docs = [
         own_folder=True,
         parts_reference="../parts",
     )
-] + history.docs
+] + body.docs
