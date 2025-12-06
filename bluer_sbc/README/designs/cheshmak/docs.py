@@ -6,11 +6,10 @@ from bluer_sbc.README.designs.cheshmak.body import docs as body
 
 docs = (
     [
-        design_doc(
-            "cheshmak",
-            items,
-            own_folder=True,
-        ),
+        {
+            "path": "../docs/cheshmak",
+            "items": items,
+        }
     ]
     + body.docs
     + operation.docs

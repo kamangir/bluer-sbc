@@ -737,6 +737,32 @@ db_of_parts["heavy-duty-pipe-clamp"] = Part(
     ],
 )
 
+db_of_parts["sx1276"] = Part(
+    info=[
+        "SX1276/77/78/79 UART",
+        "[datasheet](https://cdn.sparkfun.com/assets/7/7/3/2/2/SX1276_Datasheet.pdf)",
+        "examples: [SX1276](https://torob.com/p/da4cd85b-79a3-446d-a624-2d0ed1aa34f6/%D9%85%D8%A7%DA%98%D9%88%D9%84-%D9%81%D8%B1%D8%B3%D8%AA%D9%86%D8%AF%D9%87-%D9%88%D8%A7%DB%8C%D8%B1%D9%84%D8%B3-sx1276-%D9%81%D8%B1%DA%A9%D8%A7%D9%86%D8%B3-868mhz/), [Sx1278](https://eshop.eca.ir/%D9%85%D8%A7%DA%98%D9%88%D9%84-%D9%87%D8%A7%DB%8C-esp-%D9%88-%D8%A7%DB%8C%D9%86%D8%AA%D8%B1%D9%86%D8%AA-%D8%A7%D8%B4%DB%8C%D8%A7/6137-%D9%85%D8%A7%DA%98%D9%88%D9%84-%D8%AA%D8%B1%D9%86%D8%B3%DB%8C%D9%88%D8%B1-%D9%88%D8%A7%DB%8C%D8%B1%D9%84%D8%B3-lora-ra02-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-%DA%86%DB%8C%D9%BE-sx1278.html).",
+    ],
+    images=[
+        "sx1276-1.jpg",
+        "sx1276-2.jpg",
+        "sx1276-3.jpg",
+        "sx1276-4.jpg",
+        "sx1276-5.jpg",
+        "sx1276-6.jpg",
+    ],
+)
+
+
+db_of_parts["whip-antenna"] = Part(
+    info=[
+        "433 MHz SMA whip antenna (small stubby or ~10–20 cm) or U.FL -> SMA pigtail if the module has a tiny U.FL connector.",
+    ],
+    images=[
+        "whip-antenna.jpeg",
+    ],
+)
+
 
 db_of_parts["template"] = Part(
     info=[

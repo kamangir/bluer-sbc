@@ -9,6 +9,8 @@ items:::
 
 ## parts
 
+[anchor](../anchor) + ⬇️
+
 parts_images:::
 
 parts_list:::

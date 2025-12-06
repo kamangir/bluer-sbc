@@ -41,6 +41,8 @@ parts = {
     "16-awg-wire": "40 cm x (red + black/blue)",
     "solid-cable-1-15": "10 cm x (red + black/blue)",
     "pin-headers": "1 x (female, 2 x 40) -> 2 x 20 + 2 x (male, 1 x 40) -> 4 x 1 + 2 x 20 + 1 x (male, 2 x 40) -> 2 x 2 x 6",
+    "sx1276": "",
+    "whip-antenna": "",
 }
 
 docs = [
