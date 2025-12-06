@@ -1,7 +1,7 @@
 from bluer_objects.README.items import ImageItems
 
 from bluer_sbc.README.designs.anchor import image_template
-from bluer_sbc.README.designs.cheshmak.body import v1
+from bluer_sbc.README.designs.anchor.body import v1
 
 docs = [
     {
