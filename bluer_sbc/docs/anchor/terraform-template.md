@@ -7,5 +7,5 @@ title:::
 ```bash
 @swallow env cp anchor
 
-@init; @select; @session start
+@select; @session start
 ```
