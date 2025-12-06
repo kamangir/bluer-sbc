@@ -6,5 +6,6 @@ anchor is a [swallow-head](../swallow-head) without the ultrasonic sensors and t
 
 - [parts](./parts.md)
 - [body](./body)
+- [terraform](./terraform.md)
 
 items:::
