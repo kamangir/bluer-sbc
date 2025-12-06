@@ -5,11 +5,10 @@ from bluer_sbc.README.designs.anchor.items import items
 
 docs = (
     [
-        design_doc(
-            "anchor",
-            items,
-            own_folder=True,
-        )
+        {
+            "path": "../docs/anchor",
+            "items": items,
+        }
     ]
     + body.docs
     + parts.docs

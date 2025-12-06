@@ -7,7 +7,6 @@
 - [body](./body/)
 - [terraform](https://github.com/kamangir/bluer-ugv/blob/main/bluer_ugv/docs/swallow/digital/design/terraform.md).
 
-|   |   |   |
-| --- | --- | --- |
-| [![image](https://github.com/kamangir/assets2/blob/main/swallow/design/v6/01.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/swallow/design/v6/01.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/blob/main/swallow/design/v6/02.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/swallow/design/v6/02.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/blob/main/swallow/design/v6/03.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/swallow/design/v6/03.jpg?raw=true) |
-| [![image](https://github.com/kamangir/assets2/blob/main/swallow/design/v6/04.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/swallow/design/v6/04.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/blob/main/swallow/design/v6/05.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/swallow/design/v6/05.jpg?raw=true) | [![image](https://github.com/kamangir/assets2/blob/main/swallow/design/v6/06.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/swallow/design/v6/06.jpg?raw=true) |
+|   |
+| --- |
+| [![image](https://github.com/kamangir/assets2/blob/main/swallow/design/v6/01.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/swallow/design/v6/01.jpg?raw=true) |

@@ -1,25 +1,14 @@
-from bluer_objects.README.items import ImageItems
-
-from bluer_sbc.README.design import design_doc
-from bluer_sbc.README.designs.swallow import image_template
 from bluer_sbc.README.designs.swallow import parts
 from bluer_sbc.README.designs.swallow import body
-from bluer_sbc.README.designs.swallow import latest_version
+from bluer_sbc.README.designs.swallow.items import items
 
-items = ImageItems(
-    {
-        image_template(latest_version).format(f"{index+1:02}.jpg"): ""
-        for index in range(6)
-    }
-)
 
 docs = (
     [
-        design_doc(
-            "swallow",
-            items,
-            own_folder=True,
-        )
+        {
+            "path": "../docs/swallow",
+            "items": items,
+        }
     ]
     + body.docs
     + parts.docs
