@@ -45,6 +45,10 @@ class Part:
         if not create or file.exists(filename):
             return filename
 
+        import ipdb
+
+        ipdb.set_trace()
+
         template_filename = file.absolute(
             "../../docs/parts/template-template.md",
             reference,
