@@ -14,6 +14,8 @@ docs = [
                 image_template.format("li-ion/v2/20251211_121344.jpg"): "",
                 image_template.format("li-ion/v2/20251211_121349.jpg"): "",
                 image_template.format("li-ion/v2/20251211_121357.jpg"): "",
+                image_template.format("20251210_204219.jpg"): "",
+                image_template.format("20251210_204306.jpg"): "",
             }
         ),
     },
@@ -28,8 +30,6 @@ docs = [
                 image_template.format("li-ion/20251204_143949.jpg"): "",
                 image_template.format("li-ion/20251204_143958.jpg"): "",
                 image_template.format("li-ion/20251204_144045.jpg"): "",
-                image_template.format("20251210_204219.jpg"): "",
-                image_template.format("20251210_204306.jpg"): "",
             }
         ),
     },
