@@ -1,6 +1,8 @@
 # parts: rpi-camera
 
-- Raspberry Pi Camera, V1.3https://www.raspberrypi.com/documentation/accessories/camera.html
+- Raspberry Pi Camera, V1.3
+- https://www.raspberrypi.com/documentation/accessories/camera.html
+- https://shop.sb-components.co.uk/products/raspberry-pi-camera
 
 |   |
 | --- |

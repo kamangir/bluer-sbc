@@ -118,8 +118,9 @@ db_of_parts["XL4015"] = Part(
 
 db_of_parts["rpi-camera"] = Part(
     info=[
-        "Raspberry Pi Camera, V1.3"
+        "Raspberry Pi Camera, V1.3",
         "https://www.raspberrypi.com/documentation/accessories/camera.html",
+        "https://shop.sb-components.co.uk/products/raspberry-pi-camera",
     ],
     images=[
         "rpi-camera.jpg",
