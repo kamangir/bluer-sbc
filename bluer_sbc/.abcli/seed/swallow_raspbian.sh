@@ -10,4 +10,7 @@ function bluer_ai_seed_swallow_raspbian() {
 
     bluer_ai_seed add_repo repo=bluer-algo
     seed="${seed}pip3 install $ssp -e .$delim_section"
+
+    bluer_ai_seed add_repo repo=bluer-agent
+    seed="${seed}pip3 install $ssp -e .$delim_section"
 }
