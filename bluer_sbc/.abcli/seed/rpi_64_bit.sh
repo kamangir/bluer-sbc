@@ -29,10 +29,8 @@ function bluer_ai_seed_rpi_64_bit() {
     seed="${seed}pip3 install $ssp opencv-python$delim"
     seed="${seed}sudo apt install -y python3-picamera2$delim"
     seed="${seed}pip3 install --force-reinstall --no-cache-dir simplejpeg$delim"
-    seed="${seed}pip3 install $ssp evdev$delim_section"
-
-    seed="${seed}pip3 install --user -U \"python-dotenv[cli]\"$delim"
-    seed="${seed}export PATH=\$HOME/.local/bin:\$PATH$delim_section"
+    seed="${seed}pip3 install $ssp evdev$delim"
+    seed="${seed}pip3 install --user -U \"python-dotenv[cli]\"$delim_section"
 
     seed="${seed}cd; cd git; cd bluer-ai$delim"
     seed="${seed}source ./bluer_ai/.abcli/bluer_ai.sh$delim_section"
