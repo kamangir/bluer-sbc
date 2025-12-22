@@ -13,4 +13,5 @@ function bluer_ai_seed_swallow_raspbian() {
 
     bluer_ai_seed add_repo repo=bluer-agent
     seed="${seed}pip3 install $ssp -e .$delim_section"
+    seed="${seed}$(bluer_ai_seed add_file $abcli_path_git/bluer-agent/.env \$HOME/git/bluer-agent/.env)$delim_section"
 }
