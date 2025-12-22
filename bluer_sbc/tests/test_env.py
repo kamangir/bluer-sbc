@@ -51,3 +51,5 @@ def test_blue_plugin_env():
     assert isinstance(env.BLUER_SBC_BPS_ANCHORED_AT, str)
 
     assert isinstance(env.BLUER_SBC_SWALLOW_HAS_CAMERA, int)
+
+    assert isinstance(env.BLUER_SBC_AUDIO_ENABLED, int)
