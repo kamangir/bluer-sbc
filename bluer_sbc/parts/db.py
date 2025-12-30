@@ -396,6 +396,7 @@ db_of_parts["dsn-vc288"] = Part(
         "dsn-vc288-connection.jpg",
         "dsn-vc288-measurements.jpeg",
         "dsn-vc288-shunt.png",
+        "shunt.png",
     ],
 )
 
