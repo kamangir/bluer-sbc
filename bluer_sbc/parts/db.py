@@ -386,14 +386,17 @@ db_of_parts["dc-power-plug"] = Part(
 
 db_of_parts["dsn-vc288"] = Part(
     info=[
-        "DSN-VC288, panel mount, 4-30 VDC, 10A, voltmeter ammeter",
+        "DSN-VC288, panel mount, 4-30 VDC, 10A (50A with shunt resistor), voltmeter ammeter",
         "https://hamguyparts.com/files/Download/Chinese%20DVA.pdf",
         "https://www.skytech.ir/DownLoad/File/11515_DSN-VC288.pdf",
+        "https://soldered.com/learn/hum-built-in-voltmeter-ammeter-100v-10a/",
     ],
     images=[
         "dsn-vc288.jpg",
         "dsn-vc288-connection.jpg",
         "dsn-vc288-measurements.jpeg",
+        "dsn-vc288-shunt.png",
+        "shunt.png",
     ],
 )
 
