@@ -1,6 +1,6 @@
 # cheshmak
 
-- a media center with running [raspbian +gui](https://github.com/kamangir/bluer-ai/blob/main/bluer_ai/docs/install/RPi.md).
+- a media center with running [raspbian +gui](../../../../bluer-ai/bluer_ai/docs/install/RPi.md).
 - [parts](./parts.md)
 - [body](./body)
 - [operation](./operation.md).
