@@ -3,7 +3,6 @@ from bluer_sbc.README.design import design_doc_parts
 parts = {
     "plexiglass": "2 x 90 mm x 90 mm",
     "rpi": "",
-    "rpi-camera": "",
     "nuts-bolts-spacers": "M2.5: ({})".format(
         " + ".join(
             [
