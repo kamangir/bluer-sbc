@@ -8,4 +8,4 @@
 
 |   |   |
 | --- | --- |
-| [![image](https://github.com/kamangir/assets2/blob/main/cheshmak/01.png?raw=true)](https://github.com/kamangir/assets2/blob/main/cheshmak/01.png?raw=true) | [![image](https://github.com/kamangir/assets2/blob/main/cheshmak/20251203_190023.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/cheshmak/20251203_190023.jpg?raw=true) |
+| [![image](../../../../assets2/cheshmak/01.png?raw=true)](../../../../assets2/cheshmak/01.png?raw=true) | [![image](../../../../assets2/cheshmak/20251203_190023.jpg?raw=true)](../../../../assets2/cheshmak/20251203_190023.jpg?raw=true) |

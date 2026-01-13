@@ -4,4 +4,4 @@
 
 |   |
 | --- |
-| ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/sd-card-32-gb.jpg?raw=true) |
+| ![image](../../../../assets2/bluer-sbc/parts/sd-card-32-gb.jpg?raw=true) |

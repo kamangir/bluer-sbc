@@ -9,4 +9,4 @@
 
 |   |
 | --- |
-| [![image](https://github.com/kamangir/assets2/blob/main/swallow/design/v6/01.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/swallow/design/v6/01.jpg?raw=true) |
+| [![image](../../../../assets2/swallow/design/v6/01.jpg?raw=true)](../../../../assets2/swallow/design/v6/01.jpg?raw=true) |

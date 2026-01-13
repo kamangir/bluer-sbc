@@ -5,4 +5,4 @@
 
 |   |   |
 | --- | --- |
-| ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/USB-charger-NICD-6V-1.jpg?raw=true) | ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/USB-charger-NICD-6V-2.jpg?raw=true) |
+| ![image](../../../../assets2/bluer-sbc/parts/USB-charger-NICD-6V-1.jpg?raw=true) | ![image](../../../../assets2/bluer-sbc/parts/USB-charger-NICD-6V-2.jpg?raw=true) |

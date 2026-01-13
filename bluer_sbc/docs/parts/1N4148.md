@@ -4,4 +4,4 @@
 
 |   |
 | --- |
-| ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/TVSdiode.png?raw=true) |
+| ![image](../../../../assets2/bluer-sbc/parts/TVSdiode.png?raw=true) |
