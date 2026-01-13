@@ -3,7 +3,6 @@ from bluer_sbc.README.design import design_doc_parts
 parts = {
     "BTS7960": "2 x",
     "connector": "3 females",
-    "white-terminal": "8 x",
     "nuts-bolts-spacers": "M3: ({})".format(
         " + ".join(
             [
@@ -13,8 +12,9 @@ parts = {
             ]
         )
     ),
-    "solid-cable-1-15": "20 cm x (red + black/blue)",
     "PCB-single-14x9_5": "",
+    "solid-cable-1-15": "20 cm x (red + black/blue)",
+    "white-terminal": "8 x",
 }
 
 docs = [

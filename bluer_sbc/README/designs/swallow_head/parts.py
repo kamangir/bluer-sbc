@@ -1,6 +1,5 @@
 parts = {
-    "rpi-camera": "",
-    "ultrasonic-sensor": "4 x",
+    "dupont-cables": "1 x 30 cm + 1 x 10 cm",
     "nuts-bolts-spacers": " + ".join(
         [
             "M2: ({})".format(
@@ -21,6 +20,8 @@ parts = {
             ),
         ]
     ),
-    "dupont-cables": "1 x 30 cm + 1 x 10 cm",
+    "rpi-camera": "",
     "strong-thread": "1 m",
+    "ultrasonic-sensor": "4 x",
+    "XL4015": "",
 }
