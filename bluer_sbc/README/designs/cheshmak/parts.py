@@ -4,7 +4,8 @@ parts = {
     "dc-power-plug": "",
     "dc-switch": "",
     "PCB-single-14x9_5": "",
-    "plexiglass": "...",
+    "plexiglass": "14 cm x 9.5 cm",
+    "power-adapter": "5 VDC, 5 A",
     "rpi": "",
     "nuts-bolts-spacers": ", ".join(
         [

@@ -9,7 +9,12 @@ docs = (
             "path": "../docs/cheshmak/body",
             "items": ImageItems(
                 {
-                    # image_template.format("TBA.jpg"): "",
+                    image_template.format("20260114_125949.jpg"): "",
+                    image_template.format("20260114_130000.jpg"): "",
+                    image_template.format("20260114_130005.jpg"): "",
+                    image_template.format("20260114_130011.jpg"): "",
+                    image_template.format("20260114_130016.jpg"): "",
+                    image_template.format("20260114_130023.jpg"): "",
                 }
             ),
         }
