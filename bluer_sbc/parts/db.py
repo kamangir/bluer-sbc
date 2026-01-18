@@ -792,7 +792,8 @@ db_of_parts["5v-unmanaged-10-100-switch"] = Part(
 
 db_of_parts["swallow-shield"] = Part(
     info=[
-        "the [swallow shield](https://github.com/kamangir/bluer-ugv/bluer_ugv/docs/swallow/digital/design/computer/shield/README.md).",
+        "the swallow shield.",
+        "details: https://github.com/kamangir/bluer-ugv/bluer_ugv/docs/swallow/digital/design/computer/shield/README.md",
     ],
     images=[
         "swallow-3d.png",
