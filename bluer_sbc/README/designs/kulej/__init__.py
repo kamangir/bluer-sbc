@@ -8,7 +8,7 @@ marquee = README.Items(
     [
         {
             "name": "kulej ⛰️",
-            "marquee": "https://github.com/kamangir/assets/raw/main/blue-plugin/marquee.png?raw=true",  # image_template.format("TBA"),
+            "marquee": image_template.format("20260118_142743.jpg"),
             "url": "./bluer_sbc/docs/kulej",
         }
     ]

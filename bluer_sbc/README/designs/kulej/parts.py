@@ -31,7 +31,7 @@ parts = {
         ]
     ),
     "PCB-single-14x9_5": "",
-    "plexiglass": "2 x 14 cm x 9.5 cm",
+    "plexiglass": "3 x 14 cm x 9.5 cm",
     "rpi": "",
     "sd-card-32-gb": "",
     "solid-cable-1-15": "10 cm x (red + black/blue)",
