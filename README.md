@@ -21,7 +21,7 @@ pip install bluer_sbc
 
 |   |   |   |
 | --- | --- | --- |
-| [`kulej ⛰️`](./bluer_sbc/docs/kulej) [![image](../assets2/kulej/TBA?raw=true)](./bluer_sbc/docs/kulej)  | [`isatis 🔊`](./bluer_sbc/docs/isatis) [![image](../assets2/isatis/TBA?raw=true)](./bluer_sbc/docs/isatis)  | [`swallow head`](./bluer_sbc/docs/swallow-head) [![image](../assets2/swallow/design/head-v2/01.jpg?raw=true)](./bluer_sbc/docs/swallow-head)  |
+| [`kulej ⛰️`](./bluer_sbc/docs/kulej) [![image](../assets/blue-plugin/marquee.png?raw=true)](./bluer_sbc/docs/kulej)  | [`isatis 🔊`](./bluer_sbc/docs/isatis) [![image](../assets/blue-plugin/marquee.png?raw=true)](./bluer_sbc/docs/isatis)  | [`swallow head`](./bluer_sbc/docs/swallow-head) [![image](../assets2/swallow/design/head-v2/01.jpg?raw=true)](./bluer_sbc/docs/swallow-head)  |
 | [`swallow`](./bluer_sbc/docs/swallow) [![image](../assets2/swallow/design/v6/01.jpg?raw=true)](./bluer_sbc/docs/swallow)  | [`anchor ⚓️`](./bluer_sbc/docs/anchor) [![image](../assets2/anchor/20251205_175953.jpg?raw=true)](./bluer_sbc/docs/anchor)  | [`pwm generator`](./bluer_sbc/docs/pwm-generator.md) [![image](../assets2/pwm-generator/20251116_125132.jpg)](./bluer_sbc/docs/pwm-generator.md)  |
 | [`regulated bus`](./bluer_sbc/docs/regulated-bus.md) [![image](../assets2/regulated-bus/20251113_113332.jpg)](./bluer_sbc/docs/regulated-bus.md)  | [`battery bus`](./bluer_sbc/docs/battery_bus) [![image](../assets2/battery-bus/20251007_221902.jpg?raw=true)](./bluer_sbc/docs/battery_bus)  | [`adapter bus`](./bluer_sbc/docs/adapter-bus.md) [![image](../assets2/adapter-bus/20251017_222911.jpg)](./bluer_sbc/docs/adapter-bus.md)  |
 | [`ultrasonic-sensor-tester`](./bluer_sbc/docs/ultrasonic-sensor-tester.md) [![image](../assets2/ultrasonic-sensor-tester/00.jpg?raw=true)](./bluer_sbc/docs/ultrasonic-sensor-tester.md)  | [`cheshmak`](./bluer_sbc/docs/cheshmak) [![image](../assets2/cheshmak/20251203_190131.jpg?raw=true)](./bluer_sbc/docs/cheshmak)  | [`nafha`](./bluer_sbc/docs/nafha) [![image](../assets2/nafha/20251116_224456.jpg?raw=true)](./bluer_sbc/docs/nafha)  |
@@ -43,5 +43,5 @@ pip install bluer_sbc
 
 [![pylint](https://github.com/kamangir/bluer-sbc/actions/workflows/pylint.yml/badge.svg)](https://github.com/kamangir/bluer-sbc/actions/workflows/pylint.yml) [![pytest](https://github.com/kamangir/bluer-sbc/actions/workflows/pytest.yml/badge.svg)](https://github.com/kamangir/bluer-sbc/actions/workflows/pytest.yml) [![bashtest](https://github.com/kamangir/bluer-sbc/actions/workflows/bashtest.yml/badge.svg)](https://github.com/kamangir/bluer-sbc/actions/workflows/bashtest.yml) [![PyPI version](https://img.shields.io/pypi/v/bluer-sbc.svg)](https://pypi.org/project/bluer-sbc/) [![PyPI - Downloads](https://img.shields.io/pypi/dd/bluer-sbc)](https://pypistats.org/packages/bluer-sbc)
 
-built by 🌀 [`bluer README`](../bluer-objects/bluer_objects/README), based on 🌀 [`bluer_sbc-9.392.1`](https://github.com/kamangir/bluer-sbc).
+built by 🌀 [`bluer README`](../bluer-objects/bluer_objects/README), based on 🌀 [`bluer_sbc-9.393.1`](https://github.com/kamangir/bluer-sbc).
 
