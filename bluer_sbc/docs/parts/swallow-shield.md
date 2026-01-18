@@ -1,6 +1,6 @@
 # parts: swallow-shield
 
-- the swallow shield.
+- the swallow shield
 - details: https://github.com/kamangir/bluer-ugv/bluer_ugv/docs/swallow/digital/design/computer/shield/README.md
 
 |   |
