@@ -1,16 +1,8 @@
 from bluer_sbc.README.design import design_doc_parts
 
 parts = {
-    "sd-card-32-gb": "",
-    "rpi": "",
-    "XL4015": "",
-    "470-mF": "",
-    "Polyfuse": "optional",
-    "TVS-diode": "",
-    "resistor": "7 x 330-470 Ω + 4 x 2.2 kΩ + 4 x 3.3 kΩ",
-    "LED": "green + red + yellow + 4 x blue",
-    "PCB-single-14x9_5": "",
-    "pushbutton": "",
+    "16-awg-wire": "40 cm x (red + black/blue)",
+    "dc-switch": "",
     "connector": "1 female",
     "nuts-bolts-spacers": " + ".join(
         [
@@ -36,11 +28,13 @@ parts = {
             ),
         ]
     ),
+    "PCB-single-14x9_5": "",
     "plexiglass": "14 cm x 9.5 cm",
-    "green-terminal": "2 x",
-    "16-awg-wire": "40 cm x (red + black/blue)",
+    "rpi": "",
+    "sd-card-32-gb": "",
     "solid-cable-1-15": "10 cm x (red + black/blue)",
-    "pin-headers": "1 x (female, 2 x 40) -> 2 x 20 + 2 x (male, 1 x 40) -> 4 x 1 + 2 x 20 + 1 x (male, 2 x 40) -> 2 x 2 x 6",
+    "swallow-shield": "",
+    "XL4015": "",
     "sx1276": "",
     "whip-antenna": "",
 }

@@ -1,5 +1,9 @@
+from bluer_objects.README.consts import designs_url
+
 from bluer_sbc.parts.classes.part import Part
 from bluer_sbc.parts.classes.db import PartDB
+
+swallow_designs = designs_url("swallow")
 
 db_of_parts: PartDB = PartDB()
 
@@ -783,6 +787,15 @@ db_of_parts["5v-unmanaged-10-100-switch"] = Part(
     ],
     images=[
         "5v-unmanaged-10-100-switch.jpg",
+    ],
+)
+
+db_of_parts["swallow-shield"] = Part(
+    info=[
+        "the [swallow shield](https://github.com/kamangir/bluer-ugv/bluer_ugv/docs/swallow/digital/design/computer/shield/README.md).",
+    ],
+    images=[
+        "swallow-3d.png",
     ],
 )
 

@@ -1,6 +1,5 @@
 from bluer_objects.README.items import ImageItems
 
-from bluer_sbc.README.design import design_doc
 from bluer_sbc.README.designs.swallow_head import image_template, latest_version
 
 docs = [
