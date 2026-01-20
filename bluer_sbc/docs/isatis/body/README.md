@@ -2,4 +2,4 @@
 
 |   |
 | --- |
-| [![image](../../../../../assets2/kulej/TBA.jpg?raw=true)](../../../../../assets2/kulej/TBA.jpg?raw=true) |
+| [![image](../../../../../assets2/isatis/01.png?raw=true)](../../../../../assets2/isatis/01.png?raw=true) |
