@@ -44,7 +44,7 @@ docs = [
         "path": "../docs/kulej/parts.md",
         "macros": design_doc_parts(
             dict_of_parts=parts,
-            parts_reference="../parts",  # TBF
+            parts_reference="../parts",
         ),
     }
 ]

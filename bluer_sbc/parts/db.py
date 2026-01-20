@@ -800,6 +800,21 @@ db_of_parts["swallow-shield"] = Part(
     ],
 )
 
+db_of_parts["dfplayer-mini"] = Part(
+    info=[
+        "DFPlayer Mini, audio file player",
+        "eg: https://www.digikala.com/product/dkp-2077160/%D9%85%D8%A7%DA%98%D9%88%D9%84-%D9%BE%D8%AE%D8%B4-%D9%81%D8%A7%DB%8C%D9%84-%D9%87%D8%A7%DB%8C-%D8%B5%D9%88%D8%AA%DB%8C-%D9%85%D8%AF%D9%84-dfplayer/",
+    ],
+    images=[
+        "dFPlayer-mini-1.png",
+        "dFPlayer-mini-2.png",
+        "dFPlayer-mini-3.png",
+        "dFPlayer-mini-4.png",
+        "dFPlayer-mini-5.png",
+        "dFPlayer-mini-6.png",
+    ],
+)
+
 db_of_parts["template"] = Part(
     info=[
         "template",
