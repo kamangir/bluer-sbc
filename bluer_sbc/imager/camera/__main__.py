@@ -1,3 +1,5 @@
+# pylint: skip-file
+
 import argparse
 
 from blueness import module

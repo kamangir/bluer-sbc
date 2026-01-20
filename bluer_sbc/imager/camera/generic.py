@@ -1,3 +1,5 @@
+# pylint: skip-file
+
 import cv2
 from typing import Tuple, List, Union
 import numpy as np

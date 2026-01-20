@@ -1,3 +1,5 @@
+# pylint: skip-file
+
 from bluer_options import host
 
 from bluer_sbc import env

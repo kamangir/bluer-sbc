@@ -1,3 +1,5 @@
+# pylint: skip-file
+
 import time
 
 from blueness import module

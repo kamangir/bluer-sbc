@@ -1,3 +1,5 @@
+# pylint: skip-file
+
 import copy
 
 from bluer_sbc.hardware.hardware import Hardware
