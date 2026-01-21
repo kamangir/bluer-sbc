@@ -5,5 +5,7 @@ from bluer_sbc.README.designs.kulej import image_template
 items = ImageItems(
     {
         image_template.format("20260118_142743.jpg"): "",
+        image_template.format("01.png"): "",
+        image_template.format("05.png"): "",
     }
 )
