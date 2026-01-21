@@ -4,7 +4,9 @@ parts = {
     "16-awg-wire": "20 cm x (red + black/blue)",
     "dc-power-plug": "",
     "dc-switch": "",
+    "hdmi-cable": "",
     "keyboard": "",
+    "micro-hdmi-adapter": "",
     "nuts-bolts-spacers": ", ".join(
         [
             "M2.5: ({})".format(
@@ -30,7 +32,7 @@ parts = {
     ),
     "PCB-single-14x9_5": "",
     "plexiglass": "14 cm x 9.5 cm",
-    "power-adapter": "5 VDC, 5 A",
+    "power-adapter": "12 V DC, 5 A",
     "rpi": "",
     "swallow-shield": "",
     "XL4015": "",

@@ -843,6 +843,24 @@ db_of_parts["numpad"] = Part(
     ],
 )
 
+db_of_parts["hdmi-cable"] = Part(
+    info=[
+        "hdmi cable",
+    ],
+    images=[
+        "hdmi-cable.jpg",
+    ],
+)
+
+db_of_parts["micro-hdmi-adapter"] = Part(
+    info=[
+        "micro hdmi adapter",
+    ],
+    images=[
+        "micro-hdmi-adapter.jpg",
+    ],
+)
+
 db_of_parts["template"] = Part(
     info=[
         "template",
