@@ -98,6 +98,7 @@ db_of_parts["li-ion-battery"] = Part(
     ],
     images=[
         "lithium-battery.jpg",
+        "lithium-battery-2.jpg",
     ],
 )
 
