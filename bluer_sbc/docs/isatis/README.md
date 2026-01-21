@@ -48,3 +48,4 @@ Isatis is not just a device; it is a gesture:
 |   |   |   |
 | --- | --- | --- |
 | [![image](../../../../assets2/isatis/01.png?raw=true)](../../../../assets2/isatis/01.png?raw=true) | [![image](../../../../assets2/isatis/05.png?raw=true)](../../../../assets2/isatis/05.png?raw=true) | [![image](../../../../assets2/isatis/06.png?raw=true)](../../../../assets2/isatis/06.png?raw=true) |
+| [![image](../../../../assets2/isatis/07.png?raw=true)](../../../../assets2/isatis/07.png?raw=true) | [![image](../../../../assets2/isatis/08.png?raw=true)](../../../../assets2/isatis/08.png?raw=true) |  |

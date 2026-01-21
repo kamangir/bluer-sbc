@@ -7,5 +7,7 @@ items = ImageItems(
         image_template.format("01.png"): "",
         image_template.format("05.png"): "",
         image_template.format("06.png"): "",
+        image_template.format("07.png"): "",
+        image_template.format("08.png"): "",
     }
 )
