@@ -16,6 +16,7 @@ description_long_en:::
 
 - [parts](./parts.md)
 - [body](./body)
+- [power](./power.md)
 
 ---
 

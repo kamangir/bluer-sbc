@@ -42,6 +42,7 @@ Isatis is not just a device; it is a gesture:
 
 - [parts](./parts.md)
 - [body](./body)
+- [power](./power.md)
 
 ---
 

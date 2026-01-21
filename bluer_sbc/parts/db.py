@@ -815,6 +815,15 @@ db_of_parts["dfplayer-mini"] = Part(
     ],
 )
 
+db_of_parts["speaker"] = Part(
+    info=[
+        "passive speaker",
+    ],
+    images=[
+        "speaker.png",
+    ],
+)
+
 db_of_parts["template"] = Part(
     info=[
         "template",
