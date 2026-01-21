@@ -8,7 +8,7 @@ parts = {
     "dfplayer-mini": "max 3 W output into 4 Ω at 5 V ~= class-D amp",
     "LED": "1 x blue",
     "li-ion-battery": "18650, 3.6v, 3350mAh",
-    "li-ion-charger": "",
+    "li-ion-charger": "4.2 V DC, 1 A",
     "mt-3608": "",
     "pushbutton": "",
     "resistor": "1 x 220-330 Ω + 1 x 1 kΩ",
