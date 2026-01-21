@@ -2,6 +2,7 @@ from bluer_sbc.README.design import design_doc_parts
 
 parts = {
     "dupont-cables": "1 x 30 cm + 1 x 10 cm",
+    "numpad": "",
     "nuts-bolts-spacers": " + ".join(
         [
             "M2: ({})".format(

@@ -4,6 +4,7 @@ parts = {
     "16-awg-wire": "40 cm x (red + black/blue)",
     "dc-switch": "",
     "connector": "1 female",
+    "keyboard": "",
     "nuts-bolts-spacers": " + ".join(
         [
             "M2.5: ({})".format(

@@ -825,6 +825,24 @@ db_of_parts["speaker"] = Part(
     ],
 )
 
+db_of_parts["keyboard"] = Part(
+    info=[
+        "keyboard",
+    ],
+    images=[
+        "keyboard.jpg",
+    ],
+)
+
+db_of_parts["numpad"] = Part(
+    info=[
+        "numpad",
+    ],
+    images=[
+        "numpad.jpg",
+    ],
+)
+
 db_of_parts["template"] = Part(
     info=[
         "template",
