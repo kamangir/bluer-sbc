@@ -1,4 +1,4 @@
-from bluer_sbc.README.designs.isatis import description, parts, power
+from bluer_sbc.README.designs.isatis import description, design, parts, schematics
 from bluer_sbc.README.designs.isatis.body import docs as body
 from bluer_sbc.README.designs.isatis.items import items
 
@@ -17,5 +17,6 @@ docs = (
     ]
     + body.docs
     + parts.docs
-    + power.docs
+    + design.docs
+    + schematics.docs
 )

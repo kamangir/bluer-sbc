@@ -16,7 +16,8 @@ description_long_en:::
 
 - [parts](./parts.md)
 - [body](./body)
-- [power](./power.md)
+- [schematics](./schematics.md)
+- [design](./design)
 
 ---
 

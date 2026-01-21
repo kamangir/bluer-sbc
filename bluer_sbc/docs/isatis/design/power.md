@@ -1,4 +1,4 @@
-# isatis: power
+# isatis: design: power
 
 - TBA Ah / hour.
 
