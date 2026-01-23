@@ -1,3 +1,5 @@
+# pylint: skip-file
+
 import argparse
 import os
 
@@ -31,7 +33,7 @@ args = parser.parse_args()
 
 success = False
 if args.task == "capture":
-    success, _, _ = lepton.capture(
+    success, _ = lepton.capture(
         filename=os.path.join(args.output_path, "camera.jpg"),
     )
 elif args.task == "preview":

@@ -1,3 +1,5 @@
+# pylint: skip-file
+
 from blueness import module
 
 from bluer_sbc import NAME

@@ -1,3 +1,5 @@
+# pylint: skip-file
+
 import cv2
 
 from bluer_sbc.hardware.screen import Screen

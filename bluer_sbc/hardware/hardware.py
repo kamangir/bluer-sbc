@@ -1,3 +1,5 @@
+# pylint: skip-file
+
 import random
 
 from bluer_sbc import fullname

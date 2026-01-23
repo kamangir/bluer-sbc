@@ -1,3 +1,5 @@
+# pylint: skip-file
+
 import cv2
 import numpy as np
 

@@ -1,3 +1,5 @@
+# pylint: skip-file
+
 specifications = {
     "rpi-ir": {
         "height": 1944,

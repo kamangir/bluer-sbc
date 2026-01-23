@@ -1,5 +1,9 @@
+from bluer_objects.README.consts import designs_url
+
 from bluer_sbc.parts.classes.part import Part
 from bluer_sbc.parts.classes.db import PartDB
+
+swallow_designs = designs_url("swallow")
 
 db_of_parts: PartDB = PartDB()
 
@@ -94,6 +98,7 @@ db_of_parts["li-ion-battery"] = Part(
     ],
     images=[
         "lithium-battery.jpg",
+        "lithium-battery-2.jpg",
     ],
 )
 
@@ -783,6 +788,76 @@ db_of_parts["5v-unmanaged-10-100-switch"] = Part(
     ],
     images=[
         "5v-unmanaged-10-100-switch.jpg",
+    ],
+)
+
+db_of_parts["swallow-shield"] = Part(
+    info=[
+        "the swallow shield",
+        "details: https://github.com/kamangir/bluer-ugv/bluer_ugv/docs/swallow/digital/design/computer/shield/README.md",
+    ],
+    images=[
+        "swallow-3d.png",
+    ],
+)
+
+db_of_parts["dfplayer-mini"] = Part(
+    info=[
+        "DFPlayer Mini, audio file player",
+        "eg: https://www.digikala.com/product/dkp-2077160/%D9%85%D8%A7%DA%98%D9%88%D9%84-%D9%BE%D8%AE%D8%B4-%D9%81%D8%A7%DB%8C%D9%84-%D9%87%D8%A7%DB%8C-%D8%B5%D9%88%D8%AA%DB%8C-%D9%85%D8%AF%D9%84-dfplayer/",
+    ],
+    images=[
+        "dFPlayer-mini-1.png",
+        "dFPlayer-mini-2.png",
+        "dFPlayer-mini-3.png",
+        "dFPlayer-mini-4.png",
+        "dFPlayer-mini-5.png",
+        "dFPlayer-mini-6.png",
+    ],
+)
+
+db_of_parts["speaker"] = Part(
+    info=[
+        "passive speaker",
+    ],
+    images=[
+        "speaker.png",
+    ],
+)
+
+db_of_parts["keyboard"] = Part(
+    info=[
+        "keyboard",
+    ],
+    images=[
+        "keyboard.jpg",
+    ],
+)
+
+db_of_parts["numpad"] = Part(
+    info=[
+        "numpad",
+    ],
+    images=[
+        "numpad.jpg",
+    ],
+)
+
+db_of_parts["hdmi-cable"] = Part(
+    info=[
+        "hdmi cable",
+    ],
+    images=[
+        "hdmi-cable.jpg",
+    ],
+)
+
+db_of_parts["micro-hdmi-adapter"] = Part(
+    info=[
+        "micro hdmi adapter",
+    ],
+    images=[
+        "micro-hdmi-adapter.jpg",
     ],
 )
 

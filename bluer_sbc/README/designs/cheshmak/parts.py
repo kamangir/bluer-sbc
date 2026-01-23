@@ -1,19 +1,41 @@
 from bluer_sbc.README.design import design_doc_parts
 
 parts = {
-    "plexiglass": "2 x 90 mm x 90 mm",
-    "rpi": "",
-    "rpi-camera": "",
-    "nuts-bolts-spacers": "M2.5: ({})".format(
-        " + ".join(
-            [
-                "4 x bolt",
-                "4 x nut",
-                "12 x 10 mm spacer",
-                "4 x 15 mm spacer",
-            ]
-        )
+    "16-awg-wire": "20 cm x (red + black/blue)",
+    "dc-power-plug": "",
+    "dc-switch": "",
+    "hdmi-cable": "",
+    "keyboard": "",
+    "micro-hdmi-adapter": "",
+    "nuts-bolts-spacers": ", ".join(
+        [
+            "M2.5: ({})".format(
+                " + ".join(
+                    [
+                        "4 x bolt",
+                        "4 x nut",
+                        "12 x 10 mm spacer",
+                    ]
+                )
+            ),
+            "M3: ({})".format(
+                " + ".join(
+                    [
+                        "4 x bolt",
+                        "5 x nut",
+                        "4 x 15 mm spacer",
+                        "5 x 25 mm spacer",
+                    ]
+                )
+            ),
+        ]
     ),
+    "PCB-single-14x9_5": "",
+    "plexiglass": "14 cm x 9.5 cm",
+    "power-adapter": "12 V DC, 5 A",
+    "rpi": "",
+    "swallow-shield": "",
+    "XL4015": "",
 }
 
 
