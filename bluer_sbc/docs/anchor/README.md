@@ -1,6 +1,6 @@
 # anchor
 
-> anchor ⚓️ is a stationary rpi equipped with [LoRa](../../../../bluer-algo/bluer_algo/docs/lora-keyboard.md) transmission and either a GNSS receiver or a manually assigned position. It participates in [bps](../../../../bluer-algo/bluer_algo/docs/bps) as an anchor and simultaneously serves as [a remote keyboard interface](../../../../bluer-algo/bluer_algo/docs/lora-keyboard.md) for all [swallow](../../../../bluer-ugv/bluer_ugv/docs/swallow)s. Each swallow carries a LoRa receiver, listens to the anchor’s broadcast stream, and applies only the commands addressed to its own ID. BLE on each rpi operates independently and without interference, making this architecture a reliable, low-bandwidth, long-range control and reference system that scales from one robot to many.
+> anchor ⚓️ is a stationary rpi equipped with [LoRa](https://github.com/kamangir/bluer-algo/tree/main/bluer_algo/docs/lora-keyboard.md) transmission and either a GNSS receiver or a manually assigned position. It participates in [bps](https://github.com/kamangir/bluer-algo/tree/main/bluer_algo/docs/bps) as an anchor and simultaneously serves as [a remote keyboard interface](https://github.com/kamangir/bluer-algo/tree/main/bluer_algo/docs/lora-keyboard.md) for all [swallow](https://github.com/kamangir/bluer-ugv/tree/main/bluer_ugv/docs/swallow)s. Each swallow carries a LoRa receiver, listens to the anchor’s broadcast stream, and applies only the commands addressed to its own ID. BLE on each rpi operates independently and without interference, making this architecture a reliable, low-bandwidth, long-range control and reference system that scales from one robot to many.
 
 anchor is a [swallow-head](../swallow-head) without the ultrasonic sensors and the camera.
 
@@ -10,4 +10,4 @@ anchor is a [swallow-head](../swallow-head) without the ultrasonic sensors and t
 
 |   |   |
 | --- | --- |
-| [![image](../../../../assets2/anchor/03.png?raw=true)](../../../../assets2/anchor/03.png?raw=true) | [![image](../../../../assets2/anchor/20251205_175953.jpg?raw=true)](../../../../assets2/anchor/20251205_175953.jpg?raw=true) |
+| [![image](https://github.com/kamangir/assets2/blob/main/anchor/03.png?raw=true)](https://github.com/kamangir/assets2/blob/main/anchor/03.png?raw=true) | [![image](https://github.com/kamangir/assets2/blob/main/anchor/20251205_175953.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/anchor/20251205_175953.jpg?raw=true) |

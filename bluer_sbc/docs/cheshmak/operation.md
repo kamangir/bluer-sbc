@@ -1,6 +1,6 @@
 # cheshmak: operation
 
-minimized subset of [swallow ugv](../../../../bluer-ugv/bluer_ugv/docs/swallow/digital/design/operation.md).
+minimized subset of [swallow ugv](https://github.com/kamangir/bluer-ugv/blob/main/bluer_ugv/docs/swallow/digital/design/operation.md).
 
 - keyboard:
     - i: exit.

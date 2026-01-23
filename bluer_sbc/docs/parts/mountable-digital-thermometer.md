@@ -4,4 +4,4 @@
 
 |   |
 | --- |
-| ![image](../../../../assets2/bluer-sbc/parts/mountable-digital-thermometer.jpeg?raw=true) |
+| ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/mountable-digital-thermometer.jpeg?raw=true) |

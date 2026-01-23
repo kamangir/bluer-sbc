@@ -1,6 +1,6 @@
 # cheshmak
 
-- a media center with running [raspbian +gui](../../../../bluer-ai/bluer_ai/docs/install/RPi.md).
+- a media center with running [raspbian +gui](https://github.com/kamangir/bluer-ai/blob/main/bluer_ai/docs/install/RPi.md).
 - [parts](./parts.md)
 - [body](./body)
 - [operation](./operation.md).
@@ -8,4 +8,4 @@
 
 |   |   |
 | --- | --- |
-| [![image](../../../../assets2/cheshmak/01.png?raw=true)](../../../../assets2/cheshmak/01.png?raw=true) | [![image](../../../../assets2/cheshmak/20251203_190023.jpg?raw=true)](../../../../assets2/cheshmak/20251203_190023.jpg?raw=true) |
+| [![image](https://github.com/kamangir/assets2/blob/main/cheshmak/01.png?raw=true)](https://github.com/kamangir/assets2/blob/main/cheshmak/01.png?raw=true) | [![image](https://github.com/kamangir/assets2/blob/main/cheshmak/20251203_190023.jpg?raw=true)](https://github.com/kamangir/assets2/blob/main/cheshmak/20251203_190023.jpg?raw=true) |

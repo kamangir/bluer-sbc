@@ -7,4 +7,4 @@
 
 |   |
 | --- |
-| ![image](../../../../assets2/bluer-sbc/parts/HC-SR04.jpg?raw=true) |
+| ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/HC-SR04.jpg?raw=true) |

@@ -7,6 +7,6 @@
 
 |   |   |   |
 | --- | --- | --- |
-| ![image](../../../../assets2/bluer-sbc/parts/gearbox1.jpg?raw=true) | ![image](../../../../assets2/bluer-sbc/parts/gearbox2.jpg?raw=true) | ![image](../../../../assets2/bluer-sbc/parts/gearbox3.jpg?raw=true) |
-| ![image](../../../../assets2/bluer-sbc/parts/gearbox4.jpg?raw=true) | ![image](../../../../assets2/bluer-sbc/parts/gearbox5.jpg?raw=true) | ![image](../../../../assets2/bluer-sbc/parts/gearbox6.jpg?raw=true) |
-| ![image](../../../../assets2/bluer-sbc/parts/gearbox7.jpg?raw=true) | ![image](../../../../assets2/bluer-sbc/parts/gearbox8.jpg?raw=true) |  |
+| ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/gearbox1.jpg?raw=true) | ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/gearbox2.jpg?raw=true) | ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/gearbox3.jpg?raw=true) |
+| ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/gearbox4.jpg?raw=true) | ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/gearbox5.jpg?raw=true) | ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/gearbox6.jpg?raw=true) |
+| ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/gearbox7.jpg?raw=true) | ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/gearbox8.jpg?raw=true) |  |
