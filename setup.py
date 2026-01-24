@@ -39,6 +39,7 @@ setup(
             "config.env",
             "sample.env",
             ".abcli/**/*.sh",
+            "**/*.md",
         ],
     },
 )
