@@ -6,5 +6,6 @@ items = ImageItems(
     {
         image_template.format("01.png"): "",
         image_template.format("20251203_190023.jpg"): "",
+        image_template.format("photo_6030669378703002396_y.jpg"): "",
     }
 )
