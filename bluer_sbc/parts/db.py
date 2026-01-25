@@ -871,6 +871,16 @@ db_of_parts["gen1-s-blue-bracket"] = Part(
     ],
 )
 
+db_of_parts["hw-373-charger"] = Part(
+    info=[
+        "HW-373, Li-Ion charger",
+    ],
+    images=[
+        "hw-373-charger.jpeg",
+    ],
+)
+
+
 db_of_parts["template"] = Part(
     info=[
         "template",
