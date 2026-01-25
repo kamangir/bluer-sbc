@@ -861,6 +861,16 @@ db_of_parts["micro-hdmi-adapter"] = Part(
     ],
 )
 
+db_of_parts["gen1-s-blue-bracket"] = Part(
+    info=[
+        "gen1-s blue bracket",
+        "https://github.com/kamangir/blue-bracket/tree/main/brackets/gen1-s",
+    ],
+    images=[
+        "gen1-s.png",
+    ],
+)
+
 db_of_parts["template"] = Part(
     info=[
         "template",
