@@ -273,15 +273,6 @@ db_of_parts["shaft-10cm"] = Part(
     ],
 )
 
-db_of_parts["M3"] = Part(
-    info=[
-        "M3 nuts and bolts",
-    ],
-    images=[
-        "M3.jpg",
-    ],
-)
-
 db_of_parts["front-connector"] = Part(
     info=[
         "front connector",
@@ -877,6 +868,16 @@ db_of_parts["hw-373-charger"] = Part(
     ],
     images=[
         "hw-373-charger.jpeg",
+    ],
+)
+
+db_of_parts["gc03"] = Part(
+    info=[
+        "GC03, recordable sound module, diymore",
+        "https://manuals.plus/ae/1005007700106481",
+    ],
+    images=[
+        "gc03.png",
     ],
 )
 
