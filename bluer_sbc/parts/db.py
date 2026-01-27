@@ -273,15 +273,6 @@ db_of_parts["shaft-10cm"] = Part(
     ],
 )
 
-db_of_parts["M3"] = Part(
-    info=[
-        "M3 nuts and bolts",
-    ],
-    images=[
-        "M3.jpg",
-    ],
-)
-
 db_of_parts["front-connector"] = Part(
     info=[
         "front connector",
@@ -860,6 +851,36 @@ db_of_parts["micro-hdmi-adapter"] = Part(
         "micro-hdmi-adapter.jpg",
     ],
 )
+
+db_of_parts["gen1-s-blue-bracket"] = Part(
+    info=[
+        "gen1-s blue bracket",
+        "https://github.com/kamangir/blue-bracket/tree/main/brackets/gen1-s",
+    ],
+    images=[
+        "gen1-s.png",
+    ],
+)
+
+db_of_parts["hw-373-charger"] = Part(
+    info=[
+        "HW-373, Li-Ion charger",
+    ],
+    images=[
+        "hw-373-charger.jpeg",
+    ],
+)
+
+db_of_parts["gc03"] = Part(
+    info=[
+        "GC03, recordable sound module, diymore",
+        "https://manuals.plus/ae/1005007700106481",
+    ],
+    images=[
+        "gc03.png",
+    ],
+)
+
 
 db_of_parts["template"] = Part(
     info=[

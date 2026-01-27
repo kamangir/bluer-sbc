@@ -4,6 +4,7 @@ parts = {
     "16-awg-wire": "20 cm x (red + black/blue)",
     "dc-power-plug": "",
     "dc-switch": "",
+    "gen1-s-blue-bracket": "",
     "hdmi-cable": "",
     "keyboard": "",
     "micro-hdmi-adapter": "",
