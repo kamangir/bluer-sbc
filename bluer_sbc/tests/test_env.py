@@ -67,12 +67,17 @@ def test_blue_plugin_env():
 
     assert are_nonempty_strs(
         [
-            env.BLUER_SBC_BPS_ANCHORED_AT,
             env.BLUER_SBC_CAMERA_KIND,
             env.BLUER_SBC_HARDWARE_KIND,
             env.BLUER_SBC_SESSION_IMAGER,
             env.BLUER_SBC_SESSION_OBJECT_TAGS,
             env.BLUER_SBC_SESSION_OUTBOUND_QUEUE,
             env.BLUER_SBC_SESSION_PLUGIN,
+        ]
+    )
+
+    assert are_strs(
+        [
+            env.BLUER_SBC_BPS_ANCHORED_AT,
         ]
     )
