@@ -24,11 +24,11 @@ def test_blue_plugin_env():
             env.BLUER_SBC_CAMERA_FORCE_GENERIC,
             env.BLUER_SBC_CAMERA_KEEP_OPEN,
             env.BLUER_SBC_DISPLAY_FULLSCREEN,
+            env.BLUER_SBC_SWALLOW_DEV_MODE,
             env.BLUER_SBC_SWALLOW_HAS_BPS,
             env.BLUER_SBC_SWALLOW_HAS_CAMERA,
             env.BLUER_SBC_SWALLOW_HAS_FULL_KEYBOARD,
             env.BLUER_SBC_SWALLOW_HAS_STEERING,
-            env.BLUER_UGV_SWALLOW_UPLOAD_DISABLED,
         ]
     )
 
