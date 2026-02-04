@@ -6,7 +6,7 @@ image_template = assets2 + "cheshmak/{}?raw=true"
 marquee = README.Items(
     [
         {
-            "name": "cheshmak",
+            "name": "cheshmak 👁️",
             "marquee": image_template.format("20251203_190131.jpg"),
             "url": "./bluer_sbc/docs/cheshmak",
         }
