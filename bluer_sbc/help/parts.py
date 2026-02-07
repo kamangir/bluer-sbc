@@ -11,8 +11,7 @@ def help_cd(
 ) -> str:
     return show_usage(
         [
-            "@sbc",
-            "parts",
+            "@parts",
             "cd",
         ],
         "cd to part images folder.",
@@ -32,8 +31,7 @@ def help_adjust(
 
     return show_usage(
         [
-            "@sbc",
-            "parts",
+            "@parts",
             "adjust",
             f"[{options}]",
         ]
@@ -49,8 +47,7 @@ def help_edit(
 ) -> str:
     return show_usage(
         [
-            "@sbc",
-            "parts",
+            "@parts",
             "edit",
         ],
         "edit parts db.",
@@ -64,8 +61,7 @@ def help_open(
 ) -> str:
     return show_usage(
         [
-            "@sbc",
-            "parts",
+            "@parts",
             "open",
         ],
         "open part images folder.",

@@ -3,22 +3,18 @@
 
 # parts
 ```bash
-@sbc \
-	parts \
+@parts \
 	adjust \
 	[dryrun,~grid] \
 	[--verbose 1]
  . adjust part images.
-@sbc \
-	parts \
+@parts \
 	cd
  . cd to part images folder.
-@sbc \
-	parts \
+@parts \
 	edit
  . edit parts db.
-@sbc \
-	parts \
+@parts \
 	open
  . open part images folder.
 ```

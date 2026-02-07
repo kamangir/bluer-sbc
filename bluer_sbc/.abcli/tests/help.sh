@@ -7,14 +7,24 @@ function test_bluer_sbc_help() {
     for module in \
         "@sbc" \
         \
+        "@camera" \
+        "@camera capture" \
+        "@camera capture image" \
+        "@camera capture video" \
+        "@camera preview" \
+        \
+        "@joystick" \
+        "@joystick install" \
+        "@joystick validate" \
+        \
+        "@parts" \
+        "@parts adjust" \
+        "@parts cd" \
+        "@parts edit" \
+        "@parts open" \
+        \
         "@sbc adafruit_rgb_matrix" \
         "@sbc adafruit_rgb_matrix validate" \
-        \
-        "@sbc camera" \
-        "@sbc camera capture" \
-        "@sbc camera capture image" \
-        "@sbc camera capture video" \
-        "@sbc camera preview" \
         \
         "@sbc hat" \
         "@sbc hat input" \
@@ -24,12 +34,6 @@ function test_bluer_sbc_help() {
         "@sbc lepton" \
         "@sbc lepton capture" \
         "@sbc lepton preview" \
-        \
-        "@sbc parts" \
-        "@sbc parts adjust" \
-        "@sbc parts cd" \
-        "@sbc parts edit" \
-        "@sbc parts open" \
         \
         "@sbc pypi" \
         "@sbc pypi browse" \

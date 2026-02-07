@@ -9,6 +9,7 @@ from bluer_sbc.help.adafruit_rgb_matrix import (
 from bluer_sbc.help.camera import help_functions as help_camera
 from bluer_sbc.help.grove import help_functions as help_grove
 from bluer_sbc.help.hat import help_functions as help_hat
+from bluer_sbc.help.joystick import help_functions as help_joystick
 from bluer_sbc.help.lepton import help_functions as help_lepton
 from bluer_sbc.help.parts import help_functions as help_parts
 from bluer_sbc.help.rpi import help_functions as help_rpi
@@ -26,6 +27,7 @@ help_functions.update(
         "camera": help_camera,
         "grove": help_grove,
         "hat": help_hat,
+        "joystick": help_joystick,
         "lepton": help_lepton,
         "parts": help_parts,
         "rpi": help_rpi,

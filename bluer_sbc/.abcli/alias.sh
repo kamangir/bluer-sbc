@@ -2,6 +2,10 @@
 
 alias @camera=bluer_sbc_camera
 
+alias @parts=bluer_sbc_parts
+
+alias @joystick=bluer_sbc_joystick
+
 # for git purposes, no command.
 alias @designs=bluer-designs
 
