@@ -6,4 +6,4 @@
 
 |   |
 | --- |
-| ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/4-channel-remote-control.png?raw=true) |
+| ![image](../../../../assets2/bluer-sbc/parts/4-channel-remote-control.png?raw=true) |

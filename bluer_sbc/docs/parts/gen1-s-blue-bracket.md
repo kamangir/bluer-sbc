@@ -5,4 +5,4 @@
 
 |   |
 | --- |
-| ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/gen1-s.png?raw=true) |
+| ![image](../../../../assets2/bluer-sbc/parts/gen1-s.png?raw=true) |
