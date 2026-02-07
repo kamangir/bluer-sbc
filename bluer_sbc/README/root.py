@@ -1,3 +1,6 @@
+from bluer_objects.README.alias import list_of_aliases
+
+from bluer_sbc import NAME
 from bluer_sbc.README.designs.adapter_bus import marquee as adapter_bus_marquee
 from bluer_sbc.README.designs.anchor import marquee as anchor_marquee
 from bluer_sbc.README.designs.battery_bus import marquee as battery_bus_marquee
@@ -32,6 +35,7 @@ docs = [
         "path": "../..",
         "macros": {
             "shortcuts:::": shortcuts_items,
+            "aliases:::": list_of_aliases(NAME),
         },
     },
 ]
