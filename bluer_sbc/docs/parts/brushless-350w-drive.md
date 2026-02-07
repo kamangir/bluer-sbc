@@ -5,4 +5,4 @@
 
 |   |
 | --- |
-| ![image](../../../../assets2/bluer-sbc/parts/brushless-350w-drive.jpg?raw=true) |
+| ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/brushless-350w-drive.jpg?raw=true) |

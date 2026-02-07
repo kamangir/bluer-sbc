@@ -5,4 +5,4 @@
 
 |   |
 | --- |
-| ![image](../../../../assets2/bluer-sbc/parts/shaft-10cm.jpg?raw=true) |
+| ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/shaft-10cm.jpg?raw=true) |

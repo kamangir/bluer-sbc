@@ -7,5 +7,5 @@
 
 |   |   |   |
 | --- | --- | --- |
-| ![image](../../../../assets2/bluer-sbc/parts/dsn-vc288.jpg?raw=true) | ![image](../../../../assets2/bluer-sbc/parts/dsn-vc288-connection.jpg?raw=true) | ![image](../../../../assets2/bluer-sbc/parts/dsn-vc288-measurements.jpeg?raw=true) |
-| ![image](../../../../assets2/bluer-sbc/parts/dsn-vc288-shunt.png?raw=true) | ![image](../../../../assets2/bluer-sbc/parts/shunt.png?raw=true) |  |
+| ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/dsn-vc288.jpg?raw=true) | ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/dsn-vc288-connection.jpg?raw=true) | ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/dsn-vc288-measurements.jpeg?raw=true) |
+| ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/dsn-vc288-shunt.png?raw=true) | ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/shunt.png?raw=true) |  |

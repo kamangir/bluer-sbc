@@ -4,4 +4,4 @@
 
 |   |
 | --- |
-| ![image](../../../../assets2/bluer-sbc/parts/whip-antenna.jpeg?raw=true) |
+| ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/whip-antenna.jpeg?raw=true) |

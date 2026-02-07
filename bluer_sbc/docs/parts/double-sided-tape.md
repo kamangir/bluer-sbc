@@ -4,4 +4,4 @@
 
 |   |
 | --- |
-| ![image](../../../../assets2/bluer-sbc/parts/double-sided-tape.jpg?raw=true) |
+| ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/double-sided-tape.jpg?raw=true) |

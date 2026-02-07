@@ -4,4 +4,4 @@
 
 |   |
 | --- |
-| [![image](../../../assets2/x/TBA.jpg?raw=true)](../../../assets2/x/TBA.jpg?raw=true) |
+| [![image](https://github.com/kamangir/assets2/raw/main/x/TBA.jpg?raw=true)](https://github.com/kamangir/assets2/raw/main/x/TBA.jpg?raw=true) |
