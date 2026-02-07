@@ -1,11 +1,23 @@
+from bluer_objects.README.alias import list_of_aliases
+
+from bluer_sbc import NAME
+
 docs = [
     {
-        "path": f"../docs/aliases/{item}.md",
+        "path": "../docs/aliases",
+        "macros": {
+            "aliases:::": list_of_aliases(
+                NAME,
+                itemized=True,
+            ),
+        },
     }
-    for item in [
-        "camera",
-        "hardware",
-        "rpi",
-        "sbc",
-    ]
+] + [
+    {
+        "path": f"../docs/aliases/{alias_name}.md",
+    }
+    for alias_name in list_of_aliases(
+        NAME,
+        as_markdown=False,
+    )
 ]
