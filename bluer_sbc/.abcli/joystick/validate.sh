@@ -1,6 +1,11 @@
 #! /usr/bin/env bash
 
 function bluer_sbc_joystick_validate() {
+    if [[ "$abcli_is_rpi" == false ]]; then
+        bluer_ai_log_warning "only works on rpi."
+        return
+    fi
+
     local options=$1
     local do_install=$(bluer_ai_option_int "$options" install 0)
 
