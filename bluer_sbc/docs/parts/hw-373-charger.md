@@ -4,4 +4,4 @@
 
 |   |
 | --- |
-| ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/hw-373-charger.jpeg?raw=true) |
+| ![image](../../../../assets2/bluer-sbc/parts/hw-373-charger.jpeg?raw=true) |

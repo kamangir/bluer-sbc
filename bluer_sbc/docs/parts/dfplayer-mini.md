@@ -5,5 +5,5 @@
 
 |   |   |   |
 | --- | --- | --- |
-| ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/dFPlayer-mini-1.png?raw=true) | ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/dFPlayer-mini-2.png?raw=true) | ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/dFPlayer-mini-3.png?raw=true) |
-| ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/dFPlayer-mini-4.png?raw=true) | ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/dFPlayer-mini-5.png?raw=true) | ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/dFPlayer-mini-6.png?raw=true) |
+| ![image](../../../../assets2/bluer-sbc/parts/dFPlayer-mini-1.png?raw=true) | ![image](../../../../assets2/bluer-sbc/parts/dFPlayer-mini-2.png?raw=true) | ![image](../../../../assets2/bluer-sbc/parts/dFPlayer-mini-3.png?raw=true) |
+| ![image](../../../../assets2/bluer-sbc/parts/dFPlayer-mini-4.png?raw=true) | ![image](../../../../assets2/bluer-sbc/parts/dFPlayer-mini-5.png?raw=true) | ![image](../../../../assets2/bluer-sbc/parts/dFPlayer-mini-6.png?raw=true) |

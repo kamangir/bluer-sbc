@@ -5,5 +5,5 @@
 
 |   |   |   |
 | --- | --- | --- |
-| ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/GM6558/01.jpg?raw=true) | ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/GM6558/02.jpg?raw=true) | ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/GM6558/03.jpg?raw=true) |
-| ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/GM6558/04.jpg?raw=true) | ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/GM6558/measurements.jpg?raw=true) | ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/GM6558/specs.png?raw=true) |
+| ![image](../../../../assets2/bluer-sbc/parts/GM6558/01.jpg?raw=true) | ![image](../../../../assets2/bluer-sbc/parts/GM6558/02.jpg?raw=true) | ![image](../../../../assets2/bluer-sbc/parts/GM6558/03.jpg?raw=true) |
+| ![image](../../../../assets2/bluer-sbc/parts/GM6558/04.jpg?raw=true) | ![image](../../../../assets2/bluer-sbc/parts/GM6558/measurements.jpg?raw=true) | ![image](../../../../assets2/bluer-sbc/parts/GM6558/specs.png?raw=true) |

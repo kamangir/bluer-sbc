@@ -4,4 +4,4 @@
 
 |   |
 | --- |
-| ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/small-on-off-switch.jpg?raw=true) |
+| ![image](../../../../assets2/bluer-sbc/parts/small-on-off-switch.jpg?raw=true) |

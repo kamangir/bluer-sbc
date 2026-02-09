@@ -4,4 +4,4 @@
 
 |   |
 | --- |
-| ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/white-terminal.jpg?raw=true) |
+| ![image](../../../../assets2/bluer-sbc/parts/white-terminal.jpg?raw=true) |

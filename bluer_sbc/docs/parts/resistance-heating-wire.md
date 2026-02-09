@@ -4,4 +4,4 @@
 
 |   |
 | --- |
-| ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/resistance-heating-wire.jpg?raw=true) |
+| ![image](../../../../assets2/bluer-sbc/parts/resistance-heating-wire.jpg?raw=true) |
