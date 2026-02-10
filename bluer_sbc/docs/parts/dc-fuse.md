@@ -4,4 +4,4 @@
 
 |   |
 | --- |
-| ![image](../../../../assets2/bluer-sbc/parts/dc-fuse.jpg?raw=true) |
+| ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/dc-fuse.jpg?raw=true) |

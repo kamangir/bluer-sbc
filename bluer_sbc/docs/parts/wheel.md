@@ -6,4 +6,4 @@
 
 |   |   |   |
 | --- | --- | --- |
-| ![image](../../../../assets2/bluer-sbc/parts/wheel1.jpg?raw=true) | ![image](../../../../assets2/bluer-sbc/parts/wheel4.jpg?raw=true) | ![image](../../../../assets2/bluer-sbc/parts/wheel3.jpg?raw=true) |
+| ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/wheel1.jpg?raw=true) | ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/wheel4.jpg?raw=true) | ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/wheel3.jpg?raw=true) |

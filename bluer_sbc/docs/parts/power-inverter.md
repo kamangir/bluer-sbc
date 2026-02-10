@@ -5,4 +5,4 @@
 
 |   |
 | --- |
-| ![image](../../../../assets2/bluer-sbc/parts/power-inverter.jpg?raw=true) |
+| ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/power-inverter.jpg?raw=true) |

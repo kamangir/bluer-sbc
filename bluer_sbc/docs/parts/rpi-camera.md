@@ -6,4 +6,4 @@
 
 |   |
 | --- |
-| ![image](../../../../assets2/bluer-sbc/parts/rpi-camera.jpg?raw=true) |
+| ![image](https://github.com/kamangir/assets2/raw/main/bluer-sbc/parts/rpi-camera.jpg?raw=true) |
