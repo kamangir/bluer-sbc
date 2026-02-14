@@ -26,6 +26,9 @@ def validate() -> bool:
 
     joystick.init()
 
+    logger.info("move the joystick sticks and press buttons.")
+    logger.info("press Ctrl+C to stop.")
+
     # Set up a clock to control the loop speed
     clock = pygame.time.Clock()
     running: bool = True
