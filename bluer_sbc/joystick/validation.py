@@ -47,15 +47,15 @@ def validate() -> bool:
                     axis = event.axis
                     value = event.value
                     print(f"Joystick axis {axis} moved to {value}.")
+
+            clock.tick(60)
         except KeyboardInterrupt:
+            logger.info("Ctrl+C, stopping...")
             running = False
-            logger.warning("Ctrl+C, stopping...")
         except Exception as e:
             logger.error(e)
             running = False
             success = False
-
-        clock.tick(60)
 
     pygame.quit()
 
