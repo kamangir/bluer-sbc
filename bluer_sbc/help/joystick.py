@@ -1,6 +1,6 @@
 from typing import List
 
-from bluer_options.terminal import show_usage
+from bluer_options.terminal import show_usage, xtra
 
 
 def help_install(
@@ -21,7 +21,12 @@ def help_validate(
     tokens: List[str],
     mono: bool,
 ) -> str:
-    options = "install"
+    options = "".join(
+        [
+            "install",
+            xtra(",~use_python", mono=mono),
+        ]
+    )
 
     return show_usage(
         [

@@ -18,6 +18,7 @@ setup(
         f"{NAME}.imager",
         f"{NAME}.imager.camera",
         f"{NAME}.imager.lepton",
+        f"{NAME}.joystick",
         f"{NAME}.parts",
         f"{NAME}.parts.classes",
         f"{NAME}.README",

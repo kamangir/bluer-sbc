@@ -8,14 +8,22 @@ function bluer_sbc_joystick_validate() {
 
     local options=$1
     local do_install=$(bluer_ai_option_int "$options" install 0)
+    local use_python=$(bluer_ai_option_int "$options" python 1)
 
     [[ "$do_install" == 1 ]] &&
         bluer_sbc_joystick_install
 
-    ls /dev/input/js*
-    bluer_ai_log "⬆️ should read like \"/dev/input/js0\"."
+    if [[ "$use_python" == 1 ]]; then
+        bluer_ai_eval - \
+            bluer_sbc.joystick \
+            validate \
+            "$@"
+    else
+        ls /dev/input/js*
+        bluer_ai_log "⬆️ should read like \"/dev/input/js0\"."
 
-    bluer_ai_log "move the joystick sticks and press buttons."
-    bluer_ai_eval - \
-        sudo jstest /dev/input/js0
+        bluer_ai_log "move the joystick sticks and press buttons."
+        bluer_ai_eval - \
+            sudo jstest /dev/input/js0
+    fi
 }
