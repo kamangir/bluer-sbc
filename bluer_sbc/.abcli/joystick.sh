@@ -9,8 +9,7 @@ function bluer_sbc_joystick() {
         return
     fi
 
-    bluer_ai_log_error "@joystick: $task: command not found."
-    return 1
+    python3 -m bluer_sbc.joystick "$@"
 }
 
 bluer_ai_source_caller_suffix_path /joystick
