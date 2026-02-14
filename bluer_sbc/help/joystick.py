@@ -24,7 +24,7 @@ def help_validate(
     options = "".join(
         [
             "install",
-            xtra(",~use_python", mono=mono),
+            xtra(",~python", mono=mono),
         ]
     )
 

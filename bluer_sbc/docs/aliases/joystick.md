@@ -6,6 +6,6 @@
  . install joystick.
 @joystick \
 	validate \
-	[install,~use_python]
+	[install,~python]
  . validate joystick.
 ```
