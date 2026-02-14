@@ -15,6 +15,7 @@ function bluer_sbc_joystick_validate() {
 
     if [[ "$use_python" == 1 ]]; then
         bluer_ai_eval - \
+            python3 -m \
             bluer_sbc.joystick \
             validate \
             "$@"
