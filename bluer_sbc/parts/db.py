@@ -380,6 +380,16 @@ db_of_parts["dc-power-plug"] = Part(
     ],
 )
 
+db_of_parts["ac-power-cord-and-plug"] = Part(
+    info=[
+        "AC power plug, 220 VAC, 2 A",
+    ],
+    images=[
+        "ac-power-cord-and-plug.jpg",
+    ],
+)
+
+
 db_of_parts["dsn-vc288"] = Part(
     info=[
         "DSN-VC288, panel mount, 4-30 VDC, 10A (50A with shunt resistor), voltmeter ammeter",

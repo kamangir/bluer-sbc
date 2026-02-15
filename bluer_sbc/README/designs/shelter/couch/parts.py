@@ -2,9 +2,10 @@ from bluer_sbc.README.design import design_doc_parts
 
 parts = {
     "220VAC-dimmer": "",
-    "resistance-heating-wire": "1.59 kΩ",
-    "mountable-digital-thermometer": "",
     "ac-volt-meter": "220 V, 1 A",
+    "mountable-digital-thermometer": "",
+    "plexiglass": "2 x 9 cm x 7 cm",
+    "resistance-heating-wire": "1.59 kΩ",
 }
 
 docs = [
