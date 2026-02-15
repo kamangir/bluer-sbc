@@ -1,5 +1,9 @@
 title:::
 
-> designed by [AI 🪄](https://github.com/kamangir/bluer-objects/tree/main/bluer_objects/docs/bluer-README).
+ai:::object jacket-design-v1
+
+ai:::ignore
+- [build](./build.md)
+ai:::ignore
 
 🔥
