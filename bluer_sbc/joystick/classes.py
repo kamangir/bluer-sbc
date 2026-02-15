@@ -36,7 +36,10 @@ class Joystick:
     def cleanup():
         pygame.quit()
 
-    def read_events(self):
+    def read_events(
+        self,
+        verbose: bool = False,
+    ):
         self.axes = {}
         self.buttons = {}
         self.commands = []
@@ -51,33 +54,36 @@ class Joystick:
                 )
 
             if event.type == pygame.JOYBUTTONDOWN:
-                logger.info(
-                    "{}: button {} pressed.".format(
-                        self.__class__.__name__,
-                        event.button,
+                if verbose:
+                    logger.info(
+                        "{}: button {} pressed.".format(
+                            self.__class__.__name__,
+                            event.button,
+                        )
                     )
-                )
                 self.buttons[event.button] = event
 
             if event.type == pygame.JOYBUTTONUP:
-                logger.info(
-                    "{}: button {} released.".format(
-                        self.__class__.__name__,
-                        event.button,
+                if verbose:
+                    logger.info(
+                        "{}: button {} released.".format(
+                            self.__class__.__name__,
+                            event.button,
+                        )
                     )
-                )
                 self.buttons[event.button] = event
 
             if event.type == pygame.JOYAXISMOTION:
                 axis = event.axis
                 value = event.value
 
-                logger.info(
-                    "{}: axis {} moved to {}.".format(
-                        self.__class__.__name__,
-                        axis,
-                        value,
+                if verbose:
+                    logger.info(
+                        "{}: axis {} moved to {}.".format(
+                            self.__class__.__name__,
+                            axis,
+                            value,
+                        )
                     )
-                )
 
                 self.axes[event.axis] = event
