@@ -26,3 +26,5 @@ ai:::completed operation-time If we use a battery-capacity::: li-ion battery, fo
 ```
 
 object:::get:::object_name
+
+ai:::signature
