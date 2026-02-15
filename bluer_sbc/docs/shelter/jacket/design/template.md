@@ -1,7 +1,7 @@
 ai:::ignore
 title:::
 
-set:::object_name jacket-design-v2
+set:::object_name jacket-design-v3
 
 ai:::object get:::object_name
 ai:::ignore
@@ -12,7 +12,7 @@ ai:::complete watts Imagine an adult person who is wearing a normal jacket in a 
 
 ai:::complete current What is the nominal current that is drawn from the battery?
 
-ai:::complete current What is the resistance per meter of the heating wire?
+ai:::complete resistance What is the resistance per meter of the heating wire?
 
 ai:::complete operation-time If we use a battery-capacity::: li-ion battery, for how long can we keep this device on?
 
