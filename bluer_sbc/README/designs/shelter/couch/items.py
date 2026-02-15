@@ -1,6 +1,6 @@
 from bluer_objects.README.items import ImageItems
 
-from bluer_sbc.README.designs.shelter.couch import image_template
+from bluer_sbc.README.designs.shelter import image_template
 
 items = ImageItems(
     {image_template.format(f"{index+1:02}.png"): "" for index in range(4)}
