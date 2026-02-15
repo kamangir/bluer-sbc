@@ -4,6 +4,15 @@ parts = {
     "220VAC-dimmer": "",
     "ac-volt-meter": "220 V, 1 A",
     "mountable-digital-thermometer": "",
+    "nuts-bolts-spacers": "M3: ({})".format(
+        " + ".join(
+            [
+                "4 x bolt",
+                "4 x nut",
+                "4 x 35 mm spacer",
+            ]
+        )
+    ),
     "plexiglass": "2 x 9 cm x 7 cm",
     "resistance-heating-wire": "1.59 kΩ",
 }
