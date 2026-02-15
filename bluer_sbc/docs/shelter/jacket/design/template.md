@@ -1,9 +1,11 @@
 ai:::ignore
+
 title:::
 
 set:::object_name jacket-design-v3
 
 ai:::object get:::object_name
+
 ai:::ignore
 
 Objective: To build a smart winter jacket with a lithium battery and 320 cm of heating wire.
