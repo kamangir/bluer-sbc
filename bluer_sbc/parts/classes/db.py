@@ -136,7 +136,8 @@ class PartDB:
                 return success
 
             if image.shape[0] == max_height and image.shape[1] == max_width:
-                logger.info("✅")
+                if verbose:
+                    logger.info("✅")
                 continue
 
             image = image[:, :, :3]
