@@ -1,14 +1,13 @@
 # shelter: jacket: design
 
-ai:::ignore
+⚠️ bad template line: ai:::ignore
 
 ```bash
 @sbc build_README \
 	ai,root=shelter/jacket/design
 ```
 
-ai:::ignore
+⚠️ bad template line: ai:::ignore
 
-ai:::object jacket-design-v1
 
 🔥
