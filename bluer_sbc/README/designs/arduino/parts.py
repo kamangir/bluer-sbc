@@ -4,6 +4,7 @@ parts = {
     "470-mF": "",
     "arduino-nano": "",
     "dc-switch": "small",
+    "hw-373-charger": "",
     "LED": "2 x blue",
     "li-ion-battery": "18650, 3.6v, 3350mAh, with holder",
     "mt-3608": "",

@@ -1,12 +1,15 @@
 from bluer_objects import README
 from bluer_objects.README.items import ImageItems
+from bluer_objects.README.consts import assets_url
 
-from bluer_sbc.README.designs.consts import assets2
 from bluer_sbc.README.designs.battery_bus.parts import parts as battery_bus_parts
 from bluer_sbc.README.designs.pwm_generator import parts as pwm_generator_parts
 from bluer_sbc.README.design import design_doc
 
-image_template = assets2 + "nafha/{}?raw=true"
+image_template = assets_url(
+    suffix="nafha/{}?raw=true",
+    volume=2,
+)
 
 marquee = README.Items(
     [

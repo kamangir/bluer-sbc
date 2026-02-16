@@ -1,10 +1,11 @@
 from bluer_objects import README
 from bluer_objects.README.items import ImageItems
+from bluer_objects.README.consts import assets_url
 
-from bluer_sbc.README.designs.consts import assets2
-
-
-image_template = assets2 + "ultrasonic-sensor-tester/{}?raw=true"
+image_template = assets_url(
+    suffix="ultrasonic-sensor-tester/{}?raw=true",
+    volume=2,
+)
 
 marquee = README.Items(
     [
