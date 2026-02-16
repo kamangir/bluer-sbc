@@ -27,83 +27,69 @@ $$ \text{Input Power} = \frac{100\ \text{W}}{0.5} = 200\ \text{W} $$
 - an adult at rest in extremely cold conditions (-10°C) loses about 100–150 watts of heat.
 - 30 – 50% efficiency -> 200-350 watts
 
-> If we use a 3 x 26650, 5000 mAh 5C, 3.7 V/4.2V li-ion battery, what is the nominal current that is drawn from the battery?
+> If we use a 3 x 26650, 5000 mAh 5C, 3.7 V/4.2V li-ion battery, connected in series, what is the nominal current that is drawn from the battery?
 
 <details>
 <summary>current</summary>
 
-To calculate the nominal current drawn from a **3 x 26650 lithium-ion battery pack** (3.7 V nominal voltage, 5000 mAh capacity, 5C discharge rate), we need to break it down step by step: --- ### **1. Battery Specifications** - **Cells**: 3 x 26650 Li-ion (3.7 V nominal, 4.2 V max) - **Capacity per cell**: 5000 mAh = **5 Ah** - **5C rating**: This means each cell can supply **5 times its capacity in current** (5 * 5 Ah = **25 A** per cell). --- ### **2. Total Capacity and Current** - **Total Capacity (Parallel Connection)**: Since the cells are connected **in parallel**, the total capacity is: 
+To determine the **nominal current** drawn from the battery, we need to clarify what you mean by "nominal current." This could refer to: 1. **Maximum sustainable current** the battery can supply (based on its **C-rate**). 2. **Actual current** drawn by the jacket, which depends on its power requirements and voltage. ### 1. **Maximum Sustainable Current** The battery pack is 3 cells in **series**, each with a **5C rating**. - **5C** means the battery can charge or discharge at **5 times its capacity**. - Each cell has a capacity of **5000 mAh (5 Ah)**. - At **5C**, each cell can supply **5 × 5 Ah = 25 A**. - Since the cells are in series, the **total current capacity** of the pack remains **25 A** (the same as one cell, as series connection does not add current capacity). **Result**: - **Maximum sustainable current** from the pack: **25 A**. ### 2. **Actual Current Drawn by the Jacket** If the jacket requires **200 W** of power (as calculated earlier), and the battery pack supplies **3.7 V** (nominal voltage), the current drawn is: 
 
-$$ 3 \text{ cells} \times 5 \text{ Ah} = 15 \text{ Ah} $$
+$$ I = \frac{P}{V} = \frac{200\ \text{W}}{3.7\ \text{V}} \approx 54\ \text{A} $$
 
- (This is the total energy the pack can deliver over time, not the instantaneous current.) - **Nominal Current (Maximum Discharge Rate)**: Each cell can supply **25 A** at 5C. With 3 cells in parallel: 
-
-$$ 3 \text{ cells} \times 25 \text{ A} = 75 \text{ A} $$
-
- So, the **nominal current** (maximum continuous current) the pack can supply is **75 A**. --- ### **3. Key Notes** - **Nominal current** refers to the **maximum current** the battery pack can deliver under normal conditions (not peak surge current). - **Battery Efficiency**: Real-world efficiency (e.g., 80–90%) might reduce this, but the question focuses on the theoretical maximum. - **Voltage**: The pack’s nominal voltage remains **3.7 V** (since all cells are connected in parallel). --- ### **Answer** The **nominal current** drawn from the 3 x 26650 battery pack is **75 A**. This is the maximum continuous current the pack can supply under ideal conditions.
+ **Result**: - **Actual current drawn** (if the jacket requires 200 W): **~54 A**. ### Key Notes: - The **5C rating** defines the **maximum current the battery can supply** (25 A in this case). - The **actual current** depends on the jacket's power draw (e.g., 200 W) and the voltage (3.7 V). - If the jacket draws **54 A**, it would exceed the battery's **25 A maximum sustainable current**, risking overheating or damage. **Final Answer**: - **Maximum sustainable current**: **25 A** (based on 5C rating). - **Actual current drawn**: **~54 A** (if the jacket requires 200 W). Let me know if you'd like to explore safety margins or battery lifespan impacts.
 
 
 </details>
+
+- 5C x 5000 mAh -> each cell can supply 25 A
+- 200 W == 18 A
 
 > For how long can we keep this device on?
 
 <details>
 <summary>operation-time</summary>
 
-To determine how long the device can stay on, we need to know the **current draw** or **power consumption** of the device. Without this, we can’t calculate runtime. Here's how to proceed: ### **Step 1: Power Consumption** You need to specify the **power (in watts)** the device consumes. For example: - If the device uses **300 W** of power (as in the jacket scenario), and the battery pack provides **13.1 W-hr** (as calculated earlier), then: 
+To calculate **runtime** (how long the jacket can stay on), we need to consider: - **Battery energy storage** (in watt-hours, Wh). - **Power consumption** of the jacket (in watts, W). ### Step-by-Step Calculation: 1. **Battery Capacity**: - 3 cells in series: **3 × 5 Ah = 15 Ah** total capacity. - Nominal voltage: **3.7 V × 3 = 11.1 V**. - **Energy storage**: 
 
-$$ \text{Runtime} = \frac{\text{Battery Capacity (W-hr)}}{\text{Power Consumption (W)}} $$
+$$ \text{Energy} = \text{Capacity} × \text{Voltage} = 15\ \text{Ah} × 11.1\ \text{V} = 166.5\ \text{Wh} $$
 
- 
+ 2. **Jacket Power Draw**: - Assumed earlier: **200 W** (to offset heat loss and inefficiency). 3. **Runtime**: 
 
-$$ \text{Runtime} = \frac{13.1}{300} \approx 0.043 \text{ hours} \approx 2.6 \text{ minutes} $$
+$$ \text{Runtime} = \frac{\text{Energy}}{\text{Power}} = \frac{166.5\ \text{Wh}}{200\ \text{W}} \approx 0.83\ \text{hours} $$
 
- ### **Step 2: Adjust for Real-World Factors** - **Battery Efficiency**: Li-ion batteries lose ~20–30% of energy during discharge (due to internal resistance). - **Load Variability**: If the device uses less power (e.g., 150 W), runtime increases. - **Temperature**: Cold temperatures reduce battery capacity. ### **Final Answer** If you provide the **power consumption** of the device, I can calculate the exact runtime. For example: - **If the device uses 150 W**: 
-
-$$ \text{Runtime} = \frac{13.1}{150} \approx 0.087 \text{ hours} \approx 5.2 \text{ minutes} $$
-
- - **If the device uses 50 W**: 
-
-$$ \text{Runtime} = \frac{13.1}{50} \approx 0.262 \text{ hours} \approx 15.7 \text{ minutes} $$
-
- **Please share the device’s power consumption (in watts) to get an accurate runtime.**
+ - **0.83 hours ≈ 50 minutes**. ### Key Notes: - This is a **theoretical maximum**. Real-world runtime is shorter due to: - **Battery inefficiency** (e.g., 90% efficiency, reducing stored energy by ~10%). - **Voltage drop** during discharge (cells may not maintain 3.7 V fully). - **Jacket power draw** (actual draw could be higher due to temperature fluctuations or system overhead). ### Adjusted Estimate: - With **90% efficiency** and a **10% voltage drop**, runtime drops to **~40 minutes**. - If the jacket draws **250 W** (e.g., due to higher ambient temperatures or system inefficiency), runtime drops to **~30 minutes**. Would you like to refine this further with specific assumptions (e.g., battery efficiency, jacket power draw, or voltage)?
 
 
 </details>
+
+- at 200 W: ~ 1 hour
 
 > What is the range of resistance per meter for heating wires?
 
 <details>
 <summary>resistance</summary>
 
-To determine the **resistance per meter** of heating wires, we need to consider the **material** (e.g., nichrome, kanthal, or other alloys) and the **cross-sectional area** of the wire. Resistance per meter is calculated using the formula: 
+The resistance per meter of heating wire depends on the **material**, **diameter**, and **alloy composition**. Here's a breakdown of typical ranges: ### 1. **Resistivity (ρ)** Resistivity (Ω·m) determines the material's inherent resistance to current. For heating wires: - **Nichrome (common alloy)**: ~1.0 × 10⁻⁶ Ω·m (1.0 × 10⁻⁶ ohm-meters). - **Kanthal (another common alloy)**: ~1.5 × 10⁻⁶ Ω·m. - **Carbon fiber (used in some applications)**: ~1.0 × 10⁻⁵ Ω·m (higher than Nichrome). ### 2. **Resistance per Meter (R/m)** Resistance per meter is calculated using the formula: 
 
-$$ R_{\text{per meter}} = \frac{\text{Resistivity} \times \text{Length}}{\text{Cross-sectional Area}} $$
+$$ R = \rho \times \frac{L}{A} $$
 
- For a 1-meter length, this simplifies to: 
+ Where: - $ \rho $ = resistivity (Ω·m), - $ L $ = length (m), - $ A $ = cross-sectional area (m²). #### Example Calculation: For a Nichrome wire with a **diameter of 0.5 mm (0.0005 m)**: - Radius $ r = 0.25 \, \text{mm} = 0.00025 \, \text{m} $, - Cross-sectional area $ A = \pi r^2 \approx 1.96 \times 10^{-7} \, \text{m²} $. 
 
-$$ R_{\text{per meter}} = \frac{\text{Resistivity}}{\text{Cross-sectional Area}} $$
+$$ R = 1.0 \times 10^{-6} \, \Omega \cdot m \times \frac{1 \, \text{m}}{1.96 \times 10^{-7} \, \text{m²}} \approx 5.1 \, \Omega/m $$
 
- --- ### **Typical Resistance Ranges for Heating Wires** Heating wires are commonly made of **nichrome** (an alloy of nickel and chromium) or **kanthal** (a ferric oxide alloy). Their resistivity and resistance per meter vary depending on the wire's thickness and construction. Here are typical ranges: #### **1. Nichrome (Common Heating Material)** - **Resistivity**: ~1.1 ohm-cm (or **1.1 × 10⁻⁶ ohm-meters**). - **Resistance per meter**: - For a **0.1 mm diameter** wire (cross-sectional area ≈ **7.85 × 10⁻⁸ m²**): 
-
-$$ R = \frac{1.1 \times 10^{-6} \, \Omega \cdot \text{m}}{7.85 \times 10^{-8} \, \text{m}^2} \approx 14 \, \Omega/\text{m} $$
-
- - For a **1 mm diameter** wire (cross-sectional area ≈ **7.85 × 10⁻⁷ m²**): 
-
-$$ R = \frac{1.1 \times 10^{-6} \, \Omega \cdot \text{m}}{7.85 \times 10^{-7} \, \text{m}^2} \approx 1.4 \, \Omega/\text{m} $$
-
- #### **2. Kanthal (Ferric Oxide Alloy)** - **Resistivity**: ~1.4 ohm-cm (or **1.4 × 10⁻⁶ ohm-meters**). - **Resistance per meter**: - For a **0.1 mm diameter** wire: 
-
-$$ R = \frac{1.4 \times 10^{-6} \, \Omega \cdot \text{m}}{7.85 \times 10^{-8} \, \text{m}^2} \approx 18 \, \Omega/\text{m} $$
-
- - For a **1 mm diameter** wire: 
-
-$$ R = \frac{1.4 \times 10^{-6} \, \Omega \cdot \text{m}}{7.85 \times 10^{-7} \, \text{m}^2} \approx 1.8 \, \Omega/\text{m} $$
-
- --- ### **Key Factors Affecting Resistance per Meter** 1. **Material**: - Nichrome and kanthal are standard choices, but other alloys (e.g., constantan, manganin) may have different resistivity values. 2. **Wire Diameter**: - Thinner wires have higher resistance per meter (e.g., 14 Ω/m for 0.1 mm nichrome). - Thicker wires have lower resistance (e.g., 1.4 Ω/m for 1 mm nichrome). 3. **Temperature**: - Resistance increases with temperature (typically 0.5–1.5% per °C for nichrome). --- ### **Practical Implications** - **Power Calculation**: If you know the resistance per meter, you can calculate power using $ P = \frac{V^2}{R} $, where $ V $ is the applied voltage and $ R $ is the total resistance (e.g., for a 1-meter wire: $ R = R_{\text{per meter}} \times 1 $). - **Design Considerations**: Thicker wires (lower resistance) are better for high-power applications, while thinner wires are suitable for precise temperature control. --- ### **Summary** | Material | Resistance per Meter (Ω/m) | Notes | |------------|-----------------------------|------------------------------| | Nichrome | 1.4–14 Ω/m | Depends on wire diameter | | Kanthal | 1.8–18 Ω/m | Slightly higher resistivity | Let me know if you need help calculating power consumption or selecting the right wire for your project!
+ ### 3. **Typical Ranges** - ** Nichrome**: ~ **5–10 Ω/m** (for common diameters like 0.5 mm). - ** Kanthal**: Slightly higher (e.g., ~6–12 Ω/m). - **Thinner wires** (smaller diameter): Higher resistance per meter. - **Thicker wires**: Lower resistance per meter. ### 4. **Practical Considerations** - Heating wires are often manufactured with **specific resistance values** tailored for their intended use (e.g., 10 Ω/m for a jacket). - Always consult manufacturer specs for precise values, as alloys can vary (e.g., Nichrome-80 vs. Nichrome-90). If you need help calculating the total resistance for a specific wire length or power requirements, let me know!
 
 
 </details>
+
+common alloys:
+- Nichrome: ~1.0 × 10⁻⁶ Ω·m
+	- diameter of 0.5 mm ~= 5.1 Ω
+	- 5–10 Ω/m, for diameter=0.5 mm
+- Kanthal: ~1.5 × 10⁻⁶ Ω·m.
+	- ~6–12 Ω/m, for diameter=0.5 mm
+- Carbon fiber: ~1.0 × 10⁻⁵ Ω·m
+ai::ignore
 
 ## build
 

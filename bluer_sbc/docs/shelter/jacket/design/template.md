@@ -17,11 +17,30 @@ ai:::ignore
 - 30 – 50% efficiency -> 200-350 watts
 ai:::ignore
 
-ai:::complete current If we use a battery-capacity::: li-ion battery, what is the nominal current that is drawn from the battery?
+ai:::completed current If we use a battery-capacity::: li-ion battery, connected in series, what is the nominal current that is drawn from the battery?
 
-ai:::complete operation-time For how long can we keep this device on?
+ai:::ignore
+- 5C x 5000 mAh -> each cell can supply 25 A
+- 200 W == 18 A
+ai:::ignore
+
+ai:::completed operation-time For how long can we keep this device on?
+
+ai:::ignore
+- at 200 W: ~ 1 hour
+ai:::ignore
 
 ai:::complete resistance What is the range of resistance per meter for heating wires?
+
+ai:::ignore
+common alloys:
+- Nichrome: ~1.0 × 10⁻⁶ Ω·m
+	- diameter of 0.5 mm ~= 5.1 Ω
+	- 5–10 Ω/m, for diameter=0.5 mm
+- Kanthal: ~1.5 × 10⁻⁶ Ω·m.
+	- ~6–12 Ω/m, for diameter=0.5 mm
+- Carbon fiber: ~1.0 × 10⁻⁵ Ω·m
+ai::ignore
 
 ## build
 
