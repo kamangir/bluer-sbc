@@ -891,6 +891,17 @@ db_of_parts["gc03"] = Part(
     ],
 )
 
+db_of_parts["HC-05"] = Part(
+    info=[
+        "HC-05/HC-06, Bluetooth module",
+        "https://shop.ideaelec.com/product/hc05-bluetooth-module-with-board/",
+    ],
+    images=[
+        "HC-05-with-header-board-1.jpg",
+        "HC-05-with-header-board-2.jpg",
+    ],
+)
+
 
 db_of_parts["template"] = Part(
     info=[
