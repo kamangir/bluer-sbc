@@ -520,6 +520,8 @@ db_of_parts["mt-3608"] = Part(
 db_of_parts["arduino-nano"] = Part(
     info=[
         "Arduino Nano",
+        "[Arduino Nano BLE](https://store.arduino.cc/products/arduino-nano-33-ble)",
+        "[Different types of Arduino Boards](https://circuitdigest.com/article/different-types-of-arduino-boards)",
     ],
     images=[
         "arduino-nano.png",
