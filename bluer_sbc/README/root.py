@@ -3,6 +3,7 @@ from bluer_objects.README.alias import list_of_aliases
 from bluer_sbc import NAME
 from bluer_sbc.README.designs.adapter_bus import marquee as adapter_bus_marquee
 from bluer_sbc.README.designs.anchor import marquee as anchor_marquee
+from bluer_sbc.README.designs.arduino import marquee as arduino_bus_marquee
 from bluer_sbc.README.designs.battery_bus import marquee as battery_bus_marquee
 from bluer_sbc.README.designs.blue_bracket import items as blue_bracket_items
 from bluer_sbc.README.designs.nafha import marquee as nafha_marquee
@@ -31,6 +32,7 @@ docs = [
         + cheshmak_marquee
         + nafha_marquee
         + shelter_marquee
+        + arduino_bus_marquee
         + blue_bracket_items,
         "path": "../..",
         "macros": {

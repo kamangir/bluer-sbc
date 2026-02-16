@@ -1,7 +1,10 @@
 from bluer_objects.README.items import ImageItems
+from bluer_objects.README.consts import assets_url
 
-from bluer_sbc.README.designs.consts import assets2
-
+image_template = assets_url(
+    suffix="bryce/{}?raw=true",
+    volume=2,
+)
 
 docs = [
     {
@@ -9,7 +12,9 @@ docs = [
         "items": ImageItems(
             {
                 **{
-                    (assets2 + "bryce/{}?raw=true").format(f"{index+1:02}.jpg"): ""
+                    image_template.format(
+                        f"{index+1:02}.jpg",
+                    ): ""
                     for index in range(8)
                 }
             }

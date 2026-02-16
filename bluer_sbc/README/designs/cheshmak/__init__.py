@@ -1,7 +1,10 @@
 from bluer_objects import README
-from bluer_sbc.README.designs.consts import assets2
+from bluer_objects.README.consts import assets_url
 
-image_template = assets2 + "cheshmak/{}?raw=true"
+image_template = assets_url(
+    suffix="cheshmak/{}?raw=true",
+    volume=2,
+)
 
 marquee = README.Items(
     [

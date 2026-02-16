@@ -520,6 +520,8 @@ db_of_parts["mt-3608"] = Part(
 db_of_parts["arduino-nano"] = Part(
     info=[
         "Arduino Nano",
+        "[Arduino Nano BLE](https://store.arduino.cc/products/arduino-nano-33-ble)",
+        "[Different types of Arduino Boards](https://circuitdigest.com/article/different-types-of-arduino-boards)",
     ],
     images=[
         "arduino-nano.png",
@@ -888,6 +890,17 @@ db_of_parts["gc03"] = Part(
     ],
     images=[
         "gc03.png",
+    ],
+)
+
+db_of_parts["HC-05"] = Part(
+    info=[
+        "HC-05/HC-06, Bluetooth module",
+        "https://shop.ideaelec.com/product/hc05-bluetooth-module-with-board/",
+    ],
+    images=[
+        "HC-05-with-header-board-1.jpg",
+        "HC-05-with-header-board-2.jpg",
     ],
 )
 

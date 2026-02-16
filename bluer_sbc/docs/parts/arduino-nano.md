@@ -1,6 +1,8 @@
 # parts: arduino-nano
 
 - Arduino Nano
+- [Arduino Nano BLE](https://store.arduino.cc/products/arduino-nano-33-ble)
+- [Different types of Arduino Boards](https://circuitdigest.com/article/different-types-of-arduino-boards)
 
 |   |
 | --- |

@@ -1,12 +1,14 @@
 from bluer_objects import README
-
-from bluer_sbc.README.designs.consts import assets2
+from bluer_objects.README.consts import assets_url
 
 latest_version: int = 6
 
 
 def image_template(version: int) -> str:
-    return assets2 + f"swallow/design/v{version}/{{}}?raw=true"
+    return assets_url(
+        suffix=f"swallow/design/v{version}/{{}}?raw=true",
+        volume=2,
+    )
 
 
 marquee = README.Items(

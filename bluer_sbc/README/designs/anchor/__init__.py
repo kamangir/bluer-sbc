@@ -1,8 +1,10 @@
 from bluer_objects import README
+from bluer_objects.README.consts import assets_url
 
-from bluer_sbc.README.designs.consts import assets2
-
-image_template = assets2 + "anchor/{}?raw=true"
+image_template = assets_url(
+    suffix="anchor/{}?raw=true",
+    volume=2,
+)
 
 marquee = README.Items(
     [
