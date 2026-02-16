@@ -3,6 +3,8 @@
 
 
 
+## AI convo
+
 
 Objective: To build a smart winter jacket with a lithium battery and 320 cm of heating wire.
 
@@ -84,12 +86,24 @@ $$ R = 1.0 \times 10^{-6} \, \Omega \cdot m \times \frac{1 \, \text{m}}{1.96 \ti
 
 common alloys:
 - Nichrome: ~1.0 × 10⁻⁶ Ω·m
-	- diameter of 0.5 mm ~= 5.1 Ω
 	- 5–10 Ω/m, for diameter=0.5 mm
 - Kanthal: ~1.5 × 10⁻⁶ Ω·m.
 	- ~6–12 Ω/m, for diameter=0.5 mm
 - Carbon fiber: ~1.0 × 10⁻⁵ Ω·m
-ai::ignore
+
+## summary
+
+- n parallel heating wires, totaling $L$ meters -> each is $L/n$ long and with a resistance of $R$ = $L\rho/n$ (Ω).
+- total power: P (w)
+
+$$P=n\frac{v^2}{\frac{L\rho}{n}}=n^2\frac{v^2}{L\rho}$$
+
+or,
+
+$$\rho=\frac{n^2v^2}{LP}$$
+
+
+at $P=100$ W, $L=3.2 m$, $v=3*3.7=11.1 V$, $n=4$ -> $\rho=6$ Ω/m ⭐️
 
 ## build
 
