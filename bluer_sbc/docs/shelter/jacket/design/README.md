@@ -24,6 +24,9 @@ $$ \text{Input Power} = \frac{100\ \text{W}}{0.5} = 200\ \text{W} $$
 
 </details>
 
+- an adult at rest in extremely cold conditions (-10°C) loses about 100–150 watts of heat.
+- 30 – 50% efficiency -> 200-350 watts
+
 > What is the nominal current that is drawn from the battery?
 
 <details>
