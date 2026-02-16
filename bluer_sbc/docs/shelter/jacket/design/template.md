@@ -17,11 +17,11 @@ ai:::ignore
 - 30 – 50% efficiency -> 200-350 watts
 ai:::ignore
 
-ai:::completed current What is the nominal current that is drawn from the battery?
+ai:::complete current If we use a battery-capacity::: li-ion battery, what is the nominal current that is drawn from the battery?
 
-ai:::completed resistance What is the resistance per meter of the heating wire?
+ai:::complete operation-time For how long can we keep this device on?
 
-ai:::completed operation-time If we use a battery-capacity::: li-ion battery, for how long can we keep this device on?
+ai:::complete resistance What is the range of resistance per meter for heating wires?
 
 ## build
 
