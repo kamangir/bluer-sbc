@@ -1,6 +1,6 @@
 from bluer_objects.README.items import ImageItems
 
-from bluer_sbc.README.designs.arduino import image_template, parts, schematics
+from bluer_sbc.README.designs.arduino import image_template, body, parts, schematics
 
 docs = (
     [
@@ -13,6 +13,7 @@ docs = (
             ),
         }
     ]
+    + body.docs
     + parts.docs
     + schematics.docs
 )

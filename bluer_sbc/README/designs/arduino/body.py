@@ -4,7 +4,7 @@ from bluer_sbc.README.designs.arduino import image_template
 
 docs = [
     {
-        "path": "../docs/ravin/ravin4/body.md",
+        "path": "../docs/arduino/body.md",
         "items": ImageItems(
             {
                 image_template.format("IMG_0143.JPG"): "",
