@@ -905,6 +905,16 @@ db_of_parts["HC-05"] = Part(
 )
 
 
+db_of_parts["potentiometer"] = Part(
+    info=[
+        "potentiometer",
+    ],
+    images=[
+        "potentiometer.jpeg",
+    ],
+)
+
+
 db_of_parts["template"] = Part(
     info=[
         "template",
