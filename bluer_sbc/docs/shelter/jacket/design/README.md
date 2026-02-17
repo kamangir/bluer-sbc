@@ -13,7 +13,15 @@ Objective: To build a smart winter jacket with a lithium battery and 320 cm of h
 <details>
 <summary>watts</summary>
 
-⚠️ not available yet.
+To determine the required power for a smart jacket to maintain body temperature in a -10°C environment, here's a practical breakdown: 1. **Body Heat Loss**: An adult at rest loses about **100–150 watts** of heat in extremely cold conditions (-10°C). This is the baseline power needed to maintain body temperature. 2. **Jacket Efficiency**: A smart jacket with heating elements (like wires) is not 100% efficient. Assume **30–50% efficiency** for the system (due to losses in the heating elements, insulation, and materials). This means only a fraction of the input power becomes usable heat. 3. **Required Input Power**: To offset the 100–150 watts of heat loss, the jacket must input **more than that** to account for inefficiency. - At **30% efficiency**: 
+
+$$ \text{Input Power} = \frac{100\ \text{W}}{0.3} \approx 333\ \text{W} $$
+
+ - At **50% efficiency**: 
+
+$$ \text{Input Power} = \frac{100\ \text{W}}{0.5} = 200\ \text{W} $$
+
+ 4. **Practical Consideration**: You'll need a lithium battery capable of supplying **200–300 watts of continuous power**. However, real-world variables (e.g., jacket insulation, ambient wind, user activity) might increase this requirement. **Answer**: The jacket needs **approximately 200–350 watts of input power**, depending on efficiency and environmental factors.
 
 
 </details>
@@ -26,7 +34,11 @@ Objective: To build a smart winter jacket with a lithium battery and 320 cm of h
 <details>
 <summary>current</summary>
 
-⚠️ not available yet.
+To determine the **nominal current** drawn from the battery, we need to clarify what you mean by "nominal current." This could refer to: 1. **Maximum sustainable current** the battery can supply (based on its **C-rate**). 2. **Actual current** drawn by the jacket, which depends on its power requirements and voltage. ### 1. **Maximum Sustainable Current** The battery pack is 3 cells in **series**, each with a **5C rating**. - **5C** means the battery can charge or discharge at **5 times its capacity**. - Each cell has a capacity of **5000 mAh (5 Ah)**. - At **5C**, each cell can supply **5 × 5 Ah = 25 A**. - Since the cells are in series, the **total current capacity** of the pack remains **25 A** (the same as one cell, as series connection does not add current capacity). **Result**: - **Maximum sustainable current** from the pack: **25 A**. ### 2. **Actual Current Drawn by the Jacket** If the jacket requires **200 W** of power (as calculated earlier), and the battery pack supplies **3.7 V** (nominal voltage), the current drawn is: 
+
+$$ I = \frac{P}{V} = \frac{200\ \text{W}}{3.7\ \text{V}} \approx 54\ \text{A} $$
+
+ **Result**: - **Actual current drawn** (if the jacket requires 200 W): **~54 A**. ### Key Notes: - The **5C rating** defines the **maximum current the battery can supply** (25 A in this case). - The **actual current** depends on the jacket's power draw (e.g., 200 W) and the voltage (3.7 V). - If the jacket draws **54 A**, it would exceed the battery's **25 A maximum sustainable current**, risking overheating or damage. **Final Answer**: - **Maximum sustainable current**: **25 A** (based on 5C rating). - **Actual current drawn**: **~54 A** (if the jacket requires 200 W). Let me know if you'd like to explore safety margins or battery lifespan impacts.
 
 
 </details>
@@ -39,7 +51,15 @@ Objective: To build a smart winter jacket with a lithium battery and 320 cm of h
 <details>
 <summary>operation-time</summary>
 
-⚠️ not available yet.
+To calculate **runtime** (how long the jacket can stay on), we need to consider: - **Battery energy storage** (in watt-hours, Wh). - **Power consumption** of the jacket (in watts, W). ### Step-by-Step Calculation: 1. **Battery Capacity**: - 3 cells in series: **3 × 5 Ah = 15 Ah** total capacity. - Nominal voltage: **3.7 V × 3 = 11.1 V**. - **Energy storage**: 
+
+$$ \text{Energy} = \text{Capacity} × \text{Voltage} = 15\ \text{Ah} × 11.1\ \text{V} = 166.5\ \text{Wh} $$
+
+ 2. **Jacket Power Draw**: - Assumed earlier: **200 W** (to offset heat loss and inefficiency). 3. **Runtime**: 
+
+$$ \text{Runtime} = \frac{\text{Energy}}{\text{Power}} = \frac{166.5\ \text{Wh}}{200\ \text{W}} \approx 0.83\ \text{hours} $$
+
+ - **0.83 hours ≈ 50 minutes**. ### Key Notes: - This is a **theoretical maximum**. Real-world runtime is shorter due to: - **Battery inefficiency** (e.g., 90% efficiency, reducing stored energy by ~10%). - **Voltage drop** during discharge (cells may not maintain 3.7 V fully). - **Jacket power draw** (actual draw could be higher due to temperature fluctuations or system overhead). ### Adjusted Estimate: - With **90% efficiency** and a **10% voltage drop**, runtime drops to **~40 minutes**. - If the jacket draws **250 W** (e.g., due to higher ambient temperatures or system inefficiency), runtime drops to **~30 minutes**. Would you like to refine this further with specific assumptions (e.g., battery efficiency, jacket power draw, or voltage)?
 
 
 </details>
@@ -51,7 +71,15 @@ Objective: To build a smart winter jacket with a lithium battery and 320 cm of h
 <details>
 <summary>resistance</summary>
 
-⚠️ not available yet.
+The resistance per meter of heating wire depends on the **material**, **diameter**, and **alloy composition**. Here's a breakdown of typical ranges: ### 1. **Resistivity (ρ)** Resistivity (Ω·m) determines the material's inherent resistance to current. For heating wires: - **Nichrome (common alloy)**: ~1.0 × 10⁻⁶ Ω·m (1.0 × 10⁻⁶ ohm-meters). - **Kanthal (another common alloy)**: ~1.5 × 10⁻⁶ Ω·m. - **Carbon fiber (used in some applications)**: ~1.0 × 10⁻⁵ Ω·m (higher than Nichrome). ### 2. **Resistance per Meter (R/m)** Resistance per meter is calculated using the formula: 
+
+$$ R = \rho \times \frac{L}{A} $$
+
+ Where: - $ \rho $ = resistivity (Ω·m), - $ L $ = length (m), - $ A $ = cross-sectional area (m²). #### Example Calculation: For a Nichrome wire with a **diameter of 0.5 mm (0.0005 m)**: - Radius $ r = 0.25 \, \text{mm} = 0.00025 \, \text{m} $, - Cross-sectional area $ A = \pi r^2 \approx 1.96 \times 10^{-7} \, \text{m²} $. 
+
+$$ R = 1.0 \times 10^{-6} \, \Omega \cdot m \times \frac{1 \, \text{m}}{1.96 \times 10^{-7} \, \text{m²}} \approx 5.1 \, \Omega/m $$
+
+ ### 3. **Typical Ranges** - ** Nichrome**: ~ **5–10 Ω/m** (for common diameters like 0.5 mm). - ** Kanthal**: Slightly higher (e.g., ~6–12 Ω/m). - **Thinner wires** (smaller diameter): Higher resistance per meter. - **Thicker wires**: Lower resistance per meter. ### 4. **Practical Considerations** - Heating wires are often manufactured with **specific resistance values** tailored for their intended use (e.g., 10 Ω/m for a jacket). - Always consult manufacturer specs for precise values, as alloys can vary (e.g., Nichrome-80 vs. Nichrome-90). If you need help calculating the total resistance for a specific wire length or power requirements, let me know!
 
 
 </details>
@@ -83,6 +111,7 @@ at $P=100$ W, $L=3.2 m$, $v=3*3.7=11.1 V$, $n=4$ -> $\rho=6$ Ω/m ⭐️
 @sbc build_README \
 	ai,root=shelter/jacket/design
 
+@upload - jacket-design-v3
 @upload public,zip jacket-design-v3
 ```
 
