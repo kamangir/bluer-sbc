@@ -1,8 +1,6 @@
-const char *revision = "1.3.1";
+const char *revision = "1.5.1";
 
 const bool verbose = 1;
-
-char buffer[50];
 
 const int analogPin = A7;
 
@@ -19,6 +17,7 @@ const int delay_time = 10;
 
 int max_value;
 int value;
+int value_step = 10;
 int direction = 1;
 
 uint8_t r;
@@ -114,6 +113,8 @@ void log()
 {
     if (verbose)
     {
+        char buffer[50];
+
         sprintf(buffer, "value=%d/%d -> r=%d, g=%d, b=%d", value, max_value, r, g, b);
         Serial.println(buffer);
     }
@@ -126,34 +127,27 @@ void loop()
 
     max_value = analogRead(analogPin); // 0–1023
 
-    if (direction == 1)
+    value += direction * value_step;
+    if (direction == 1 && value > max_value)
     {
-        value++;
-        if (value > max_value)
-        {
-            value = max_value;
-            direction = -1;
-        }
+        value = max_value;
+        direction = -1;
     }
-    else
+    if (direction == -1 && value < 0)
     {
-        value--;
-        if (value < 0)
-        {
-            value = 1;
-            direction = 1;
-        }
+        value = max_value;
+        direction = 1;
     }
 
     int state = 1 - digitalRead(inputPin);
     digitalWrite(outputPin, state);
 
+    int value_to_show = value;
     if (state == 1)
     {
-        value = max_value;
+        value_to_show = max_value;
     }
-
-    setColor_rainbow(value);
+    setColor_rainbow(value_to_show);
 
     log();
 
