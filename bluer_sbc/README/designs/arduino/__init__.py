@@ -10,10 +10,7 @@ marquee = README.Items(
     [
         {
             "name": "arduino dev box",
-            "marquee": assets_url(
-                suffix="bluer-sbc/parts/arduino-nano.png?raw=true",
-                volume=2,
-            ),
+            "marquee": image_template.format("IMG_0151.JPG"),
             "url": "./bluer_sbc/docs/arduino",
         }
     ]
