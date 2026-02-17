@@ -27,6 +27,7 @@ setup(
         f"{NAME}.README.designs.battery_bus.body",
         f"{NAME}.README.designs.anchor",
         f"{NAME}.README.designs.anchor.body",
+        f"{NAME}.README.designs.arduino",
         f"{NAME}.README.designs.cheshmak",
         f"{NAME}.README.designs.cheshmak.body",
         f"{NAME}.README.designs.shelter",
