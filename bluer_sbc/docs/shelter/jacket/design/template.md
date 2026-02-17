@@ -61,6 +61,7 @@ at $P=100$ W, $L=3.2 m$, $v=3*3.7=11.1 V$, $n=4$ -> $\rho=6$ Ω/m ⭐️
 @sbc build_README \
 	ai,root=shelter/jacket/design
 
+@upload - get:::object_name
 @upload public,zip get:::object_name
 ```
 

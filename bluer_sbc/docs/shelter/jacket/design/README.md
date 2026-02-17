@@ -111,6 +111,7 @@ at $P=100$ W, $L=3.2 m$, $v=3*3.7=11.1 V$, $n=4$ -> $\rho=6$ Ω/m ⭐️
 @sbc build_README \
 	ai,root=shelter/jacket/design
 
+@upload - jacket-design-v3
 @upload public,zip jacket-design-v3
 ```
 
