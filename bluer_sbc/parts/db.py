@@ -406,14 +406,6 @@ db_of_parts["dsn-vc288"] = Part(
     ],
 )
 
-db_of_parts["dc-volt-meter"] = Part(
-    info=[
-        "DC volt meter",
-    ],
-    images=[
-        "dsn-vc288.jpg",
-    ],
-)
 
 db_of_parts["nuts-bolts-spacers"] = Part(
     info=[
