@@ -186,6 +186,11 @@ class PartDB:
         dict_of_parts: Dict[str, str],
         reference: str = "../../parts",
     ) -> List[str]:
+        if reference == "repo":
+            reference = (
+                "https://github.com/kamangir/bluer-sbc/tree/main/bluer_sbc/docs/parts"
+            )
+
         return README.Items(
             [
                 {
@@ -207,6 +212,11 @@ class PartDB:
         reference: str = "../../parts",
         log: bool = True,
     ) -> List[str]:
+        if reference == "repo":
+            reference = (
+                "https://github.com/kamangir/bluer-sbc/tree/main/bluer_sbc/docs/parts"
+            )
+
         if log:
             logger.info(
                 "{}.as_list: {}".format(

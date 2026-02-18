@@ -35,11 +35,6 @@ def design_doc_parts(
     dict_of_parts: Dict,
     parts_reference: str = "./parts",
 ) -> Dict[str, Dict]:
-    if parts_reference == "repo":
-        parts_reference = (
-            "https://github.com/kamangir/bluer-sbc/tree/main/bluer_sbc/docs/parts"
-        )
-
     return {
         "parts_images:::": markdown.generate_table(
             db_of_parts.as_images(

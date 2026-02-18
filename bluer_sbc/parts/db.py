@@ -406,14 +406,6 @@ db_of_parts["dsn-vc288"] = Part(
     ],
 )
 
-db_of_parts["dc-volt-meter"] = Part(
-    info=[
-        "DC volt meter",
-    ],
-    images=[
-        "dsn-vc288.jpg",
-    ],
-)
 
 db_of_parts["nuts-bolts-spacers"] = Part(
     info=[
@@ -911,6 +903,33 @@ db_of_parts["potentiometer"] = Part(
     ],
     images=[
         "potentiometer.jpeg",
+    ],
+)
+
+
+db_of_parts["scooter-wheel"] = Part(
+    info=[
+        'scooter wheel, 36 V, 300 W, 650 rpm, 10"',
+        "https://samamotor.ir/%D9%85%D9%88%D8%AA%D9%88%D8%B1-%D9%87%D8%A7%DB%8C-%D8%A7%D8%B3%DA%A9%D9%88%D8%AA%D8%B1%DB%8C/4648-%DA%86%D8%B1%D8%AE-%D9%88-%D9%85%D9%88%D8%AA%D9%88%D8%B1-%D8%A7%D8%B3%DA%A9%D9%88%D8%AA%D8%B1-%D8%A8%D8%B1%D9%82%DB%8C-10-%D8%A7%DB%8C%D9%86%DA%86-300-%D9%88%D8%A7%D8%AA-%DA%86%D8%B1%D8%A7%D8%BA-%D8%AF%D8%A7%D8%B1.html",
+    ],
+    images=[
+        "scooter-wheel-1.jpg",
+        "scooter-wheel-2.jpg",
+        "scooter-wheel-3.jpg",
+    ],
+)
+
+
+db_of_parts["brushless-driver"] = Part(
+    info=[
+        "300 W industrial brushless motor driver.",
+        "https://samamotor.ir/%D8%AF%D8%B1%D8%A7%DB%8C%D9%88%D8%B1-%D9%85%D9%88%D8%AA%D9%88%D8%B1-%D8%A8%D8%B1%D8%A7%D8%B4%D9%84%D8%B3-bldc/157-%D8%AF%D8%B1%D8%A7%DB%8C%D9%88%D8%B1-%D9%85%D9%88%D8%AA%D9%88%D8%B1-%D8%A8%D8%B1%D8%A7%D8%B4%D9%84%D8%B3-300-%D9%88%D8%A7%D8%AA-%D8%B5%D9%86%D8%B9%D8%AA%DB%8C-bld-300b.html",
+    ],
+    images=[
+        "brushless-driver-1.jpg",
+        "brushless-driver-2.jpg",
+        "brushless-driver-3.jpg",
+        "brushless-driver-4.jpg",
     ],
 )
 
