@@ -922,6 +922,8 @@ db_of_parts["scooter-wheel"] = Part(
     ],
     images=[
         "scooter-wheel-1.jpg",
+        "scooter-wheel-2.jpg",
+        "scooter-wheel-3.jpg",
     ],
 )
 
