@@ -910,7 +910,8 @@ db_of_parts["potentiometer"] = Part(
 db_of_parts["scooter-wheel"] = Part(
     info=[
         'scooter wheel, 36 V, 300 W, 650 rpm, 10"',
-        "https://samamotor.ir/%D9%85%D9%88%D8%AA%D9%88%D8%B1-%D9%87%D8%A7%DB%8C-%D8%A7%D8%B3%DA%A9%D9%88%D8%AA%D8%B1%DB%8C/4648-%DA%86%D8%B1%D8%AE-%D9%88-%D9%85%D9%88%D8%AA%D9%88%D8%B1-%D8%A7%D8%B3%DA%A9%D9%88%D8%AA%D8%B1-%D8%A8%D8%B1%D9%82%DB%8C-10-%D8%A7%DB%8C%D9%86%DA%86-300-%D9%88%D8%A7%D8%AA-%DA%86%D8%B1%D8%A7%D8%BA-%D8%AF%D8%A7%D8%B1.html",
+        "[source](https://samamotor.ir/%D9%85%D9%88%D8%AA%D9%88%D8%B1-%D9%87%D8%A7%DB%8C-%D8%A7%D8%B3%DA%A9%D9%88%D8%AA%D8%B1%DB%8C/4648-%DA%86%D8%B1%D8%AE-%D9%88-%D9%85%D9%88%D8%AA%D9%88%D8%B1-%D8%A7%D8%B3%DA%A9%D9%88%D8%AA%D8%B1-%D8%A8%D8%B1%D9%82%DB%8C-10-%D8%A7%DB%8C%D9%86%DA%86-300-%D9%88%D8%A7%D8%AA-%DA%86%D8%B1%D8%A7%D8%BA-%D8%AF%D8%A7%D8%B1.html)",
+        "[other example](https://www.dfrobot.com/product-3077.html)",
     ],
     images=[
         "scooter-wheel-1.jpg",
@@ -923,7 +924,9 @@ db_of_parts["scooter-wheel"] = Part(
 db_of_parts["brushless-driver"] = Part(
     info=[
         "300 W industrial brushless motor driver.",
-        "https://samamotor.ir/%D8%AF%D8%B1%D8%A7%DB%8C%D9%88%D8%B1-%D9%85%D9%88%D8%AA%D9%88%D8%B1-%D8%A8%D8%B1%D8%A7%D8%B4%D9%84%D8%B3-bldc/157-%D8%AF%D8%B1%D8%A7%DB%8C%D9%88%D8%B1-%D9%85%D9%88%D8%AA%D9%88%D8%B1-%D8%A8%D8%B1%D8%A7%D8%B4%D9%84%D8%B3-300-%D9%88%D8%A7%D8%AA-%D8%B5%D9%86%D8%B9%D8%AA%DB%8C-bld-300b.html",
+        "[source](https://samamotor.ir/%D8%AF%D8%B1%D8%A7%DB%8C%D9%88%D8%B1-%D9%85%D9%88%D8%AA%D9%88%D8%B1-%D8%A8%D8%B1%D8%A7%D8%B4%D9%84%D8%B3-bldc/157-%D8%AF%D8%B1%D8%A7%DB%8C%D9%88%D8%B1-%D9%85%D9%88%D8%AA%D9%88%D8%B1-%D8%A8%D8%B1%D8%A7%D8%B4%D9%84%D8%B3-300-%D9%88%D8%A7%D8%AA-%D8%B5%D9%86%D8%B9%D8%AA%DB%8C-bld-300b.html)",
+        "[datasheet](https://aeevn.com/wp-content/uploads/2020/04/bld-300B.pdf)",
+        "[datasheet](https://www.sys-motor.com/Account/Plug-ins/kindeditor/attached/file/20180516/20180516125751_1905.pdf)",
     ],
     images=[
         "brushless-driver-1.jpg",
