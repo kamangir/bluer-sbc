@@ -1,4 +1,4 @@
-const char *revision = "1.10.1";
+const char *revision = "1.11.1";
 
 #include "logging.h"
 #include "config.h"
@@ -8,7 +8,7 @@ const char *revision = "1.10.1";
 void setup()
 {
     Serial.begin(9600);
-    loadConfig();
+    // loadConfig();
     InitGPIO();
 }
 
@@ -16,7 +16,7 @@ void loop()
 {
     digitalWrite(ledPin, HIGH);
 
-    updateConfig();
+    // updateConfig();
     updateColormap();
 
     digitalWrite(ledPin, LOW);
