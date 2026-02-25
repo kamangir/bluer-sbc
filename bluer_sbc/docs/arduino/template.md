@@ -5,6 +5,6 @@ everything Arduino.
 - [schematics](./schematics.md)
 - [parts](./parts.md)
 - [body](./body.md)
-- [test code](../../arduino/test/)
+- sample code: 🌈 [colormaps](../../arduino/colormaps/)
 
 items:::

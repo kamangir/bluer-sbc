@@ -1,4 +1,4 @@
-const char *revision = "1.11.1";
+const char *revision = "1.12.1";
 
 #include "logging.h"
 #include "config.h"
