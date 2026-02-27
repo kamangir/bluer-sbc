@@ -1,3 +1,5 @@
+// version 2.1.1
+
 #ifndef LOGGING_H
 #define LOGGING_H
 

@@ -1,19 +1,21 @@
 const char *revision = "2.2.1";
 
 #include "logging.h"
+#include "config.h"
 #include "gpio.h"
 
-constexpr unsigned long delay_time = 500;
 bool led_pin_state = true;
 
 void setup()
 {
+    delay_time = 500;
     Serial.begin(9600);
     InitGPIO();
 }
 
 void loop()
 {
+
     analogWrite(greenPin, 0);
 
     if (led_pin_state)
