@@ -21,7 +21,7 @@ void updateColormap()
     }
     if (direction == -1 && value < 0)
     {
-        value = max_value;
+        value = 0;
         direction = 1;
     }
 
@@ -35,5 +35,5 @@ void updateColormap()
     }
     setColormapRainbow(value_to_show);
 
-    log("value=%d/%d -> r=%d, g=%d, b=%d", value, max_value, r, g, b);
+    log("value:%d, max_value:%d, r:%d, g:%d, b:%d", value, max_value, r, g, b);
 }

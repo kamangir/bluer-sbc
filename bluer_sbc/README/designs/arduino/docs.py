@@ -9,8 +9,10 @@ docs = (
             "items": ImageItems(
                 {
                     image_template.format("IMG_0151.JPG"): "",
+                    image_template.format("serial-plotter.gif"): "",
                 }
             ),
+            "cols": 2,
         }
     ]
     + body.docs
