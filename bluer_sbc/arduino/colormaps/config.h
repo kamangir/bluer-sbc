@@ -1,5 +1,3 @@
-// version 2.1.1
-
 #ifndef CONFIG_H
 #define CONFIG_H
 
@@ -18,6 +16,6 @@ void saveConfig();
 void loadConfig();
 void updateConfig();
 
-unsigned long delay_time = 20;
+extern unsigned long delay_time;
 
 #endif

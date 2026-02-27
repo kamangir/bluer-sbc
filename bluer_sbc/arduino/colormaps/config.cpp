@@ -1,8 +1,8 @@
-// version 2.1.1
-
 #include "config.h"
 
 #include "logging.h"
+
+unsigned long delay_time = 20;
 
 Config cfg;
 

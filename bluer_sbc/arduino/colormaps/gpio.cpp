@@ -1,13 +1,11 @@
-// version 2.1.1
-
 #include "gpio.h"
 
 void InitGPIO()
 {
     pinMode(ledPin, OUTPUT);
 
-    pinMode(inputPin, INPUT_PULLUP); // set D2 as input
-    pinMode(outputPin, OUTPUT);      // set D3 as output
+    pinMode(inputPin, INPUT_PULLUP);
+    pinMode(outputPin, OUTPUT);
 
     pinMode(redPin, OUTPUT);
     pinMode(greenPin, OUTPUT);
