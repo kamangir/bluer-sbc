@@ -12,7 +12,7 @@ docs = (
                     image_template.format("serial-plotter.gif"): "",
                 }
             ),
-            "cols": 2,
+            "cols": 1,
         }
     ]
     + body.docs
