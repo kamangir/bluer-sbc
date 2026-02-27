@@ -119,4 +119,4 @@ at $P=100$ W, $L=3.2 m$, $v=3*3.7=11.1 V$, $n=4$ -> $\rho=6$ Ω/m ⭐️
 
 
 ---
-👾 Xerxes-1 | bluer_agent-5.463.1 | bluer_ai-12.633.1-main | bluer_objects-6.579.1 | bluer_options-5.345.1 | blueness-3.122.1 | torch-2.2.1 | numpy-1.26.4 | Python 3.12.9 | Darwin 23.6.0 | dev.local | kamangir | Sion | access: cloud, web, pypi
+👾 Xerxes-1 | bluer_agent-5.463.1 | bluer_ai-12.633.1-main | bluer_objects-6.581.1 | bluer_options-5.345.1 | blueness-3.122.1 | torch-2.2.1 | numpy-1.26.4 | Python 3.12.9 | Darwin 23.6.0 | dev.local | kamangir | Sion | access: cloud, web, pypi
