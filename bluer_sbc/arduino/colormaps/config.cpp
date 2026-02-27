@@ -2,6 +2,8 @@
 
 #include "logging.h"
 
+unsigned long delay_time = 20;
+
 Config cfg;
 
 void saveConfig()

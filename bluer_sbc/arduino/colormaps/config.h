@@ -16,6 +16,6 @@ void saveConfig();
 void loadConfig();
 void updateConfig();
 
-constexpr unsigned long delay_time = 20;
+extern unsigned long delay_time;
 
 #endif
